@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "2d106ec40c52cc16",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f7ed9e1da95dd85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b9c88228a689509",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Tallers/T1/PPT1/Informació.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Informació"
+            }
+          },
+          {
+            "id": "a59cc9219e9ed44c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Xarxes/Avaluació/Avaluació Pràctiques.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Avaluació Pràctiques"
+            }
+          },
+          {
+            "id": "ba12bdf68dce0259",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Xarxes/Avaluació/Avaluació Pràctiques.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Avaluació Pràctiques"
+            }
+          },
+          {
+            "id": "502588f6f4aa4b31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OSI"
+            }
+          },
+          {
+            "id": "916d40bc2f496018",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classe 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Classe 1"
+            }
+          },
+          {
+            "id": "f71c21889cee3572",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ff6f6f463d7c21e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4d23cde9216397e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef6533450b635226",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e413deae0f848576",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "eaeb4a8fb00d93f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3e8966860723d8b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7e897c7ed834e89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "710917ee422e79db",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Informació.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Informació"
+            }
+          },
+          {
+            "id": "1070ea8f8d2ffe97",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Informació.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Informació"
+            }
+          },
+          {
+            "id": "2a1f85214e62e36f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "56634576aa511c0b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Informació.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Informació"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ef6533450b635226",
+  "lastOpenFiles": [
+    "OSI.md",
+    "Classe 1.md",
+    "3rAny/Xarxes/Avaluació/Avaluació Pràctiques.md",
+    "3rAny/Xarxes/Avaluació/Avaluació Examnes.md",
+    "3rAny/Tallers/T1/PPT1/Informació.md",
+    "3rAny/Xarxes/Avaluació",
+    "3rAny/Tallers/T1/PPT1/Diferències entre dades, informació i Coneixement.md",
+    "3rAny/Tallers/T1/PPT1",
+    "3rAny/Tallers/T1/PPT1/Dades.md",
+    "*.base",
+    "Untitled.base"
+  ]
+}
