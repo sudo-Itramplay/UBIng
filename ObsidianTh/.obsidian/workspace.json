@@ -296,8 +296,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "ba9b5864f279794e",
+  "active": "ef6533450b635226",
   "lastOpenFiles": [
+    "Curs DeepLearning/Notebooks/lab/1r Lesson/L1-palm.md",
+    "Curs DeepLearning/Notebooks/lab/1r Lesson/L1-palm.ipynb",
+    "Curs DeepLearning/Notebooks/lab/1r Lesson",
     "Curs DeepLearning/Proces de generació de codi.md",
     "Curs DeepLearning/Completació.md",
     "Curs DeepLearning/Output.md",
@@ -312,8 +315,6 @@
     "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/REQUESTED",
     "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/RECORD",
     "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/METADATA",
-    "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/INSTALLER",
-    "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info",
     "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/idna-3.10.dist-info/LICENSE.md",
     "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/pip-25.2.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "Curs DeepLearning/L1-palm.md",
@@ -333,7 +334,6 @@
     "3rAny/Xarxes/Avaluació/Avaluació Pràctiques.md",
     "2025-09-19.md",
     "Untitled.canvas",
-    "3rAny/Xarxes/T1/Classe 1.md",
-    "3rAny/Xarxes/T1/Model Referència OSI.md"
+    "3rAny/Xarxes/T1/Classe 1.md"
   ]
 }
