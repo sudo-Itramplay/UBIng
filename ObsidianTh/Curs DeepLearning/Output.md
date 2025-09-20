@@ -1,0 +1,1 @@
+Agafarem la Completion i tant podem alterar-la com simplement passar-la com a sortida
