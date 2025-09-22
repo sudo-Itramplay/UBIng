@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dades a python.md",
+                "file": "3rAny/Tallers/Pràctiques/Dades a python.md",
                 "mode": "source",
                 "source": false
               },
@@ -107,7 +107,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro a Pandas.md",
+                "file": "3rAny/Tallers/Pràctiques/Intro a Pandas.md",
                 "mode": "source",
                 "source": false
               },
@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Explicació P1 Tallers.md",
+                "file": "3rAny/Tallers/Pràctiques/Explicació P1 Tallers.md",
                 "mode": "source",
                 "source": false
               },
@@ -278,11 +278,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "bddf7601af274c82",
+  "active": "ef6533450b635226",
   "lastOpenFiles": [
-    "Intro a Pandas.md",
-    "Explicació P1 Tallers.md",
-    "Dades a python.md",
+    "3rAny/Tallers/Pràctiques",
+    "3rAny/Tallers/Pràctiques/Intro a Pandas.md",
+    "3rAny/Tallers/Pràctiques/Explicació P1 Tallers.md",
+    "3rAny/Tallers/Pràctiques/Dades a python.md",
     "3rAny/Tallers/Pràctiques de Tallers.md",
     "3rAny/Tallers/T1/PPT1/Algorisme/Algorisme sense Context.md",
     "3rAny/Tallers/T1/PPT1/Algorisme/Algorisme.md",
@@ -311,7 +312,6 @@
     "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/1r Lesson/L1-palm.ipynb",
     "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/1r Lesson",
     "3rAny/Tallers/Curs DeepLearning/Proces de generació de codi.md",
-    "3rAny/Tallers/Curs DeepLearning/Completació.md",
     "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/licenses/LICENSE",
     "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/top_level.txt",
     "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/namespace_packages.txt",
