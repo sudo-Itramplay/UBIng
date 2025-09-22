@@ -42,6 +42,32 @@ Post processament-> Escollir com agafem les dades
 
 SI S'HA DE CREAR ALGO PER UN EXC EN CONCRET ANAR A POST PROCESSING, NO MID EXC
 
+Nomes es pot fer servir les llibreries importades
+Matplotlib
+
+
+
+
+----Les respostes de raonament pendreseles en calma i raonar bastant
+----
+
+-> Crear Codi extra
+	Si es fa una funció extra (per exmp print) fes, però no canviïs el que ja hi ha
+
+No comentar linia per linia
+
+
+
+Doc Stream ->RealPython article
+	S ha de tipar les funcions
+		Dir tipus dada que retorna
+A cada funció dir què fa al principi
+
+
+argparse és una llibreria pel help
+
+Serveix pq al posar `help func()`diu què fa
+
 
 
 
