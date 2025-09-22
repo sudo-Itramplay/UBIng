@@ -1,0 +1,1 @@
+Sempre es referirà a la derivada en un punt

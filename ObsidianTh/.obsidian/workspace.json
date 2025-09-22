@@ -8,147 +8,73 @@
         "type": "tabs",
         "children": [
           {
-            "id": "50d4a7de0ea98aa5",
+            "id": "c8224c950827abd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Tallers/T1/PPT1/Dades/Dades.md",
+                "file": "3rAny/Xarxes/T1/Capes del Model OSI/Capes Model OSI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dades"
+              "title": "Capes Model OSI"
             }
           },
           {
-            "id": "ddd0eccbfe764325",
+            "id": "ddd4ed1174400704",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Tallers/T1/PPT1/Algorisme/Algorisme amb Context.md",
+                "file": "3rAny/Xarxes/T1/Capes del Model OSI/Capa Aplicació.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorisme amb Context"
+              "title": "Capa Aplicació"
             }
           },
           {
-            "id": "66a148e652ee4320",
+            "id": "d3b7173f25125025",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Tallers/T1/PPT1/Algorisme/Correcció/Nou correctisme.md",
+                "file": "3rAny/Xarxes/T1/Capes del Model OSI/Capa Presentació.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nou correctisme"
+              "title": "Capa Presentació"
             }
           },
           {
-            "id": "3b6bb909ca0ef035",
+            "id": "f0c491d7d1b704e7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curs DeepLearning/Temperatura(IA).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Temperatura(IA)"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "997d3958207d1ac4",
+            "id": "9a2c39fa281eba83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curs DeepLearning/Proces de generació de codi.md",
+                "file": "3rAny/Tallers/Derivada a tallers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proces de generació de codi"
-            }
-          },
-          {
-            "id": "85f50ac4641ece68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curs DeepLearning/Proces de generació de codi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Proces de generació de codi"
-            }
-          },
-          {
-            "id": "903de12ede565804",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curs DeepLearning/Completació.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Completació"
-            }
-          },
-          {
-            "id": "68dccc59836c0c13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curs DeepLearning/Proces de generació de codi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Proces de generació de codi"
-            }
-          },
-          {
-            "id": "d4673d9ce1fda028",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curs DeepLearning/Proces de generació de codi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Proces de generació de codi"
-            }
-          },
-          {
-            "id": "ba9b5864f279794e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curs DeepLearning/Output.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Output"
+              "title": "Derivada a tallers"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -298,42 +224,43 @@
   },
   "active": "ef6533450b635226",
   "lastOpenFiles": [
-    "Curs DeepLearning/Notebooks/lab/1r Lesson/L1-palm.md",
-    "Curs DeepLearning/Notebooks/lab/1r Lesson/L1-palm.ipynb",
-    "Curs DeepLearning/Notebooks/lab/1r Lesson",
-    "Curs DeepLearning/Proces de generació de codi.md",
-    "Curs DeepLearning/Completació.md",
-    "Curs DeepLearning/Output.md",
-    "Curs DeepLearning/Prompt.md",
-    "Curs DeepLearning/Temperatura(IA).md",
+    "3rAny/Tallers/Derivada a tallers.md",
+    "3rAny/Xarxes/T1/Capes del Model OSI/Capes Model OSI.md",
+    "3rAny/Xarxes/T1/Capes del Model OSI/Capa de sesió.md",
+    "3rAny/Xarxes/T1/Capes del Model OSI/Capa Presentació.md",
+    "3rAny/Xarxes/T1/Capes del Model OSI/Capa Aplicació.md",
+    "3rAny/Xarxes/T1/Capes del Model OSI/Recursos Visuals",
+    "3rAny/Xarxes/T1/Capes del Model OSI",
+    "3rAny/Xarxes/T1/Capa.md",
+    "3rAny/Xarxes/T1/Entorns/Model Referència OSI.md",
+    "3rAny/Xarxes/T1/Entorns/Entorn OSI.md",
+    "3rAny/Xarxes/T1/Entorns/Entorn de Xarxa.md",
+    "3rAny/Xarxes/T1/OSI.md",
     "3rAny/Tallers/T1/PPT1/Algorisme/Correcció/Nou correctisme.md",
-    "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/licenses/LICENSE",
-    "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/top_level.txt",
-    "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/namespace_packages.txt",
-    "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/licenses",
-    "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/WHEEL",
-    "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/REQUESTED",
-    "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/RECORD",
-    "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/METADATA",
-    "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/idna-3.10.dist-info/LICENSE.md",
-    "Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/pip-25.2.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+    "3rAny/Xarxes/T1/Capes del Model OSI/Recursos Visuals/Pasted image 20250922111616.png",
+    "3rAny/Xarxes/T1/SAP.md",
+    "3rAny/Xarxes/T1/PDU.md",
+    "Concepte de Capa.md",
+    "3rAny/Xarxes/T1/Entorns",
+    "3rAny/Xarxes/T1/Apunts de Classe1.md",
+    "3rAny/Xarxes/T1/Entorns/Entorn de sistemes reals.md",
+    "3rAny/Tallers/Curs DeepLearning/Output.md",
+    "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/1r Lesson/L1-palm.md",
+    "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/1r Lesson/L1-palm.ipynb",
+    "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/1r Lesson",
+    "3rAny/Tallers/Curs DeepLearning/Proces de generació de codi.md",
+    "3rAny/Tallers/Curs DeepLearning/Completació.md",
+    "3rAny/Tallers/Curs DeepLearning/Prompt.md",
+    "3rAny/Tallers/Curs DeepLearning/Temperatura(IA).md",
+    "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/licenses/LICENSE",
+    "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/top_level.txt",
+    "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/namespace_packages.txt",
+    "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/licenses",
+    "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/google_generativeai-0.8.5.dist-info/WHEEL",
+    "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/idna-3.10.dist-info/LICENSE.md",
+    "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/pip-25.2.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "Curs DeepLearning/L1-palm.md",
     "Pair Programming with large Model.md",
-    "Curs DeepLearning/Pair Programming with large Model.md",
-    "3rAny/Tallers/T1/PPT1/Algorisme/Algorisme amb Context.md",
-    "3rAny/Tallers/T1/PPT1/Algorisme/Algorisme sense Context.md",
-    "3rAny/Tallers/T1/PPT1/Algorisme/Correcció/Algorisme correcte.md",
-    "3rAny/Tallers/T1/PPT1/Dades/Dades.md",
-    "3rAny/Tallers/T1/PPT1/Algorisme/Algorisme.md",
-    "3rAny/Tallers/T1/PPT1/Informació.md",
-    "3rAny/Tallers/T1/PPT1/Tipus de Dades.md",
-    "3rAny/Tallers/T1/PPT1/Dades/Dades no Estructurades.md",
-    "3rAny/Tallers/T1/PPT1/Dades/Dades Estructurades.md",
-    "3rAny/Tallers/T1/PPT1/Diferències entre dades, informació i Coneixement.md",
-    "3rAny/Tallers/T1/PPT1/Coneixement.md",
-    "3rAny/Xarxes/Avaluació/Avaluació Pràctiques.md",
-    "2025-09-19.md",
-    "Untitled.canvas",
-    "3rAny/Xarxes/T1/Classe 1.md"
+    "Untitled.canvas"
   ]
 }

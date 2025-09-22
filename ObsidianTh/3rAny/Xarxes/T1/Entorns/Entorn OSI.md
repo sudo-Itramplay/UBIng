@@ -1,0 +1,1 @@
+Aquest entorn correspon amb el [[Entorn de Xarxa]] Afegeix altres protocols i normes orientats a la comunicació entre aplicacions

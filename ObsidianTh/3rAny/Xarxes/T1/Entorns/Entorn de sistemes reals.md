@@ -1,0 +1,1 @@
+Apps que aprofiten el [[Entorn OSI]] i que executen determinades tasques de forma distribuïda

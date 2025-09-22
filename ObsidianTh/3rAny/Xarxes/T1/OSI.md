@@ -1,7 +1,13 @@
 Open System Interconnection
-És on s'estableixen les Normes 
+És un marc de referència s'estableixen les Normes de les xarxes, per tal d'evitar els sitemes propietaris
 
-Serveix pq totes les marques facin un sisteema compatible de communicació entre totes les xarxes i protocols
+Dintre del Model OSI podem diferenciar 3 entorns:
+- Entorn de Xarxa
+- Entorn OSI
+- Entorn de sistemes reals
+
+
+Serveix pq totes les marques facin un sistema compatible de communicació entre totes les xarxes i protocols
 
 Un model de 100 capes (de protocols)
 
