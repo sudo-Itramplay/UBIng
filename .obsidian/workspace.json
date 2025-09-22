@@ -11,14 +11,10 @@
             "id": "28e734f5c1da8e72",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prompt Template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Prompt Template"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prompt Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Prompt Template"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prompt Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Prompt Template"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prompt Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Prompt Template"
+              "title": "Outline"
             }
           }
         ]
@@ -169,14 +162,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "0fb660ded34af537",
+  "active": "28e734f5c1da8e72",
   "lastOpenFiles": [
+    "Prompt Template.md",
+    "ObsidianTh/Curs DeepLearning/Notebooks/clase4/L4-technical_debt.md",
+    "ObsidianTh/Curs DeepLearning/Notebooks/clase4/L4-technical_debt.ipynb",
+    "ObsidianTh/Curs DeepLearning/Notebooks/clase4",
+    "ObsidianTh/Curs DeepLearning/Notebooks/Nova pasta",
+    "ObsidianTh/Curs DeepLearning/Notebooks/Classe4",
+    "ObsidianTh/Curs DeepLearning/Notebooks/clase3/L3-pair_program.ipynb",
+    "ObsidianTh/Curs DeepLearning/Notebooks/clase3/L3-pair_program.md",
+    "ObsidianTh/Curs DeepLearning/Notebooks/clase3",
     "ObsidianTh/Curs DeepLearning/Notebooks/clase2/L2-template.md",
     "ObsidianTh/Curs DeepLearning/Notebooks/clase2/L2-template.ipynb",
     "ObsidianTh/Curs DeepLearning/Notebooks/clase2",
-    "ObsidianTh/Curs DeepLearning/Notebooks/Nova pasta",
     "ObsidianTh/Curs DeepLearning/Notebooks/L2-template.md",
-    "ObsidianTh/Curs DeepLearning/Notebooks/L2-template.ipynb",
-    "Prompt Template.md"
+    "ObsidianTh/Curs DeepLearning/Notebooks/L2-template.ipynb"
   ]
 }
