@@ -30,3 +30,23 @@ Tot el que eliminem ha d'estar raonat i quantificat
 	Si eliminem els Nan, hem de dir el nº de NaN que eliminem
 	No cal raonar si passatger = 0 o si distancia <0
 
+---ExcB
+---
+
+Neteja->Treiem dades que NO farem servir
+Post processament-> Escollir com agafem les dades
+	Post processing és on afegim columnes
+
+-->Fer clean i Post alhora
+
+
+SI S'HA DE CREAR ALGO PER UN EXC EN CONCRET ANAR A POST PROCESSING, NO MID EXC
+
+
+
+
+
+
+
+
+
