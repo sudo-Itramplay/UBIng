@@ -1,0 +1,12 @@
+﻿Crea un envroment venv
+
+Crea enviroments:
+/home/itramplay/Documentos/UBIng/Tallers/lab/P1/.venv/bin/python -m pip install ipykernel -U –force-reinstall
+
+#Canvia ruta
+
+
+instala els imports:
+
+pip install matplotlib
+pip install pandas
