@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "deddd25465f58d34",
+    "type": "split",
+    "children": [
+      {
+        "id": "f66c71a1443e4760",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28e734f5c1da8e72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prompt Template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Prompt Template"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a1faca252b86af2",
+    "type": "split",
+    "children": [
+      {
+        "id": "58eb1b84608d729d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fb660ded34af537",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f714ea80cf9e19b7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cc94d337b72fce01",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "93d2de083a1bd05a",
+    "type": "split",
+    "children": [
+      {
+        "id": "31d85b9b44b9d33b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "042821aacd34b3f0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Prompt Template.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Prompt Template"
+            }
+          },
+          {
+            "id": "715a95e8ef95ea00",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Prompt Template.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Prompt Template"
+            }
+          },
+          {
+            "id": "887e9adbc099a1ee",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c4f59164cdc4efc3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Prompt Template.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Prompt Template"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "0fb660ded34af537",
+  "lastOpenFiles": [
+    "ObsidianTh/Curs DeepLearning/Notebooks/clase2/L2-template.md",
+    "ObsidianTh/Curs DeepLearning/Notebooks/clase2/L2-template.ipynb",
+    "ObsidianTh/Curs DeepLearning/Notebooks/clase2",
+    "ObsidianTh/Curs DeepLearning/Notebooks/Nova pasta",
+    "ObsidianTh/Curs DeepLearning/Notebooks/L2-template.md",
+    "ObsidianTh/Curs DeepLearning/Notebooks/L2-template.ipynb",
+    "Prompt Template.md"
+  ]
+}
