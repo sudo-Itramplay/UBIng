@@ -1,4 +1,4 @@
-Control de comunicaciñi entre les apps
+Control de comunicacio entre les apps
 	Estableix, gestiona i tanca connexions 
 	Sincronització 
 	control del diàleg

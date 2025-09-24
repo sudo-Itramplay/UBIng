@@ -2,5 +2,5 @@
 En són 7 amb les seves respectives diferències:
 - 7- [[Capa Aplicació]]
 - 6- [[Capa Presentació]]
-- 5- [[Capa de sesió]]
-- 
+- 5- [[Capa de Sessió]]
+- 4- 
