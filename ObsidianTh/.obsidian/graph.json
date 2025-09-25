@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:3rAny/Tallers  ",
@@ -20,6 +20,20 @@
         "a": 1,
         "rgb": 14725458
       }
+    },
+    {
+      "query": "path:\"Python Libraries/Numpy\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"Python Libraries/Scikit-image\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
     }
   ],
   "collapse-display": true,
@@ -28,10 +42,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.678589981447124,
+  "repelStrength": 12.2404452690167,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.5525290344484033,
+  "linkDistance": 106,
+  "scale": 0.8939809515757056,
   "close": true
 }
