@@ -1,0 +1,15 @@
+properties:
+  file.folder:
+    displayName: folder
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - and:
+            - file.inFolder("3rAny/Xarxes")
+    order:
+      - file.folder
+    sort: []
+  - type: cards
+    name: View
