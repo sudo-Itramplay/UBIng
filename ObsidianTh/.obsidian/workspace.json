@@ -8,91 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b7e3ae199760363",
+            "id": "c3cf5e30877158ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Tallers/T1/PPT2/Model.md",
+                "file": "3rAny/Xarxes/Pràctiques/P1/Primera.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Model"
-            }
-          },
-          {
-            "id": "cb04f327aaeb0a1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Tallers/T1/PPT2/Overfitting.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Overfitting"
-            }
-          },
-          {
-            "id": "1968a213b8c47aa8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Tallers/T1/PPT2/Optimització/Descens del gradient.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Descens del gradient"
-            }
-          },
-          {
-            "id": "df835c9d7b6ee1ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Tallers/T1/PPT2/Optimització/Descens del gradient.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Descens del gradient"
-            }
-          },
-          {
-            "id": "21bb91be827ab5aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Xarxes/Avaluació/Avaluació Pràctiques.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Avaluació Pràctiques"
-            }
-          },
-          {
-            "id": "ca6d1a5c45ae8bf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Xarxes/Classes/Classe 2 Xarxes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Classe 2 Xarxes"
+              "title": "Primera"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Kb",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -241,11 +169,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "e413deae0f848576",
+  "active": "c3cf5e30877158ae",
   "lastOpenFiles": [
-    "3rAny/Xarxes/Classes",
+    "Mascara.md",
+    "3rAny/Xarxes/Pràctiques/P1/Primera.md",
     "3rAny/Xarxes/Avaluació/Avaluació Pràctiques.md",
     "3rAny/Xarxes/Classes/Classe 2 Xarxes.md",
+    "Classes IP.md",
+    "3rAny/Xarxes/Pràctiques/P1",
+    "3rAny/Xarxes/Pràctiques",
+    "3rAny/Xarxes/Classes",
     "3rAny/Tallers/T1/PPT2/Gradient.md",
     "3rAny/Tallers/Curs DeepLearning/Proces de generació de codi.md",
     "3rAny/Tallers/T1/PPT2/Optimització/Algorisme d'optimització.md",
@@ -269,8 +202,6 @@
     "3rAny/Xarxes/T1/OSI.md",
     "3rAny/Xarxes/T1/Entorns/Model Referència OSI.md",
     "Entorns.md",
-    "3rAny/Xarxes/T1/Peer-to-Peer.md",
-    "3rAny/Xarxes/T1/Encapsulació.md",
     "3rAny/Xarxes/Xarxes.base",
     "Untitled.canvas",
     "3rAny/Xarxes/T1/Estructures de dades",
@@ -278,9 +209,6 @@
     "Recursos/The-cat-named-Chelsea.jpg",
     "Python Libraries/Scikit-image",
     "3rAny/IA/Classes",
-    "Python Libraries",
-    "Python Libraries/Numpy",
-    "Visio Libraries",
     "3rAny/Xarxes/T1/Capes del Model OSI/Recursos Visuals/Pasted image 20250922111616.png"
   ]
 }
