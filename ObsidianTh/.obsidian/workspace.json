@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Kb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +132,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Cerca"
             }
           },
           {
@@ -145,7 +145,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -240,7 +241,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "ef6533450b635226",
+  "active": "e413deae0f848576",
   "lastOpenFiles": [
     "3rAny/Xarxes/Classes",
     "3rAny/Xarxes/Avaluació/Avaluació Pràctiques.md",
