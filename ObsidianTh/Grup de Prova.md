@@ -1,0 +1,1 @@
+De totes les dades que se'ns donen per fer un model, aquesta és la part reservada per entrenar al model

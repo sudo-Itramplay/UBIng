@@ -4,24 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "59408ee6fc61860f",
+        "id": "adc4ef70cb596976",
         "type": "tabs",
         "children": [
           {
-            "id": "acd0fdc6b408e0b3",
+            "id": "8b7e3ae199760363",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Xarxes/T1/OSI.md",
+                "file": "Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSI"
+              "title": "Model"
+            }
+          },
+          {
+            "id": "cb04f327aaeb0a1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Overfitting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Overfitting"
+            }
+          },
+          {
+            "id": "1968a213b8c47aa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Descens del gradient.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Descens del gradient"
+            }
+          },
+          {
+            "id": "df835c9d7b6ee1ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Descens del gradient.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Descens del gradient"
+            }
+          },
+          {
+            "id": "21bb91be827ab5aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Descens del gradient.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Descens del gradient"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -44,7 +101,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de fitxers"
             }
           },
           {
@@ -160,19 +217,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Obre el selector ràpid": false,
+      "graph:Obre la vista gràfica": false,
+      "canvas:Crea un llenç nou": false,
+      "daily-notes:Obre la nota d'avui": false,
+      "templates:Inserir plantilla": false,
+      "command-palette:Obre la paleta d'ordres": false,
       "bases:Create new base": false
     }
   },
-  "active": "acd0fdc6b408e0b3",
+  "active": "21bb91be827ab5aa",
   "lastOpenFiles": [
-    "3rAny/Xarxes/T1/Entorns/Model Referència OSI.md",
+    "Gradient.md",
+    "Descens del gradient.md",
+    "Algorisme Predicció vs Model.md",
+    "Algorisme d'optimització.md",
+    "Model.md",
+    "Algorismes de predicció.md",
+    "Overfitting.md",
+    "Grup de Prova.md",
+    "Funció de Pèrdua.md",
+    "Relació entre Optimització i dades.md",
+    "Grup de Test.md",
+    "3rAny/Tallers/T1/PPT2/Optimització/Optimització.md",
+    "3rAny/Tallers/T1/PPT2/Optimització/Optimització multimodal.md",
+    "3rAny/Tallers/T1/PPT2/Optimització/Optimització Unimodal.md",
+    "3rAny/IA/Classes/IA Classe 2.md",
+    "3rAny/Tallers/T1/PPT2/Optimització",
+    "3rAny/Tallers/T1/PPT2/Optimització/Optimització discreta.md",
+    "3rAny/Tallers/T1/PPT2",
+    "3rAny/Tallers/Pràctiques de Tallers.md",
     "3rAny/Xarxes/T1/OSI.md",
+    "3rAny/Xarxes/T1/Entorns/Model Referència OSI.md",
     "Entorns.md",
     "3rAny/Xarxes/T1/Peer-to-Peer.md",
     "3rAny/Xarxes/T1/Encapsulació.md",
@@ -181,25 +257,8 @@
     "3rAny/Xarxes/T1/Capes del Model OSI/Capa Física.md",
     "3rAny/Xarxes/T1/Capes del Model OSI/Capes Model OSI.md",
     "3rAny/Xarxes/Xarxes.base",
-    "SDU.md",
-    "3rAny/Xarxes/T1/Estructures de dades/N-PDU.md",
-    "3rAny/Xarxes/T1/SAP.md",
-    "3rAny/Xarxes/T1/PDU.md",
-    "3rAny/Xarxes/T1/Estructures de dades/N-PCI.md",
-    "3rAny/Xarxes/T1/Estructures de dades/N-IDU.md",
-    "2025-09-25.md",
     "Untitled.canvas",
-    "3rAny/Xarxes/T1/Estructures de dades/N-ICI.md",
     "3rAny/Xarxes/T1/Estructures de dades",
-    "3rAny/Tallers/Curs DeepLearning/Notebooks/lab/lib/python3.13/site-packages/pip-25.2.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
-    "Python Libraries/Scikit-image/Color Scikit-learn.md",
-    "Python Libraries/Scikit-image/Atributs Scikit-image.md",
-    "Python Libraries/Scikit-image/Transform Scikit-image.md",
-    "Python Libraries/Scikit-image/Factories Scikit-image.md",
-    "Python Libraries/Scikit-image/Scikit-image.md",
-    "Python Libraries/Numpy/Slicing Numpy Array.md",
-    "Python Libraries/Numpy/Indexing Numpy.md",
-    "Python Libraries/Scikit-image/Data Scikit-image.md",
     "Recursos",
     "Recursos/The-cat-named-Chelsea.jpg",
     "Python Libraries/Scikit-image",
@@ -207,8 +266,6 @@
     "Python Libraries",
     "Python Libraries/Numpy",
     "Visio Libraries",
-    "3rAny/Tallers/Pràctiques",
-    "3rAny/Xarxes/T1/Capes del Model OSI/Recursos Visuals",
     "3rAny/Xarxes/T1/Capes del Model OSI/Recursos Visuals/Pasted image 20250922111616.png"
   ]
 }
