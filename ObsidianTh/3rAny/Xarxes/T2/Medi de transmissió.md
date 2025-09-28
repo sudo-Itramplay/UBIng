@@ -1,0 +1,1 @@
+És el sistema, material o no, per in viatja la informació

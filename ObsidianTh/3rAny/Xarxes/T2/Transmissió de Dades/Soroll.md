@@ -1,0 +1,2 @@
+**Soroll** és qualsevol **senyal indesitjat** que s’afegeix a un senyal útil i que pot alterar, distorsionar o dificultar la seva recepció o interpretació.  
+En general, es pot entendre com a **pertorbacions aleatòries** que apareixen en un sistema físic, elèctric, òptic o fins i tot social.

@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"c9a7ab8a2842a971","type":"text","text":"Transmissor","x":-240,"y":-120,"width":250,"height":60,"color":"4"},
+		{"id":"8bf26da3e7604bba","type":"text","text":"Receptor","x":60,"y":-120,"width":250,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"05e7f2865613fe34","fromNode":"c9a7ab8a2842a971","fromSide":"right","toNode":"8bf26da3e7604bba","toSide":"left"}
+	]
+}

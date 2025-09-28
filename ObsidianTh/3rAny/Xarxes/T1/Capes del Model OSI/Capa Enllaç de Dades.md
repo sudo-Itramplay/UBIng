@@ -4,7 +4,7 @@ Envia blocs de dades )trames
 	 control d'errors
 	 control de flux
 
-
+[^1]
 Servei de transferencia de dades segures a través de l'enllaç físic
 
 Característiques
@@ -14,3 +14,4 @@ Característiques
 	• Gestió de trames duplicades, errònies o perdudes
 	• Control de flux
 
+[^1]: [[MAC]] és una de les seves subcapes

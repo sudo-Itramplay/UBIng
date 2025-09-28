@@ -1,0 +1,1 @@
+L'[[Enllaç]] si el senyal pateix qualsevol tipus de transformació que requereixi ser regenerada
