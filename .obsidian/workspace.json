@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f66c71a1443e4760",
+        "id": "1ab186f3489116ee",
         "type": "tabs",
         "children": [
           {
-            "id": "28e734f5c1da8e72",
+            "id": "43d2d17973ce5574",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capa de Sessió.md",
+                "file": "Ron.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Capa de Sessió"
-            }
-          },
-          {
-            "id": "e69d34ba1cef7c38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capa Transport.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Capa Transport"
-            }
-          },
-          {
-            "id": "074a4d994c72f61f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capa Xarxa.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Capa Xarxa"
-            }
-          },
-          {
-            "id": "91797d1e2eb065b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capa Enllaç de Dades.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Capa Enllaç de Dades"
-            }
-          },
-          {
-            "id": "9c3206967260153c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capes Model OSI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Capes Model OSI"
+              "title": "Ron"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,18 +166,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "9c3206967260153c",
+  "active": "43d2d17973ce5574",
   "lastOpenFiles": [
+    "Cockteleria/Cocktels meus, que se/Mojito.md",
+    "Ron.md",
+    "Cockteleria/Cocktel codex/Cocktel Codex.md",
+    "Cockteleria/Cocktels meus, que se",
+    "Cockteleria/Cocktel codex",
+    "ObsidianTh/3rAny/Xarxes/T1/Apunts de Classe1.md",
+    "Cockteleria",
+    "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capa Xarxa.md",
+    "Prompt Template.md",
+    "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capes Model OSI.md",
     "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capa Física.md",
     "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capa Enllaç de Dades.md",
-    "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capa Xarxa.md",
     "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capa Transport.md",
-    "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capes Model OSI.md",
     "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capa Presentació.md",
     "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capa de Sessió.md",
     "ObsidianTh/3rAny/Xarxes/T1/Capes del Model OSI/Capa Aplicació.md",
-    "ObsidianTh/3rAny/Xarxes/T1/Apunts de Classe1.md",
-    "Prompt Template.md",
     "ObsidianTh/Curs DeepLearning/Notebooks/clase4/L4-technical_debt.md",
     "ObsidianTh/Curs DeepLearning/Notebooks/clase4/L4-technical_debt.ipynb",
     "ObsidianTh/Curs DeepLearning/Notebooks/clase4",
@@ -245,8 +194,6 @@
     "ObsidianTh/Curs DeepLearning/Notebooks/clase3",
     "ObsidianTh/Curs DeepLearning/Notebooks/clase2/L2-template.md",
     "ObsidianTh/Curs DeepLearning/Notebooks/clase2/L2-template.ipynb",
-    "ObsidianTh/Curs DeepLearning/Notebooks/clase2",
-    "ObsidianTh/Curs DeepLearning/Notebooks/L2-template.md",
-    "ObsidianTh/Curs DeepLearning/Notebooks/L2-template.ipynb"
+    "ObsidianTh/Curs DeepLearning/Notebooks/L2-template.md"
   ]
 }
