@@ -2,7 +2,7 @@
 ## 1
 Filtrar data frame amb dos filttres amb pandas
 
-- No fer servir and, &&
+- No fer servir and, &
 - amb els parentesis definim les diferents condicions
 
 

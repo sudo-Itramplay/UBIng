@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Tallers/Pràctiques/Lab Errors examens.md",
+                "file": "Python/Python Libraries/Pandas/Intro a Pandas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab Errors examens"
+              "title": "Intro a Pandas"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "reset",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,11 +185,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "ef6533450b635226",
+  "active": "c40a66d0fbdfed9c",
   "lastOpenFiles": [
+    "3rAny/Tallers/Pràctiques/Lab Errors examens.md",
     "Python/Python Libraries/Pandas",
     "3rAny/Tallers/T1/PPT2/Optimització/Optimització discreta.md",
-    "3rAny/Tallers/Pràctiques/Lab Errors examens.md",
     "3rAny/Tallers/T1/PPT3/Classe 3 Tallers.md",
     "3rAny/Tallers/T1/PPT3",
     "Inferir.md",
@@ -225,7 +226,6 @@
     "3rAny/Xarxes/T2/Tipus Enllaç",
     "3rAny/Xarxes/T2/Tipus de Dades",
     "Sense títol.base",
-    "3rAny/Xarxes/T2",
     "Untitled.canvas",
     "Recursos/The-cat-named-Chelsea.jpg",
     "3rAny/Xarxes/T1/Capes del Model OSI/Recursos Visuals/Pasted image 20250922111616.png"
