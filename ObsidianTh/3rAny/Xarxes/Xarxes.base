@@ -1,3 +1,5 @@
+formulas:
+  Untitled: ""
 properties:
   file.folder:
     displayName: folder
@@ -10,6 +12,9 @@ views:
             - file.inFolder("3rAny/Xarxes")
     order:
       - file.folder
-    sort: []
+      - formula.Untitled
+    sort:
+      - property: file.ctime
+        direction: DESC
   - type: cards
     name: View

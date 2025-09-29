@@ -4,175 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "3c066df8c4349377",
+        "id": "a10fb9679e2e3dd6",
         "type": "tabs",
         "children": [
           {
-            "id": "f00b7b54475ef92b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gràfica"
-            }
-          },
-          {
-            "id": "8572523e34e47afe",
+            "id": "d376e9b49cfc00cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Xarxes/T2/Transmissió de Dades/Classificació del Soroll.md",
+                "file": "Python/Funcions Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Classificació del Soroll"
+              "title": "Funcions Python"
             }
           },
           {
-            "id": "9f70d00cfa3c21a2",
+            "id": "1f917b4dbf8eeed5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Xarxes/T2/Transmissió de Dades/Soroll Tèrmic.md",
+                "file": "3rAny/Tallers/T1/PPT2/Optimització/Algorisme Nelder-Mead.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Soroll Tèrmic"
+              "title": "Algorisme Nelder-Mead"
             }
           },
           {
-            "id": "6b90cc7f635c252d",
+            "id": "60288c42a9d10739",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Xarxes/T2/Transmissió de Dades/Llei de Hartley.md",
+                "file": "3rAny/Tallers/T1/PPT2/Optimització/Algorisme Nelder-Mead.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Llei de Hartley"
+              "title": "Algorisme Nelder-Mead"
             }
           },
           {
-            "id": "87f3ea43e55a17ab",
+            "id": "964094ea9510d12f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Xarxes/T2/Transmissió de Dades/Bits per Segon.md",
+                "file": "3rAny/Tallers/T1/PPT2/Optimització/Algorisme Descens del gradient Estocastic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bits per Segon"
+              "title": "Algorisme Descens del gradient Estocastic"
             }
           },
           {
-            "id": "5301c00945451ecd",
+            "id": "2d1ab8c5ae38e768",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Xarxes/T2/Tipus de Xarxes/Tipus de Xarxes.md",
+                "file": "3rAny/Tallers/T1/PPT2/Optimització/Algorisme d'optimització directe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tipus de Xarxes"
-            }
-          },
-          {
-            "id": "f234c98647728aba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Xarxes/T2/Transmissió de Dades/Velocitat de Transmissió.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Velocitat de Transmissió"
-            }
-          },
-          {
-            "id": "18b127b4ff5c4069",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Xarxes/T2/Transmissió de Dades/Conversió baud a bps.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Conversió baud a bps"
-            }
-          },
-          {
-            "id": "2f6b2169a91335ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Xarxes/T2/Transmissió de Dades/Ample de Banda.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ample de Banda"
-            }
-          },
-          {
-            "id": "6002f0d79ced71f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Xarxes/T2/Transmissió de Dades/Llei de Hartley.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Llei de Hartley"
-            }
-          },
-          {
-            "id": "c31005c551e11198",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Xarxes/T2/Transmissió de Dades/Teorema de Shannon-Hartley.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Teorema de Shannon-Hartley"
-            }
-          },
-          {
-            "id": "ed1ffd3970e5141e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Xarxes/T2/Transmissió de Dades/Relació Entre Shannon I Hartley.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Relació Entre Shannon I Hartley"
+              "title": "Algorisme d'optimització directe"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -320,36 +226,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "5301c00945451ecd",
+  "active": "964094ea9510d12f",
   "lastOpenFiles": [
+    "3rAny/Tallers/T1/PPT2/Optimització/Descens del gradient.md",
+    "3rAny/Tallers/T1/PPT2/Optimització/Algorisme d'optimització directe.md",
+    "3rAny/Tallers/T1/PPT2/Optimització/Algorisme Descens del gradient Estocastic.md",
+    "3rAny/Tallers/T1/PPT2/Optimització/Algorisme Nelder-Mead.md",
+    "3rAny/Tallers/T1/PPT2/Simplex.md",
+    "3rAny/Xarxes/T2/Simplex.md",
+    "3rAny/Tallers/T1/PPT2/Optimització/Algorisme d'optimització.md",
+    "Que.md",
+    "Python/Funcions Python.md",
+    "3rAny/IA/Classes/IA Classe 2.md",
+    "Python",
+    "3rAny/Xarxes/Xarxes.base",
+    "3rAny/Xarxes/k.md",
+    "3rAny/Xarxes/T2/Transmissió de Dades/Relació Entre Shannon I Hartley.md",
+    "3rAny/Xarxes/T2/Transmissió de Dades/Teorema de Shannon-Hartley.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/Llei de Hartley.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Soroll.md",
+    "3rAny/Xarxes/T2/Transmissió de Dades/Ample de Banda.md",
+    "3rAny/Xarxes/T2/Transmissió de Dades/Conversió baud a bps.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/Velocitat de Transmissió.md",
+    "3rAny/Xarxes/T2/Tipus de Xarxes/Tipus de Xarxes.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/Bits per Segon.md",
+    "3rAny/Xarxes/T2/Transmissió de Dades/Soroll Tèrmic.md",
+    "3rAny/Xarxes/T2/Transmissió de Dades/Classificació del Soroll.md",
+    "3rAny/Xarxes/T2/Transmissió de Dades/Soroll.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/Simbols per Segon.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/bauds.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/BW.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Ample de Banda.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Teorema de Shannon-Hartley.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Relació Entre Shannon I Hartley.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/Teorema de Nyquist.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Fòrmula de Johnson.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Constant de Boltzman.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Soroll Tèrmic.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Classificació del Soroll.md",
-    "3rAny/Xarxes/T2/Glossari.md",
-    "3rAny/Xarxes/Classes/Classe 2 Xarxes.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Conversió baud a bps.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/bps.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Vtrx.md",
-    "3rAny/Xarxes/T2/Tipus de Dades/Tipus de Dades.md",
     "3rAny/Xarxes/T2/Transmissió de Dades",
-    "3rAny/Tallers/T1/PPT1/Tipus de Dades.md",
-    "3rAny/Xarxes/T2/MAC.md",
-    "3rAny/Xarxes/T2/Tipus Enllaç/Classificació del Enllaços.md",
-    "3rAny/Xarxes/T2/Simplex.md",
     "3rAny/Xarxes/T2/Simplex.canvas",
-    "3rAny/Xarxes/T2/Tipus de Xarxes/Tipus de Xarxes.md",
     "3rAny/Xarxes/T2/Half Duplex.canvas",
     "Sense títol.canvas",
     "3rAny/Xarxes/T2/Duplex.canvas",
@@ -360,8 +268,6 @@
     "3rAny/Xarxes/T2",
     "3rAny/Xarxes/Pràctiques/P1",
     "3rAny/Xarxes/Pràctiques",
-    "3rAny/Xarxes/Classes",
-    "3rAny/Tallers/T1/PPT2/Optimització",
     "Untitled.canvas",
     "Recursos/The-cat-named-Chelsea.jpg",
     "3rAny/Xarxes/T1/Capes del Model OSI/Recursos Visuals/Pasted image 20250922111616.png"

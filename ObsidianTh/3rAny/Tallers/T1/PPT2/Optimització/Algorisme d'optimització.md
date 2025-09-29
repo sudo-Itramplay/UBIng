@@ -8,3 +8,6 @@ Algorisme el qual afina el nostre model buscant minimitzar la [[Funció de Pèrd
 
 Els [[Algorisme|algorismes]] d'optimització poden ser perillosos i portar a l'[[Overfitting]] pq un model o aproxima molt bé les dades i prediu molt malament o al revés, hem de saber trobar l'equilibri
 	Hem de generalitzar per predir
+
+Hi ha dos tipus:
+- [[Algorisme d'optimització directe]]

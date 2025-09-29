@@ -9,6 +9,6 @@ La classificació segons el tipus d'[[Enllaç]] es pot fer segon:
 - [[Enllaç Multipunt]]
 
 ## Per sentit de Transmissió
-- [[Simplex]]
+- [[3rAny/Xarxes/T2/Simplex]]
 - [[Half Duplex]]
 - [[Duplex]]
