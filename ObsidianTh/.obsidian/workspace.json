@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a10fb9679e2e3dd6",
+        "id": "9dd88c65c58b1894",
         "type": "tabs",
         "children": [
           {
-            "id": "d376e9b49cfc00cd",
+            "id": "926df4781607f774",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Funcions Python.md",
+                "file": "Hola.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funcions Python"
-            }
-          },
-          {
-            "id": "1f917b4dbf8eeed5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Tallers/T1/PPT2/Optimització/Algorisme Nelder-Mead.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Algorisme Nelder-Mead"
-            }
-          },
-          {
-            "id": "60288c42a9d10739",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Tallers/T1/PPT2/Optimització/Algorisme Nelder-Mead.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Algorisme Nelder-Mead"
-            }
-          },
-          {
-            "id": "964094ea9510d12f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Tallers/T1/PPT2/Optimització/Algorisme Descens del gradient Estocastic.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Algorisme Descens del gradient Estocastic"
-            }
-          },
-          {
-            "id": "2d1ab8c5ae38e768",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Tallers/T1/PPT2/Optimització/Algorisme d'optimització directe.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Algorisme d'optimització directe"
+              "title": "Hola"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,11 +169,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "964094ea9510d12f",
+  "active": "926df4781607f774",
   "lastOpenFiles": [
-    "3rAny/Tallers/T1/PPT2/Optimització/Descens del gradient.md",
+    "Hola.md",
+    "Prova PC",
     "3rAny/Tallers/T1/PPT2/Optimització/Algorisme d'optimització directe.md",
     "3rAny/Tallers/T1/PPT2/Optimització/Algorisme Descens del gradient Estocastic.md",
+    "3rAny/Tallers/T1/PPT2/Optimització/Descens del gradient.md",
     "3rAny/Tallers/T1/PPT2/Optimització/Algorisme Nelder-Mead.md",
     "3rAny/Tallers/T1/PPT2/Simplex.md",
     "3rAny/Xarxes/T2/Simplex.md",
@@ -255,7 +200,6 @@
     "3rAny/Xarxes/T2/Transmissió de Dades/Simbols per Segon.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/bauds.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/BW.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Teorema de Nyquist.md",
     "3rAny/Xarxes/T2/Transmissió de Dades",
     "3rAny/Xarxes/T2/Simplex.canvas",
     "3rAny/Xarxes/T2/Half Duplex.canvas",
@@ -267,7 +211,6 @@
     "Sense títol.base",
     "3rAny/Xarxes/T2",
     "3rAny/Xarxes/Pràctiques/P1",
-    "3rAny/Xarxes/Pràctiques",
     "Untitled.canvas",
     "Recursos/The-cat-named-Chelsea.jpg",
     "3rAny/Xarxes/T1/Capes del Model OSI/Recursos Visuals/Pasted image 20250922111616.png"
