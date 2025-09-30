@@ -44,6 +44,7 @@ Si valorem 10 coses en comú el vector tindra len = 10
 Distància petita és igual a guay --> Amb això es calcula alfa
 	Pensa que són vectorss
 Se li pot aplicar la inversa($^{-1}$) 
+
 >[!tip] En opinions, mai fer distàncies euclidianes
 >Va molt millor Pearson
 >Ja que normalment una persona opinara per extrems
