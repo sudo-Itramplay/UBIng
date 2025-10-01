@@ -83,30 +83,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Tallers/T1/PPT3/Semblances/Quin sistema fer servir per calcular similitud.md",
+                "file": "Python/Python Libraries/Scikit-image/Transform Scikit-image.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quin sistema fer servir per calcular similitud"
+              "title": "Transform Scikit-image"
             }
           },
           {
-            "id": "a3ebfd9ef5bc7425",
+            "id": "62488956cbc5560d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/IA/Pràctiques/P1/Cerca A*.md",
+                "file": "Punts ski.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cerca A*"
+              "title": "Punts ski"
+            }
+          },
+          {
+            "id": "eab0e772d36b2023",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MINIEXAMEN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MINIEXAMEN"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -254,8 +268,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "a3ebfd9ef5bc7425",
+  "active": "eab0e772d36b2023",
   "lastOpenFiles": [
+    "Punts ski.md",
+    "MINIEXAMEN.md",
+    "Python/Python Libraries/Scikit-image/Transform Scikit-image.md",
+    "Python/Python Libraries/Scikit-image/Factories Scikit-image.md",
+    "Python/Python Libraries/Scikit-image/Data Scikit-image.md",
+    "Python/Python Libraries/Scikit-image/Color Scikit-learn.md",
+    "Python/Python Libraries/Scikit-image/Atributs Scikit-image.md",
+    "3rAny/Tallers/T1/PPT3/Semblances/Quin sistema fer servir per calcular similitud.md",
+    "Python/Python Libraries/Scikit-image/Scikit-image.md",
+    "3rAny/Visio/Pràctiques/Notes pràctica.md",
+    "3rAny/IA/Pràctiques/P1/Cerca A*.md",
+    "3rAny/Visio/Pràctiques",
     "3rAny/Visio/T1/Classe 2 Visio.md",
     "Obsidian/Alias.md",
     "3rAny/Visio/T2",
@@ -268,32 +294,20 @@
     "3rAny/Tallers/T1/PPT3/Propietats de la Semblança.md",
     "3rAny/Tallers/T1/PPT3/Calibració.md",
     "3rAny/Tallers/T1/PPT3/Semblances",
-    "3rAny/Tallers/T1/PPT3/Semblances/Quin sistema fer servir per calcular similitud.md",
     "3rAny/Tallers/T1/PPT3/Semblances/Semblança en Recomanadors.md",
     "3rAny/Tallers/T1/PPT3/Semblances/Espai de Preferències.md",
     "3rAny/Tallers/T1/PPT3/Tipus Recomanadors/Recomanacions amb model Hibrid.md",
     "3rAny/Tallers/T1/PPT3/Tipus Recomanadors/Recomanacions colaboratives.md",
     "3rAny/Tallers/T1/PPT3/Semblances/Correlació de Pearson.md",
     "3rAny/Tallers/T1/PPT3/Semblances/Distància Euclidiana.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Bits per Segon.md",
-    "3rAny/IA/T1/Heurística Admissible.md",
-    "3rAny/Tallers/T1/PPT3/Tipus Recomanadors/Tipus Recomanadors.md",
-    "3rAny/Tallers/T1/PPT3/Recomanador/Funció d'utilitat.md",
-    "3rAny/Tallers/T1/PPT3/Classe 3 Tallers.md",
-    "3rAny/IA/Pràctiques/Intro/Lab IA.md",
-    "3rAny/IA/Pràctiques/P1/Cerca A*.md",
     "3rAny/IA/Pràctiques/P1",
-    "3rAny/IA/Pràctiques/P1/P1 IA.md",
-    "3rAny/Tallers/T1/PPT2/Optimització/Optimització multimodal.md",
     "3rAny/IA/Pràctiques/Intro",
     "3rAny/IA/Pràctiques",
-    "3rAny/Tallers/T1/PPT2/Optimització/Optimització.md",
     "Mates",
     "3rAny/Tallers/T1/PPT3/Tipus Recomanadors",
     "3rAny/Tallers/T1/PPT3/Recomanador",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix-Recommendations.jpg",
-    "3rAny/Tallers/T1/PPT3/Exemple Recomanador",
     "3rAny/Xarxes/T2/Simplex.canvas",
     "3rAny/Xarxes/T2/Half Duplex.canvas",
     "Sense títol.canvas",
