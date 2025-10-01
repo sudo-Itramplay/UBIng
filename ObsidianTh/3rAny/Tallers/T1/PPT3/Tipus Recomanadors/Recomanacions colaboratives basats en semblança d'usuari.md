@@ -1,7 +1,8 @@
 La utilitat de $u'(c,s)$ de l'ítem $S$ per l'user $C$
 1. u(c,s) si l'ha valorat
 2. Sinó: estimació construida a partir de les utilitat $u(c_i,s)$ 
-	Es a dir, determinarem u(s) per $c_1$ (a qui li volem recomanar) segons la persona $c_i$
+	Es a dir, determinarem u(s) per $c_1$ (a qui li volem recomanar) segons la seva [[Semblança en Recomanadors|semblança]] amb persona $c_i$ 
+	
 
 
 >[!warning] Limitacions
@@ -30,9 +31,21 @@ u(c_m, s_1) & \cdots & u(c_m, s_k)& \cdots& ?
 \end{pmatrix}
 $$
 
+on $\alpha_{c_q c_j}$ és 0 si $u(c_j, s_p)$ == ? i un valor que depèn de la [[Semblança en Recomanadors|semblança]] entre els usuaris $c_q$ i $c_j$ en el cas contrari
+
+>[!tip] Important 
+>[[Quin sistema fer servir per calcular similitud]]
+
 És a dir: comparem un usuari amb UN altre usuari, agafant els valors del usuari que aquest hagi donat valoració
 
 Quan un dels dos usuaris no hagi valorat, no farem ús d'aquella cel·la
+
+
+>[!fail] Problemes
+>Tot i ser molt precisa, els usuaris solen canviar MOLT d'un dia a l'altre, així que és molt inestable
+
+
+
 
 ## Anexe
 [[Conjunt de tots els usuaris]]
