@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/Alias.md",
+                "file": "3rAny/IA/Pràctiques/P1/Cerca A*.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Alias"
+              "title": "Cerca A*"
             }
           }
         ],
@@ -256,8 +256,10 @@
   },
   "active": "a3ebfd9ef5bc7425",
   "lastOpenFiles": [
-    "Obsidian/Callouts.md",
+    "3rAny/Visio/T1/Classe 2 Visio.md",
     "Obsidian/Alias.md",
+    "3rAny/Visio/T2",
+    "Obsidian/Callouts.md",
     "3rAny/Tallers/T1/PPT3/Tipus Recomanadors/Recomanacions colaboratives basats en semblança d'usuari.md",
     "Obsidian",
     "3rAny/Tallers/T1/PPT3/Tipus Recomanadors/Recomanacions NO colaboratives.md",
@@ -286,14 +288,12 @@
     "3rAny/IA/Pràctiques/Intro",
     "3rAny/IA/Pràctiques",
     "3rAny/Tallers/T1/PPT2/Optimització/Optimització.md",
-    "3rAny/Tallers/T1/PPT2/Optimització/Descens del gradient.md",
     "Mates",
     "3rAny/Tallers/T1/PPT3/Tipus Recomanadors",
     "3rAny/Tallers/T1/PPT3/Recomanador",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix-Recommendations.jpg",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador",
-    "Python/Python Libraries/Pandas",
     "3rAny/Xarxes/T2/Simplex.canvas",
     "3rAny/Xarxes/T2/Half Duplex.canvas",
     "Sense títol.canvas",
