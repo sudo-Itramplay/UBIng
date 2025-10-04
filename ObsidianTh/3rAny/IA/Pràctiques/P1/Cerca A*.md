@@ -84,7 +84,7 @@ Funció A_estrella(inici, objectiu):
             Si g_provisional < g_cost[veí] O veí NO està a 'oberts':
                 // S'ha trobat un camí millor o és un node nou
                 pare[veí] = node_actual
-                g_cost[veí] = g_provisional
+                g_cos(t[veí] = g_provisional
                 f_cost[veí] = g_cost[veí] + h(veí, objectiu)
                 
                 Si veí NO està a 'oberts':

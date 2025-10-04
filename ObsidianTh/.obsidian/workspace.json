@@ -4,123 +4,179 @@
     "type": "split",
     "children": [
       {
-        "id": "9dd88c65c58b1894",
+        "id": "6a231e988fd8fe27",
         "type": "tabs",
         "children": [
           {
-            "id": "9b5d1a07f04a2a0f",
+            "id": "ca3ec8029903c5b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Tallers/T1/PPT3/Semblances/Distància Euclidiana.md",
+                "file": "Python/Python Libraries/Pandas/Load csv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Distància Euclidiana"
+              "title": "Load csv"
             }
           },
           {
-            "id": "899c336bcd675f2f",
+            "id": "b32719d9759d4f23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Tallers/T1/PPT3/Tipus Recomanadors/Recomanacions colaboratives basats en semblança d'usuari.md",
+                "file": "Python/Python Libraries/Pandas/Create Panda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recomanacions colaboratives basats en semblança d'usuari"
+              "title": "Create Panda"
             }
           },
           {
-            "id": "cdc4bb1c717d083c",
+            "id": "2504e524becefdc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Tallers/T1/PPT3/Semblances/Quin sistema fer servir per calcular similitud.md",
+                "file": "Python/Python Libraries/Pandas/Create Panda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quin sistema fer servir per calcular similitud"
+              "title": "Create Panda"
             }
           },
           {
-            "id": "b22f3efad4e15343",
+            "id": "ab21204be3ef7a37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Tallers/T1/PPT3/Tipus Recomanadors/Recomanacions colaboratives basats en semblança d'usuari.md",
+                "file": "Python/Python Libraries/Pandas/Create Panda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recomanacions colaboratives basats en semblança d'usuari"
+              "title": "Create Panda"
             }
           },
           {
-            "id": "7b1ecb48e8a04c47",
+            "id": "2911debb560c47eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Tallers/T1/PPT3/Semblances/Quin sistema fer servir per calcular similitud.md",
+                "file": "Python/Python Libraries/Pandas/Panda Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quin sistema fer servir per calcular similitud"
+              "title": "Panda Functions"
             }
           },
           {
-            "id": "d237cd46932ea387",
+            "id": "fec9e4b028a0a823",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python Libraries/Scikit-image/Transform Scikit-image.md",
+                "file": "Python/Python Libraries/Pandas/Panda to_string().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transform Scikit-image"
+              "title": "Panda to_string()"
             }
           },
           {
-            "id": "62488956cbc5560d",
+            "id": "1359a1b7c8337f0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Punts ski.md",
+                "file": "Python/Funcions Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Punts ski"
+              "title": "Funcions Python"
             }
           },
           {
-            "id": "eab0e772d36b2023",
+            "id": "e95f5cdc22cac319",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MINIEXAMEN.md",
+                "file": "Python/Python Libraries/Pandas/Panda Head and tail.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MINIEXAMEN"
+              "title": "Panda Head and tail"
+            }
+          },
+          {
+            "id": "d2ad68de1ed11784",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Python Libraries/Pandas/Panda Info.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Panda Info"
+            }
+          },
+          {
+            "id": "8752b519336b15a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Python Libraries/Pandas/Panda Clean EmptyCell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Panda Clean EmptyCell"
+            }
+          },
+          {
+            "id": "df3ce837e03501f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Python Libraries/Pandas/Panda Clean EmptyCell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Panda Clean EmptyCell"
+            }
+          },
+          {
+            "id": "4d28dc13c6f0bde6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Python Libraries/Pandas/Panda Clean EmptyCell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Panda Clean EmptyCell"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -268,38 +324,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "eab0e772d36b2023",
+  "active": "4d28dc13c6f0bde6",
   "lastOpenFiles": [
-    "Punts ski.md",
-    "MINIEXAMEN.md",
+    "Python/Python Libraries/Pandas/Panda fillna().md",
+    "Python/Python Libraries/Pandas/Panda Clean EmptyCell.md",
+    "Python/Python Libraries/Pandas/Panda Functions.md",
+    "Python/Funcions Python.md",
+    "Python/Python Libraries/Pandas/Panda Info.md",
+    "Python/Python Libraries/Pandas/Panda dropna().md",
+    "Python/Python Libraries/Pandas/Panda Head and tail.md",
+    "Python/Python Libraries/Pandas/Panda Max rows.md",
+    "Python/Python Libraries/Pandas/Panda to_string().md",
+    "Python/Python Libraries/Pandas/Create Panda.md",
+    "Python/Python Libraries/Pandas/Panda loc.md",
+    "Python/Python Libraries/Pandas/Panda serie.md",
+    "Python/Python Libraries/Pandas/Load csv.md",
+    "Python/Python Libraries/Pandas/Intro a Pandas.md",
+    "3rAny/Visio/Pràctiques/Punts ski.md",
+    "3rAny/Visio/Pràctiques/MINIEXAMEN.md",
+    "3rAny/IA/Pràctiques/P1/Cerca A*.md",
     "Python/Python Libraries/Scikit-image/Transform Scikit-image.md",
+    "3rAny/Tallers/T1/PPT3/Semblances/Quin sistema fer servir per calcular similitud.md",
+    "3rAny/Tallers/T1/PPT3/Tipus Recomanadors/Recomanacions colaboratives basats en semblança d'usuari.md",
+    "3rAny/Tallers/T1/PPT3/Semblances/Distància Euclidiana.md",
     "Python/Python Libraries/Scikit-image/Factories Scikit-image.md",
     "Python/Python Libraries/Scikit-image/Data Scikit-image.md",
     "Python/Python Libraries/Scikit-image/Color Scikit-learn.md",
     "Python/Python Libraries/Scikit-image/Atributs Scikit-image.md",
-    "3rAny/Tallers/T1/PPT3/Semblances/Quin sistema fer servir per calcular similitud.md",
     "Python/Python Libraries/Scikit-image/Scikit-image.md",
-    "3rAny/Visio/Pràctiques/Notes pràctica.md",
-    "3rAny/IA/Pràctiques/P1/Cerca A*.md",
     "3rAny/Visio/Pràctiques",
-    "3rAny/Visio/T1/Classe 2 Visio.md",
-    "Obsidian/Alias.md",
     "3rAny/Visio/T2",
-    "Obsidian/Callouts.md",
-    "3rAny/Tallers/T1/PPT3/Tipus Recomanadors/Recomanacions colaboratives basats en semblança d'usuari.md",
     "Obsidian",
-    "3rAny/Tallers/T1/PPT3/Tipus Recomanadors/Recomanacions NO colaboratives.md",
-    "3rAny/Tallers/T1/PPT3/Quina recomanació heurística.md",
-    "3rAny/Tallers/T1/PPT3/correlacionen.md",
-    "3rAny/Tallers/T1/PPT3/Propietats de la Semblança.md",
-    "3rAny/Tallers/T1/PPT3/Calibració.md",
     "3rAny/Tallers/T1/PPT3/Semblances",
-    "3rAny/Tallers/T1/PPT3/Semblances/Semblança en Recomanadors.md",
-    "3rAny/Tallers/T1/PPT3/Semblances/Espai de Preferències.md",
-    "3rAny/Tallers/T1/PPT3/Tipus Recomanadors/Recomanacions amb model Hibrid.md",
-    "3rAny/Tallers/T1/PPT3/Tipus Recomanadors/Recomanacions colaboratives.md",
-    "3rAny/Tallers/T1/PPT3/Semblances/Correlació de Pearson.md",
-    "3rAny/Tallers/T1/PPT3/Semblances/Distància Euclidiana.md",
     "3rAny/IA/Pràctiques/P1",
     "3rAny/IA/Pràctiques/Intro",
     "3rAny/IA/Pràctiques",
