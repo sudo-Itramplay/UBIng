@@ -1,0 +1,1 @@
+Si demanem dades a un usuari, tendeixen a mentir
