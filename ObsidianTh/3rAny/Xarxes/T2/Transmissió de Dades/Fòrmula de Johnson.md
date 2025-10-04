@@ -1,3 +1,4 @@
+
 $$
 N_{T} [watt]= K_B \cdot T \cdot BW
 $$

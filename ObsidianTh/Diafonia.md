@@ -1,0 +1,1 @@
+El senyal d'una sola linia s'acobla a una altre linia propera distorsionant el senyal
