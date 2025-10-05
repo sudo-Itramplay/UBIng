@@ -2,7 +2,8 @@ Seguretat
 - Transferencia transparet de dades entre nodes extrems
 - Amb recuperacio d'errors 
 - control de flux origen-desti
-
+>[!note]
+>Permet fer un control de flux i errors extrem a extrem. Del origen all destí
 
 Caracteristiques
 	• Unitat d’informació: Segment

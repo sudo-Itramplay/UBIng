@@ -1,0 +1,3 @@
+- Permet gran velocitat i distància
+- Immunitat al soroll extern
+- El primer medi fet servir

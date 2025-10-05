@@ -9,3 +9,5 @@ On
 	Vrtx és la [[Velocitat de Transmissió]]
 	S és la [[Potència del Senyal]]
 	N és la [[Potència del Soroll]]
+
+El Límit d'aquesta Velocitat ve especificat per la relació [[SNR]]

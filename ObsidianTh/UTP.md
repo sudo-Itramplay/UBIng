@@ -1,0 +1,1 @@
+Igual que el [[STP]] Però no hi ha apantallament individual

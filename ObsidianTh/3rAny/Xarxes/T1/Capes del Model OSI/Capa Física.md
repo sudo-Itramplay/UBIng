@@ -1,6 +1,8 @@
 
 Té la responsabilitat primària de la transmissió de cadenes de bits no estructurats per sobre del mitjà físic.
 
+>[!note]
+>S'encarrega d'encriptar la senyal, encapsular dades, asegurar que els bits es codifiquen i sincronitzen correctament
 ## Què fa
 Les seves funcions inclouen:
 - definir les característiques elèctriques i mecàniques, 
