@@ -470,8 +470,9 @@ adreces IP (origen i destí) i dos adreces MAC, especificades al protocol 802.x.
  Per tenir adreça MAC necessito tenir una interfície de xarxa, si aquesta no està conectada puc no tenir ip a cap xarxa
  igualment localhost, segons hem vist abans sempre és una ip que tenim "executatnt" pper tant entenc que no
  ```
- ~$ arp –a
-–a: Nombre de `host' no encontrado
+ ~$ arp -a
+_gateway (192.168.1.1) at cc:58:30:70:76:40 [ether] on wlo1
+android-2.home (192.168.1.44) at 66:a0:b9:43:d3:10 [ether] on wlo1
  ```
 ```
 arp –s
@@ -480,3 +481,99 @@ arp –s
 
 
 ## Q7
+
+
+### Respostes
+
+Un cop executada
+```
+arp -h
+```
+ens dona de sortida
+```
+arp -h
+Usage:
+  arp [-vn]  [<HW>] [-i <if>] [-a] [<hostname>]             <-Display ARP cache
+  arp [-v]          [-i <if>] -d  <host> [pub]               <-Delete ARP entry
+  arp [-vnD] [<HW>] [-i <if>] -f  [<filename>]            <-Add entry from file
+  arp [-v]   [<HW>] [-i <if>] -s  <host> <hwaddr> [temp]            <-Add entry
+  arp [-v]   [<HW>] [-i <if>] -Ds <host> <if> [netmask <nm>] pub          <-''-
+
+        -a                       display (all) hosts in alternative (BSD) style
+        -e                       display (all) hosts in default (Linux) style
+        -s, --set                set a new ARP entry
+        -d, --delete             delete a specified entry
+        -v, --verbose            be verbose
+        -n, --numeric            don't resolve names
+        -i, --device             specify network interface (e.g. eth0)
+        -D, --use-device         read <hwaddr> from given device
+        -A, -p, --protocol       specify protocol family
+        -f, --file               read new entries from file or from /etc/ethers
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) infiniband (InfiniBand) 
+    eui64 (Generic EUI-64) 
+```
+
+Per lo que entenc que, per eliminar totes les entrades, seria tal que:
+```
+arp -d *
+```
+
+*Explicació*:
+- El teu PC utilitza el protocol **ARP** (Address Resolution Protocol) per preguntar: "Qui té la IP del router (ex: `192.168.1.1`)?"
+
+- El router respon amb la seva adreça MAC.
+
+- Aquest parell **IP → MAC** es guarda a la **Taula ARP** del teu PC per a ús futur (entrada dinàmica).
+
+Passos per trobar mac router:
+1. `ip route`
+	1. **Busca:** La línia que comença amb **`default`**.
+ 	_Exemple:_ `default via **192.168.1.1** dev enp0s3...`
+ 2. `ip neighbour show 192.168.1.1`
+```
+> _Exemple de sortida:_ `192.168.1.1 dev enp0s3 **lladdr 00:0a:95:9d:68:16** PERMANENT` **MAC del Router:** `00:0a:95:9d:68:16`
+```
+
+
+També es podia fer:
+`ip neighbour show   # (Recomanat a Fedora)
+	Opcional (Comanda clàssica): arp -a
+
+
+
+->
+El nombre d'entrades variarà en funció de l'activitat recent de la teva xarxa. Normalment, sempre hi ha com a mínim:
+
+1. L'entrada del **Router/Passarel·la per Defecte**.
+    
+2. L'entrada d'altres equips amb els quals hagis comunicat recentment a la teva Xarxa Local (LAN).
+    
+
+_Després d'executar la comanda, simplement **compta les línies** que representen un veí actiu._
+
+
+->
+La comanda `arp -d *` que esborra totes les entrades és específica de Windows. A Linux, la manera de buidar una taula de veïns (ARP) és amb la comanda `ip neighbour flush all`.
+
+
+
+Quan esborres la Taula ARP:
+
+- **Pèrdua de Resolució:** El teu sistema perd el coneixement immediat de les adreces MAC de tots els dispositius propers, inclòs el router.
+    
+- **Restauració:** Quan intentes accedir a Internet (per exemple, fent un `ping 8.8.8.8`), el sistema ha de realitzar un nou procés **ARP Request** per tornar a descobrir la MAC del router.
+    
+- **Resultat:** La comunicació es retarda lleugerament la primera vegada, ja que es produeix aquesta nova resolució d'adreces, però la taula es torna a omplir **dinàmicament** immediatament amb les entrades que es necessiten
+
+
+Un cop borrada la MAC, per asegurar :
+`ping -c 1 192.168.1.1`
+
+Consultem
+`ip neighbour show 192.168.1.1`
