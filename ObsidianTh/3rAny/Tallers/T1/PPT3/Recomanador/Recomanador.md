@@ -8,6 +8,8 @@ Sistema de fitrat d'informació que té per objectiu posar en correspondència u
 >[!tip] Els recomanadors volen donar-te algo que no saps que existeix
 
 
+
+
 ## Definició Matemàtica
 
 [[Funció d'utilitat]]
