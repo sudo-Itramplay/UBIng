@@ -11,7 +11,7 @@ Les seves funcions inclouen:
 
 ## Objectiu
 El seu objectiu és triple: 
-- controlar el medi de transmissió, 
+- controlar el [[Medi de transmissió]], 
 - permetre la transferència de dades al canal
 - vigilar que la informació enviada no es modifiqui.
 

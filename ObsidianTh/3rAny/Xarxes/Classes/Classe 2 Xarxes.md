@@ -19,14 +19,14 @@ Protocols: 4G, 5G, ...
 PAN < LAN < WAN < DWDM (Distància connexió)
 
 
-La majoria de protocols treballen en MAC
+La majoria de protocols treballen en [[MAC]]
 
 Entre Enllaç i física van per la IEEE
 
 4, 5 i 6G NO ÉS IEEE, 3GPP
 
 
-MAC (Control acces al medi? Rollo, el que controla)
+[[MAC]] (Control acces al medi? Rollo, el que controla)
 
 
 
@@ -49,7 +49,7 @@ La connexió pot ser periòdica i aperiòdica
 
 
 
-Ample de banda
+[[Ample de banda]]
 - rang de freq on esrà compresa major part d'energia d'un senyal
 - El max i min de freq que pot agafar. 
 
@@ -63,7 +63,7 @@ Un senyal quadrat té rang infinit pq 1/0 = infinit i ns què pollades ha dit
 
 TRX es refereix a transmissió
 
-$log_2N_{iv}$ Si treus la n (nbits) passa a ser baud rate 
+$log_2N_{iv}$ Si treus la n (nbits) passa a ser [[Simbols per Segon|baud rate]] 
 $f_{Mostreig} \ge 2*f_{MAX}$
 	i estàs en oversampling i no perds info
 	SI la vull codifficar en simbols miltiplica $n_{bits}$
@@ -71,10 +71,10 @@ Velocitat = 2 * BW (Band width) = Kb/s
 
 VMax és important
 
-x/y[db] = SNR
+x/y[db] = [[SNR]]
 
-Per l'exemple 1 -> $10log_{10} \cdot S/N = SNR$
-	S potència senyal i N potència del soroll
+Per l'exemple 1 -> $10log_{10} \cdot S/N = [[SNR]]$
+	S potència senyal i N potència del [[soroll]]
 	
 ----->>>Propietats logaritmes $log_{10} 10^{1000} = 1000 \cdot log_{10} 10$
 ----->>>Propietats logaritmes $log_{10} 1+ 10 = log_{10} 10$
@@ -117,7 +117,7 @@ Has d'arrodonir a la baixa per no incomplir llei de Shanon (?)
 
 
 Potencia total = 100mW
-Eb = 1db mJ
+[[Energia per Bit|Eb]] = 1db mJ
 T=20
 $V_{TX}$
 
@@ -143,7 +143,7 @@ Ample banda mini, és com Vmax per aquest ample
 
 $100bp/s = BW \cdot log_2 (1+ \frac{S}{N})$
 	S és potencia senyal
-	N és noise (P del soroll)
+	N és noise (P del [[soroll]])
 
 $$
 \frac{S}{N} = \frac{E_b}{K \cdot T}

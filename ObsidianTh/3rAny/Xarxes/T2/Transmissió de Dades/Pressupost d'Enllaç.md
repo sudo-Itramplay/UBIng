@@ -1,0 +1,1 @@
+Diferència entre la Potencia transmesa i la sensibilitat del receptor

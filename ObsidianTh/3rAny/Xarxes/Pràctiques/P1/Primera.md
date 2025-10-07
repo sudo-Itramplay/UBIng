@@ -34,7 +34,7 @@ scara
 	mascara és per identificar quin és el tros adreça que correspon a xarxa o interfície
 	- 255 està en binari -> correspon a 1
 	es fa and entre mascara   i porta
-Adressa física és la MAC
+Adressa física és la [[MAC]]
 ip és adreça lògica
 
 #### JAJA
@@ -177,7 +177,7 @@ la vostra IP. Descriviu breument el que trobeu. (help: DHCP?
     
 - **Estat:** **`UP`** (Activa i funcionant).
     
-- **Adreça MAC (Hardware Address):** c2:5a:ff:82:ec:3c
+- **Adreça [[MAC]] (Hardware Address):** c2:5a:ff:82:ec:3c
     
 - **MTU (Maximum Transmission Unit):** 1500
     

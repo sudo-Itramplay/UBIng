@@ -1,1 +1,1 @@
-Pics de soroll no predecibles i difícils de modelar
+Pics de [[soroll]] no predecibles i difícils de modelar
