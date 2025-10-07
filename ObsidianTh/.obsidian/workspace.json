@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/IA/Classes/IA Classe 4.md",
+                "file": "3rAny/IA/Projecte/Tipus bots/Bot Web Scraper.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "IA Classe 4"
+              "title": "Bot Web Scraper"
             }
           },
           {
@@ -230,8 +230,12 @@
   },
   "active": "8a4bbfefd0eebc2f",
   "lastOpenFiles": [
-    "Microones Via Satèl·lit.md",
+    "3rAny/IA/Projecte/Tipus bots/Bot Crawler.md",
+    "3rAny/IA/Projecte/Tipus bots/Bot Web Scraper.md",
     "3rAny/IA/Classes/IA Classe 4.md",
+    "3rAny/IA/Projecte/Tipus bots",
+    "3rAny/IA/Projecte",
+    "Microones Via Satèl·lit.md",
     "3rAny/Xarxes/T2/Microones terrestre.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/Atenuació.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Medis No guiats.md",
@@ -254,8 +258,6 @@
     "3rAny/Xarxes/T2/Tipus Enllaç/Enllaç Multipunt.md",
     "3rAny/Xarxes/T2/Energia per Bit.md",
     "3rAny/Xarxes/T2/Duplex.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Teorema de Shannon-Hartley.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Teorema de Nyquist.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Pasted image 20251007122923.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122701.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122648.png",
@@ -272,8 +274,6 @@
     "3rAny/Tallers/T1/PPT3/Polarització",
     "3rAny/Visio/Pràctiques",
     "3rAny/Visio/T2",
-    "Obsidian",
-    "3rAny/Tallers/T1/PPT3/Semblances",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix-Recommendations.jpg",
     "3rAny/Xarxes/T2/Simplex.canvas",
