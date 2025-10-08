@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reescalat Scikit.md",
+                "file": "3rAny/Visio/Pràctiques/P2/Reescalat Scikit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -341,6 +341,54 @@
               },
               "icon": "lucide-file",
               "title": "Reescalat Scikit"
+            }
+          },
+          {
+            "id": "84784280ddc9658e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Visio/Pràctiques/P2/Mascares.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mascares"
+            }
+          },
+          {
+            "id": "e7262a0a8f47dc4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Visio/Pràctiques/P3/Apunts Lab.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apunts Lab"
             }
           },
           {
@@ -368,7 +416,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -516,35 +564,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "097228d38c6d07a1",
+  "active": "e7262a0a8f47dc4b",
   "lastOpenFiles": [
+    "Resolució Espaial.md",
+    "3rAny/Visio/Pràctiques/P3/Apunts Lab.md",
+    "Resolució Fotomètrica.md",
+    "3rAny/Visio/Pràctiques/P3",
+    "3rAny/IA/Pràctiques/P1/Cerca A*.md",
+    "3rAny/Visio/Pràctiques/P2/Mascares.md",
+    "3rAny/Visio/Pràctiques/P2/Voltejar imatges.md",
+    "3rAny/Visio/Pràctiques/P2/Carregar textura a una mascara.md",
+    "3rAny/Visio/Pràctiques/P2/Reescalat Scikit.md",
     "Obsidian/Code Styler.md",
-    "Binary thresholding.md",
-    "Carregar Imatges.md",
-    "Com agafar els axes d'un plot.md",
-    "Com modificar Valors d'una imtge.md",
-    "Crear imatge en negre.md",
-    "Guardar imatges.md",
+    "3rAny/Visio/Pràctiques/P2/Binary thresholding.md",
+    "3rAny/Visio/Pràctiques/P2/Carregar Imatges.md",
+    "3rAny/Visio/Pràctiques/P2/Com agafar els axes d'un plot.md",
+    "3rAny/Visio/Pràctiques/P2/Com modificar Valors d'una imtge.md",
+    "3rAny/Visio/Pràctiques/P2/Crear imatge en negre.md",
+    "3rAny/Visio/Pràctiques/P2/Guardar imatges.md",
     "Heurística.md",
-    "Matplotlib.md",
-    "Matplotlib Amagar eixos.md",
-    "Plot de varies Imatges.md",
-    "Print image.md",
-    "Reescalat Scikit.md",
-    "Voltejar imatges.md",
+    "3rAny/Visio/Pràctiques/P2/Matplotlib.md",
+    "3rAny/Visio/Pràctiques/P2/Matplotlib Amagar eixos.md",
+    "3rAny/Visio/Pràctiques/P2/Plot de varies Imatges.md",
+    "3rAny/Visio/Pràctiques/P2/Print image.md",
     "matplotlib.md",
     "3rAny/Visio/Pràctiques/P2/Imatges en 1 canal.md",
     "3rAny/Visio/Pràctiques/P2/Estructura de les imatges.md",
     "3rAny/Visio/Pràctiques/P2/Decimals en Scikit.md",
     "Python/Python Libraries/Scikit-image/Atributs Scikit-image.md",
     "Python/Python Libraries/Scikit-image/Color Scikit-learn.md",
-    "Python/Python Libraries/Scikit-image/Data Scikit-image.md",
-    "Python/Python Libraries/Scikit-image/Factories Scikit-image.md",
-    "Python/Python Libraries/Scikit-image/Transform Scikit-image.md",
-    "Python/Python Libraries/Scikit-image/Scikit-image.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Soroll Tèrmic.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/Conceptes exc",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Amplificadors.md",
     "3rAny/Visio/Pràctiques/P2",
     "3rAny/IA/Projecte/Tipus bots",
     "3rAny/IA/Projecte",
@@ -561,7 +610,6 @@
     "3rAny/Xarxes/T2/Duplex.canvas",
     "model TCP",
     "3rAny/Xarxes/T2/Tipus de Soroll",
-    "3rAny/Tallers/T1/PPT3/Polarització",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix-Recommendations.jpg",
     "3rAny/Xarxes/T2/Simplex.canvas",
