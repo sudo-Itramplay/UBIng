@@ -9,4 +9,4 @@ $$
 
 
 
-- Aquesta llei implica que, augmentant el nombre de nivells de codificació (Niv​), la velocitat podria ser augmentada indefinidament, fins i tot amb un [[ample de banda]] fix. Aquesta premissa, però, ignora la realitat del [[soroll]].
+- Aquesta llei implica que, augmentant el nombre de nivells de codificació (Niv​), la velocitat podria ser augmentada indefinidament, fins i tot amb un [[Ample de Banda]] fix. Aquesta premissa, però, ignora la realitat del [[soroll]].

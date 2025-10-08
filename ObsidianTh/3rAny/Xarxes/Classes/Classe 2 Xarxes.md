@@ -49,7 +49,7 @@ La connexió pot ser periòdica i aperiòdica
 
 
 
-[[Ample de banda]]
+[[Ample de Banda]]
 - rang de freq on esrà compresa major part d'energia d'un senyal
 - El max i min de freq que pot agafar. 
 

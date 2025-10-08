@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/IA/Projecte/Tipus bots/Bot Web Scraper.md",
+                "file": "3rAny/Visio/Pràctiques/P2/Estructura de les imatges.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,295 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Bot Web Scraper"
+              "title": "Estructura de les imatges"
+            }
+          },
+          {
+            "id": "c0a8ab7d03e81251",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Visio/Pràctiques/P2/Excedir valor del uint8.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Excedir valor del uint8"
+            }
+          },
+          {
+            "id": "62e64d6c9248f924",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Visio/Pràctiques/P2/Imatges en 1 canal.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Imatges en 1 canal"
+            }
+          },
+          {
+            "id": "ae83f957c08b86c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reescalat Scikit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Reescalat Scikit"
+            }
+          },
+          {
+            "id": "18467664f68f28a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Crear imatge en negre.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Crear imatge en negre"
+            }
+          },
+          {
+            "id": "1b8573da40e230a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Visio/Pràctiques/P2/Imatges en 1 canal.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Imatges en 1 canal"
+            }
+          },
+          {
+            "id": "6da4bd09b8503a0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Com modificar Valors d'una imtge.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Com modificar Valors d'una imtge"
+            }
+          },
+          {
+            "id": "fae6d52db1b124d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matplotlib Amagar eixos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Matplotlib Amagar eixos"
+            }
+          },
+          {
+            "id": "0402546bea7e638e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Com agafar els axes d'un plot.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Com agafar els axes d'un plot"
+            }
+          },
+          {
+            "id": "2a1417dbbe3c7efc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Guardar imatges.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Guardar imatges"
+            }
+          },
+          {
+            "id": "7a149fe3f4238385",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Carregar Imatges.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Carregar Imatges"
+            }
+          },
+          {
+            "id": "a9612cbbc950e4fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Plot de varies Imatges.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Plot de varies Imatges"
+            }
+          },
+          {
+            "id": "097228d38c6d07a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reescalat Scikit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Reescalat Scikit"
             }
           },
           {
@@ -80,7 +368,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -228,36 +516,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "8a4bbfefd0eebc2f",
+  "active": "097228d38c6d07a1",
   "lastOpenFiles": [
-    "3rAny/IA/Projecte/Tipus bots/Bot Crawler.md",
-    "3rAny/IA/Projecte/Tipus bots/Bot Web Scraper.md",
-    "3rAny/IA/Classes/IA Classe 4.md",
+    "Obsidian/Code Styler.md",
+    "Binary thresholding.md",
+    "Carregar Imatges.md",
+    "Com agafar els axes d'un plot.md",
+    "Com modificar Valors d'una imtge.md",
+    "Crear imatge en negre.md",
+    "Guardar imatges.md",
+    "Heurística.md",
+    "Matplotlib.md",
+    "Matplotlib Amagar eixos.md",
+    "Plot de varies Imatges.md",
+    "Print image.md",
+    "Reescalat Scikit.md",
+    "Voltejar imatges.md",
+    "matplotlib.md",
+    "3rAny/Visio/Pràctiques/P2/Imatges en 1 canal.md",
+    "3rAny/Visio/Pràctiques/P2/Estructura de les imatges.md",
+    "3rAny/Visio/Pràctiques/P2/Decimals en Scikit.md",
+    "Python/Python Libraries/Scikit-image/Atributs Scikit-image.md",
+    "Python/Python Libraries/Scikit-image/Color Scikit-learn.md",
+    "Python/Python Libraries/Scikit-image/Data Scikit-image.md",
+    "Python/Python Libraries/Scikit-image/Factories Scikit-image.md",
+    "Python/Python Libraries/Scikit-image/Transform Scikit-image.md",
+    "Python/Python Libraries/Scikit-image/Scikit-image.md",
+    "3rAny/Xarxes/T2/Transmissió de Dades/Soroll Tèrmic.md",
+    "3rAny/Xarxes/T2/Transmissió de Dades/Conceptes exc",
+    "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Amplificadors.md",
+    "3rAny/Visio/Pràctiques/P2",
     "3rAny/IA/Projecte/Tipus bots",
     "3rAny/IA/Projecte",
-    "Microones Via Satèl·lit.md",
-    "3rAny/Xarxes/T2/Microones terrestre.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Atenuació.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Medis No guiats.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Pressupost d'Enllaç.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Potència rebuda.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Parell trenat.md",
-    "3rAny/Tallers/T1/PPT3/Polarització/Recolecció Implícita.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Medi de Transmissió de la informació.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Classificació del Soroll.md",
-    "Amplificadors.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Medi de transmissió.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Relació Entre Shannon I Hartley.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Velocitat de Transmissió.md",
-    "3rAny/Xarxes/Classes/Classe 2 Xarxes.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Densitat de Potència de Soroll.md",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Coeficient Eb.md",
-    "Heurística.md",
-    "3rAny/Xarxes/T2/Simplex.md",
-    "3rAny/Xarxes/T2/MAC.md",
-    "3rAny/Xarxes/T2/Tipus Enllaç/Enllaç Multipunt.md",
-    "3rAny/Xarxes/T2/Energia per Bit.md",
-    "3rAny/Xarxes/T2/Duplex.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Pasted image 20251007122923.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122701.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122648.png",
@@ -272,8 +562,6 @@
     "model TCP",
     "3rAny/Xarxes/T2/Tipus de Soroll",
     "3rAny/Tallers/T1/PPT3/Polarització",
-    "3rAny/Visio/Pràctiques",
-    "3rAny/Visio/T2",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix-Recommendations.jpg",
     "3rAny/Xarxes/T2/Simplex.canvas",
