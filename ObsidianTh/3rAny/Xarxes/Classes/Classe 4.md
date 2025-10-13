@@ -34,3 +34,5 @@ Switch Router però no pot enviar res afora, ha de ser dins. Dispositiu capa Enl
 Router, el que li arriba per una banda, l envia per algun cantó, tant altres equips com afora. Dispositiu capa Superior
 
 
+Dues topologies físiques diferents, poden tenir la mateixa lògica
+

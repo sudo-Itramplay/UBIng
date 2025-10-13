@@ -1,0 +1,2 @@
+- Basat en microcontrolador ATMEL AVER 8bits (centre gestió i control)
+- ESP8266 El seu sistèma de comunicació

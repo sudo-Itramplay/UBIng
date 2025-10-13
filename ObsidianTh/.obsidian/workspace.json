@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Xarxes/Classes/Classe 4.md",
+                "file": "3rAny/Tallers/Pràctiques/P1/Apunts de la P1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Classe 4"
+              "title": "Apunts de la P1"
             }
           },
           {
@@ -566,8 +566,16 @@
   },
   "active": "e7262a0a8f47dc4b",
   "lastOpenFiles": [
-    "3rAny/Visio/Pràctiques/P3/Apunts Lab.md",
+    "3rAny/Tallers/Pràctiques/P1/Plotting.md",
+    "3rAny/Tallers/Pràctiques/P1/Apunts de la P1.md",
+    "3rAny/Tallers/Pràctiques/P1/P1.md",
+    "3rAny/Tallers/Pràctiques/Lab Errors examens.md",
+    "3rAny/Tallers/Pràctiques/P1",
+    "3rAny/Tallers/Pràctiques/Explicació P1 Tallers.md",
+    "3rAny/Xarxes/Pràctiques/Arduino/Placa.md",
     "3rAny/Xarxes/Classes/Classe 4.md",
+    "3rAny/Xarxes/Pràctiques/Arduino",
+    "3rAny/Visio/Pràctiques/P3/Apunts Lab.md",
     "Resolució Espaial.md",
     "Resolució Fotomètrica.md",
     "3rAny/Visio/Pràctiques/P3",
@@ -587,12 +595,6 @@
     "3rAny/Visio/Pràctiques/P2/Matplotlib.md",
     "3rAny/Visio/Pràctiques/P2/Matplotlib Amagar eixos.md",
     "3rAny/Visio/Pràctiques/P2/Plot de varies Imatges.md",
-    "3rAny/Visio/Pràctiques/P2/Print image.md",
-    "matplotlib.md",
-    "3rAny/Visio/Pràctiques/P2/Imatges en 1 canal.md",
-    "3rAny/Visio/Pràctiques/P2/Estructura de les imatges.md",
-    "3rAny/Visio/Pràctiques/P2/Decimals en Scikit.md",
-    "Python/Python Libraries/Scikit-image/Atributs Scikit-image.md",
     "3rAny/Xarxes/T2/Transmissió de Dades/Conceptes exc",
     "3rAny/Visio/Pràctiques/P2",
     "3rAny/IA/Projecte/Tipus bots",
@@ -608,8 +610,6 @@
     "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació",
     "3rAny/Xarxes/T2/Half Duplex.canvas",
     "3rAny/Xarxes/T2/Duplex.canvas",
-    "model TCP",
-    "3rAny/Xarxes/T2/Tipus de Soroll",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix-Recommendations.jpg",
     "3rAny/Xarxes/T2/Simplex.canvas",
