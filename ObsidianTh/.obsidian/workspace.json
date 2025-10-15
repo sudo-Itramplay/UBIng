@@ -61,30 +61,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors/Factoritzar les matrius.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Factoritzar les matrius"
-            }
-          },
-          {
-            "id": "955dd38b14d112c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "3rAny/Tallers/T1/PPT4/Màquines de Factorització/Màquines de Factorització.md",
                 "mode": "source",
                 "source": false,
@@ -101,6 +77,30 @@
               },
               "icon": "lucide-file",
               "title": "Màquines de Factorització"
+            }
+          },
+          {
+            "id": "955dd38b14d112c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bayesian Personalized Ranking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Bayesian Personalized Ranking"
             }
           }
         ],
@@ -254,8 +254,15 @@
   },
   "active": "955dd38b14d112c6",
   "lastOpenFiles": [
-    "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors/Factoritzar les matrius.md",
+    "3rAny/Tallers/T1/PPT2/Grup de Test.md",
+    "Bayesian Personalized Ranking.md",
+    "3rAny/Tallers/T1/PPT4/Màquines de Factorització/Optimització de les FM.md",
+    "Obsidian/Callouts.md",
+    "3rAny/Tallers/T1/PPT4/Recomanadors Part2.md",
+    "3rAny/Tallers/T1/PPT4/Màquines de Factorització/La Factorització de les FM.md",
     "3rAny/Tallers/T1/PPT4/Màquines de Factorització/Màquines de Factorització.md",
+    "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors/Factoritzar les matrius.md",
+    "Recursos/2025-10-15_15-58.png",
     "3rAny/Tallers/T1/PPT4/Màquines de Factorització/Per a què serveix una Factorization Machine.md",
     "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors/Com Factoritzar Matrius?.md",
     "3rAny/Tallers/T1/PPT4/Màquines de Factorització",
@@ -263,7 +270,6 @@
     "3rAny/Tallers/T1/PPT2/Funció de Pèrdua.md",
     "3rAny/Tallers/T1/PPT2/Relació entre Optimització i dades.md",
     "3rAny/Tallers/T1/PPT2/Overfitting.md",
-    "3rAny/Tallers/T1/PPT2/Grup de Test.md",
     "3rAny/Tallers/T1/PPT2/Grup de Prova.md",
     "3rAny/Tallers/T1/PPT2/Algorismes de predicció.md",
     "3rAny/Tallers/T1/PPT3/Recomanador/Funció d'utilitat.md",
@@ -279,13 +285,8 @@
     "3rAny/Tallers/T1/Anotacions/Anàlisi Profund dde la Matemàtica en IA.md",
     "3rAny/Tallers/T1/PPT4/Bases dels Recomanadors/Cross-Entropy.md",
     "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors",
-    "Obsidian/Callouts.md",
-    "3rAny/Tallers/T1/PPT4/Recomanadors Part2.md",
     "3rAny/Tallers/T1/PPT4/Bases dels Recomanadors",
-    "3rAny/Tallers/T1/PPT4/Bases dels Recomanadors/Perquè fer servir Softmax en comptes de Normalització.md",
-    "3rAny/Tallers/T1/PPT4/Bases dels Recomanadors/Vector de valoracions.md",
     "3rAny/Tallers/T1/Anotacions",
-    "3rAny/Tallers/T1/PPT4/Bases dels Recomanadors/Classificació.md",
     "3rAny/Tallers/T1/PPT5",
     "3rAny/Tallers/Pràctiques/P1",
     "3rAny/Xarxes/Pràctiques/Arduino",
