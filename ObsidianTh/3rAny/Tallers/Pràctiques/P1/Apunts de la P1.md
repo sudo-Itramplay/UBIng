@@ -117,3 +117,8 @@ year carrier  mean
      UA      174.5 
 Name: passenger_count, dtype: float64
 ```
+
+```python
+MONTHS = [x for x in range(1,13)]
+df = pd.concat(clean(load(df, year, month), years, month) year for year in YEARS month for month in MONTH, sort=False, ignore_index=True)
+```
