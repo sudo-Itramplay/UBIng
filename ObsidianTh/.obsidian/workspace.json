@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Xarxes/T2/Modulació i Codificació/Què cal per transmetre informació per un medi?.md",
+                "file": "NRZ-L.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Què cal per transmetre informació per un medi?"
+              "title": "NRZ-L"
             }
           }
         ],
@@ -206,6 +206,13 @@
   },
   "active": "236682edd2e2b591",
   "lastOpenFiles": [
+    "3rAny/Xarxes/T2/Modulació i Codificació/Codificació/Codificació Nonreturn to Zero.md",
+    "NRZ-L.md",
+    "NRZ bàsic.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Codificació/Codificació.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Codificació",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Codificació del senyal.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Què cal per transmetre informació per un medi?.md",
     "Dades Analògiqes i Senyal Analògic.md",
     "Codificació del senyal.md",
     "3rAny/Xarxes/T2/Modulació i Codificació/Transponders.md",
@@ -216,8 +223,6 @@
     "3rAny/Xarxes/T2/Modulació i Codificació/Dades Digitals i Senyal Analògic.md",
     "3rAny/Xarxes/T2/Modulació i Codificació/Dades Analògiqes i Senyal Digital.md",
     "3rAny/Xarxes/T2/Modulació i Codificació/Dades Analògiqes i Senyal Analògic.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Codificació del senyal.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Codificació.md",
     "3rAny/Xarxes/T2/Modulació i Codificació/Cobertura del satèl·lit.md",
     "3rAny/Tallers/T1/PPT4/Màquines de Factorització/Bayesian Personalized Ranking.md",
     "Tipus de Dades i Senyal.md",
@@ -225,14 +230,10 @@
     "Dades Analògiqes i Senyal Digital.md",
     "Dades Digitals i Senyal Digital.md",
     "Codificació.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Què cal per transmetre informació per un medi?.md",
     "Modulació.md",
     "Ones de Ràdio.md",
     "3rAny/Xarxes/T2/Modulació i Codificació",
     "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Microones Via Satèl·lit.md",
-    "3rAny/Xarxes/T2/Microones terrestre.md",
-    "3rAny/Xarxes/T2/Tipus Enllaç/Enllaç Multipunt.md",
-    "3rAny/Tallers/T1/PPT4/Màquines de Factorització/Màquines de Factorització.md",
     "Recursos/2025-10-15_15-58.png",
     "3rAny/Tallers/T1/PPT4/Màquines de Factorització",
     "3rAny/IA/Pràctiques/P2",
@@ -243,7 +244,6 @@
     "3rAny/Tallers/T1/PPT5",
     "3rAny/Tallers/Pràctiques/P1",
     "3rAny/Xarxes/Pràctiques/Arduino",
-    "3rAny/Visio/Pràctiques/P3",
     "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Pasted image 20251007122923.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122701.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122648.png",
