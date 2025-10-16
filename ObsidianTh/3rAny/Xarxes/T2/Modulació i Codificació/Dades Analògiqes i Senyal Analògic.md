@@ -1,0 +1,1 @@
+Utilitzat històricament per telèfon

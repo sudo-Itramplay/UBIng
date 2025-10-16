@@ -1,0 +1,1 @@
+Zona on el senyal rebut no es degrada per sota d'un ivell considerat suficient.

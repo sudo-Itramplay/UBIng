@@ -1,0 +1,1 @@
+Mètode senzill i econòmic que sol requerir recodificació

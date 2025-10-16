@@ -1,0 +1,1 @@
+Conversió A/D sempre permet millorar la transmissió

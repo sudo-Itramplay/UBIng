@@ -8,84 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "57ef9d68425c61cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors/Factoritzar les matrius.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Factoritzar les matrius"
-            }
-          },
-          {
-            "id": "b7bcf366bd2e395e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors/Factoritzar les matrius.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Factoritzar les matrius"
-            }
-          },
-          {
-            "id": "faca98aae6a1554e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Tallers/T1/PPT4/Màquines de Factorització/Màquines de Factorització.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Màquines de Factorització"
-            }
-          },
-          {
             "id": "955dd38b14d112c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayesian Personalized Ranking.md",
+                "file": "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Microones Via Satèl·lit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Bayesian Personalized Ranking"
+              "title": "Microones Via Satèl·lit"
+            }
+          },
+          {
+            "id": "236682edd2e2b591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Xarxes/T2/Modulació i Codificació/Què cal per transmetre informació per un medi?.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Què cal per transmetre informació per un medi?"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fw",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -252,38 +204,39 @@
       "bases:Create new base": false
     }
   },
-  "active": "955dd38b14d112c6",
+  "active": "236682edd2e2b591",
   "lastOpenFiles": [
-    "3rAny/Tallers/T1/PPT2/Grup de Test.md",
-    "Bayesian Personalized Ranking.md",
-    "3rAny/Tallers/T1/PPT4/Màquines de Factorització/Optimització de les FM.md",
-    "Obsidian/Callouts.md",
-    "3rAny/Tallers/T1/PPT4/Recomanadors Part2.md",
-    "3rAny/Tallers/T1/PPT4/Màquines de Factorització/La Factorització de les FM.md",
+    "Dades Analògiqes i Senyal Analògic.md",
+    "Codificació del senyal.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Transponders.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Tipus de Dades i Senyal.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Ones de Ràdio.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Modulació.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Dades Digitals i Senyal Digital.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Dades Digitals i Senyal Analògic.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Dades Analògiqes i Senyal Digital.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Dades Analògiqes i Senyal Analògic.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Codificació del senyal.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Codificació.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Cobertura del satèl·lit.md",
+    "3rAny/Tallers/T1/PPT4/Màquines de Factorització/Bayesian Personalized Ranking.md",
+    "Tipus de Dades i Senyal.md",
+    "Dades Digitals i Senyal Analògic.md",
+    "Dades Analògiqes i Senyal Digital.md",
+    "Dades Digitals i Senyal Digital.md",
+    "Codificació.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació/Què cal per transmetre informació per un medi?.md",
+    "Modulació.md",
+    "Ones de Ràdio.md",
+    "3rAny/Xarxes/T2/Modulació i Codificació",
+    "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Microones Via Satèl·lit.md",
+    "3rAny/Xarxes/T2/Microones terrestre.md",
+    "3rAny/Xarxes/T2/Tipus Enllaç/Enllaç Multipunt.md",
     "3rAny/Tallers/T1/PPT4/Màquines de Factorització/Màquines de Factorització.md",
-    "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors/Factoritzar les matrius.md",
     "Recursos/2025-10-15_15-58.png",
-    "3rAny/Tallers/T1/PPT4/Màquines de Factorització/Per a què serveix una Factorization Machine.md",
-    "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors/Com Factoritzar Matrius?.md",
     "3rAny/Tallers/T1/PPT4/Màquines de Factorització",
-    "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors/Perquè factoritzar matrius?.md",
-    "3rAny/Tallers/T1/PPT2/Funció de Pèrdua.md",
-    "3rAny/Tallers/T1/PPT2/Relació entre Optimització i dades.md",
-    "3rAny/Tallers/T1/PPT2/Overfitting.md",
-    "3rAny/Tallers/T1/PPT2/Grup de Prova.md",
-    "3rAny/Tallers/T1/PPT2/Algorismes de predicció.md",
-    "3rAny/Tallers/T1/PPT3/Recomanador/Funció d'utilitat.md",
-    "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors/Features.md",
-    "3rAny/IA/Pràctiques/P2/Apunts.md",
-    "3rAny/IA/Pràctiques/P2/minimax.md",
-    "3rAny/IA/Pràctiques/P2/Expectminimax.md",
-    "3rAny/IA/Pràctiques/P2/Alpha beta prunning.md",
-    "3rAny/Tallers/T1/PPT4/Bases dels Recomanadors/Softmax.md",
-    "3rAny/IA/Classes/IA Classe 5.md",
     "3rAny/IA/Pràctiques/P2",
     "Recursos/Pasted image 20251014134409.png",
-    "3rAny/Tallers/T1/Anotacions/Anàlisi Profund dde la Matemàtica en IA.md",
-    "3rAny/Tallers/T1/PPT4/Bases dels Recomanadors/Cross-Entropy.md",
     "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors",
     "3rAny/Tallers/T1/PPT4/Bases dels Recomanadors",
     "3rAny/Tallers/T1/Anotacions",
@@ -291,7 +244,6 @@
     "3rAny/Tallers/Pràctiques/P1",
     "3rAny/Xarxes/Pràctiques/Arduino",
     "3rAny/Visio/Pràctiques/P3",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Conceptes exc",
     "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Pasted image 20251007122923.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122701.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122648.png",
