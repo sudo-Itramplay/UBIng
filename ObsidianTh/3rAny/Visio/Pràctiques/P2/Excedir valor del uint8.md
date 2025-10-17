@@ -9,7 +9,7 @@ Editant Imatges amb [[Scikit-image]] Pot sorgir el error
 >Per visualitzar correctament una imatge 'més brillant' s'ha de forçar els límits de visualització amb `vmin=0, vmax=255` (tal com es fa al codi) per a veure l'efecte.
 
 
-```
+```python
 ax = axs[1,0]
 ax.imshow(cat*2, vmin=0, vmax=255) 
 

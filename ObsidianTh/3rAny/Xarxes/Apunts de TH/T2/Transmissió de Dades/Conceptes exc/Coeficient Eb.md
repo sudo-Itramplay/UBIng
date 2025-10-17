@@ -3,7 +3,7 @@
 És una ràtio que mesura la qualitat de l'enllaç de dades.
 
 > [!info]
-> És la relació entre l'energia útil que transporta cada bit d'informació digital ([[Energia per Bit|Eb]]​) i el nivell d'interferència que imposa el [[soroll]] tèrmic en l'[[Ample de Banda]] ([[Densitat de Potència de Soroll|Nt0]]​).
+> És la relació entre l'energia útil que transporta cada bit d'informació digital ([[Energia per Bit|Eb]]​) i el nivell d'interferència que imposa el [[Soroll]] tèrmic en l'[[Ample de Banda]] ([[Densitat de Potència de Soroll|Nt0]]​).
 
 
 ## Punts Clau

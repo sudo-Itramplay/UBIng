@@ -15,7 +15,7 @@ $$
 >Hauràs d'importar: `from skimage.color import rgb2gray`
 
 
-```
+```python
 # Conversió de RGB a escala de grisos
 from skimage.color import rgb2gray
 # ...

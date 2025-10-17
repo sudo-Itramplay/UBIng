@@ -1,0 +1,1 @@
+L'**Histograma** és una eina que visualitza la distribució estadística dels nivells de gris dels píxels. S'utilitza per a la millora del contrast de la imatge

@@ -74,7 +74,7 @@ VMax és important
 x/y[db] = [[SNR]]
 
 Per l'exemple 1 -> $10log_{10} \cdot S/N = [[SNR]]$
-	S potència senyal i N potència del [[soroll]]
+	S potència senyal i N potència del [[Soroll]]
 	
 ----->>>Propietats logaritmes $log_{10} 10^{1000} = 1000 \cdot log_{10} 10$
 ----->>>Propietats logaritmes $log_{10} 1+ 10 = log_{10} 10$
@@ -143,7 +143,7 @@ Ample banda mini, és com Vmax per aquest ample
 
 $100bp/s = BW \cdot log_2 (1+ \frac{S}{N})$
 	S és potencia senyal
-	N és noise (P del [[soroll]])
+	N és noise (P del [[Soroll]])
 
 $$
 \frac{S}{N} = \frac{E_b}{K \cdot T}

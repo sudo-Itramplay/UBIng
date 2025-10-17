@@ -9,7 +9,7 @@ Quan fem servir [[Scikit-image]] és possible que ens sorgeixi el problema deque
 > Per a visualitzar-lo correctament, s'ha de **convertir a `int`** (`.astype(int)`) o a un altre tipus enter, ja que les funcions de visualització (`imshow`) sovint esperen enters o _floats_ escalats. L'exemple mostra la **pèrdua de precisió** en fer el _cast_ a `int`
 
 
-```
+```python
 # Imatge Brillant (visualització forçada)
 
 

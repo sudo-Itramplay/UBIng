@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NRZ-L.md",
+                "file": "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/imatges RGB.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,107 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "NRZ-L"
+              "title": "imatges RGB"
+            }
+          },
+          {
+            "id": "a38ad8da56de0390",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Resolució"
+            }
+          },
+          {
+            "id": "7aa0541b50fa534a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtratge.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Filtratge"
+            }
+          },
+          {
+            "id": "83a26f1db3e5554f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Usos del Filtratge.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Usos del Filtratge"
+            }
+          },
+          {
+            "id": "9aa82fef15499f15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Visio/Pràctiques/P2/Resum Relacional de Sci-kit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Resum Relacional de Sci-kit"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -204,60 +300,60 @@
       "bases:Create new base": false
     }
   },
-  "active": "236682edd2e2b591",
+  "active": "9aa82fef15499f15",
   "lastOpenFiles": [
-    "3rAny/Xarxes/T2/Modulació i Codificació/Codificació/Codificació Nonreturn to Zero.md",
-    "NRZ-L.md",
-    "NRZ bàsic.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Codificació/Codificació.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Codificació",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Codificació del senyal.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Què cal per transmetre informació per un medi?.md",
-    "Dades Analògiqes i Senyal Analògic.md",
-    "Codificació del senyal.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Transponders.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Tipus de Dades i Senyal.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Ones de Ràdio.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Modulació.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Dades Digitals i Senyal Digital.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Dades Digitals i Senyal Analògic.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Dades Analògiqes i Senyal Digital.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Dades Analògiqes i Senyal Analògic.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació/Cobertura del satèl·lit.md",
-    "3rAny/Tallers/T1/PPT4/Màquines de Factorització/Bayesian Personalized Ranking.md",
-    "Tipus de Dades i Senyal.md",
-    "Dades Digitals i Senyal Analògic.md",
-    "Dades Analògiqes i Senyal Digital.md",
-    "Dades Digitals i Senyal Digital.md",
-    "Codificació.md",
-    "Modulació.md",
-    "Ones de Ràdio.md",
-    "3rAny/Xarxes/T2/Modulació i Codificació",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Microones Via Satèl·lit.md",
+    "3rAny/Tallers/Pràctiques/P1/Resum P1 TNUI.md",
+    "3rAny/Visio/Pràctiques/P2/Resum Relacional de Sci-kit.md",
+    "3rAny/Tallers/Pràctiques/P1/Apunts de la P1.md",
+    "3rAny/Tallers/Pràctiques/P1/P1.md",
+    "3rAny/Tallers/T1/Resum Relacional de TNUI.md",
+    "3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
+    "3rAny/Xarxes/Apunts de TH",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Imatge.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/imatges de nivell de gris.md",
+    "Convolució.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Usos del Filtratge.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtratge.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Histograma.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/imatges RGB.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Imatge digital.md",
+    "3rAny/Visio/Pràctiques/P2/Crear imatge en negre.md",
+    "3rAny/Visio/Pràctiques/P2/Decimals en Scikit.md",
+    "3rAny/Visio/Pràctiques/P2/Estructura de les imatges.md",
+    "3rAny/Visio/Pràctiques/P2/Excedir valor del uint8.md",
+    "3rAny/Visio/Pràctiques/P2/Guardar imatges.md",
+    "3rAny/Visio/Pràctiques/P2/Imatges en 1 canal.md",
+    "3rAny/Visio/Pràctiques/P2/Com modificar Valors d'una imtge.md",
+    "3rAny/Visio/TH/ppt2 i 3/Imatges i Filtres.md",
+    "Python/Python Libraries/Scikit-image/Transform Scikit-image.md",
+    "Python/Python Libraries/Scikit-image/Scikit-image.md",
+    "Python/Python Libraries/Scikit-image/Factories Scikit-image.md",
+    "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals",
+    "3rAny/Visio/TH/ppt2 i 3",
+    "3rAny/Visio/TH",
+    "3rAny/Xarxes/Apunts de TH/T2/Modulació i Codificació/Codificació",
+    "3rAny/Xarxes/Apunts de TH/T2/Modulació i Codificació",
     "Recursos/2025-10-15_15-58.png",
     "3rAny/Tallers/T1/PPT4/Màquines de Factorització",
     "3rAny/IA/Pràctiques/P2",
     "Recursos/Pasted image 20251014134409.png",
-    "3rAny/Tallers/T1/PPT4/Factorització de Matrius per Recomanadors",
-    "3rAny/Tallers/T1/PPT4/Bases dels Recomanadors",
-    "3rAny/Tallers/T1/Anotacions",
-    "3rAny/Tallers/T1/PPT5",
-    "3rAny/Tallers/Pràctiques/P1",
-    "3rAny/Xarxes/Pràctiques/Arduino",
-    "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Pasted image 20251007122923.png",
+    "3rAny/Xarxes/Apunts de TH/T2/Transmissió de Dades/Medis de transmissió de la informació/Pasted image 20251007122923.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122701.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122648.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122533.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122452.png",
     "3rAny/Xarxes/T2/ppt2-2/Sense títol.canvas",
-    "3rAny/Xarxes/T2/Half Duplex.canvas",
-    "3rAny/Xarxes/T2/Duplex.canvas",
+    "3rAny/Xarxes/Apunts de TH/T2/Half Duplex.canvas",
+    "3rAny/Xarxes/Apunts de TH/T2/Duplex.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix-Recommendations.jpg",
-    "3rAny/Xarxes/T2/Simplex.canvas",
+    "3rAny/Xarxes/Apunts de TH/T2/Simplex.canvas",
     "Sense títol.canvas",
     "Untitled.canvas",
     "Recursos/The-cat-named-Chelsea.jpg",
-    "3rAny/Xarxes/T1/Capes del Model OSI/Recursos Visuals/Pasted image 20250922111616.png"
+    "3rAny/Xarxes/Apunts de TH/T1/Capes del Model OSI/Recursos Visuals/Pasted image 20250922111616.png"
   ]
 }

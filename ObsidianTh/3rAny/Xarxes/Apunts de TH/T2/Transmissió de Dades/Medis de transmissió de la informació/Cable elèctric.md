@@ -11,5 +11,5 @@ Utilitza dos cables paral·lels aïllats entre si (vermell i negre)
 >Mitjançant un canvi de tensió
 
 >[!warning]
->Molt Susceptible al [[soroll]] electromagnètic
+>Molt Susceptible al [[Soroll]] electromagnètic
 
