@@ -131,10 +131,24 @@
             "id": "9aa82fef15499f15",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gràfica"
+              "type": "markdown",
+              "state": {
+                "file": "Soroll d'impuls.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Soroll d'impuls"
             }
           }
         ],
@@ -288,6 +302,15 @@
   },
   "active": "9aa82fef15499f15",
   "lastOpenFiles": [
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Smoothing.md",
+    "Soroll d'impuls.md",
+    "Soroll Salt&Pepper.md",
+    "Pasted image 20251017125543.png",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtratge.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Convolució.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Histograma.md",
+    "3rAny/Visio/TH/ppt2 i 3/Imatges i Filtres.md",
+    "3rAny/Visio/Pràctiques/P3/Apunts Lab.md",
     "3rAny/Tallers/Pràctiques/P1/Apunts Relacionals de Panda.md",
     "3rAny/Tallers/Pràctiques/P1/Apunts de la P1.md",
     "3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
@@ -298,12 +321,9 @@
     "3rAny/Xarxes/Apunts de TH",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Imatge.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/imatges de nivell de gris.md",
-    "Convolució.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Usos del Filtratge.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtratge.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Histograma.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/imatges RGB.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Imatge digital.md",
     "3rAny/Visio/Pràctiques/P2/Crear imatge en negre.md",
@@ -311,11 +331,6 @@
     "3rAny/Visio/Pràctiques/P2/Estructura de les imatges.md",
     "3rAny/Visio/Pràctiques/P2/Excedir valor del uint8.md",
     "3rAny/Visio/Pràctiques/P2/Guardar imatges.md",
-    "3rAny/Visio/Pràctiques/P2/Imatges en 1 canal.md",
-    "3rAny/Visio/Pràctiques/P2/Com modificar Valors d'una imtge.md",
-    "3rAny/Visio/TH/ppt2 i 3/Imatges i Filtres.md",
-    "Python/Python Libraries/Scikit-image/Transform Scikit-image.md",
-    "Python/Python Libraries/Scikit-image/Scikit-image.md",
     "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals",
     "3rAny/Visio/TH/ppt2 i 3",
@@ -339,7 +354,6 @@
     "3rAny/Xarxes/Apunts de TH/T2/Simplex.canvas",
     "Sense títol.canvas",
     "Untitled.canvas",
-    "Recursos/The-cat-named-Chelsea.jpg",
-    "3rAny/Xarxes/Apunts de TH/T1/Capes del Model OSI/Recursos Visuals/Pasted image 20250922111616.png"
+    "Recursos/The-cat-named-Chelsea.jpg"
   ]
 }
