@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Usos del Filtratge.md",
+                "file": "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Tipus de soroll.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Usos del Filtratge"
+              "title": "Tipus de soroll"
+            }
+          },
+          {
+            "id": "5e897193fbf41d6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores/Vora.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Vora"
             }
           },
           {
@@ -133,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Soroll d'impuls.md",
+                "file": "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Espaial.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Soroll d'impuls"
+              "title": "Resolució Espaial"
             }
           }
         ],
@@ -184,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "filtre ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -300,37 +324,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "9aa82fef15499f15",
+  "active": "5e897193fbf41d6d",
   "lastOpenFiles": [
+    "3rAny/Xarxes/Apunts de TH/T2/Tipus de Soroll/Soroll Gaussià.md",
+    "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores/Vora.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Tipus de soroll.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Tipus de Filtre.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Filtre de la Mediana.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Filtre de la Mitjana.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Filtre Gaussia.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls",
+    "Recursos/2025-10-18_17-56.png",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll d'impuls.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll Salt&Pepper.md",
+    "Recursos/2025-10-18_17-44.png",
+    "Recursos/2025-10-18_17-44 1.png",
+    "Recursos/2025-10-18_17-44 2.png",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Smoothing.md",
-    "Soroll d'impuls.md",
-    "Soroll Salt&Pepper.md",
-    "Pasted image 20251017125543.png",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtratge.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Convolució.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Usos del Filtratge.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Espaial.md",
+    "3rAny/Visio/Pràctiques/P3/Apunts Lab.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Imatge digital.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Quantificació.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Sampling.md",
+    "3rAny/Tallers/T1/Anotacions/Anàlisi Profund de la Matemàtica en IA.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Matriu de sensors.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Imatge.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Fotomètrica.md",
+    "Recursos/Pasted image 20251017125543.png",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtratge.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Histograma.md",
     "3rAny/Visio/TH/ppt2 i 3/Imatges i Filtres.md",
-    "3rAny/Visio/Pràctiques/P3/Apunts Lab.md",
     "3rAny/Tallers/Pràctiques/P1/Apunts Relacionals de Panda.md",
     "3rAny/Tallers/Pràctiques/P1/Apunts de la P1.md",
-    "3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
-    "3rAny/Visio/Pràctiques/P2/Resum Relacional de Sci-kit.md",
-    "3rAny/Tallers/Pràctiques/P1/Resum P1 TNUI.md",
-    "3rAny/Tallers/Pràctiques/P1/P1.md",
-    "3rAny/Tallers/T1/Resum Relacional de TNUI.md",
     "3rAny/Xarxes/Apunts de TH",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Imatge.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/imatges de nivell de gris.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Usos del Filtratge.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/imatges RGB.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Imatge digital.md",
-    "3rAny/Visio/Pràctiques/P2/Crear imatge en negre.md",
-    "3rAny/Visio/Pràctiques/P2/Decimals en Scikit.md",
-    "3rAny/Visio/Pràctiques/P2/Estructura de les imatges.md",
-    "3rAny/Visio/Pràctiques/P2/Excedir valor del uint8.md",
-    "3rAny/Visio/Pràctiques/P2/Guardar imatges.md",
     "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals",
     "3rAny/Visio/TH/ppt2 i 3",
@@ -338,22 +368,16 @@
     "3rAny/Xarxes/Apunts de TH/T2/Modulació i Codificació/Codificació",
     "3rAny/Xarxes/Apunts de TH/T2/Modulació i Codificació",
     "Recursos/2025-10-15_15-58.png",
-    "3rAny/Tallers/T1/PPT4/Màquines de Factorització",
-    "3rAny/IA/Pràctiques/P2",
     "Recursos/Pasted image 20251014134409.png",
     "3rAny/Xarxes/Apunts de TH/T2/Transmissió de Dades/Medis de transmissió de la informació/Pasted image 20251007122923.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122701.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122648.png",
-    "3rAny/Xarxes/Avaluació/Pasted image 20251007122533.png",
-    "3rAny/Xarxes/Avaluació/Pasted image 20251007122452.png",
     "3rAny/Xarxes/T2/ppt2-2/Sense títol.canvas",
     "3rAny/Xarxes/Apunts de TH/T2/Half Duplex.canvas",
     "3rAny/Xarxes/Apunts de TH/T2/Duplex.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
-    "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix-Recommendations.jpg",
     "3rAny/Xarxes/Apunts de TH/T2/Simplex.canvas",
     "Sense títol.canvas",
-    "Untitled.canvas",
-    "Recursos/The-cat-named-Chelsea.jpg"
+    "Untitled.canvas"
   ]
 }

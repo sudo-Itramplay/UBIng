@@ -1,0 +1,3 @@
+- [[Filtre de la Mediana]]
+- [[Filtre de la Mitjana]]
+- [[Filtre Gaussia]]

@@ -1,0 +1,1 @@
+Arrodoniment a l'enter més proper per a cada mostra

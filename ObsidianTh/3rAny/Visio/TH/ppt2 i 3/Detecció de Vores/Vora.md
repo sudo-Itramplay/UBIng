@@ -1,0 +1,1 @@
+és un lloc de canvi ràpid en la funció d'intensitat de la imatge
