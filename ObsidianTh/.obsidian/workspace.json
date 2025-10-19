@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores/Vora.md",
+                "file": "3rAny/Tallers/T1/PPT5/Plantejament.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vora"
+              "title": "Plantejament"
+            }
+          },
+          {
+            "id": "b5d7c46a2e55f58c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gràfica"
             }
           },
           {
@@ -176,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -324,10 +334,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "5e897193fbf41d6d",
+  "active": "b5d7c46a2e55f58c",
   "lastOpenFiles": [
-    "3rAny/Xarxes/Apunts de TH/T2/Tipus de Soroll/Soroll Gaussià.md",
+    "3rAny/Tallers/T1/PPT5/Interès.md",
+    "3rAny/Tallers/T1/PPT5/Problemes del Plantejament.md",
+    "3rAny/Tallers/T1/PPT5/Plantejament.md",
+    "3rAny/Tallers/T1/PPT5/Confiança.md",
+    "3rAny/Tallers/T1/PPT5/Generació de regles d'associació.md",
+    "3rAny/Tallers/T1/PPT5/2025-10-19_18-34.png",
+    "3rAny/Tallers/T1/PPT5/Problema dels ítems Freqüents.md",
+    "3rAny/Tallers/T1/PPT4/Màquines de Factorització/La Factorització de les FM.md",
+    "a.md",
+    "3rAny/Tallers/T1/PPT4/Recomanadors Part2.md",
+    "3rAny/Tallers/T1/Resum Relacional de TNUI.md",
     "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores/Vora.md",
+    "3rAny/Xarxes/Apunts de TH/T2/Tipus de Soroll/Soroll Gaussià.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Tipus de soroll.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Tipus de Filtre.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Filtre de la Mediana.md",
@@ -348,17 +369,7 @@
     "3rAny/Visio/Pràctiques/P3/Apunts Lab.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Imatge digital.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Quantificació.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Sampling.md",
-    "3rAny/Tallers/T1/Anotacions/Anàlisi Profund de la Matemàtica en IA.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Matriu de sensors.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Imatge.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Fotomètrica.md",
     "Recursos/Pasted image 20251017125543.png",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtratge.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Histograma.md",
-    "3rAny/Visio/TH/ppt2 i 3/Imatges i Filtres.md",
-    "3rAny/Tallers/Pràctiques/P1/Apunts Relacionals de Panda.md",
-    "3rAny/Tallers/Pràctiques/P1/Apunts de la P1.md",
     "3rAny/Xarxes/Apunts de TH",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres",
     "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores",
@@ -371,7 +382,6 @@
     "Recursos/Pasted image 20251014134409.png",
     "3rAny/Xarxes/Apunts de TH/T2/Transmissió de Dades/Medis de transmissió de la informació/Pasted image 20251007122923.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122701.png",
-    "3rAny/Xarxes/Avaluació/Pasted image 20251007122648.png",
     "3rAny/Xarxes/T2/ppt2-2/Sense títol.canvas",
     "3rAny/Xarxes/Apunts de TH/T2/Half Duplex.canvas",
     "3rAny/Xarxes/Apunts de TH/T2/Duplex.canvas",

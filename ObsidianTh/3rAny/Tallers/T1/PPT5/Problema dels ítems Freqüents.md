@@ -1,13 +1,13 @@
-És la  continuació de [[RECOMANADORS]]
+És la  continuació de [[Recomanadors Part2]]
 
-Teoria de com fer recomanadors i diversos algorismes
+Planteja un problema habitual en aquest tipus de problemes
 
 ```dataviewjs
-for (let group of dv.pages('"3rAny/Tallers/T1/PPT4"').groupBy(p => p.file.folder)) {
+for (let group of dv.pages('"3rAny/Tallers/T1/PPT5"').groupBy(p => p.file.folder)) {
     
     // Assegureu-vos d'ajustar la clau de l'agrupació per evitar veure la ruta completa a la capçalera
     // Aquesta línia elimina el "3rAny/Tallers/T1/PPT3/" de la capçalera, deixant només el nom de la subcarpeta.
-    dv.header(3, group.key.replace("3rAny/Tallers/T1/PPT4" + "/", "")); 
+    dv.header(3, group.key.replace("3rAny/Tallers/T1/PPT5" + "/", "")); 
     
     dv.table(["Nom de la Nota", "Mida (Bytes)"],
         group.rows
