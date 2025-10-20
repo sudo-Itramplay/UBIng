@@ -155,10 +155,24 @@
             "id": "b5d7c46a2e55f58c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gràfica"
+              "type": "markdown",
+              "state": {
+                "file": "3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Resum Relacional de Xarxes"
             }
           },
           {
@@ -336,6 +350,9 @@
   },
   "active": "b5d7c46a2e55f58c",
   "lastOpenFiles": [
+    "3rAny/Xarxes/Apunts de TH/T2/Tipus de Soroll/Soroll Gaussià.md",
+    "3rAny/Visio/TH/ppt2 i 3/Resum Relacional del Visió.md",
+    "3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
     "3rAny/Tallers/T1/PPT5/Interès.md",
     "3rAny/Tallers/T1/PPT5/Problemes del Plantejament.md",
     "3rAny/Tallers/T1/PPT5/Plantejament.md",
@@ -348,7 +365,6 @@
     "3rAny/Tallers/T1/PPT4/Recomanadors Part2.md",
     "3rAny/Tallers/T1/Resum Relacional de TNUI.md",
     "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores/Vora.md",
-    "3rAny/Xarxes/Apunts de TH/T2/Tipus de Soroll/Soroll Gaussià.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Tipus de soroll.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Tipus de Filtre.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Filtre de la Mediana.md",
@@ -367,8 +383,6 @@
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Usos del Filtratge.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Espaial.md",
     "3rAny/Visio/Pràctiques/P3/Apunts Lab.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Imatge digital.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Quantificació.md",
     "Recursos/Pasted image 20251017125543.png",
     "3rAny/Xarxes/Apunts de TH",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres",
