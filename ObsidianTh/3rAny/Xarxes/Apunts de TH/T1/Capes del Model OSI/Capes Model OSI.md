@@ -7,4 +7,3 @@ En són 7 amb les seves respectives diferències:
 - 3- [[Capa Xarxa]]
 - 2- [[Capa Enllaç de Dades]]
 - 1- [[Capa Física]]
-- 

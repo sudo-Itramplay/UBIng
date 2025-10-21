@@ -4,203 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e36b12cc62a890ca",
+        "id": "cca0d5d4846498a6",
         "type": "tabs",
         "children": [
           {
-            "id": "955dd38b14d112c6",
+            "id": "b28ce4acd34560dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Xarxes/T2/Transmissió de Dades/Medis de transmissió de la informació/Microones Via Satèl·lit.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Microones Via Satèl·lit"
-            }
-          },
-          {
-            "id": "236682edd2e2b591",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/imatges RGB.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "imatges RGB"
-            }
-          },
-          {
-            "id": "a38ad8da56de0390",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Resolució"
-            }
-          },
-          {
-            "id": "7aa0541b50fa534a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtratge.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Filtratge"
-            }
-          },
-          {
-            "id": "83a26f1db3e5554f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Tipus de soroll.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Tipus de soroll"
-            }
-          },
-          {
-            "id": "5e897193fbf41d6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Tallers/T1/PPT5/Plantejament.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Plantejament"
-            }
-          },
-          {
-            "id": "b5d7c46a2e55f58c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Resum Relacional de Xarxes"
-            }
-          },
-          {
-            "id": "9aa82fef15499f15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Espaial.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Resolució Espaial"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gràfica"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -232,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "filtre ",
+                "query": "OSI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -348,14 +165,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "b5d7c46a2e55f58c",
+  "active": "b28ce4acd34560dc",
   "lastOpenFiles": [
+    "3rAny/IA/Pràctiques/P1/Algorisme A*.md",
+    "3rAny/IA/Classes/IA Classe 3.md",
+    "3rAny/IA/Classes/IA Classe 4.md",
+    "3rAny/IA/Classes/IA Classe 2.md",
+    "3rAny/IA/Pràctiques/P2/Apunts.md",
+    "3rAny/IA/Pràctiques/P2/Expectminimax.md",
+    "3rAny/IA/Pràctiques/P2/Alpha beta prunning.md",
+    "3rAny/Tallers/T1/PPT6/Classe 6.md",
+    "3rAny/Xarxes/Apunts de TH/T1/Capes del Model OSI/Capes Model OSI.md",
+    "3rAny/Tallers/T1/PPT6",
+    "Sense títol.canvas",
+    "3rAny/Xarxes/Apunts de TH/T1/Capa.md",
+    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Espaial.md",
+    "3rAny/Tallers/T1/PPT5/Plantejament.md",
+    "3rAny/Xarxes/Apunts de TH/T2/Half Duplex.canvas",
+    "3rAny/Xarxes/Apunts de TH/T2/Half Duplex.md",
+    "3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
     "3rAny/Xarxes/Apunts de TH/T2/Tipus de Soroll/Soroll Gaussià.md",
     "3rAny/Visio/TH/ppt2 i 3/Resum Relacional del Visió.md",
-    "3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
     "3rAny/Tallers/T1/PPT5/Interès.md",
     "3rAny/Tallers/T1/PPT5/Problemes del Plantejament.md",
-    "3rAny/Tallers/T1/PPT5/Plantejament.md",
     "3rAny/Tallers/T1/PPT5/Confiança.md",
     "3rAny/Tallers/T1/PPT5/Generació de regles d'associació.md",
     "3rAny/Tallers/T1/PPT5/2025-10-19_18-34.png",
@@ -365,24 +197,12 @@
     "3rAny/Tallers/T1/PPT4/Recomanadors Part2.md",
     "3rAny/Tallers/T1/Resum Relacional de TNUI.md",
     "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores/Vora.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Tipus de soroll.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Tipus de Filtre.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Filtre de la Mediana.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Filtre de la Mitjana.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Filtre Gaussia.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls",
     "Recursos/2025-10-18_17-56.png",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll d'impuls.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll Salt&Pepper.md",
     "Recursos/2025-10-18_17-44.png",
     "Recursos/2025-10-18_17-44 1.png",
     "Recursos/2025-10-18_17-44 2.png",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Smoothing.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Convolució.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Usos del Filtratge.md",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Espaial.md",
-    "3rAny/Visio/Pràctiques/P3/Apunts Lab.md",
     "Recursos/Pasted image 20251017125543.png",
     "3rAny/Xarxes/Apunts de TH",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres",
@@ -391,17 +211,14 @@
     "3rAny/Visio/TH/ppt2 i 3",
     "3rAny/Visio/TH",
     "3rAny/Xarxes/Apunts de TH/T2/Modulació i Codificació/Codificació",
-    "3rAny/Xarxes/Apunts de TH/T2/Modulació i Codificació",
     "Recursos/2025-10-15_15-58.png",
     "Recursos/Pasted image 20251014134409.png",
     "3rAny/Xarxes/Apunts de TH/T2/Transmissió de Dades/Medis de transmissió de la informació/Pasted image 20251007122923.png",
     "3rAny/Xarxes/Avaluació/Pasted image 20251007122701.png",
     "3rAny/Xarxes/T2/ppt2-2/Sense títol.canvas",
-    "3rAny/Xarxes/Apunts de TH/T2/Half Duplex.canvas",
     "3rAny/Xarxes/Apunts de TH/T2/Duplex.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
     "3rAny/Xarxes/Apunts de TH/T2/Simplex.canvas",
-    "Sense títol.canvas",
     "Untitled.canvas"
   ]
 }
