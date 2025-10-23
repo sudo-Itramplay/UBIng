@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "cca0d5d4846498a6",
+        "id": "e8f1839a5a828e15",
         "type": "tabs",
         "children": [
           {
-            "id": "b28ce4acd34560dc",
+            "id": "9cbc29d917cc652c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gràfica"
+              "type": "markdown",
+              "state": {
+                "file": "Uni/3rAny/Visio/Pràctiques/Parcial/P1/P1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "P1"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "OSI",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,8 +179,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "b28ce4acd34560dc",
+  "active": "ef6533450b635226",
   "lastOpenFiles": [
+    "Altres/Recursos/panda.jpg",
+    "Altres/Recursos/color_grid.png",
+    "Altres/Recursos/mirror.png",
+    "Uni/3rAny/Visio/Pràctiques/Parcial/Resum Exc Pel Parcial.md",
+    "Altres/Recursos/gray_grid.png",
+    "Uni/3rAny/Visio/Pràctiques/Parcial/P1/P1.md",
+    "Uni/3rAny/Visio/Pràctiques/Parcial/P2",
+    "Uni/3rAny/Visio/Pràctiques/Parcial/P1",
+    "Uni/3rAny/Visio/Pràctiques/Parcial",
+    "3rAny/Tallers/Derivada a tallers.md",
+    "3rAny/Tallers/Pràctiques de Tallers.md",
+    "3rAny/Tallers/T1/Resum Relacional de TNUI.md",
+    "Python/Python Libraries/Scikit-image/Scikit-image.md",
     "3rAny/IA/Pràctiques/P1/Algorisme A*.md",
     "3rAny/IA/Classes/IA Classe 3.md",
     "3rAny/IA/Classes/IA Classe 4.md",
@@ -189,14 +216,7 @@
     "3rAny/Tallers/T1/PPT5/Interès.md",
     "3rAny/Tallers/T1/PPT5/Problemes del Plantejament.md",
     "3rAny/Tallers/T1/PPT5/Confiança.md",
-    "3rAny/Tallers/T1/PPT5/Generació de regles d'associació.md",
     "3rAny/Tallers/T1/PPT5/2025-10-19_18-34.png",
-    "3rAny/Tallers/T1/PPT5/Problema dels ítems Freqüents.md",
-    "3rAny/Tallers/T1/PPT4/Màquines de Factorització/La Factorització de les FM.md",
-    "a.md",
-    "3rAny/Tallers/T1/PPT4/Recomanadors Part2.md",
-    "3rAny/Tallers/T1/Resum Relacional de TNUI.md",
-    "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores/Vora.md",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls",
     "Recursos/2025-10-18_17-56.png",
@@ -208,13 +228,7 @@
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres",
     "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals",
-    "3rAny/Visio/TH/ppt2 i 3",
-    "3rAny/Visio/TH",
-    "3rAny/Xarxes/Apunts de TH/T2/Modulació i Codificació/Codificació",
     "Recursos/2025-10-15_15-58.png",
-    "Recursos/Pasted image 20251014134409.png",
-    "3rAny/Xarxes/Apunts de TH/T2/Transmissió de Dades/Medis de transmissió de la informació/Pasted image 20251007122923.png",
-    "3rAny/Xarxes/Avaluació/Pasted image 20251007122701.png",
     "3rAny/Xarxes/T2/ppt2-2/Sense títol.canvas",
     "3rAny/Xarxes/Apunts de TH/T2/Duplex.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",

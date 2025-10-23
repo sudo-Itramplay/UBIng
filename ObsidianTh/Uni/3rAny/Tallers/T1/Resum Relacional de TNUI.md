@@ -1,3 +1,4 @@
+
 ### Tags: #Resum #IA #Recomanadors #Optimització #Modelització
 
 # Síntesi: Del Coneixement a la Recomanació Personalitzada
