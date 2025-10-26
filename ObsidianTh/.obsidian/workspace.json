@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/3rAny/Visio/Pràctiques/Parcial/P1/P1.md",
+                "file": "Altres/Obsidian/Callouts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "P1"
+              "title": "Callouts"
+            }
+          },
+          {
+            "id": "5646636357c76071",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/3rAny/Visio/Pràctiques/Parcial/P2/P2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "P2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,14 +204,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "ef6533450b635226",
+  "active": "5646636357c76071",
   "lastOpenFiles": [
+    "Uni/3rAny/Visio/Pràctiques/Parcial/P2/oryx.jpg",
+    "Altres/Obsidian/Callouts.md",
+    "Uni/3rAny/Visio/Pràctiques/Parcial/P2/P2.md",
+    "Uni/3rAny/Visio/Pràctiques/Parcial/P1/P1.md",
+    "Uni/3rAny/Visio/Pràctiques/Parcial/P1/Rescale i Resize.md",
+    "Altres/Recursos/ex17d.png",
+    "Altres/Recursos/ex16.png",
+    "Altres/Recursos/chairs.jpg",
+    "Uni/3rAny/Visio/Pràctiques/Parcial/Resum Exc Pel Parcial.md",
+    "Uni/3rAny/Xarxes/Pràctiques/P2/Test P2.md",
+    "Uni/3rAny/Xarxes/Classes/Classe 6?.md",
+    "Uni/3rAny/Xarxes/Pràctiques/P2/wasa.jpeg",
+    "Uni/3rAny/Xarxes/Pràctiques/P2/WhatsApp Image 2025-10-21 at 14.57.jpeg",
+    "Uni/3rAny/Xarxes/Pràctiques/P2/acipy.jpeg",
+    "Uni/3rAny/Xarxes/Pràctiques/P2/WhatsApp Image 2025-10-21 at 14.57.09 (1).jpeg",
+    "Uni/3rAny/Xarxes/Pràctiques/P2",
     "Altres/Recursos/panda.jpg",
     "Altres/Recursos/color_grid.png",
     "Altres/Recursos/mirror.png",
-    "Uni/3rAny/Visio/Pràctiques/Parcial/Resum Exc Pel Parcial.md",
-    "Altres/Recursos/gray_grid.png",
-    "Uni/3rAny/Visio/Pràctiques/Parcial/P1/P1.md",
     "Uni/3rAny/Visio/Pràctiques/Parcial/P2",
     "Uni/3rAny/Visio/Pràctiques/Parcial/P1",
     "Uni/3rAny/Visio/Pràctiques/Parcial",
@@ -211,24 +249,11 @@
     "3rAny/Xarxes/Apunts de TH/T2/Half Duplex.canvas",
     "3rAny/Xarxes/Apunts de TH/T2/Half Duplex.md",
     "3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
-    "3rAny/Xarxes/Apunts de TH/T2/Tipus de Soroll/Soroll Gaussià.md",
-    "3rAny/Visio/TH/ppt2 i 3/Resum Relacional del Visió.md",
-    "3rAny/Tallers/T1/PPT5/Interès.md",
-    "3rAny/Tallers/T1/PPT5/Problemes del Plantejament.md",
-    "3rAny/Tallers/T1/PPT5/Confiança.md",
-    "3rAny/Tallers/T1/PPT5/2025-10-19_18-34.png",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls",
-    "Recursos/2025-10-18_17-56.png",
-    "Recursos/2025-10-18_17-44.png",
-    "Recursos/2025-10-18_17-44 1.png",
-    "Recursos/2025-10-18_17-44 2.png",
-    "Recursos/Pasted image 20251017125543.png",
     "3rAny/Xarxes/Apunts de TH",
     "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres",
     "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals",
-    "Recursos/2025-10-15_15-58.png",
     "3rAny/Xarxes/T2/ppt2-2/Sense títol.canvas",
     "3rAny/Xarxes/Apunts de TH/T2/Duplex.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
