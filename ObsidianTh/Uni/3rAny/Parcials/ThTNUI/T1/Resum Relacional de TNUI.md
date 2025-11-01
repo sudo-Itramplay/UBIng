@@ -52,9 +52,9 @@ Els mètodes de [[Recomanacions colaboratives]] es basen en la [[Semblança en R
 Un enfocament més potent és la [[Factoritzar les matrius|Factorització de Matrius (MF)]]. La idea és que les preferències dels usuaris estan guiades per un nombre petit de factors latents o [[Features]] (ex: gèneres, actors, estils).
 
 - Descomponem la matriu d'utilitat $R$ en dues matrius més petites, $P$ (preferències dels usuaris per aquests factors) i $Q$ (presència d'aquests factors en els ítems), tal que $P \times Q^T \approx R$.
-
+    
 - Aquest problema és, de nou, un problema d'[[Optimització/Optimització|optimització]]: trobar $P$ i $Q$ que minimitzin l'error entre les valoracions reals i les predites pel producte $P \times Q^T$.
-
+    
 
 ### 3.3. Més Enllà de MF: Les Màquines de Factorització (FM)
 
@@ -65,9 +65,9 @@ Les [[Màquines de Factorització|Màquines de Factorització (FM)]] superen aqu
 1. **Generalitzen la MF**: Poden incorporar qualsevol tipus de característica addicional (context, atributs d'usuari/ítem).
     
 2. **Modelen Interaccions**: La seva fórmula $ŷ(x) = w_0 + \sum w_i x_i + \sum \sum W_{ij} x_i x_j$ captura no només l'efecte de cada característica individual sinó també el de les seves interaccions.
-
+    
 3. **Són Eficients**: Per evitar el cost computacional de la matriu d'interaccions $W$, [[La Factorització de les FM|factoritzen]] aquest terme ($W_{ij} \approx v_i^T v_j$), reduint la complexitat de $O(d^2)$ a $O(d \cdot k)$.
-
+    
 
 ### 3.4. Optimitzant per al Rànquing: BPR
 
@@ -135,7 +135,7 @@ L'anàlisi del fitxer `T1/Anotacions/Anàlisi Profund de la Matemàtica en IA.md
 3. **Probabilitat i Estadística**: És el **marc per a la incertesa**. Permet mesurar el rendiment i la confiança, sovint transformant les sortides en probabilitats mitjançant [[Softmax]].
     
 
-### 1. Refinant l'Optimització
+### 4.1. Refinant l'Optimització
 
 - El càlcul del [[Gradient]] en xarxes amb múltiples capes es realitza de manera eficient gràcies a l'algorisme de **Backpropagation**, que és una aplicació intel·ligent de la **Regla de la Cadena** del càlcul.
     

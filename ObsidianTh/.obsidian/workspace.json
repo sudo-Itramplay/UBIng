@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Altres/Obsidian/Callouts.md",
+                "file": "Uni/3rAny/Tallers/Parcial/Errors del Parcial.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Callouts"
+              "title": "Errors del Parcial"
+            }
+          },
+          {
+            "id": "f43a22273fb8bf96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/3rAny/Parcials/ThVA/Linear Filters.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Linear Filters"
             }
           },
           {
@@ -37,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/3rAny/Visio/Pràctiques/Parcial/P2/P2.md",
+                "file": "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll d'impuls.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "P2"
+              "title": "Soroll d'impuls"
             }
           }
         ],
@@ -204,60 +228,63 @@
       "bases:Create new base": false
     }
   },
-  "active": "5646636357c76071",
+  "active": "f43a22273fb8bf96",
   "lastOpenFiles": [
-    "Uni/3rAny/Visio/Pràctiques/Parcial/P2/Pasted image 20251028114925.png",
-    "Uni/3rAny/Visio/Pràctiques/Parcial/P2/Pasted image 20251028114908.png",
-    "Uni/3rAny/Visio/Pràctiques/Parcial/P2/Pasted image 20251028114849.png",
-    "Uni/3rAny/Visio/Pràctiques/Parcial/P2/Pasted image 20251028114836.png",
-    "Uni/3rAny/Visio/Pràctiques/Parcial/P1/P1.md",
-    "Uni/3rAny/Visio/Pràctiques/Parcial/P2/P2.md",
-    "Uni/3rAny/Tallers/T1/PPT5/Problemes del Plantejament.md",
-    "Uni/3rAny/Tallers/T1/PPT5/Problema dels ítems Freqüents.md",
-    "Uni/3rAny/Tallers/T1/PPT5/Plantejament.md",
-    "Uni/3rAny/Tallers/T1/PPT5/Interès.md",
-    "Uni/3rAny/Tallers/T1/PPT5/Generació de regles d'associació.md",
-    "Uni/3rAny/Tallers/T1/PPT5/Confiança.md",
-    "Uni/3rAny/Tallers/T1/PPT4/Bases dels Recomanadors/Cross-Entropy.md",
-    "Altres/Recursos/Pasted image 20251026174721.png",
-    "Altres/Recursos/Pasted image 20251026174515.png",
-    "Altres/Recursos/Pasted image 20251026174340.png",
-    "Altres/Recursos/Pasted image 20251026172230.png",
-    "Altres/Recursos/Pasted image 20251026171655.png",
-    "Altres/Recursos/Pasted image 20251026171522.png",
-    "Altres/Recursos/Pasted image 20251026171510.png",
-    "Altres/Obsidian/Callouts.md",
-    "Uni/3rAny/Visio/Pràctiques/Parcial/P1/Rescale i Resize.md",
-    "Uni/3rAny/Visio/Pràctiques/Parcial/Resum Exc Pel Parcial.md",
-    "Uni/3rAny/Xarxes/Pràctiques/P2/Test P2.md",
-    "Uni/3rAny/Xarxes/Classes/Classe 6?.md",
-    "Uni/3rAny/Xarxes/Pràctiques/P2",
-    "Uni/3rAny/Visio/Pràctiques/Parcial/P2",
-    "Uni/3rAny/Visio/Pràctiques/Parcial/P1",
-    "Uni/3rAny/Visio/Pràctiques/Parcial",
-    "3rAny/Tallers/Derivada a tallers.md",
-    "3rAny/Tallers/Pràctiques de Tallers.md",
-    "3rAny/Tallers/T1/Resum Relacional de TNUI.md",
-    "Python/Python Libraries/Scikit-image/Scikit-image.md",
-    "3rAny/IA/Pràctiques/P1/Algorisme A*.md",
-    "3rAny/IA/Classes/IA Classe 3.md",
-    "3rAny/IA/Classes/IA Classe 4.md",
-    "3rAny/IA/Classes/IA Classe 2.md",
-    "3rAny/IA/Pràctiques/P2/Apunts.md",
-    "3rAny/IA/Pràctiques/P2/Expectminimax.md",
-    "3rAny/IA/Pràctiques/P2/Alpha beta prunning.md",
-    "3rAny/Tallers/T1/PPT6",
+    "Uni/3rAny/Parcials/ThVA/Pasted image 20251101142033.png",
+    "Uni/3rAny/Parcials/ThVA/Pasted image 20251101142023.png",
+    "Uni/3rAny/Parcials/ThVA/Pasted image 20251101142009.png",
+    "Uni/3rAny/Parcials/ThVA/Pasted image 20251101142001.png",
+    "Uni/3rAny/Parcials/ThVA/Pasted image 20251101141909.png",
+    "Uni/3rAny/Parcials/ThVA/Pasted image 20251101141854.png",
+    "Uni/3rAny/Parcials/ThVA/Pasted image 20251101141800.png",
+    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll d'impuls.md",
+    "Uni/3rAny/Parcials/ThVA/Linear Filters.md",
+    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll Salt&Pepper.md",
+    "Uni/3rAny/Tallers/T1/PPT2/Model.md",
+    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Usos del Filtratge.md",
+    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Sampling.md",
+    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Fotomètrica.md",
+    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Espaial.md",
+    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució.md",
+    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Quantificació.md",
+    "Uni/3rAny/Parcials/ThVA/2025-11-01_13-40.png",
+    "Uni/3rAny/Tallers/T1/Resum Relacional de TNUI.md",
+    "Uni/3rAny/Parcials/ThVA",
+    "Uni/3rAny/Tallers/T1/PPT2/Optimització/Descens del gradient.md",
+    "Uni/3rAny/Tallers/Parcial/Errors del Parcial.md",
+    "Uni/3rAny/Tallers/T1/PPT2/Algorismes de predicció.md",
+    "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Problemes del Plantejament.md",
+    "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Problema dels ítems Freqüents.md",
+    "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Plantejament.md",
+    "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Interès.md",
+    "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Generació de regles d'associació.md",
+    "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Confiança.md",
+    "Uni/3rAny/Parcials/ThTNUI/PPT5/Vector de valoracions.md",
+    "Uni/3rAny/Parcials/ThTNUI/PPT5/Softmax.md",
+    "Uni/3rAny/Parcials/ThTNUI/PPT5/Recomanadors Part2.md",
+    "Uni/3rAny/Parcials/ThTNUI/PPT5/Perquè fer servir Softmax en comptes de Normalització.md",
+    "Uni/3rAny/Parcials/ThTNUI/PPT5/Perquè factoritzar matrius?.md",
+    "Uni/3rAny/Parcials/ThTNUI/PPT5",
+    "Uni/3rAny/Parcials/ThTNUI/Màquines de Factorització",
+    "Uni/3rAny/Parcials/ThTNUI/Factorització de Matrius per Recomanadors",
+    "Uni/3rAny/Parcials/ThTNUI/Bases dels Recomanadors",
+    "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Netflix Recommends.canvas",
+    "Uni/3rAny/Parcials/ThTNUI/PPT3i4",
+    "Uni/3rAny/Parcials/ThTNUI/Netflix-Recommendations.jpg",
+    "Uni/3rAny/Parcials/ThTNUI/Netflix Recommends.canvas",
+    "Uni/3rAny/Parcials/ThTNUI/Tipus Recomanadors",
+    "Uni/3rAny/Parcials/ThTNUI/Semblances",
+    "Uni/3rAny/Parcials/ThTNUI/Recomanador",
+    "Uni/3rAny/Parcials/ThTNUI/Polarització",
+    "Uni/3rAny/Parcials/ThTNUI/Exemple Recomanador/Netflix-Recommendations.jpg",
+    "Uni/3rAny/Parcials/ThTNUI/Exemple Recomanador/Netflix Recommends.canvas",
+    "Uni/3rAny/Parcials/ThTNUI/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
+    "Uni/3rAny/Parcials/ThTNUI/T1/PPT3/Exemple Recomanador/Netflix-Recommendations.jpg",
     "Sense títol.canvas",
     "3rAny/Xarxes/Apunts de TH/T2/Half Duplex.canvas",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls",
-    "3rAny/Xarxes/Apunts de TH",
-    "3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres",
-    "3rAny/Visio/TH/ppt2 i 3/Detecció de Vores",
     "3rAny/Xarxes/T2/ppt2-2/Sense títol.canvas",
     "3rAny/Xarxes/Apunts de TH/T2/Duplex.canvas",
     "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
-    "3rAny/Xarxes/Apunts de TH/T2/Simplex.canvas",
-    "Untitled.canvas"
+    "3rAny/Xarxes/Apunts de TH/T2/Simplex.canvas"
   ]
 }

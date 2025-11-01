@@ -1,0 +1,1 @@
+És un [[Algorisme d'optimització]] Sense derivades

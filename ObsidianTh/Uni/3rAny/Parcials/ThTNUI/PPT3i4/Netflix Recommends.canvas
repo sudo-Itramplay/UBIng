@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"fe68ed3cd0098316","type":"file","file":"3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix-Recommendations.jpg","x":-256,"y":-280,"width":531,"height":340},
+		{"id":"185d156c29e15582","type":"text","text":"\t\t\t\t\t\tCategoria que més agrada","x":-256,"y":-220,"width":531,"height":80,"color":"5"},
+		{"id":"dfb58171a1e1f2b3","type":"text","text":"Més probable que agradi","x":-240,"y":-220,"width":136,"height":80,"color":"4"},
+		{"id":"7888f90e646e6cd4","type":"text","text":"Categoria que meny agrada","x":-256,"y":-20,"width":531,"height":80,"color":"6"},
+		{"id":"973e46d9629274f9","type":"text","text":"Menys probable que agradi","x":139,"y":-20,"width":136,"height":80,"color":"1"},
+		{"id":"c23d08fa0f30ae8f","type":"text","text":"2a Categoria que més agrada","x":-256,"y":-110,"width":531,"height":80,"color":"#3371c1"},
+		{"id":"843d75f02a1ce587","type":"file","file":"3rAny/Tallers/T1/PPT3/Recomanador/Recomanador.md","x":-720,"y":-525,"width":400,"height":490}
+	],
+	"edges":[
+		{"id":"f2ac07d09a3445d3","fromNode":"843d75f02a1ce587","fromSide":"bottom","toNode":"7888f90e646e6cd4","toSide":"left"}
+	]
+}

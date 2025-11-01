@@ -1,0 +1,1 @@
+Donat un output [[Vector de Classificació de valoracions|Z]] per a K classes, la funció [[Softmax]] serveix per passar-les a probabilitats
