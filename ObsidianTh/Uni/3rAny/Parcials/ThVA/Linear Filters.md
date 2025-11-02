@@ -127,4 +127,41 @@ Passa a
 ![[Pasted image 20251101142033.png]]
 
 (Hi ha menys pixels lo juro)
+(S'hauria de beure que s'ha mogut tota la imatge cap a l'equerra,
+com que no té pixels a la dreta dels pixels borde drets no els emplena, i els del borde
+esquerra els sobrescriu, es perden)
+
+
+# FAQ
+
+Els filtres lineals i la convolució són útils per a: 
+
+- **Suavitzar imatges** (Image smoothing) i **eliminar soroll** (removing noise). 
+
+- Filtre **Box** (de caixa). 
+
+- Filtre alternatiu: **Gaussian** (Gaussià). 
+	- Impacte de l'escala / amplada (**sigma**) del filtre de suavitzat. 
+
+---
+
+➡️ Filtre de Mitjana (Mean Filter) 
+
+- Suavitza els valors dels píxels **fent-ne la mitjana** (averaging them). 
+
+- Mitjana uniforme (Uniform average) vs. mitjana **ponderada** (weighted average). 
+
+
+---
+
+➡️ Filtre de Mediana (Median Filter) 
+
+- És un filtre **no lineal** (a non-linear filter). 
+
+- **Assegura que no es fa la mitjana** dels nivells de gris (it assures no averaging grey levels). 
+
+- **Assegura que no s'inventen** nous nivells de gris (it assures no inventing new grey-levels). 
+
+- **Preserva les vores** (It is edge-preserving). 
+
 
