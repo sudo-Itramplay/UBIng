@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9cbc29d917cc652c",
+            "id": "bf6c3d8938d2978f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/3rAny/Tallers/Parcial/Errors del Parcial.md",
+                "file": "Uni/3rAny/Parcials/ThVA/Linear Filters.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Errors del Parcial"
+              "title": "Linear Filters"
+            }
+          },
+          {
+            "id": "04f938d8adc3f31d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/3rAny/Parcials/ThVA/Image Gradients and edges.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Image Gradients and edges"
             }
           },
           {
@@ -228,23 +252,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "f43a22273fb8bf96",
+  "active": "04f938d8adc3f31d",
   "lastOpenFiles": [
-    "Uni/3rAny/Parcials/ThVA/Pasted image 20251102162416.png",
-    "Uni/3rAny/Parcials/ThVA/Pasted image 20251102161803.png",
-    "Uni/3rAny/Parcials/ThVA/Pasted image 20251102160234.png",
-    "Uni/3rAny/Parcials/ThVA/Pasted image 20251102160207.png",
-    "Uni/3rAny/Parcials/ThVA/Pasted image 20251102155743.png",
-    "Uni/3rAny/Parcials/ThVA/Pasted image 20251102153350.png",
-    "Uni/3rAny/Parcials/ThVA/Pasted image 20251102152931.png",
-    "Uni/3rAny/Parcials/ThVA/Pasted image 20251102152826.png",
-    "Uni/3rAny/Parcials/ThVA/Pasted image 20251102152821.png",
-    "Altres/Obsidian/Callouts.md",
     "Uni/3rAny/Parcials/ThVA/Image Segmentation.md",
-    "Uni/3rAny/Parcials/ThVA/Pasted image 20251102151253.png",
-    "Uni/3rAny/Parcials/ThVA/Pasted image 20251102151223.png",
     "Uni/3rAny/Parcials/ThVA/Image Gradients and edges.md",
+    "Uni/3rAny/Parcials/ThVA/Pasted image 20251103094959.png",
+    "Uni/3rAny/Parcials/ThVA/Pasted image 20251103094922.png",
     "Uni/3rAny/Parcials/ThVA/Linear Filters.md",
+    "Altres/Recursos/Pasted image 20251102162416.png",
+    "Altres/Recursos/Pasted image 20251102161803.png",
+    "Altres/Recursos/Pasted image 20251102160234.png",
+    "Altres/Recursos/Pasted image 20251102160207.png",
+    "Altres/Recursos/Pasted image 20251102155743.png",
+    "Altres/Recursos/Pasted image 20251102153350.png",
+    "Altres/Recursos/Pasted image 20251102152931.png",
+    "Altres/Recursos/Pasted image 20251102152826.png",
+    "Altres/Obsidian/Callouts.md",
     "Uni/3rAny/Visio/Pràctiques/Parcial/P2/P2.md",
     "Uni/3rAny/Visio/Pràctiques/Parcial/Resum Exc Pel Parcial.md",
     "Uni/3rAny/Xarxes/Formules.md",

@@ -59,4 +59,11 @@ Apunta a cal a la direcció de on hi ha el canvi d'intensitat més brusc (extrem
 
 >[!tip] Ojo
 >Aquest concepte és el que indica el **edge strenght**
+![[Pasted image 20251103094922.png]]
+
+
+
+>[!tip] Ojo
+>Aquest concepte és el que indica el **La direcció**
+![[Pasted image 20251103094959.png]]
 
