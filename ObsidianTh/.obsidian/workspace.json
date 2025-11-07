@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/3rAny/Parcials/ThVA/Image Gradients and edges.md",
+                "file": "Uni/3rAny/Xarxes/Apunts de TH/T1/OSI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Image Gradients and edges"
+              "title": "OSI"
+            }
+          },
+          {
+            "id": "a7396600d3a29cc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/3rAny/Xarxes/Apunts de TH/T1/Capes del Model OSI/Capes Model OSI.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Capes Model OSI"
             }
           },
           {
@@ -104,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,7 +160,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cross ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -252,8 +276,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "04f938d8adc3f31d",
+  "active": "a7396600d3a29cc8",
   "lastOpenFiles": [
+    "Uni/3rAny/Xarxes/Apunts de TH/T1/OSI.md",
     "Uni/3rAny/Parcials/ThVA/Image Segmentation.md",
     "Uni/3rAny/Parcials/ThVA/Image Gradients and edges.md",
     "Uni/3rAny/Parcials/ThVA/Pasted image 20251103094959.png",
