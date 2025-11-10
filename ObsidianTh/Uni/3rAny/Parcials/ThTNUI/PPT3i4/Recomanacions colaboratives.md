@@ -7,8 +7,8 @@ Podem construir solucions:
 - Heurístiques
 - Basades en optimització
 ## Tipus
-- [[Recomanacions colaboratives basats en semblança d'usuari]]
-- [[Recomanacions colaboratives basats en semblança d'ítem]]
+- [[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Recomanacions colaboratives basats en semblança d'usuari]]
+- [[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Recomanacions colaboratives basats en semblança d'ítem]]
 
 >Resum
 

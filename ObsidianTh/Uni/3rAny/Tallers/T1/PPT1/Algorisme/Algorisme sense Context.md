@@ -1,1 +1,0 @@
-[[Algorisme]] en que la interpretació de les [[Dades]] és nomes sintàcticament, basant-se nomes en el seu format

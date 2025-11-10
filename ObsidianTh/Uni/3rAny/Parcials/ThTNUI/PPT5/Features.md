@@ -1,4 +1,4 @@
-Relació entre elements donada [[Factoritzar les matrius|de factoritzar matrius]]
+Relació entre elements donada [[Uni/3rAny/Parcials/ThTNUI/PPT5/Factoritzar les matrius|de factoritzar matrius]]
 
 - Cada Fila de $P$ representaria la força d'associació entre user i feature
 - Cada columna de $Q$ representaria a força entre item i feature

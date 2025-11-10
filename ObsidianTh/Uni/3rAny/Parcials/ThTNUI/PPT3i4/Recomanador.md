@@ -12,10 +12,10 @@ Sistema de fitrat d'informació que té per objectiu posar en correspondència u
 
 ## Definició Matemàtica
 
-[[Funció d'utilitat]]
+[[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Funció d'utilitat]]
 
 
 
 ## Exemple
 P.Ex
-[[Netflix Recommends.canvas|Netflix Recommends]]
+[[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Netflix Recommends.canvas|Netflix Recommends]]

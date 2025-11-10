@@ -5,4 +5,4 @@ aliases:
 
 Demanar al usuari Activament opinions de coses
 
-[[Problema Polarització]]
+[[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Problema Polarització]]

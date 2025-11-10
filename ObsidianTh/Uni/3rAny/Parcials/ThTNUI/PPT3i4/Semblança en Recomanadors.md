@@ -9,4 +9,4 @@ En aquest tipus de recomanadors, la **semblança** entre dos usuaris $c_q , c_j$
 	Dos usuaris s´on semblans si valoren igual el mareix conjunt d'ítems
 
 
-La distància que tenen dos ítems o dos usuaris en un [[Espai de Preferències]]
+La distància que tenen dos ítems o dos usuaris en un [[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Espai de Preferències]]

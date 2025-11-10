@@ -50,7 +50,7 @@ El **[[Medi de Transmissió de la informació]]** és el canal físic pel qual v
 - **[[Medis No guiats]]**: Com les **[[Ones de Ràdio]]**, **[[Microones terrestre]]** i **[[Microones Via Satèl·lit]]**.
     
 
-Els **[[Tipus Enllaç/Classificació del Enllaços|enllaços]]** poden ser **[[Enllaç Punt a Punt]]** o **[[Enllaç Multipunt]]**, i segons el sentit de la transmissió, **[[Simplex]]** (unidireccional), **[[Half Duplex]]** (bidireccional no simultani) o **[[Duplex]]** (bidireccional simultani). L'abast geogràfic defineix els tipus de xarxes com **[[PAN]]**, **[[LAN]]** i **[[WAN]]**.
+Els **[[Tipus Enllaç/Classificació del Enllaços|enllaços]]** poden ser **[[Enllaç Punt a Punt]]** o **[[Enllaç Multipunt]]**, i segons el sentit de la transmissió, **[[Uni/3rAny/Xarxes/Apunts de TH/T2/Simplex]]** (unidireccional), **[[Half Duplex]]** (bidireccional no simultani) o **[[Duplex]]** (bidireccional simultani). L'abast geogràfic defineix els tipus de xarxes com **[[PAN]]**, **[[LAN]]** i **[[WAN]]**.
 
 ### Reptes i Límits de la Transmissió
 

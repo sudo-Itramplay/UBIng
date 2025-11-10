@@ -1,4 +1,4 @@
-És un **[[Algorisme d'optimització]]**
+És un **[[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Algorisme d'optimització]]**
 
 La regla d'actualització dels paràmetres del model (representats per θ) és:
 
@@ -16,4 +16,4 @@ On:
     
     - Si α és massa gran, l'algorisme pot sobrepassar el mínim i no convergir (divergència).
     
-- $∇J(θantic​)$: El [[Gradient]] de la funció de cost en el punt actual, que indica la direcció a moure.
+- $∇J(θantic​)$: El [[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Gradient]] de la funció de cost en el punt actual, que indica la direcció a moure.

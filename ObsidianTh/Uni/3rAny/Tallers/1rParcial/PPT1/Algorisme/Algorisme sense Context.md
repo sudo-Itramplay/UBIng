@@ -1,0 +1,1 @@
+[[Uni/3rAny/Tallers/1rParcial/PPT1/Algorisme/Algorisme]] en que la interpretació de les [[Uni/3rAny/Tallers/1rParcial/PPT1/Dades/Dades]] és nomes sintàcticament, basant-se nomes en el seu format

@@ -5,6 +5,6 @@ Moltes vegades es redueixen a buscar màxims i mínims
 
 
 Tenim varis mètodes:
-- [[Optimització Unimodal]]
-- [[Optimització multimodal]]
-- [[Optimització discreta]]
+- [[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Optimització Unimodal]]
+- [[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Optimització multimodal]]
+- [[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Optimització discreta]]

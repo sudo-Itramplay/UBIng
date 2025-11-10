@@ -3,7 +3,7 @@ aliases:
   - FM
   - Factorization Machine
 ---
-Les Màquines de Factorització es van dissenyar per abordar directament les limitacions de les [[Màquines de Factorització|MF]]
+Les Màquines de Factorització es van dissenyar per abordar directament les limitacions de les [[Uni/3rAny/Parcials/ThTNUI/PPT5/Màquines de Factorització|MF]]
 
 >[!info] Què les diferència
 >- Poden treballar millor amb les dades binaries del feedback implícit
@@ -13,7 +13,7 @@ Les Màquines de Factorització es van dissenyar per abordar directament les lim
 ![[2025-10-15_15-58.png]]
 ## Explicació dels punts
 1 . **Generalitzen el Model:** (punt 1 i 2)
-A diferència de la [[Màquines de Factorització|MF]] que només modela la interacció `usuari-ítem`, les FMs poden incorporar un nombre arbitrari de característiques (context, atributs de l'ítem, dades demogràfiques de l'usuari, etc.) i modelar les seves interaccions. Això les fa extremadament flexibles per a dades disperses i variades com el feedback implícit.
+A diferència de la [[Uni/3rAny/Parcials/ThTNUI/PPT5/Màquines de Factorització|MF]] que només modela la interacció `usuari-ítem`, les FMs poden incorporar un nombre arbitrari de característiques (context, atributs de l'ítem, dades demogràfiques de l'usuari, etc.) i modelar les seves interaccions. Això les fa extremadament flexibles per a dades disperses i variades com el feedback implícit.
 
 2. **S'adapten a l'Objectiu:** (Punt 3)
 El model de les FMs es pot entrenar amb diferents funcions de pèrdua, incloses aquelles dissenyades específicament per a **tasques de rànquing** (com BPR o WARP loss). Això permet optimitzar directament la qualitat de la llista ordenada que es presentarà a l'usuari.
@@ -22,7 +22,7 @@ El model de les FMs es pot entrenar amb diferents funcions de pèrdua, incloses 
 ## Equació
 La seva equació compren els dos nivells d'interacció d'una feature:
 - El pes per a cada base
-- la interacció entre altres [[features]] i la seva combinació
+- la interacció entre altres [[Uni/3rAny/Parcials/ThTNUI/PPT5/Features]] i la seva combinació
 
 - L'objectiu del model és fer una predicció, $ŷ$​, a partir d'un vector de característiques d'entrada $x$ de dimensió $d$. 
 

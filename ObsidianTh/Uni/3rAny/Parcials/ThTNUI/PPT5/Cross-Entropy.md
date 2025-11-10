@@ -2,7 +2,7 @@
 aliases:
   - Entropia creuada
 ---
-L'Entropia Creuada és una [[Funció de Pèrdua]] per a problemes de [[Classificació]]
+L'Entropia Creuada és una [[Uni/3rAny/Tallers/1rParcial/PPT2/Funció de Pèrdua]] per a problemes de [[Uni/3rAny/Parcials/ThTNUI/PPT5/Classificació]]
 
 ### Binari
 >[!example] Binari (amb dos classes)

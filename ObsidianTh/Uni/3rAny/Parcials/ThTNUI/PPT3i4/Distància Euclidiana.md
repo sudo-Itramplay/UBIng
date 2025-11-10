@@ -8,7 +8,7 @@ $$
 
 
 ## Càlcul de Semblança
-En el cas de la [[Semblança en Recomanadors|semblança]] entre usuaris:
+En el cas de la [[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Semblança en Recomanadors|semblança]] entre usuaris:
 - X serà el vector de valoracions d'ítems de $c_1$ (persona1)
 - Y serà el vector de valoracions d'ítems de $c_2$ (persona2)
 

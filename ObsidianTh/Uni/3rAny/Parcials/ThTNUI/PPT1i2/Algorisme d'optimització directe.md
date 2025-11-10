@@ -1,1 +1,1 @@
-És un [[Algorisme d'optimització]] Sense derivades
+És un [[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Algorisme d'optimització]] Sense derivades

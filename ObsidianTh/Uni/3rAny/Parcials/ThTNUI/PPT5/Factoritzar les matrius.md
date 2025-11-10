@@ -32,7 +32,7 @@ $$
 P×Q^T=\hat R≈R
 $$
 
-Aquestes noves matrius representen **factors latents** ([[Features]])(característiques ocultes o abstractes) que expliquen per què un usuari ha donat una certa valoració a un ítem.
+Aquestes noves matrius representen **factors latents** ([[Uni/3rAny/Parcials/ThTNUI/PPT5/Features]])(característiques ocultes o abstractes) que expliquen per què un usuari ha donat una certa valoració a un ítem.
 
 
 ### **Matriu d'Usuaris (P)**
@@ -68,6 +68,6 @@ Aquestes noves matrius representen **factors latents** ([[Features]])(caracterí
 - Aquesta reducció de dimensionalitat és clau: ens força a capturar els patrons més importants de les dades, ignorant el soroll i ajudant a generalitzar millor.
 
 ## Com funciona?
-Per calcular la valoració predita, haurem de fer el càlcul d'una de les [[Features]]
+Per calcular la valoració predita, haurem de fer el càlcul d'una de les [[Uni/3rAny/Parcials/ThTNUI/PPT5/Features]]
 
-## [[Com Factoritzar Matrius?]]
+## [[Uni/3rAny/Parcials/ThTNUI/PPT5/Com Factoritzar Matrius?]]

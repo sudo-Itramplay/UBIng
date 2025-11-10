@@ -5,6 +5,6 @@
 3. **Descobriment de Característiques:** Els factors latents, tot i ser abstractes matemàticament, sovint capturen propietats reals i interpretables sobre usuaris i ítems (gèneres, estils, comunitats d'usuaris, etc.).
 [^1][^2]
 
-[^1]: [[Features]]
+[^1]: [[Uni/3rAny/Parcials/ThTNUI/PPT5/Features]]
 
-[^2]: [[Factoritzar les matrius]]
+[^2]: [[Uni/3rAny/Parcials/ThTNUI/PPT5/Factoritzar les matrius]]

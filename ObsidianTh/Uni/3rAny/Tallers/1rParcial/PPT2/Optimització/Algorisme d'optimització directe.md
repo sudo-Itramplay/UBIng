@@ -1,0 +1,1 @@
+És un [[Uni/3rAny/Tallers/1rParcial/PPT2/Optimització/Algorisme d'optimització]] Sense derivades

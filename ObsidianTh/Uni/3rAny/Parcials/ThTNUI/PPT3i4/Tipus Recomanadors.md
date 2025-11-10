@@ -1,5 +1,5 @@
 
-A l'hora de construir [[Funció d'utilitat|U]] podem adoptar 3 enfocaments:
-- [[Recomanacions colaboratives]]
-- [[Recomanacions NO colaboratives]]
-- [[Recomanacions amb model Hibrid]]
+A l'hora de construir [[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Funció d'utilitat|U]] podem adoptar 3 enfocaments:
+- [[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Recomanacions colaboratives]]
+- [[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Recomanacions NO colaboratives]]
+- [[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Recomanacions amb model Hibrid]]

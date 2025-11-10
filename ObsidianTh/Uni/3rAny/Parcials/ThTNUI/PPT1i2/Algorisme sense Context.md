@@ -1,1 +1,1 @@
-[[Algorisme]] en que la interpretació de les [[Dades]] és nomes sintàcticament, basant-se nomes en el seu format
+[[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Algorisme]] en que la interpretació de les [[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Dades]] és nomes sintàcticament, basant-se nomes en el seu format

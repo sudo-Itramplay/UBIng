@@ -1,4 +1,4 @@
 Combinant 
-[[Recomanacions NO colaboratives]]
+[[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Recomanacions NO colaboratives]]
 amb
-[[Recomanacions colaboratives]]
+[[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Recomanacions colaboratives]]

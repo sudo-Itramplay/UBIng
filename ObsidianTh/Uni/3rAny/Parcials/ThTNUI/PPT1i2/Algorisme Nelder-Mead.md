@@ -1,10 +1,10 @@
-És un [[Algorisme d'optimització directe]] utilitzat per trobar un mínim local
+És un [[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Algorisme d'optimització directe]] utilitzat per trobar un mínim local
 
 
 > [!info] Tenir en compte
 > Sobretot quan la funció és difícil o impossible de derivar analíticament
 
-**Mou, reflecteix i redueix iterativament un [[3rAny/Tallers/T1/PPT2/Simplex]]** per tal de fer-lo **convergir cap al punt de valor mínim** de la funció.
+**Mou, reflecteix i redueix iterativament un [[Uni/3rAny/Tallers/1rParcial/PPT2/Simplex]]** per tal de fer-lo **convergir cap al punt de valor mínim** de la funció.
 
 >[!example] Exemple
 >En una corba tindriem una gràfica de 2dim, però la corba és de 1dim. 

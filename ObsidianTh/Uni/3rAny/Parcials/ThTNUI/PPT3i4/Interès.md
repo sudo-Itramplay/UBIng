@@ -1,4 +1,4 @@
-La diferència entre la seva [[Confiança]] i la fracció de bosses sobre el total que contenen $j$
+La diferència entre la seva [[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Confiança]] i la fracció de bosses sobre el total que contenen $j$
 $$
 I=p(j|i_1, ..., i_k) - p(j)
 $$

@@ -3,7 +3,7 @@ El Descens de Gradient Estocàstic (_Stochastic Gradient Descent_, **SGD**) és 
 
 
 >[!NOTE] Breu
->És el [[Descens del gradient]] agafant una dada aleatoria cada cop.
+>És el [[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Descens del gradient]] agafant una dada aleatoria cada cop.
 
 
 ## Càlcul
@@ -28,7 +28,7 @@ L'algorisme es repeteix fins a la convergència o un nombre fix d'iteracions:
     
 2. **Càlcul del Gradient Estocàstic:**
     
-    - Calcula el **[[Gradient|gradient]] ∇Ei​(θ)** de la funció de cost utilitzant **només** la dada (o _mini-batch_) seleccionada.
+    - Calcula el **[[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Gradient|gradient]] ∇Ei​(θ)** de la funció de cost utilitzant **només** la dada (o _mini-batch_) seleccionada.
     
     - Aquest gradient indica la direcció d'augment del cost _per a aquesta mostra específica_.
     
@@ -40,7 +40,7 @@ L'algorisme es repeteix fins a la convergència o un nombre fix d'iteracions:
 	    
     - On η (eta) és la **taxa d'aprenentatge (_learning rate_)**, que controla la mida del pas.
 
-- **Batch GD** - [[Descens del gradient]]
+- **Batch GD** - [[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Descens del gradient]]
 	- Tot el conjunt de dades (Batch)
 	- Molt precisa
 	- Molt lenta

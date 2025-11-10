@@ -1,5 +1,5 @@
 Quan alguna cosa que tu no sabies que existia (o no sabies com trobar) et troba
 
-Aquesta és la diferència entre [[Recomanador]] i [[Cercador]]
+Aquesta és la diferència entre [[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Recomanador]] i [[Cercador]]
 
-Un [[Recomanador]] et [[Descobriment|descobreix]] coses
+Un [[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Recomanador]] et [[Uni/3rAny/Parcials/ThTNUI/PPT3i4/Descobriment|descobreix]] coses

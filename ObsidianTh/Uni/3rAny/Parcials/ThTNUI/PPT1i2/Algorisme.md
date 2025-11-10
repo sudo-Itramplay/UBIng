@@ -3,7 +3,7 @@ Conjunt de regles o instruccions pas a pas per ==resoldre un problema== o realit
 1.- La entrada i sortida són dades
 
 
-[[Algorisme sense Context]]
+[[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Algorisme sense Context]]
 Normalment, o almenys fins ara, els algorismes processen les dades des d'un punt de vista sintàctic sense tenir en compte en context
 
 Ex
@@ -15,7 +15,7 @@ Ex
 	• Accedir a una sèrie de registres d’una base de dades a partir d’una query.
 
 
-[[Algorisme amb Context]]
+[[Uni/3rAny/Parcials/ThTNUI/PPT1i2/Algorisme amb Context]]
 Però hi ha d'altres que la seva interpretació en el context serà crucial
 
 Ex

@@ -1,5 +1,5 @@
-Les [[Dades]] es poden classificar entre:
-[[3rAny/Tallers/T1/PPT1/Tipus de Dades|Tipus de Dades]]
+Les [[Uni/3rAny/Tallers/1rParcial/PPT1/Dades/Dades]] es poden classificar entre:
+[[Uni/3rAny/Tallers/1rParcial/PPT1/Tipus de Dades|Tipus de Dades]]
 ##### Segons Format 
 - [[Dades Continues]]
 - [[Dades Discretes]]

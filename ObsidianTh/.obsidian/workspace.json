@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/3rAny/Xarxes/Apunts de TH/T1/Capes del Model OSI/Capes Model OSI.md",
+                "file": "Uni/3rAny/Tallers/2nParcial/Classe Bayes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Capes Model OSI"
+              "title": "Classe Bayes"
             }
           },
           {
@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3e8966860723d8b2",
@@ -278,6 +279,12 @@
   },
   "active": "a7396600d3a29cc8",
   "lastOpenFiles": [
+    "Uni/3rAny/Xarxes/Apunts de TH/T4/Classe.md",
+    "Uni/3rAny/Tallers/2nParcial/Classe Bayes.md",
+    "Uni/3rAny/Tallers/2nParcial/classe8",
+    "Uni/3rAny/Tallers/2nParcial",
+    "Uni/3rAny/Xarxes/Apunts de TH/T1/Capes del Model OSI/Capes Model OSI.md",
+    "Uni/3rAny/Xarxes/Apunts de TH/T4",
     "Uni/3rAny/Xarxes/Apunts de TH/T1/OSI.md",
     "Uni/3rAny/Parcials/ThVA/Image Segmentation.md",
     "Uni/3rAny/Parcials/ThVA/Image Gradients and edges.md",
@@ -300,22 +307,19 @@
     "Uni/3rAny/Visio/Pràctiques/Parcial/P1/P1.md",
     "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll d'impuls.md",
     "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll Salt&Pepper.md",
-    "Uni/3rAny/Tallers/T1/PPT2/Model.md",
+    "Uni/3rAny/Tallers/1rParcial/PPT2/Model.md",
     "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Usos del Filtratge.md",
     "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Sampling.md",
     "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Fotomètrica.md",
     "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Espaial.md",
     "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució.md",
     "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Quantificació.md",
-    "Uni/3rAny/Tallers/T1/Resum Relacional de TNUI.md",
+    "Uni/3rAny/Tallers/1rParcial/Resum Relacional de TNUI.md",
     "Uni/3rAny/Parcials/ThVA",
-    "Uni/3rAny/Tallers/T1/PPT2/Optimització/Descens del gradient.md",
+    "Uni/3rAny/Tallers/1rParcial/PPT2/Optimització/Descens del gradient.md",
     "Uni/3rAny/Tallers/Parcial/Errors del Parcial.md",
-    "Uni/3rAny/Tallers/T1/PPT2/Algorismes de predicció.md",
+    "Uni/3rAny/Tallers/1rParcial/PPT2/Algorismes de predicció.md",
     "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Problemes del Plantejament.md",
-    "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Problema dels ítems Freqüents.md",
-    "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Plantejament.md",
-    "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Interès.md",
     "Uni/3rAny/Parcials/ThTNUI/PPT5",
     "Uni/3rAny/Parcials/ThTNUI/Màquines de Factorització",
     "Uni/3rAny/Parcials/ThTNUI/Factorització de Matrius per Recomanadors",
@@ -323,9 +327,6 @@
     "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Netflix Recommends.canvas",
     "Uni/3rAny/Parcials/ThTNUI/PPT3i4",
     "Uni/3rAny/Parcials/ThTNUI/Netflix Recommends.canvas",
-    "Uni/3rAny/Parcials/ThTNUI/Tipus Recomanadors",
-    "Uni/3rAny/Parcials/ThTNUI/Semblances",
-    "Uni/3rAny/Parcials/ThTNUI/Recomanador",
     "Uni/3rAny/Parcials/ThTNUI/Exemple Recomanador/Netflix Recommends.canvas",
     "Uni/3rAny/Parcials/ThTNUI/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
     "Sense títol.canvas",

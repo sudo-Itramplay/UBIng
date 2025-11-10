@@ -1,4 +1,4 @@
-L'únic problema de les [[Màquines de Factorització|FM]] és la seva dimensinalitat, ja que al sumar [[Features]] es va ampliant i cada cop costa més fer els calculs
+L'únic problema de les [[Uni/3rAny/Parcials/ThTNUI/PPT5/Màquines de Factorització|FM]] és la seva dimensinalitat, ja que al sumar [[Uni/3rAny/Parcials/ThTNUI/PPT5/Features]] es va ampliant i cada cop costa més fer els calculs
 
 **Solució**
 Factoritzar també les features tal que:

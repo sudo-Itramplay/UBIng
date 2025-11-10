@@ -1,0 +1,1 @@
+Vector de les [[Derivada a tallers|derivades]] parcials de la [[Uni/3rAny/Tallers/1rParcial/PPT2/Funció de Pèrdua]] respecte a tots els paràmetres del model. Indica la direcció del màxim increment de la funció de cost en el punt actual.
