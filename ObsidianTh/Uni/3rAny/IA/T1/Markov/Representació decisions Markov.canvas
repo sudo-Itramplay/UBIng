@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"2316f611f06d449d","x":-340,"y":-180,"width":250,"height":60,"type":"text","text":"Rail"},
+		{"id":"2c7494853a7c6510","x":-60,"y":-180,"width":250,"height":60,"type":"text","text":"Car"},
+		{"id":"f12d10fe9145c01a","x":220,"y":-180,"width":250,"height":60,"type":"text","text":"Bike"},
+		{"id":"a64eb512c68f3e2c","x":-60,"y":-420,"width":250,"height":60,"color":"1","type":"text","text":"HOME"},
+		{"id":"c81b5ae05b895d92","x":-300,"y":100,"width":250,"height":60,"type":"text","text":"Light"},
+		{"id":"2d7dbb834344cf96","x":-30,"y":100,"width":250,"height":60,"type":"text","text":"Medium"},
+		{"id":"de0ea47a5564693a","x":240,"y":100,"width":250,"height":60,"type":"text","text":"Heavy"},
+		{"id":"2bcbc408abde1994","x":-640,"y":460,"width":380,"height":180,"color":"6","type":"text","text":""},
+		{"id":"a7fb13cf354e8d47","x":-575,"y":520,"width":250,"height":60,"color":"6","type":"text","text":"WORK"},
+		{"id":"7b625db594f5b119","x":671,"y":-28,"width":250,"height":60,"color":"5","type":"text","text":"En aquest cas, bici és determinista"},
+		{"id":"4747418998734097","x":-720,"y":70,"width":250,"height":60,"type":"text","text":"Hi ha tren"},
+		{"id":"a8e8af82e93eecea","x":-880,"y":-100,"width":80,"height":60,"color":"4","type":"text","text":"wait"},
+		{"id":"0328b77a298e98a9","x":-720,"y":-360,"width":250,"height":60,"type":"text","text":"Espero al tren"},
+		{"id":"6f51c02e3bde203b","x":-90,"y":-660,"width":250,"height":120,"color":"5","type":"text","text":"El cost pot significar (exemple) el temps que tardes a anar caminant fins cotxe o tren"},
+		{"id":"10b99cc208844821","x":-550,"y":-540,"width":250,"height":60,"color":"4","type":"text","text":"Torno a casa si no arriba mai"},
+		{"id":"7b8bca57e91cd351","x":-820,"y":-660,"width":250,"height":60,"color":"4","type":"text","text":"ACCIONS"}
+	],
+	"edges":[
+		{"id":"5cf668dc6882650f","fromNode":"a64eb512c68f3e2c","fromSide":"bottom","toNode":"2316f611f06d449d","toSide":"top","toEnd":"none","label":"Cost=2"},
+		{"id":"09664ddb6aecaafd","fromNode":"a64eb512c68f3e2c","fromSide":"bottom","toNode":"2c7494853a7c6510","toSide":"top","toEnd":"none","label":"Cost=1"},
+		{"id":"bbbb657f874f0f4b","fromNode":"a64eb512c68f3e2c","fromSide":"bottom","toNode":"f12d10fe9145c01a","toSide":"top","toEnd":"none"},
+		{"id":"b1cd02929a7d1317","fromNode":"2c7494853a7c6510","fromSide":"bottom","toNode":"c81b5ae05b895d92","toSide":"top","label":"P(x)=0,2"},
+		{"id":"74b0491abde802bf","fromNode":"2c7494853a7c6510","fromSide":"bottom","toNode":"2d7dbb834344cf96","toSide":"top","label":"P(x)=0,7"},
+		{"id":"c738af99b9ce21ab","fromNode":"2c7494853a7c6510","fromSide":"bottom","toNode":"de0ea47a5564693a","toSide":"top","label":"P(x)=0,1"},
+		{"id":"a6c3f540d43349d8","fromNode":"c81b5ae05b895d92","fromSide":"bottom","toNode":"2bcbc408abde1994","toSide":"top","label":"20"},
+		{"id":"df9d9b95c02b023d","fromNode":"2d7dbb834344cf96","fromSide":"bottom","toNode":"2bcbc408abde1994","toSide":"top","label":"30"},
+		{"id":"8572057c8b888c52","fromNode":"de0ea47a5564693a","fromSide":"bottom","toNode":"2bcbc408abde1994","toSide":"top","label":"70"},
+		{"id":"7030aaf96c435e42","fromNode":"f12d10fe9145c01a","fromSide":"right","toNode":"2bcbc408abde1994","toSide":"right","label":"45"},
+		{"id":"055d9fb366ba940c","fromNode":"2316f611f06d449d","fromSide":"left","toNode":"4747418998734097","toSide":"right","label":"P(x)=0,9"},
+		{"id":"4389ab21f7e43406","fromNode":"2316f611f06d449d","fromSide":"left","toNode":"0328b77a298e98a9","toSide":"right","label":"P(x)=0,1"},
+		{"id":"733b0ccd1d3ca585","fromNode":"0328b77a298e98a9","fromSide":"bottom","toNode":"a8e8af82e93eecea","toSide":"right"},
+		{"id":"0cc3a25e7f1946bb","fromNode":"a8e8af82e93eecea","fromSide":"left","toNode":"0328b77a298e98a9","toSide":"left","label":"P(x)=0,1"},
+		{"id":"febb369154b3ee56","fromNode":"a8e8af82e93eecea","fromSide":"left","toNode":"4747418998734097","toSide":"left","label":"P(x)=0,9"},
+		{"id":"79de725cf4752ce2","fromNode":"4747418998734097","fromSide":"bottom","toNode":"2bcbc408abde1994","toSide":"top"},
+		{"id":"09ba05fb0666b0da","fromNode":"0328b77a298e98a9","fromSide":"top","toNode":"10b99cc208844821","toSide":"left"},
+		{"id":"a17e41b38f69d0e8","fromNode":"10b99cc208844821","fromSide":"right","toNode":"a64eb512c68f3e2c","toSide":"left","label":"Cost=2"}
+	]
+}

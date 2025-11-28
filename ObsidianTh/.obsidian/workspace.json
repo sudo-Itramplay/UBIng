@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/3rAny/Tallers/2nParcial/Classe Bayes.md",
+                "file": "Uni/3rAny/Visio/TH/Classe Texturas/Classe Texturas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Classe Bayes"
+              "title": "Classe Texturas"
             }
           },
           {
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/3rAny/Parcials/ThVA/Image Segmentation.md",
+                "file": "Uni/3rAny/IA/T1/Tipus aprenentatge-revisited.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Image Segmentation"
+              "title": "Tipus aprenentatge-revisited"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll d'impuls.md",
+                "file": "Uni/3rAny/Xarxes/Parcial25-26/Examen P4.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +124,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Soroll d'impuls"
+              "title": "Examen P4"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -185,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3e8966860723d8b2",
@@ -277,16 +276,32 @@
       "bases:Create new base": false
     }
   },
-  "active": "a7396600d3a29cc8",
+  "active": "5646636357c76071",
   "lastOpenFiles": [
-    "Uni/3rAny/Xarxes/Apunts de TH/T4/Classe.md",
+    "Uni/3rAny/Xarxes/Parcial25-26/Examen P3.md",
+    "Uni/3rAny/Xarxes/Parcial25-26/Examen P4.md",
+    "Uni/3rAny/Xarxes/Parcial25-26/Repàs per la revisió.md",
+    "Uni/3rAny/IA/T1/Implementació Q-learning.md",
+    "Uni/3rAny/Xarxes/Parcial25-26",
+    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll d'impuls.md",
+    "Uni/3rAny/IA/T1/Tipus aprenentatge-revisited.md",
+    "Uni/3rAny/IA/T1/Tipus aprenentatge.md",
+    "Uni/3rAny/IA/T1/Implementacio RL.md",
+    "Uni/3rAny/IA/T1/Heurística Admissible.md",
+    "Uni/3rAny/IA/T1/Markov/Decisions en ia.md",
+    "Uni/3rAny/IA/T1/Sense títol",
+    "Uni/3rAny/IA/T1/Markov/Representació decisions Markov.canvas",
+    "Uni/3rAny/Parcials/ThVA/Image Segmentation.md",
+    "Uni/3rAny/IA/T1/Markov",
     "Uni/3rAny/Tallers/2nParcial/Classe Bayes.md",
+    "Uni/3rAny/Visio/TH/Classe Texturas/Classe Texturas.md",
+    "Uni/3rAny/Visio/TH/Classe Texturas",
+    "Uni/3rAny/Xarxes/Apunts de TH/T4/Classe.md",
     "Uni/3rAny/Tallers/2nParcial/classe8",
     "Uni/3rAny/Tallers/2nParcial",
     "Uni/3rAny/Xarxes/Apunts de TH/T1/Capes del Model OSI/Capes Model OSI.md",
     "Uni/3rAny/Xarxes/Apunts de TH/T4",
     "Uni/3rAny/Xarxes/Apunts de TH/T1/OSI.md",
-    "Uni/3rAny/Parcials/ThVA/Image Segmentation.md",
     "Uni/3rAny/Parcials/ThVA/Image Gradients and edges.md",
     "Uni/3rAny/Parcials/ThVA/Pasted image 20251103094959.png",
     "Uni/3rAny/Parcials/ThVA/Pasted image 20251103094922.png",
@@ -305,27 +320,12 @@
     "Uni/3rAny/Xarxes/Formules.md",
     "Uni/3rAny/Xarxes/Formules.md.download",
     "Uni/3rAny/Visio/Pràctiques/Parcial/P1/P1.md",
-    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll d'impuls.md",
     "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Sorolls/Soroll Salt&Pepper.md",
     "Uni/3rAny/Tallers/1rParcial/PPT2/Model.md",
     "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Usos del Filtratge.md",
-    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Sampling.md",
-    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Fotomètrica.md",
-    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució Espaial.md",
-    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Resolució.md",
-    "Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Quantificació.md",
-    "Uni/3rAny/Tallers/1rParcial/Resum Relacional de TNUI.md",
     "Uni/3rAny/Parcials/ThVA",
-    "Uni/3rAny/Tallers/1rParcial/PPT2/Optimització/Descens del gradient.md",
-    "Uni/3rAny/Tallers/Parcial/Errors del Parcial.md",
-    "Uni/3rAny/Tallers/1rParcial/PPT2/Algorismes de predicció.md",
-    "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Problemes del Plantejament.md",
     "Uni/3rAny/Parcials/ThTNUI/PPT5",
-    "Uni/3rAny/Parcials/ThTNUI/Màquines de Factorització",
-    "Uni/3rAny/Parcials/ThTNUI/Factorització de Matrius per Recomanadors",
-    "Uni/3rAny/Parcials/ThTNUI/Bases dels Recomanadors",
     "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Netflix Recommends.canvas",
-    "Uni/3rAny/Parcials/ThTNUI/PPT3i4",
     "Uni/3rAny/Parcials/ThTNUI/Netflix Recommends.canvas",
     "Uni/3rAny/Parcials/ThTNUI/Exemple Recomanador/Netflix Recommends.canvas",
     "Uni/3rAny/Parcials/ThTNUI/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
@@ -333,7 +333,6 @@
     "3rAny/Xarxes/Apunts de TH/T2/Half Duplex.canvas",
     "3rAny/Xarxes/T2/ppt2-2/Sense títol.canvas",
     "3rAny/Xarxes/Apunts de TH/T2/Duplex.canvas",
-    "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas",
-    "3rAny/Xarxes/Apunts de TH/T2/Simplex.canvas"
+    "3rAny/Tallers/T1/PPT3/Exemple Recomanador/Netflix Recommends.canvas"
   ]
 }
