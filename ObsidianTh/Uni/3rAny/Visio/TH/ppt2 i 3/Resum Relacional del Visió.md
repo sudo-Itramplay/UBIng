@@ -44,7 +44,7 @@ El filtratge té diverses aplicacions clau:
 
 ## 3. Reducció de Soroll (Smoothing)
 
-L'**[[Smoothing|allisament]]** és una tècnica de filtratge utilitzada per reduir el soroll en una imatge. Existeixen diferents **[[Tipus de soroll|tipus de soroll]]**, i cada un es tracta de manera més efectiva amb filtres específics.
+L'**[[Smoothing|allisament]]** és una tècnica de filtratge utilitzada per reduir el soroll en una imatge. Existeixen diferents **[[Uni/3rAny/Visio/TH/ppt2 i 3/Filtres Lineals/Processament amb filtres/Filtres/Tipus de soroll|tipus de soroll]]**, i cada un es tracta de manera més efectiva amb filtres específics.
 
 - **[[Soroll d'impuls]]**: Aparició de píxels blancs aïllats.
     

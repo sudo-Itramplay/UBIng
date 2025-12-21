@@ -1,5 +1,7 @@
 [
   "code-styler",
   "dataview",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-plugin-toc",
+  "todoist-text"
 ]

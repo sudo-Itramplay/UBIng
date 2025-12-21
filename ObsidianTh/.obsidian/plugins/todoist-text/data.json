@@ -1,0 +1,13 @@
+{
+  "settingsVersion": 2,
+  "excludedDirectories": [],
+  "keywordToTodoistQuery": [
+    {
+      "keyword": "@@TODOIST@@",
+      "todoistQuery": "today|overdue"
+    }
+  ],
+  "authToken": "TODO - get your auth token",
+  "enableAutomaticReplacement": true,
+  "showSubtasks": true
+}
