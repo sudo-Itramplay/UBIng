@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Altres/Obsidian/Callouts.md",
+                "file": "VESTIDORS DINAMIS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Callouts"
+              "title": "VESTIDORS DINAMIS"
             }
           },
           {
-            "id": "c0c6c63e9fb7e225",
+            "id": "4043548d203bee27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/3rAny/Xarxes/Parcial25-26/Resum/Resum 1r Parcial Xarxes.md",
+                "file": "Correus i Contrasenyes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Resum 1r Parcial Xarxes"
+              "title": "Correus i Contrasenyes"
             }
           }
         ],
@@ -113,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3e8966860723d8b2",
@@ -205,16 +204,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "c0c6c63e9fb7e225",
+  "active": "4043548d203bee27",
   "lastOpenFiles": [
-    "Uni/3rAny/Tallers/2nParcial/PPT7/Exploració - Explotació.md",
+    "VESTIDORS DINAMIS.md",
+    "Correus i Contrasenyes.md",
     "Uni/3rAny/Xarxes/Parcial25-26/Resum/Resum 1r Parcial Xarxes.md",
+    "Uni/3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
+    "Altres/Obsidian/Callouts.md",
+    "Uni/3rAny/Tallers/2nParcial/PPT7/Exploració - Explotació.md",
     "Uni/3rAny/Xarxes/Parcial25-26/Resum",
     "Uni/3rAny/Tallers/2nParcial/Classe Bayes.md",
     "Uni/3rAny/Tallers/2nParcial/PPT6/Hipòtesis i inferencies.md",
     "Uni/3rAny/Tallers/2nParcial/PPT6/classe - Hipòtesis i inferencies.md",
     "Uni/3rAny/Tallers/2nParcial/PPT7",
-    "Altres/Obsidian/Callouts.md",
     "Uni/3rAny/Tallers/2nParcial/Hipòtesis In.md",
     "Uni/3rAny/Tallers/1rParcial/PPT5/Problemes del Plantejament.md",
     "Uni/3rAny/Tallers/1rParcial/PPT5/Problema dels ítems Freqüents.md",
@@ -224,7 +226,6 @@
     "Uni/3rAny/Tallers/1rParcial/PPT5/Confiança.md",
     "Uni/3rAny/Tallers/Pràctiques/P4/Possibles merdes quepreguntin.md",
     "Uni/3rAny/Tallers/Pràctiques/P4/Merge, Groupby i Pivot Table.md",
-    "VESTIDORS DINAMIS.md",
     "Uni/3rAny/Tallers/Pràctiques/P4",
     "Uni/EXAMEN TODO/Tasks.md",
     "Uni/3rAny/Tallers/1rParcial/Resum Relacional de TNUI.md",
@@ -235,8 +236,6 @@
     "Uni/3rAny/Visio/Pràctiques/P4/Microfons Patri.md",
     "Uni/3rAny/Xarxes/Avaluació/Avaluació Pràctiques.md",
     "Uni/3rAny/Xarxes/Avaluació/Avaluació Examnes.md",
-    "Uni/3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
-    "Uni/3rAny/Parcials/ThTNUI/T1/Resum Relacional de TNUI.md",
     "Uni/3rAny/Visio/Pràctiques/P4/Pasted image 20251202113010.png",
     "Uni/3rAny/Visio/Pràctiques/P4",
     "Altres/Recursos/WhatsApp Image 2025-11-29 at 09.43.43.jpeg",

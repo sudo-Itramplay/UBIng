@@ -1,8 +1,46 @@
 Aquest resum és un recull de la teoria que sol preguntar en el primer parcial. Per tant tot està enfocat als diferents exercicis que ell planteja.
 
+- [[#Model OSI]]
+	- [[#Capa d'Aplicació (Capa 7)|Capa d'Aplicació (Capa 7)]]
+			- [[#Protocols comuns|Protocols comuns]]
+	- [[#Capa Presentació (Capa 6)|Capa Presentació (Capa 6)]]
+	- [[#Capa de Sessió (Capa 5)|Capa de Sessió (Capa 5)]]
+			- [[#Protocols comuns|Protocols comuns]]
+	- [[#Capa de Transport (Capa 4)|Capa de Transport (Capa 4)]]
+			- [[#Protocols comuns|Protocols comuns]]
+	- [[#Capa de Xarxa (Capa 3)|Capa de Xarxa (Capa 3)]]
+			- [[#Protocols comuns|Protocols comuns]]
+	- [[#Capa d'Enllaç (Capa 2)|Capa d'Enllaç (Capa 2)]]
+			- [[#Hardware i Protocols comuns|Hardware i Protocols comuns]]
+	- [[#Capa Física (Capa 1)|Capa Física (Capa 1)]]
+			- [[#Hardware comú|Hardware comú]]
+	- [[#Diferència entre la Capa Xarxa I Transport|Diferència entre la Capa Xarxa I Transport]]
+		- [[#Diferència entre la Capa Xarxa I Transport#1. L'Analogia de l'Edifici d'Oficines|1. L'Analogia de l'Edifici d'Oficines]]
+		- [[#Diferència entre la Capa Xarxa I Transport#2. L'Explicació Tècnica|2. L'Explicació Tècnica]]
+		- [[#Diferència entre la Capa Xarxa I Transport#En resum|En resum]]
+- [[#Model TCP/IP (Arquitectura d'Internet)]]
+	- [[#1. Capa d'Aplicació|1. Capa d'Aplicació]]
+	- [[#2. Capa de Transport (Host-to-Host)|2. Capa de Transport (Host-to-Host)]]
+	- [[#3. Capa d'Internet (Xarxa)|3. Capa d'Internet (Xarxa)]]
+	- [[#4. Capa d'Accés a la Xarxa|4. Capa d'Accés a la Xarxa]]
+- [[#Flux de Dades El Procés d'Encapsulament]]
+	- [[#1. L'Origen: Capa d'Aplicació (Layer 7)|1. L'Origen: Capa d'Aplicació (Layer 7)]]
+	- [[#2. Preparació: Capa de Transport (Layer 4)|2. Preparació: Capa de Transport (Layer 4)]]
+	- [[#3. L'Encaminament: Capa de Xarxa (Layer 3)|3. L'Encaminament: Capa de Xarxa (Layer 3)]]
+	- [[#4. El Tram Local: Capa d'Enllaç (Layer 2)|4. El Tram Local: Capa d'Enllaç (Layer 2)]]
+	- [[#5. La Transmissió: Capa Física (Layer 1)|5. La Transmissió: Capa Física (Layer 1)]]
+
+
+
+
 # Model OSI
 
 És un model de referència per establir bases normatives per tal d'evitar els  sistemes propietaris
+
+
+>[!abstract] Definició 
+>És una normativa que descriu com les dades i la informació de xarxa s'han de moure des de l'aplicació d'un ordinador fins a l'aplicació d'un altre ordinador a través d'un mitjà físic.
+
 
 - Aquest Model es divideix en **7 Capes** diferenciades.
 	Sent la superior la més propera al usuari i la inferior la menys
@@ -25,7 +63,7 @@ Les diferents capes són:
 >- Interfíce entre l'aplicació i la xarxa
 >	--> NO és l'aplicació en si
 >
->- Defineix Els protocos per a l'intercanvi de dades
+>- Defineix Els protocols per a l'intercanvi de dades
 >	--> Del significat de les coses , no de moure els bits
 >
 >- Utilitza estandaritzacions com el HTTPS
@@ -290,7 +328,7 @@ Funcions principals:
     - _Exemple:_ CSMA/CD en Ethernet (escoltar abans de parlar).
     
 - **Detecció d'Errors:** Afegeix un codi al final de la trama (FCS/CRC) per comprovar si algun bit s'ha corromput pel camí (per soroll elèctric, etc.). Si està malament, la trama es descarta.
-    
+
 
 #### Hardware i Protocols comuns
 
@@ -546,3 +584,192 @@ Agrupa les capes 1 i 2 de l'OSI (Física + Enllaç). S'encarrega de moure els bi
 > - **Encapsulament:** La trama Ethernet té un camp `Type` que diu: "Ei, el que porto a dins és un paquet IP".
 >
 
+# Flux de Dades: El Procés d'Encapsulament
+
+El secret de la comunicació en xarxa és l'**Encapsulament**. Imagina-ho com una nina russa (Matryoshka): amaguem la informació dins de capes protectores successives, on cada capa afegeix instruccions específiques per a una tasca concreta.
+
+## 1. L'Origen: Capa d'Aplicació (Layer 7)
+
+Tot comença quan l'usuari (tu) o un programa vol enviar informació.
+
+- **Acció:** Generar les dades pures.
+    
+- **Unitat:** **Dades** (Payload).
+    
+- **Exemple Pràctic:** El teu navegador fa una petició `GET /index.html`. O el teu codi Python fa `socket.send("Hola")`.
+    
+
+> [!abstract] El paquet ara mateix és:
+> 
+> [ Dades de l'Usuari ]
+
+---
+
+## 2. Preparació: Capa de Transport (Layer 4)
+
+Les dades poden ser massa grans, així que cal trossejar-les i assegurar-se que arribin a l'aplicació correcta.
+
+- **Acció:** Segmentació.
+    
+- **Afegeix:** La **Capçalera TCP** (o UDP).
+    
+- **Dades Clau:**
+    
+    - **Port Origen:** (Ex: 51345, dinàmic). Qui envia?
+        
+    - **Port Destí:** (Ex: 80 HTTP, 443 HTTPS). A quina aplicació va?
+        
+    - **Control:** Número de Seqüència (per reordenar trossos) i Checksum.
+        
+- **Unitat resultant:** **Segment**.
+    
+
+> [!abstract] El paquet ara és:
+> 
+> [ Capçalera TCP | Dades de l'Usuari ]
+
+> [!example] Visió Pràctica (Pràctica 4 Sockets)
+> 
+> Quan fas connect((IP, PORT)) al codi, estàs definint aquesta capçalera. Si t'equivoques de port, el segment arriba al PC destí però el SO no sap a quin programa entregar-lo i el descarta.
+
+---
+
+## 3. L'Encaminament: Capa de Xarxa (Layer 3)
+
+El segment necessita viatjar a través d'Internet fins a l'altra punta del món. Necessitem una adreça global.
+
+- **Acció:** Adreçament Lògic.
+    
+- **Afegeix:** La **Capçalera IP**.
+    
+- **Dades Clau:**
+    
+    - **IP Origen:** La teva IP (Ex: 192.168.1.15).
+        
+    - **IP Destí:** La IP del servidor (Ex: 8.8.8.8).
+        
+    - **TTL (Time To Live):** Per evitar que el paquet doni voltes per sempre.
+        
+- **Unitat resultant:** **Paquet**.
+    
+
+> [!abstract] El paquet ara és:
+> 
+> [ Capçalera IP | [ Capçalera TCP | Dades de l'Usuari ] ]
+
+---
+
+## 4. El Tram Local: Capa d'Enllaç (Layer 2)
+
+El paquet IP sap que ha d'anar a Google, però per sortir de la teva habitació, primer ha d'arribar al teu Router. La IP no entén de cables, l'Ethernet/Wi-Fi sí.
+
+- **Acció:** Adreçament Físic (Salt a salt).
+    
+- **Afegeix:** La **Capçalera Ethernet** (o 802.11 Wi-Fi) al principi i el **FCS (CRC)** al final.
+    
+- **Dades Clau:**
+    
+    - **MAC Origen:** La teva targeta de xarxa.
+        
+    - **MAC Destí:** La MAC del teu Router (Gateway). _Nota: No la del servidor final!_
+        
+    - **EtherType:** Codi que diu "a dins porto un paquet IPv4".
+        
+    - **FCS (Frame Check Sequence):** Càlcul matemàtic per veure si hi ha hagut errors al cable.
+        
+- **Unitat resultant:** **Trama** (Frame).
+    
+
+> [!abstract] El paquet ara és:
+> 
+> [ Cap. Ethernet | [ Cap. IP | [ Cap. TCP | Dades ] ] | FCS ]
+
+> [!tip] Detall important (Pràctica 3 & ARP)
+> 
+> Com sap el teu PC la MAC del Router? Utilitza el protocol ARP (Address Resolution Protocol): "Qui té la IP 192.168.1.1?" -> El router respon "Soc jo, i la meva MAC és AA:BB:CC...".
+
+---
+
+## 5. La Transmissió: Capa Física (Layer 1)
+
+La trama és només informació lògica (0s i 1s) a la memòria de la targeta de xarxa. Ara cal llançar-la al món real.
+
+- **Acció:** Senyalització i Modulació.
+    
+- **Procés:**
+    
+    - Si és **Cable (Ethernet):** Els 1s i 0s es converteixen en voltatges elèctrics (+5V, -5V).
+        
+    - Si és **Wi-Fi:** Els 1s i 0s modulen una ona de ràdio (Canvis de fase/amplitud, com vas veure amb PSK a l'examen).
+        
+    - Si és **Fibra:** Polsos de llum.
+        
+- **Unitat:** **Bits / Senyals**.
+    
+
+---
+
+# El Viatge (Nodes Intermedis)
+
+Quan el senyal arriba al teu **Router**:
+
+1. **Capa 1:** Transforma el voltatge en bits.
+    
+2. **Capa 2:** Llegeix la MAC Destí. _És per a mi?_ Sí. Treu l'embolcall Ethernet.
+    
+3. **Capa 3:** Llegeix la IP Destí. _És per a mi?_ No, és per a Google (8.8.8.8). Mira la seva **Taula d'Encaminament**.
+    
+4. **Re-encapsulament:**
+    
+    - Baixa el TTL de la IP.
+        
+    - Posa una **NOVA Capçalera Ethernet**:
+        
+        - MAC Origen: La MAC de sortida del Router.
+            
+        - MAC Destí: La MAC del següent router de l'operadora (ISP).
+            
+5. **Envia:** Torna a convertir en senyal elèctric/òptic cap a Internet.
+    
+
+> [!important] Regla d'Or
+> 
+> Les IPs (Capa 3) es mantenen d'origen a destí final (excepte si hi ha NAT).
+> 
+> Les MACs (Capa 2) canvien a cada salt (cada router) pel camí.
+
+---
+
+# Recepció al Destí (Desencapsulament)
+
+Quan el senyal arriba finalment al servidor de Google:
+
+1. **Capa Física:** Rep el senyal, recupera els bits `10101...`.
+    
+2. **Capa Enllaç:**
+    
+    - Verifica el FCS (no hi ha errors).
+        
+    - Mira la MAC. És la meva? Sí.
+        
+    - _Treu la capçalera Ethernet._
+        
+3. **Capa Xarxa:**
+    
+    - Mira la IP. És la meva? Sí.
+        
+    - _Treu la capçalera IP._
+        
+4. **Capa Transport:**
+    
+    - Mira el Port Destí (80). Hi ha algun procés escoltant? Sí, el servidor web (Apache/Nginx).
+        
+    - Revisa el Checksum TCP. Tot correcte.
+        
+    - _Treu la capçalera TCP._
+        
+5. **Capa Aplicació:**
+    
+    - El servidor web rep les dades pures: `GET /index.html`.
+        
+    - Processa la petició i **comença tot el procés al revés** per enviar-te la resposta.
