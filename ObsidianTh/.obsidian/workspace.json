@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8aca6b6b84e898ba",
+        "id": "66e67e66be5f2144",
         "type": "tabs",
         "children": [
           {
-            "id": "4740ad7719ae2b62",
+            "id": "fe7806bc7a85821f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "4043548d203bee27",
+            "id": "503e5e82cf3ece64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Correus i Contrasenyes.md",
+                "file": "Uni/3rAny/Visio/Final/P5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Correus i Contrasenyes"
+              "title": "P5"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,17 +203,32 @@
       "bases:Create new base": false
     }
   },
-  "active": "4043548d203bee27",
+  "active": "fe7806bc7a85821f",
   "lastOpenFiles": [
+    "Uni/3rAny/Visio/Final/Ploting.md",
+    "Uni/3rAny/Visio/Final/P3.md",
+    "Uni/3rAny/Visio/Final/P5.md",
+    "Uni/3rAny/Visio/Final/P4.md",
+    "Uni/3rAny/Visio/Final/HaarExample.jpg",
+    "Sense títol",
+    "Uni/3rAny/Visio/Final/2026-01-14_17-16.png",
+    "Uni/3rAny/Visio/TH/Parcial, apunts random.md",
+    "Uni/3rAny/Visio/Final",
+    "Uni/3rAny/Visio/Pràctiques/P3/Apunts Lab.md",
     "VESTIDORS DINAMIS.md",
-    "Correus i Contrasenyes.md",
     "Uni/3rAny/Xarxes/Parcial25-26/Resum/Resum 1r Parcial Xarxes.md",
-    "Uni/3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
+    "Uni/3rAny/Xarxes/Parcial25-26/Resum/Resum 2n Parcial Xarxes.md",
+    "Uni/3rAny/Xarxes/Parcial25-26/Resum/2026-01-03_11-38.png",
+    "Uni/3rAny/Xarxes/Parcial25-26/Resum/2026-01-03_11-19.png",
     "Altres/Obsidian/Callouts.md",
+    "Uni/3rAny/Xarxes/Parcial25-26/Resum/2026-01-03_10-41.png",
+    "Uni/3rAny/Xarxes/Parcial25-26/Resum/Pasted image 20260103102324.png",
+    "Uni/3rAny/Tallers/2nParcial/PPT6/Hipòtesis i inferencies.md",
     "Uni/3rAny/Tallers/2nParcial/PPT7/Exploració - Explotació.md",
+    "Correus i Contrasenyes.md",
+    "Uni/3rAny/Xarxes/Apunts de TH/Resum Relacional de Xarxes.md",
     "Uni/3rAny/Xarxes/Parcial25-26/Resum",
     "Uni/3rAny/Tallers/2nParcial/Classe Bayes.md",
-    "Uni/3rAny/Tallers/2nParcial/PPT6/Hipòtesis i inferencies.md",
     "Uni/3rAny/Tallers/2nParcial/PPT6/classe - Hipòtesis i inferencies.md",
     "Uni/3rAny/Tallers/2nParcial/PPT7",
     "Uni/3rAny/Tallers/2nParcial/Hipòtesis In.md",
@@ -228,14 +242,7 @@
     "Uni/3rAny/Tallers/Pràctiques/P4/Merge, Groupby i Pivot Table.md",
     "Uni/3rAny/Tallers/Pràctiques/P4",
     "Uni/EXAMEN TODO/Tasks.md",
-    "Uni/3rAny/Tallers/1rParcial/Resum Relacional de TNUI.md",
     "Uni/EXAMEN TODO",
-    "Uni/3rAny/Visio/Pràctiques/P4/P4 Prova.md",
-    "Uni/3rAny/Visio/Pràctiques/P4/P4-2.md",
-    "Uni/3rAny/Visio/Pràctiques/P4/Microfons Patri2.md",
-    "Uni/3rAny/Visio/Pràctiques/P4/Microfons Patri.md",
-    "Uni/3rAny/Xarxes/Avaluació/Avaluació Pràctiques.md",
-    "Uni/3rAny/Xarxes/Avaluació/Avaluació Examnes.md",
     "Uni/3rAny/Visio/Pràctiques/P4/Pasted image 20251202113010.png",
     "Uni/3rAny/Visio/Pràctiques/P4",
     "Altres/Recursos/WhatsApp Image 2025-11-29 at 09.43.43.jpeg",
@@ -243,16 +250,8 @@
     "Uni/3rAny/IA/T1/Sense títol",
     "Uni/3rAny/IA/T1/Markov/Representació decisions Markov.canvas",
     "Uni/3rAny/IA/T1/Markov",
-    "Uni/3rAny/Visio/TH/Classe Texturas",
-    "Uni/3rAny/Tallers/2nParcial/classe8",
     "Uni/3rAny/Parcials/ThVA/Pasted image 20251103094959.png",
     "Uni/3rAny/Parcials/ThVA/Pasted image 20251103094922.png",
-    "Altres/Recursos/Pasted image 20251102162416.png",
-    "Altres/Recursos/Pasted image 20251102161803.png",
-    "Altres/Recursos/Pasted image 20251102160234.png",
-    "Altres/Recursos/Pasted image 20251102160207.png",
-    "Altres/Recursos/Pasted image 20251102155743.png",
-    "Altres/Recursos/Pasted image 20251102153350.png",
     "Uni/3rAny/Parcials/ThTNUI/PPT3i4/Netflix Recommends.canvas",
     "Uni/3rAny/Parcials/ThTNUI/Netflix Recommends.canvas",
     "Uni/3rAny/Parcials/ThTNUI/Exemple Recomanador/Netflix Recommends.canvas",

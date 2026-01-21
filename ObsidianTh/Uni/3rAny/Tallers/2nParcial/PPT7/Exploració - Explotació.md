@@ -25,7 +25,7 @@ En el nostre cas, cada acció té una _recompensa esperada_ o _recompensa mitja_
 >Pensa que estem parlant d'un tipus de problema on tenim un únic accionan (la palanca) i una sortida amb recompensa aleatoria
 > - Comencem no sabent el valor de l'acció, però podem acabar fent estimacions
 
-Per moldejar això necessitarem anar fent decisions entre **Explotar** o **Explorar** 
+Per moldelar això necessitarem anar fent decisions entre **Explotar** o **Explorar** 
 
 - Explorar: Millorar les nostres estimacions sobre el valor de les recompenses
 - Explotar: Triar la opció que _Creiem_ que té millor recompensa
@@ -37,7 +37,7 @@ Per moldejar això necessitarem anar fent decisions entre **Explotar** o **Explo
 
 #### Mètode mostra promitjada
 
-- Anomenarem $Q^*(a)$ al valor real de l'acció $a$ (valor de la mitjade recompenses rebudes al fer l'acció $a$), que començarà sent desconegut
+- Anomenarem $Q^*(a)$ al valor real de l'acció $a$ (valor de la mitja de recompenses rebudes al fer l'acció $a$), que començarà sent desconegut
 - Anomenarem $Q_t(a)$ al seu valor estimat després de $t$ jugades
 
 $$
