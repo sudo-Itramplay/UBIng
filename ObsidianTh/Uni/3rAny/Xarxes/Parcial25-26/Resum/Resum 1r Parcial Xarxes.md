@@ -1,5 +1,4 @@
 Aquest resum és un recull de la teoria que sol preguntar en el primer parcial. Per tant tot està enfocat als diferents exercicis que ell planteja.
-
 - [[#Model OSI]]
 	- [[#Capa d'Aplicació (Capa 7)|Capa d'Aplicació (Capa 7)]]
 			- [[#Protocols comuns|Protocols comuns]]
@@ -29,6 +28,31 @@ Aquest resum és un recull de la teoria que sol preguntar en el primer parcial. 
 	- [[#3. L'Encaminament: Capa de Xarxa (Layer 3)|3. L'Encaminament: Capa de Xarxa (Layer 3)]]
 	- [[#4. El Tram Local: Capa d'Enllaç (Layer 2)|4. El Tram Local: Capa d'Enllaç (Layer 2)]]
 	- [[#5. La Transmissió: Capa Física (Layer 1)|5. La Transmissió: Capa Física (Layer 1)]]
+- [[#PROBLEMES]]
+	- [[#CRC]]
+		- [[#Càlcul del CRC: Pas a pas|Càlcul del CRC: Pas a pas]]
+			- [[#Càlcul del CRC: Pas a pas#1. Traducció del Polinomi Generador|1. Traducció del Polinomi Generador]]
+			- [[#Càlcul del CRC: Pas a pas#2. Preparació de la Trama (Padding)|2. Preparació de la Trama (Padding)]]
+			- [[#Càlcul del CRC: Pas a pas#3. Divisió Binària (XOR)|3. Divisió Binària (XOR)]]
+			- [[#Càlcul del CRC: Pas a pas#Resultat Final|Resultat Final]]
+	- [[#Transmissió de Senyal i Capacitat de Canal]]
+		- [[#1. Conceptes Fonamentals i Fórmules|1. Conceptes Fonamentals i Fórmules]]
+			- [[#1. Conceptes Fonamentals i Fórmules#A. Teorema de Shannon-Hartley|A. Teorema de Shannon-Hartley]]
+			- [[#1. Conceptes Fonamentals i Fórmules#B. Relació Senyal-Soroll (SNR)|B. Relació Senyal-Soroll (SNR)]]
+			- [[#1. Conceptes Fonamentals i Fórmules#C. Model de Propagació en l'Espai Lliure (Llei de Friis)|C. Model de Propagació en l'Espai Lliure (Llei de Friis)]]
+		- [[#2. Resolució de l'Exercici de Laboratori|2. Resolució de l'Exercici de Laboratori]]
+			- [[#2. Resolució de l'Exercici de Laboratori#1. Determinació de la velocitat (Shannon)|1. Determinació de la velocitat (Shannon)]]
+			- [[#2. Resolució de l'Exercici de Laboratori#2. Codificació i Velocitat Final|2. Codificació i Velocitat Final]]
+			- [[#2. Resolució de l'Exercici de Laboratori#3. Potència de Soroll ($N$)|3. Potència de Soroll ($N$)]]
+			- [[#2. Resolució de l'Exercici de Laboratori#4. Distància màxima (sense considerar soroll)|4. Distància màxima (sense considerar soroll)]]
+			- [[#2. Resolució de l'Exercici de Laboratori#5. Distància màxima (considerant soroll)|5. Distància màxima (considerant soroll)]]
+		- [[#Resolució mecànica|Resolució mecànica]]
+			- [[#Resolució mecànica#1. Capacitat de Shannon (Velocitat Teòrica)|1. Capacitat de Shannon (Velocitat Teòrica)]]
+			- [[#Resolució mecànica#2. Codificació i Velocitat Real|2. Codificació i Velocitat Real]]
+			- [[#Resolució mecànica#3. Potència de Soroll ($N$)|3. Potència de Soroll ($N$)]]
+			- [[#Resolució mecànica#4. Distància Màxima (Espai Lliure)|4. Distància Màxima (Espai Lliure)]]
+			- [[#Resolució mecànica#5. Distància amb Soroll|5. Distància amb Soroll]]
+
 
 
 
@@ -773,3 +797,770 @@ Quan el senyal arriba finalment al servidor de Google:
     - El servidor web rep les dades pures: `GET /index.html`.
         
     - Processa la petició i **comença tot el procés al revés** per enviar-te la resposta.
+
+
+
+---
+# PROBLEMES
+
+
+# CRC
+
+Per calcular el **CRC (Cyclic Redundancy Check)**, seguirem una sèrie de passos sistemàtics basats en l'aritmètica modular en base 2 (operacions **XOR** sense ròssec).
+
+---
+
+## Càlcul del CRC: Pas a pas
+
+### 1. Traducció del Polinomi Generador
+
+El polinomi generador $G(X) = X^5 + X + 1$ s'ha de convertir a format binari. Cada potència de $X$ representa la posició d'un bit (començant per 0 a la dreta).
+
+- $X^5$ $\rightarrow$ bit a la posició 5: **1**
+    
+- $X^4$ $\rightarrow$ bit a la posició 4: **0**
+    
+- $X^3$ $\rightarrow$ bit a la posició 3: **0**
+    
+- $X^2$ $\rightarrow$ bit a la posició 2: **0**
+    
+- $X^1$ $\rightarrow$ bit a la posició 1: **1**
+    
+- $X^0$ ($1$) $\rightarrow$ bit a la posició 0: **1**
+    
+
+> [!important] Divisor Binari
+> 
+> El divisor per a l'operació serà: 100011.
+> 
+> El grau del polinomi és $n = 5$.
+
+### 2. Preparació de la Trama (Padding)
+
+Afegim tants zeros al final de la trama original com el grau del polinomi ($n = 5$).
+
+- Trama original: `10110011101`
+    
+- Trama amb padding: `10110011101` + `00000` = **`1011001110100000`**
+    
+
+### 3. Divisió Binària (XOR)
+
+Realitzem la divisió de la trama amb padding pel divisor binari. Recorda: **1 XOR 1 = 0**, **0 XOR 0 = 0**, **1 XOR 0 = 1**.
+
+Plaintext
+
+```
+1011001110100000 | 100011
+100011           |--------------
+------           | 10111101011 (Quocient, no el necessitem)
+00111111         |
+  100011         | (XOR quan el bit a l'esquerra és 1)
+  ------         |
+  0111001        |
+   100011        |
+   ------        |
+   0110101       |
+    100011       |
+    ------       |
+    0101100      |
+     100011      |
+     ------      |
+     00111100    | (Baixem un zero, no cap, en baixem un altre)
+      0111100    |
+       100011    |
+       ------    |
+       0111110   |
+        100011   |
+        ------   |
+        0111010  |
+         100011  |
+         ------  |
+         0110010 |
+          100011 |
+          ------ |
+          010021 (Error de càlcul visual, fem-ho net a sota)
+```
+
+**Desenvolupament net de la resta:**
+
+1. `101100` XOR `100011` = `001111`
+    
+2. Baixem l'`1`: `11111` (massa petit, baixem un altre `1`) $\rightarrow$ `111111`
+    
+3. `111111` XOR `100011` = `011100`
+    
+4. Baixem el `0`: `111000` XOR `100011` = `011011`
+    
+5. Baixem l'`1`: `110111` XOR `100011` = `010100`
+    
+6. Baixem l'`1`: `101001` XOR `100011` = `001010`
+    
+7. Baixem el `0`: `10100` (massa petit, baixem un altre `0`) $\rightarrow$ `101000`
+    
+8. `101000` XOR `100011` = `001011`
+    
+9. Baixem el `0`: `10110` (massa petit, baixem un altre `0`) $\rightarrow$ `101100`
+    
+10. `101100` XOR `100011` = `001111`
+    
+11. Baixem l'últim `0`: **`11110`**
+    
+
+---
+
+### Resultat Final
+
+> [!success] Valor del CRC
+> 
+> El residu de la divisió és 11110.
+> 
+> Aquest és el codi que s'adjuntarà a la trama original per a la detecció d'errors.
+
+- **Trama a transmetre:** `10110011101` + `11110` = **`1011001110111110`**
+
+# Transmissió de Senyal i Capacitat de Canal
+
+En aquesta secció analitzem els límits físics de la transmissió de dades, especialment en entorns sense fils (Wi-Fi), utilitzant les lleis de Shannon i Friis.
+
+## 1. Conceptes Fonamentals i Fórmules
+
+### A. Teorema de Shannon-Hartley
+
+Defineix la capacitat màxima teòrica d'un canal de comunicació en presència de soroll.
+
+$$C = B \cdot \log_2(1 + SNR_{lineal})$$
+
+- **$C$**: Capacitat del canal (bits per segon).
+    
+- **$B$**: Ample de banda (Hertz).
+    
+- **$SNR_{lineal}$**: Relació senyal-soroll en valor lineal (no en dB).
+    
+
+### B. Relació Senyal-Soroll (SNR)
+
+Mesura la qualitat del senyal respecte al soroll de fons.
+
+- **Conversió de dB a Lineal:** $SNR_{lineal} = 10^{\frac{SNR_{dB}}{10}}$
+    
+- **Càlcul en dBm:** $SNR_{dB} = P_{recapció}(dBm) - P_{soroll}(dBm)$
+    
+
+### C. Model de Propagació en l'Espai Lliure (Llei de Friis)
+
+Calcula la pèrdua de potència del senyal segons la distància i la freqüència.
+
+$$L_{FS} (dB) = 32.44 + 20 \log_{10}(d_{km}) + 20 \log_{10}(f_{MHz})$$
+
+- **$L_{FS}$**: Pèrdua en l'espai lliure ($P_{transmissió} - P_{recepció}$).
+    
+- **$d$**: Distància en quilòmetres.
+    
+- **$f$**: Freqüència en Megahertz.
+    
+
+---
+
+## 2. Resolució de l'Exercici de Laboratori
+
+**Dades de partida:**
+
+- Ample de banda ($B$): $40 \text{ MHz} = 40 \cdot 10^6 \text{ Hz}$
+    
+- Freqüència ($f$): $5 \text{ GHz} = 5000 \text{ MHz}$
+    
+- Potència de transmissió ($P_t$): $17 \text{ dBm}$
+    
+- Sensibilitat ($P_{min}$): $-90 \text{ dBm}$
+    
+- $SNR$ objectiu: $20 \text{ dB}$
+    
+- Guany antenes ($G$): $0 \text{ dB}$
+    
+
+### 1. Determinació de la velocitat (Shannon)
+
+Primer passem el $SNR$ a valor lineal: $SNR_{lin} = 10^{20/10} = 100$.
+
+Apliquem Shannon:
+
+$$C = 40 \cdot 10^6 \cdot \log_2(1 + 100) \approx 40 \cdot 10^6 \cdot 6.658 \approx 266.32 \text{ Mbps}$$
+
+> [!success] Conclusió
+> 
+> Sí, podem assolir els 150 Mbps del protocol 802.11n, ja que el límit físic del canal amb aquest soroll és de ~266 Mbps.
+
+### 2. Codificació i Velocitat Final
+
+Quants bits per senyal (símbol) podem fer servir?
+
+$n = \log_2(1 + SNR_{lin}) = \log_2(101) \approx 6.65 \text{ bits/símbol}$.
+
+En la pràctica, s'utilitzen nombres enters de bits (com 64-QAM). Per tant, agafem 6 bits per símbol.
+
+La velocitat final efectiva seria:
+
+$$V = B \cdot n = 40 \text{ MHz} \cdot 6 \text{ bits/símbol} = 240 \text{ Mbps}$$
+
+### 3. Potència de Soroll ($N$)
+
+El soroll es calcula a partir de la potència que rebem i la relació que volem mantenir. Si considerem que el senyal arriba just al límit de la sensibilitat:
+
+$$SNR_{dB} = P_{recepció} - N \rightarrow 20 \text{ dB} = -90 \text{ dBm} - N$$
+
+$$N = -90 - 20 = -110 \text{ dBm}$$
+
+### 4. Distància màxima (sense considerar soroll)
+
+Utilitzem la sensibilitat del dispositiu com a límit de pèrdua.
+
+Pèrdua màxima permesa ($L_{max}$): $17 \text{ dBm} - (-90 \text{ dBm}) = 107 \text{ dB}$.
+
+Apliquem Friis:
+
+$107 = 32.44 + 20 \log_{10}(d) + 20 \log_{10}(5000)$
+
+$107 = 32.44 + 20 \log_{10}(d) + 73.98$
+
+$107 = 106.42 + 20 \log_{10}(d)$
+
+$0.58 = 20 \log_{10}(d) \rightarrow \log_{10}(d) = 0.029$
+
+$d = 10^{0.029} \approx 1.069 \text{ km} \rightarrow \mathbf{1069 \text{ metres}}$
+
+### 5. Distància màxima (considerant soroll)
+
+Si el soroll ambiental fos més alt que la sensibilitat (per exemple, si el soroll fos de $-100 \text{ dBm}$), la potència mínima de recepció per mantenir el $SNR$ de $20 \text{ dB}$ hauria de ser major:
+
+$P_{req} = N + SNR = -110 \text{ dBm} + 20 \text{ dB} = -90 \text{ dBm}$.
+
+En aquest cas concret, com que el soroll calculat és coherent amb la sensibilitat, la distància es manté igual (**1069 m**). Si el soroll pugés, la distància de cobertura cauria dràsticament.
+
+
+
+## Resolució mecànica
+
+### 1. Capacitat de Shannon (Velocitat Teòrica)
+
+**Objectiu:** Determinar si 150 Mbps és físicament possible.
+
+- **Pas A (SNR lineal):** $SNR_{lin} = 10^{\frac{SNR_{dB}}{10}} = 10^{\frac{20}{10}} = 100$
+    
+- **Pas B (Càlcul):** $C = B \cdot \log_2(1 + SNR_{lin}) = 40 \cdot \log_2(101)$
+    
+- **Càlcul ràpid:** $40 \cdot 6.658 = 266.32 \text{ Mbps}$
+    
+
+> [!success] Resultat
+> 
+> Sí, és possible perquè $266.32 \text{ Mbps} > 150 \text{ Mbps}$.
+
+### 2. Codificació i Velocitat Real
+
+**Objectiu:** Ajustar els bits teòrics a un valor enter (com s'implementa al hardware).
+
+- **Pas A (Bits per símbol):** $n = \lfloor \log_2(1 + SNR_{lin}) \rfloor = \lfloor 6.65 \rfloor = \mathbf{6 \text{ bits/símbol}}$
+    
+- **Pas B (Velocitat final):** $V = B \cdot n = 40 \text{ MHz} \cdot 6 = \mathbf{240 \text{ Mbps}}$
+    
+
+### 3. Potència de Soroll ($N$)
+
+**Objectiu:** Trobar el soroll de fons del sistema en dBm.
+
+- **Dada:** El senyal mínim detectable ($P_{rec}$) és la sensibilitat: $-90 \text{ dBm}$.
+    
+- **Fórmula mecànica:** $N = P_{rec} - SNR_{dB}$
+    
+- **Càlcul:** $N = -90 \text{ dBm} - 20 \text{ dB} = \mathbf{-110 \text{ dBm}}$
+    
+
+### 4. Distància Màxima (Espai Lliure)
+
+**Objectiu:** Trobar $d$ usant la pèrdua màxima permesa ($L_{FS}$).
+
+- **Pas A (Pèrdua màxima):** $L_{FS} = P_{transmissió} - P_{sensibilitat} = 17 - (-90) = \mathbf{107 \text{ dB}}$
+    
+- **Pas B (Fòrmula de Friis):** $107 = 32.44 + 20\log(d_{km}) + 20\log(f_{MHz})$
+    
+- **Pas C (Substitució):** $107 = 32.44 + 20\log(d) + 20\log(5000)$
+    
+- Pas D (Aïllar): 1. $107 = 32.44 + 20\log(d) + 73.98$
+    
+    2. $107 = 106.42 + 20\log(d)$
+    
+    3. $0.58 = 20\log(d) \rightarrow \log(d) = 0.029$
+    
+- **Resultat:** $d = 10^{0.029} = \mathbf{1.069 \text{ km}}$
+    
+
+### 5. Distància amb Soroll
+
+**Objectiu:** Verificar si el soroll limita la cobertura més que la sensibilitat.
+
+- **Pas A:** Calcular $P_{rec\_necessària} = N + SNR = -110 + 20 = -90 \text{ dBm}$.
+    
+- Pas B: Comparar amb la sensibilitat. Com que coincideix amb els $-90 \text{ dBm}$ anteriors, la distància és la mateixa: 1.069 km.
+    
+    (Si el soroll fos més alt, la $P_{rec\_necessària}$ seria més gran i la distància disminuiria).
+    
+
+
+# Modulació Digital
+
+## 1. Què és?
+
+La **Modulació Digital** és el procés de transformar una seqüència de bits (0s i 1s) en un senyal analògic (ona portadora) adequat per viatjar a través d'un medi físic (aire, cable, fibra)1.
+
+- **Objectiu Principal:** Adaptar la informació digital a les característiques del canal de transmissió perquè arribi el més lluny i ràpid possible sense errors.
+    
+- **Concepte Clau:** Modifiquem paràmetres de l'ona portadora (sinusoïdal) en funció de les dades.
+    
+
+## 2. Tipus de Modulació (Què fan?)
+
+Es modifiquen tres paràmetres bàsics de l'ona portadora:
+
+- **[[ASK]] (Amplitude Shift Keying):**
+    
+    - **Mecanisme:** Modifica l'**amplitud** de l'ona. (Ex: Amplitud alta = 1, Amplitud baixa = 0).
+        
+    - **Característiques:** Senzilla però molt sensible al soroll (el soroll afecta directament l'amplitud).
+        
+- **[[FSK]] (Frequency Shift Keying):**
+    
+    - **Mecanisme:** Modifica la **freqüència**. (Ex: Freqüència alta = 1, Freqüència baixa = 0).
+        
+    - **Característiques:** Més immune al soroll que ASK.
+        
+- **[[PSK]] (Phase Shift Keying):**
+    
+    - **Mecanisme:** Modifica la **fase** de l'ona. (Ex: Desfasament de $180^{\circ}$ quan canviem de bit).
+        
+    - **Característiques:** És la més robusta contra el soroll.
+        
+- **[[QAM]] / QPSK (Quadrature Amplitude Modulation):**
+    
+    - **Mecanisme:** Combina canvis d'**amplitud** i de **fase** per enviar més bits per cada símbol (augmenta l'eficiència espectral).
+        
+
+## 3. Problemes i Limitacions
+
+Els senyals reals s'enfronten a fenòmens físics que degraden la comunicació:
+
+1. **Soroll (Noise):** Senyals externs indesitjats que se sumen al nostre.
+    
+    - _Tipus:_ Tèrmic (inevitable, depèn de la temperatura), Impulsiu, Diafonia (crosstalk)3.
+        
+    - _Efecte:_ Si el soroll és molt alt respecte al senyal ($S/N$ baixa), el receptor confon un 1 amb un 0.
+        
+2. **Atenuació:** Pèrdua de potència del senyal a mesura que avança per la distància ($d$)4.
+    
+    - _Resolució:_ Ús d'amplificadors o repetidors.
+        
+3. **Interferència Intersimbòlica (ISI):** Distorsió que fa que un símbol es "barregi" amb el següent, fent-lo il·legible (visible al "Diagrama d'Ull")5.
+    
+4. **Ample de Banda Limitat (Bandwidth):** El canal només deixa passar un rang de freqüències. Això limita la velocitat màxima (Teorema de Nyquist/Hartley)6.
+    
+
+---
+
+# [[Resolució Mecànica d'Exercicis]]
+
+Aquesta és la guia pas a pas per resoldre els problemes típics d'examen de la Capa Física (Shannon, Balanç de Potències, etc.).
+
+### A. Preparació Prèvia (Unitats)
+
+Abans de tocar la calculadora, **revisa les unitats**. És l'error més comú.
+
+- **Decibels (dB) a Lineal:** Moltes fórmules (com Shannon) necessiten valors lineals, no dB.
+    
+    - $SNR_{lineal} = 10^{(SNR_{dB}/10)}$
+        
+- **dBm a mW:**
+    
+    - $P_{mW} = 10^{(P_{dBm}/10)}$
+        
+- **Longitud d'ona ($\lambda$):** Sovint et donen la freqüència ($f$). Calcula $\lambda$ en metres.
+    
+    - $\lambda = \frac{c}{f}$ (on $c \approx 3\cdot10^8$ m/s).
+        
+
+### B. Tipologia d'Exercicis
+
+#### 1. Càlcul de Velocitat Màxima (Teoremes)
+
+Et demanaran "quina és la velocitat màxima teòrica" o "quants bits/nivells necessitem".
+
+- **Cas 1: Canal ideal (sense soroll) -> Llei de Hartley/Nyquist**
+    
+    - Ús: Quan et parlen de nivells ($M$) o bits per símbol ($n$).
+        
+    - Fórmula: $C = 2 \cdot B \cdot \log_2(M)$
+        
+        - $C$: Capacitat (bps).
+            
+        - $B$: Ample de banda (Hz).
+            
+        - $M$: Nombre de nivells (Ex: QPSK té 4 nivells). Si tens bits ($n$), $M = 2^n$.
+            
+- **Cas 2: Canal amb soroll -> Teorema de Shannon** 777
+    
+    - Ús: Quan et donen la relació Senyal-Soroll ($SNR$ o $S/N$).
+        
+    - Fórmula: $C = B \cdot \log_2(1 + \frac{S}{N})$
+        
+    - **Mecànica:**
+        
+        1. Converteix la SNR de dB a lineal (veure apartat A).
+            
+        2. Aplica la fórmula.
+            
+        3. El resultat és el límit absolut. Mai podràs transmetre més ràpid que això.
+            
+
+#### 2. Balanç de Potències (Enllaç sense fils)
+
+Et demanaran "arriba el senyal?", "quina distància màxima?", "quina potència d'emissió cal?".
+
+- **Equació Bàsica (en dB/dBm és només sumar i restar):**
+    
+    - $P_{RX} = P_{TX} + G_{TX} + G_{RX} - \text{Pèrdues}$
+        
+    - _Condició d'èxit:_ $P_{RX} \ge \text{Sensibilitat del Receptor}$.
+        
+- **Càlcul de Pèrdues (Atenuació en espai lliure):** 8
+    
+    - Si no et donen l'atenuació directa, has de calcular-la:
+        
+    - $L_{dB} = 20 \cdot \log_{10}\left(\frac{4 \cdot \pi \cdot d}{\lambda}\right)$
+        
+        - _Nota:_ Vigila que $d$ i $\lambda$ tinguin les mateixes unitats (metres).
+            
+
+#### 3. Càlcul de "Bits per Símbol" en Modulacions
+
+Et donen una modulació (ex: 64-QAM) i et pregunten velocitat o bits.
+
+- **Mecànica:**
+    
+    1. Mira el número del nom (ex: 64). Això és $M$ (nivells).
+        
+    2. Nombre de bits ($n$) = $\log_2(M)$. (Ex: $\log_2(64) = 6$ bits/símbol).
+        
+    3. Velocitat ($R_b$) = $n \times \text{Velocitat de modulació (bauds)}$.
+        
+
+Exemples de "Trampes" d'Examen 9999
+
+1. **Et donen la SNR en dB:** Si la poses directament dins del $\log_2$ de Shannon, el resultat serà incorrecte. Passa-la a lineal primer.
+    
+2. **Et donen la distància en km i la $\lambda$ en m:** Passa-ho tot a metres abans de calcular pèrdues.
+    
+3. **Et demanen "Eficiència":** Sol ser la relació entre la velocitat real aconseguida i la màxima teòrica (Shannon), o l'ús dels bits de dades vs bits totals (overhead).
+
+
+## 1. Què són les Topologies de Xarxa?
+
+La topologia defineix com es connecten els nodes al medi físic. Cal distingir entre dues visions:
+
+- **Topologia Física:** Com està muntat realment el cablejat (la "forma" dels cables).
+    
+- **Topologia Lògica:** Com els nodes interpreten que estan connectats i com viatgen les dades (el flux d'informació)1.
+    
+
+### A. Topologia en BUS
+
+És la configuració clàssica (i ara obsoleta per a LANs d'oficina, però usada en sistemes industrials/multimèdia)2.
+
+- **Funcionament:**
+    
+    - Tots els nodes comparteixen un únic cable (medi compartit).
+        
+    - Quan un node transmet, el senyal viatja en totes direccions.
+        
+    - **Tots** els nodes reben la informació, però només el destinatari la processa; la resta la descarta3.
+        
+- **Problema Principal:** Les **col·lisions**. Si dos nodes parlen alhora, els senyals es barregen i la informació es perd4.
+    
+- **Solució del Protocol (CSMA/CD):** S'utilitza en Ethernet sobre Bus. El node "escolta" abans de parlar. Si detecta una col·lisió, para i espera un temps aleatori5.
+    
+
+### B. Topologia en ANELL (Ring)
+
+Consisteix en un conjunt de repetidors units punt a punt formant un bucle tancat6.
+
+- **Funcionament:**
+    
+    - Els enllaços són unidireccionals (les dades giren en un sentit).
+        
+    - Cada estació té un repetidor que llegeix el bit, el pot modificar i el retransmet al següent7.
+        
+    - L'estació origen és l'encarregada d'eliminar les dades de l'anella quan li tornen (després de fer la volta completa)8.
+        
+- **Mecanisme d'Accés (Token):** Per evitar col·lisions, circula una trama especial anomenada "Token". Qui té el Token, té permís per parlar9.
+    
+- **Estats del Repetidor:**
+    
+    1. **Espera/Recepció:** Mira si passa el Token o dades per a ell10.
+        
+    2. **Transmissió:** Envia dades pròpies (si té el Token)11.
+        
+    3. **Desviament (Bypass):** Si l'estació cau, el repetidor deixa passar el senyal directament per no tallar l'anella12.
+        
+
+### C. Topologia en ESTEL (Star)
+
+És l'estàndard actual (Ethernet modern). Cada estació es connecta individualment a un node central13.
+
+- **El Node Central és la clau:**
+    
+    - **HUB (Concentrador - Capa Física):** Rep un senyal i el repeteix a _tots_ els ports. Actua com un Bus lògic (tothom rep tot, hi ha col·lisions)1414.
+        
+    - **SWITCH (Commutador - Capa MAC):** És intel·ligent. Rep un senyal i l'envia _només_ al port del destinatari. Elimina les col·lisions i permet comunicació simultània15151515.
+        
+
+---
+
+## 2. Tipologia de Problemes i Reptes
+
+En els exàmens i disseny de xarxes, els problemes se centren en les limitacions físiques i la lògica del protocol MAC.
+
+### Problema 1: Detecció de Col·lisions (CSMA/CD)
+
+En un BUS, per a què funcioni la detecció de col·lisions (CD), l'emissor ha de continuar transmetent durant el temps suficient perquè el senyal vagi fins a l'altre extrem, xoqui, i l'avís de xoc torni.
+
+- **Repte:** Si la trama és massa curta o el cable massa llarg, l'emissor acabarà d'enviar abans de saber que hi ha hagut un accident. Es pensaria que tot ha anat bé quan en realitat s'han perdut dades.
+    
+- **Condició crítica:** $T_{trama} \ge 2 \cdot T_{propagació}$16.
+    
+
+### Problema 2: Prioritats en Token Ring
+
+En una anella, com garantim que les dades urgents passin primer?
+
+- **Repte:** Un node amb dades poc importants no hauria d'agafar el Token si un altre node té una emergència.
+    
+- **Mecanisme:** El sistema de **Reserva i Prioritat** (bits en la trama del Token). Un node pot "reservar" el pròxim Token escrivint en els bits de reserva de la trama que passa, sempre que la seva prioritat sigui major17171717.
+    
+
+### Problema 3: Atenuació i Potència (Wireless)
+
+En topologies sense fils (Wireless), el medi (aire) atenua molt el senyal.
+
+- **Repte:** Calcular si la potència que arriba al receptor ($P_{RX}$) és superior a la sensibilitat mínima del xip.
+    
+- **Equació:** Balanç de potències (Fórmula de Friis adaptada)1818.
+    
+
+---
+
+## 3. Resum "Obsidian" (Punts Clau)
+
+Aquí tens l'esquema de conceptes per a les teves notes:
+
+- **Topologia Física vs Lògica:** Connexió real vs. Flux de dades.
+    
+- **BUS:**
+    
+    - Medi compartit, tots reben tot.
+        
+    - Control d'accés: **CSMA/CD** (escoltar abans de parlar + detectar xoc).
+        
+    - Condició vital: La trama ha de durar més que el viatge d'anada i tornada del senyal ($RTT$).
+        
+- **ANELL (Token Ring):**
+    
+    - Enllaços punt a punt, bucle tancat.
+        
+    - Control d'accés: **Token** (testimoni).
+        
+    - Gestió: Sistema de prioritats i reserves en la capçalera.
+        
+- **ESTEL:**
+    
+    - Node central.
+        
+    - Hub = Bus lògic (col·lisions).
+        
+    - Switch = Connexions dedicades (sense col·lisions).
+        
+
+---
+
+## 4. Resolució MECÀNICA d'Exercicis
+
+Aquesta és la part més important per aprovar. Segueix aquests passos algoríthmics davant dels problemes típics dels documents .
+
+### TIPUS A: Càlcul de CSMA/CD (Col·lisions)
+
+**Enunciat típic:** "Tenim una xarxa de longitud $L$, velocitat $v$, i ample de banda $BW$. Quina és la mida mínima de la trama per detectar col·lisions?"
+
+1. **Pas 1: Calcular el Temps de Propagació ($T_{prop}$)**
+    
+    - Fórmula: $T_{prop} = \frac{\text{Distància (m)}}{\text{Velocitat (m/s)}}$
+        
+    - _Nota:_ Si no et donen la velocitat, en coure sol ser $\approx 2/3$ de $c$ ($2 \cdot 10^8$ m/s), però busca la dada.
+        
+2. **Pas 2: Calcular el RTT (Round Trip Time)**
+    
+    - Fórmula: $RTT = 2 \cdot T_{prop}$
+        
+    - _Explicació:_ El pitjor cas és xocar al final del cable i que l'avís torni.
+        
+3. **Pas 3: Aplicar la condició de seguretat**
+    
+    - Condició: $T_{trama} \ge RTT$
+        
+4. **Pas 4: Calcular els bits mínims**
+    
+    - Sabem que $T_{trama} = \frac{\text{Bits}}{\text{Velocitat Transmissió (BW)}}$
+        
+    - Per tant: $\text{Bits Mínims} = RTT \cdot BW$
+        
+    - _Unitats:_ Assegura't que el BW estigui en bits/s (no Mb/s).
+        
+
+### TIPUS B: Exercicis de Token Ring (Prioritats)
+
+**Enunciat típic:** "Dissenyar un protocol Token Ring, explicar com funciona la prioritat o reservar torn"19191919.
+
+1. **Mecànica de la Reserva:**
+    
+    - Node A rep una trama de dades (ocupada) que passa per allà.
+        
+    - Node A vol transmetre amb prioritat $P_{A}$.
+        
+    - Node A mira el camp "Reserva" ($R$) de la trama que passa.
+        
+    - **Condició:** SI $P_{A} > R$, aleshores A sobrescriu $R$ amb el seu valor $P_{A}$.
+        
+    - _Resultat:_ Quan el Token s'alliberi, tindrà la prioritat que ha reservat A.
+        
+2. **Mecànica de l'Alliberament:**
+    
+    - L'estació que ha emès les dades, quan les rep de tornada, les treu.
+        
+    - Genera un nou Token LLIURE.
+        
+    - **Important:** Copia al camp "Prioritat" del nou Token el valor que hi havia al camp "Reserva" (el que ha escrit el Node A en el pas anterior).
+        
+
+### TIPUS C: Wireless i Potència (Friis)
+
+**Enunciat típic:** "Calcula la distància màxima donada una potència i sensibilitat"20.
+
+1. **Pas 1: Identificar les variables**
+    
+    - $P_{TX}$ (Potència Transmesa, passar a dBm sovint ajuda).
+        
+    - $G_{TX}, G_{RX}$ (Guanys antenes).
+        
+    - $\text{Sensibilitat}$ (Potència mínima necessària $P_{RX}$).
+        
+    - $\lambda$ (Longitud d'ona $= c / f$).
+        
+2. **Pas 2: Plantejar l'equació de pèrdues**
+    
+    - L'equació base és: $P_{RX} = P_{TX} \cdot G_{TX} \cdot G_{RX} \cdot \left( \frac{\lambda}{4 \pi d} \right)^2 \cdot \xi$21.
+        
+3. **Pas 3: Aïllar la incògnita (normalment $d$)**
+    
+    - Sovint és més fàcil treballar en dB (sumes i restes) i al final passar a lineal, o aïllar $d$ directament de l'arrel quadrada.
+        
+    - Si $Att$ (Atenuació) és el límit: $Att_{max} = 10 \log \left( \frac{P_{TX}}{P_{min}} \right)$.
+        
+
+### 📝 Enunciat de l'Exercici (Model Examen)
+
+> Tenim un punt d'accés que transmet a una freqüència de **2.4 GHz** amb una potència d'emissió de **100 mW**. Els guanys de les antenes (transmissor i receptor) són de **2 dB** cadascuna (factor lineal de 1.58).
+> 
+> Si la **sensibilitat mínima** del receptor és de **-80 dBm**, quina és la **distància màxima** teòrica a la qual ens podem connectar? (Considera un medi ideal sense pèrdues addicionals, $\xi = 1$).
+
+---
+
+### ⚙️ Resolució Mecànica
+
+#### Pas 1: Extracció i Unificació de Dades
+
+El primer error sol ser barrejar unitats (lineals vs logarítmiques/dB). Ho passem tot a **unitats lineals (Wats i nombres naturals)** per aplicar l'equació de l'examen.
+
+- **Freqüència ($f$):** $2.4 \text{ GHz} = 2.4 \cdot 10^9 \text{ Hz}$.
+    
+- **Potència Transmissió ($P_{TX}$):** $100 \text{ mW} = 0.1 \text{ W}$.
+    
+- **Guany ($G_{TX}$ i $G_{RX}$):** L'enunciat ens diu 2 dB. Si ens donen dB, ho passem a lineal:
+    
+    - $G = 10^{(dB/10)} \rightarrow G = 10^{(2/10)} \approx 1.58$.
+        
+- **Sensibilitat ($P_{RX}$):** Ens la donen en dBm ($-80 \text{ dBm}$). Això és la potència mínima que ha d'arribar. La passem a mW i després a W:
+    
+    - $P_{mW} = 10^{(dBm/10)} \rightarrow P_{mW} = 10^{(-80/10)} = 10^{-8} \text{ mW}$.
+        
+    - $P_{RX} = 10^{-11} \text{ W}$.
+        
+
+#### Pas 2: Calcular la Longitud d'Ona ($\lambda$)
+
+Necessitem $\lambda$ per a la fórmula. Sabem que la velocitat de la llum $c \approx 3 \cdot 10^8 \text{ m/s}$.
+
+$$\lambda = \frac{c}{f} = \frac{3 \cdot 10^8}{2.4 \cdot 10^9} = 0.125 \text{ metres}$$
+
+#### Pas 3: Plantejar l'Equació de Friis
+
+Segons el formulari de l'examen2, la fórmula és:
+
+$$P_{RX} = P_{TX} \cdot G_{TX} \cdot G_{RX} \cdot \left( \frac{\lambda}{4 \pi d} \right)^2 \cdot \xi$$
+
+_(Nota: En aquest cas $\xi = 1$, així que l'ignorem)._
+
+#### Pas 4: Aïllar la Incògnita (Distància $d$)
+
+Volem trobar $d$. Aquesta és la manipulació algebraica que has de memoritzar o saber deduir ràpidament:
+
+1. Passem els termes de l'esquerra a dividir/multiplicar:
+    
+    $$\frac{P_{RX}}{P_{TX} \cdot G_{TX} \cdot G_{RX}} = \left( \frac{\lambda}{4 \pi d} \right)^2$$
+    
+2. Fem l'arrel quadrada a banda i banda:
+    
+    $$\sqrt{\frac{P_{RX}}{P_{TX} \cdot G_{TX} \cdot G_{RX}}} = \frac{\lambda}{4 \pi d}$$
+    
+3. Aïllem la $d$:
+    
+    $$d = \frac{\lambda}{4 \pi} \cdot \sqrt{\frac{P_{TX} \cdot G_{TX} \cdot G_{RX}}{P_{RX}}}$$
+    
+
+#### Pas 5: Substitució i Càlcul Final
+
+Posem els números que hem preparat al Pas 1 i 2.
+
+$$d = \frac{0.125}{4 \pi} \cdot \sqrt{\frac{0.1 \cdot 1.58 \cdot 1.58}{10^{-11}}}$$
+
+- Càlcul del terme exterior: $\frac{0.125}{12.566} \approx 0.009947$
+    
+- Càlcul de l'interior de l'arrel:
+    
+    - Numerador: $0.1 \cdot 1.58 \cdot 1.58 \approx 0.2496$
+        
+    - Divisió: $\frac{0.2496}{10^{-11}} = 0.2496 \cdot 10^{11} = 2.496 \cdot 10^{10}$
+        
+- Arrel quadrada: $\sqrt{2.496 \cdot 10^{10}} \approx 157987$
+    
+
+Multipliquem:
+
+$$d \approx 0.009947 \cdot 157987 \approx 1571.5 \text{ metres}$$
+
+---
+
+### ✅ Resultat Final
+
+La distància màxima teòrica és de **1.57 km**.
+
+---
+
+### 💡 Consell de Professor
+
+Si a l'examen et donen un factor d'eficiència o pèrdues (per exemple $\xi = 0.75$ com a 3), simplement afegeix aquest número multiplicant dins de l'arrel quadrada al numerador (juntament amb $P_{TX}$).
