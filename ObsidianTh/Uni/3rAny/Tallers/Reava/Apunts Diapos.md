@@ -1356,3 +1356,38 @@ Tot procés d'entrenament pot heretar o generar problemes que cal supervisar:
 - **Biaixos:** El model pot perpetuar estereotips presents en les dades d'entrenament.
     
 - **Sobre-estimació (_Overfitting_):** Risc de trobar un model que s'ajusti massa a les dades d'entrenament però no generalitzi bé.
+
+
+ 
+## ✍️ Tècniques i Exemples de Prompts
+
+El document destaca que els models responen millor quan se'ls dóna una estructura clara i context.
+
+### Estratègies clau amb exemples:
+
+- **Definició de Rol:** Actuar com un expert millora la qualitat.
+    
+    - _Exemple:_ "Actua com un professor de programació i explica’m Python amb exemples simples."
+        
+- **Especificitat i Format:** Evitar vagueses i demanar estructures concretes (JSON, llistes).
+    
+    - _Exemple:_ "Explica’m en 5 punts els avantatges del mètode bootstrap en estadística aplicada."
+        
+- **Raonament (Chain-of-Thought):** Demanar que el model pensi pas a pas ajuda en problemes complexos.
+    
+    - _Exemple:_ "Raona pas a pas i explica per què descartes opcions."
+        
+
+---
+
+## 🧱 L'Estructura del Prompt Modular
+
+La pràctica professional moderna divideix el prompt en 5 mòduls essencials per maximitzar la precisió:
+
+|**Mòdul**|**Descripció**|**Exemple del PDF**|
+|---|---|---|
+|**Context**|Qui ets i què saps.|"Sóc estudiant de 3er d’Informàtica... no conec l’aprenentatge profund."|
+|**Objectiu**|Què vols aconseguir.|"Necessito una explicació clara... per explicar-la a classe."|
+|**Tasques**|Accions concretes.|"Explica què és un LLM en 6–8 frases. Inclou una analogia."|
+|**Restriccions**|Què s'ha d'evitar.|"No facis servir equacions avançades. No donis info històrica."|
+|**Format**|Com vols la sortida.|"Respon organitzat en 4 seccions: A, B, C i D."|
