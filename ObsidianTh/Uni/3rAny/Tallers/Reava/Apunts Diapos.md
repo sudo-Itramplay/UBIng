@@ -1067,6 +1067,51 @@ Encara que és menys comú en les primeres capes que el max-pooling, té la seva
 > [!NOTE] Càrrega de Paràmetres 
 > És fonamental recordar que les capes de pooling **no tenen paràmetres entrenables** (no hi ha pesos ni biaixos a aprendre); només apliquen una regla fixa per reduir les dimensions de les dades.
 
+#### Problemes del Perceptró
+##### 1. Explosió de paràmetres i dimensionalitat
+
+Quan intentem processar imatges d'alta resolució, el nombre de paràmetres creix de manera insostenible:
+
+- **Alta dimensionalitat d'entrada**: Una fotografia d'un sol megapíxel genera una entrada d'un milió de dimensions.
+    
+- **Densitat de paràmetres**: Fins i tot amb una reducció agressiva a només 1.000 dimensions ocultes, una capa completament connectada requeriria $10^6 \times 10^3 = 10^9$ paràmetres.
+    
+- **Càrrega computacional**: Gestionar milers de milions de pesos fa que l'entrenament i la inferència siguin extremadament costosos.
+    
+
+---
+
+##### 2. Necessitat de dades massives
+
+A causa de l'enorme quantitat de paràmetres a ajustar, el model es torna molt complex:
+
+- **Risc de sobreajustament (Overfitting)**: Aprendre un classificador amb tants paràmetres lliures requereix la recollida d'un conjunt de dades enorme per evitar que la xarxa simplement memoritzi els exemples d'entrenament.
+    
+
+---
+
+##### 3. Manca d'invariància a la translació
+
+En les imatges naturals, un objecte pot aparèixer en qualsevol coordenada (x, y).
+
+- **Sensibilitat a la posició**: El perceptró no és invariant a les translacions al pla de la imatge.
+    
+- **Ineficiència en l'aprenentatge**: Perquè un perceptró aprengui a detectar un objecte, caldria proporcionar-li exemples de l'objecte en totes les localitzacions possibles, ja que no entén que una "orella" és el mateix si es mou uns píxels a la dreta.
+    
+
+---
+
+##### 4. Ignorància de l'estructura espacial
+
+Les xarxes completament connectades tracten cada píxel com una variable independent:
+
+- **Pèrdua de context local**: No exploten l'estructura coneguda de les imatges naturals, on els píxels propers solen estar relacionats.
+    
+- **Operació de "Flattening"**: Per entrar les dades a un perceptró, cal "aplanar" la imatge en un vector d'una sola dimensió, destruint tota la informació de topologia espacial (quines dades estan a sobre, a sota o al costat d'altres).
+    
+
+Voldries que t'expliqués com les xarxes convolucionals (CNN) solucionen aquests problemes mitjançant el compartiment de pesos i els camps receptius locals?
+
 ---
 
 ## 🔄 El paper en la seqüència CNN
@@ -1314,7 +1359,7 @@ Podem visualitzar un agent com un sistema amb quatre components principals:
     - _Memòria a llarg termini:_ L'ús de bases de dades vectorials (RAG) per recuperar informació externa.
         
 - **Eines / Ús de recursos (Tool Use):** La capacitat de cridar APIs externes, consultar una base de dades SQL, fer càlculs matemàtics exactes o navegar per la web.
-    
+
 
 ---
 
@@ -1380,7 +1425,7 @@ El document destaca que els models responen millor quan se'ls dóna una estructu
 
 ---
 
-## 🧱 L'Estructura del Prompt Modular
+##  L'Estructura del Prompt Modular
 
 La pràctica professional moderna divideix el prompt en 5 mòduls essencials per maximitzar la precisió:
 
@@ -1391,3 +1436,53 @@ La pràctica professional moderna divideix el prompt en 5 mòduls essencials per
 |**Tasques**|Accions concretes.|"Explica què és un LLM en 6–8 frases. Inclou una analogia."|
 |**Restriccions**|Què s'ha d'evitar.|"No facis servir equacions avançades. No donis info històrica."|
 |**Format**|Com vols la sortida.|"Respon organitzat en 4 seccions: A, B, C i D."|
+
+# Ètica
+Per entendre els criteris de justícia algorísmica que solen aparèixer en els exàmens, primer cal definir els conceptes fonamentals i les variables que permeten formalitzar aquestes teories.
+
+### Conceptes preliminars i definició d'Equitat
+
+- **Definició d'Equitat (Fairness):** L'equitat algorísmica és el camp d'investigació dirigit a comprendre i corregir els biaixos no desitjats en els sistemes de decisió. Un algorisme s'anomena "equitatiu" quan busca eliminar o mitigar la desviació sistemàtica en els resultats, el rendiment o l'impacte d'una decisió en relació amb una norma o estàndard d'imparcialitat.
+    
+- **Variables fonamentals:** Per operar amb les mesures d'equitat, s'utilitzen habitualment tres elements:
+    
+    - **$Y$ (Sortida esperada/Realitat):** Representa la condició real o el "mèrit" d'una persona. Per exemple, si un candidat està realment qualificat per a una feina.
+        
+    - **$\hat{Y}$ (Predicció/Sortida de l'algorisme):** És la decisió que pren el sistema. Normalment, el valor $1$ representa una decisió favorable, com rebre un préstec o ser seleccionat per a una entrevista.
+        
+    - **Atribut protegit o Grups ($G$):** Serveix per dividir les entitats en grups basats en característiques protegides legalment (com el gènere o l'edat). Es distingeix entre el **grup protegit** ($G^+$, per exemple, dones) i el **grup no protegit o privilegiat** ($G^-$, per exemple, homes).
+        
+
+---
+
+### Criteris d'Equitat de Grup
+
+La teoria divideix les mesures d'equitat segons si utilitzen només la decisió de l'algorisme o si també tenen en compte la realitat observada.
+
+#### 1. Criteri d'Independència (Paritat Estadística)
+
+Aquest criteri utilitza exclusivament els estadístics de la sortida de l'algorisme ($\hat{Y}$) i la pertinença al grup ($G$).
+
+- **Funcionament:** Compara la probabilitat que una entitat rebi una decisió favorable segons el grup al qual pertany. Es considera que hi ha **paritat demogràfica o estadística** quan la probabilitat d'un resultat favorable és pràcticament igual per als dos grups: $P(\hat{Y}=1 | G^+) \approx P(\hat{Y}=1 | G^-)$.
+
+	Com s’aplica? La $P(Y ̂ = 1 | X ∈ G +)$ ha de ser com a mínim el 80% de $P(Y ̂ = 1 | X ∈ G −).$
+
+- **Implicació crítica:** Aquest mètode **ignora els mèrits** de la persona ($Y$). Demana que la proporció de seleccionats sigui similar entre grups, independentment de si hi ha diferències en les qualificacions d'entrada. Per exemple, si una empresa contracta un 30% d'homes i només un 10% de dones, estaria violant aquest criteri.
+
+
+#### 2. Criteri de Separació (Equitat basada en la precisió)
+
+Aquest criteri utilitza tant la decisió de l'algorisme ($\hat{Y}$) com la realitat o sortida esperada ($Y$).
+
+- **Funcionament:** Garanteix que determinats tipus d'errors de classificació (com els veritables positius o els falsos negatius) siguin iguals entre els diferents grups.
+    
+- **La taxa de Veritables Positius (True Positive Rate):** Una forma comuna de separació exigeix que, d'entre totes les persones que realment compleixen els requisits ($Y=1$), la probabilitat de ser seleccionat ($\hat{Y}=1$) sigui la mateixa per a tots els grups: $P(\hat{Y}=1 | Y=1, G^+) = P(\hat{Y}=1 | Y=1, G^-)$.
+    
+- **Diferència amb la independència:** A diferència de la paritat estadística, aquí els membres dels dos grups tenen les mateixes possibilitats d'obtenir el resultat favorable **només quan compleixen els requisits**.
+
+
+---
+
+### Incompatibilitat i context
+
+Un punt fonamental de la teoria és que, en problemes de decisió binaris, s'ha demostrat que **la independència i la separació no es poden mantenir al mateix temps**. Això significa que és impossible satisfer totes les definicions d'equitat de grup simultàniament, per la qual cosa cal triar quina és la més adequada segons el context específic del problema per prevenir danys concrets.
