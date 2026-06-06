@@ -9,7 +9,9 @@ tags:
 
 # Resum Final — Software Distribuit (2n Parcial)
 
-> Contingut complet posterior al Parcial 1: [[P2P]], [[Docker i Microservices]], [[Hadoop]], [[Spark]], [[WebServices]].
+> Notes atòmiques al [[_MOC|MOC de SD]] · [[Big Data i Teorema CAP]] · [[Hadoop]] · [[Spark]] · [[P2P]] · [[Java RMI]] · [[Web Services]] · [[Microserveis]] · [[Docker i Kubernetes]]
+
+> Contingut complet posterior al Parcial 1: [[P2P]], [[Microserveis]] · [[Docker i Kubernetes]], [[Hadoop]], [[Spark]], [[Web Services]].
 
 ---
 

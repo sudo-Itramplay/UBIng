@@ -1,3 +1,5 @@
+> [!note] Pràctica P1 — vegeu la teoria a [[Intersecció Raig-Triangle]] · [[Intersecció Raig-Objecte]] · [[Raig Primari]] · [[Normal]]
+
 ### Pas 1: Definició del Raig i el Triangle
 
 Abans de calcular res, hem de tenir clares les nostres dades d'entrada.

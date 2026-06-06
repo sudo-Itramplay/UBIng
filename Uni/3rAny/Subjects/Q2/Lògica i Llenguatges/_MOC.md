@@ -7,27 +7,40 @@ tags:
 
 # Lògica i Llenguatges — MOC
 
-Índex curat de les notes d'aquesta assignatura. Quan creïs una nota nova, afegeix-la a la secció que toqui.
+Índex curat de les notes atòmiques d'aquesta assignatura. Quan creïs una nota nova, afegeix-la a la secció que toqui.
 
-## Teoria general
+## Resums i chuletaris
 
-- [[Disseny de compiladors]]
-
-## 01 — Primer Parcial
-
-- [[Introducció]]
-- [[Formalització del llenguatge Natural]]
-- [[Introducció a llenguatge de predicats]]
-- [[Demostrador]]
-- [[Demostradors - Llenguatge de predicats]]
-- [[Problema del SAT - Putmann]]
-- [[SAT-Solver]]
-
-### Chuletaris i resums
-
+- [[Resum Primer Parcial]]
 - [[Chuletari Parcial]]
 - [[CHULETARI EQUIVALÈNCIES]]
-- [[Resum Primer Parcial]]
+
+## Lògica proposicional
+
+- [[Lògica]] · [[Proposicions i Connectives]] · [[Implicació i Equivalència]]
+- [[Sintaxi de Proposicions]] · [[Formalització del Llenguatge Natural]]
+- [[Interpretacions i Avaluació]] · [[Propietats Semàntiques]] · [[Equivalència Lògica]]
+
+## Llenguatge de predicats
+
+- [[Llenguatge de Predicats]] · [[Terme]] · [[Àtom i Fórmula de Predicats]]
+- [[Variables Lliures i Lligades]] · [[Interpretació en Predicats]] · [[Avaluació de Fórmules]]
+- [[Equivalències en Predicats]]
+
+## Demostradors i resolució
+
+- [[Demostrador]] · [[Conseqüència Lògica]] · [[Forma Normal Conjuntiva]] · [[Regla de Resolució]]
+- [[Forma Clausal]] · [[Unificació]] · [[Resolució en Predicats]]
+
+## SAT-solvers
+
+- [[Problema SAT]] · [[Davis-Putnam]] · [[DPLL]]
+- [[Clàusula vs Conjunció Buida]] · [[Modelització SAT]]
+
+## Compiladors i autòmates
+
+- [[Fases d'un Compilador]] · [[Anàlisi Lèxic]]
+- [[λ-tancament]] · [[Conversió NFA a DFA]]
 
 ## Pendents
 

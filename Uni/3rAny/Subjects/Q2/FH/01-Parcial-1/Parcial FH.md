@@ -1,3 +1,10 @@
+> [!abstract] Resum complet del 1r Parcial · vegeu les notes atòmiques al [[_MOC|MOC de FH]]
+> **Fonaments:** [[HCI]] · [[Disseny Centrat en l'Usuari]] · [[Design Thinking]] · [[Model d'Interacció]] · [[Usabilitat]] · [[UX]] · [[UI vs UX]]
+> **Conceptualització:** [[User Research]] · [[Entrevistes]] · [[Qüestionaris]] · [[Biaixos Cognitius]] · [[Persona]] · [[Mapa d'Empatia]] · [[User Journey Map]]
+> **Construcció:** [[Arquitectura de la Informació]] · [[Sistemes d'Organització]] · [[Sistemes de Navegació]] · [[Sitemap]]
+> **Prototipatge:** [[Prototipatge]] · [[Ideació]] · [[Model Conceptual]] · [[Fidelitat dels Prototips]] · [[Storyboarding]]
+> **Gamificació:** [[Gamificació]] · [[Gamification Model Canvas]] · [[Tipus de Jugador]]
+
 # Tema 1
 ## Interacció Persona-Ordinador (HCI)
 

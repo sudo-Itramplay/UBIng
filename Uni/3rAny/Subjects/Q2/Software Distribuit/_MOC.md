@@ -7,46 +7,64 @@ tags:
 
 # Software Distribuït — MOC
 
-Índex curat de les notes d'aquesta assignatura. Quan creïs una nota nova, afegeix-la a la secció que toqui.
+Índex curat de les notes atòmiques d'aquesta assignatura. Quan creïs una nota nova, afegeix-la a la secció que toqui.
 
-## Resum Final
+## Resums
 
-- [[Uni/3rAny/Subjects/Q2/Software Distribuit/02-Parcial-2/Revisio]] — repassada ràpida abans d'estudiar
-- [[Resum-Final-SD]] — apunts complets per estudiar
+- [[Parcial de Software Distribut]] — resum del 1r Parcial
+- [[Revisio]] — repassada ràpida del 2n Parcial
+- [[Resum-Final-SD]] — apunts complets del 2n Parcial
 
-## Teoria general
+## Introducció (1r Parcial)
 
-- [[Docker i Microservices]]
-- [[Hadoop]]
-- [[Spark]]
-- [[P2P]]
-- [[WebServices]]
+- [[Software Distribuït]] · [[Reptes dels Sistemes Distribuïts]] · [[Middleware]]
+- [[Arquitectura Multicapa]] · [[Tipologia de Clients]]
 
-## 01 — Primer Parcial
+## Sistema Operatiu
 
-- [[Introducció al Software Distribuit]]
-- [[Repàs de SO]]
-- [[Client-Servidor]]
-- [[Client-Servidor 2]]
-- [[Introducció a Threads per a C-S]]
-- [[Threads 1 -  Implementació]]
-- [[Threads 2 - Problemes]]
-- [[Web]]
-- [[Nova TH]]
-- [[Parcial de Software Distribut]]
+- [[Procés i Thread]] · [[IPC i Protocols]] · [[Sincronització]]
+
+## Client-Servidor i Sockets
+
+- [[Pas de Missatges]] · [[Model Client-Servidor]] · [[Sockets]]
+- [[TCP Stream-mode]] · [[UDP Datagram-mode]] · [[Endianness i Marshalling]]
+- [[Tipus de Servidors]] · [[Multicast]]
+
+## Threads i concurrència
+
+- [[Threads]] · [[Threads a Java]] · [[Problemes de Concurrència]]
+- [[Sincronització en Java]] · [[Coordinació de Threads]]
+
+## Web
+
+- [[Web]] · [[HTTP]] · [[Contingut Dinàmic Web]] · [[MVC]]
+
+## Big Data (2n Parcial)
+
+- [[Big Data i Teorema CAP]]
+- [[Hadoop]] · [[HDFS]] · [[MapReduce]]
+- [[Spark]] · [[RDD]] · [[Transformacions i Accions]] · [[Variables Compartides]]
+
+## P2P i Objectes Distribuïts
+
+- [[P2P]] · [[DHT i Overlay Network]] · [[BitTorrent]] · [[Blockchain]]
+- [[Objectes Distribuïts]] · [[Java RMI]]
+
+## Web Services
+
+- [[Web Services]] · [[REST]] · [[Sessions i Autenticació]] · [[AJAX i WebSockets]]
+
+## Microserveis
+
+- [[Monòlit vs Microserveis]] · [[Microserveis]] · [[Comunicació Inter-Servei]]
+- [[Tolerància a Fallades]] · [[API Gateway]] · [[Arquitectura Basada en Esdeveniments]]
+- [[Docker i Kubernetes]]
 
 ## Pràctiques
 
 - [[Practiques/Apuntar al Excel què hem fet|Excel — registre general]]
-
-### P1
-
-- [[files]]
-- [[Sessió 2]]
-
-### P2
-
-- [[Practiques/P2/Apuntar al Excel què hem fet|Excel — registre P2]]
+- P1: [[files]] · [[Sessió 2]]
+- P2: [[Practiques/P2/Apuntar al Excel què hem fet|Excel — registre P2]]
 
 ## Pendents
 

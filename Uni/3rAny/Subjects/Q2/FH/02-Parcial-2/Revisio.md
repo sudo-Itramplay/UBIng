@@ -8,6 +8,11 @@ tags:
 
 # FH Final — Repassada ràpida
 
+> [!abstract] Notes atòmiques del 2n Parcial
+> **Disseny:** [[Disseny]] · [[Lleis de la Interacció]] · [[Principis de Don Norman]] · [[Heurístiques de Nielsen]] · [[Disseny Visual]] · [[Guia d'Estil]] · [[Disseny Emocional]] · [[Patrons de Disseny]]
+> **Accessibilitat:** [[Accessibilitat]] · [[Disseny Inclusiu]] · [[Perfils de Visió]] · [[Perfils d'Audició]] · [[Perfils Motors i Cognitius]] · [[Persones Grans]] · [[WCAG i POUR]] · [[Accessibilitat VUE]]
+> **Avaluació:** [[Avaluació del Disseny]] · [[Avaluació amb Usuaris]] · [[Avaluació per Experts]] · [[Mètriques d'Usabilitat]] · [[Qüestionaris Estandarditzats]]
+
 ---
 
 ## 1. Disseny

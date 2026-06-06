@@ -1,3 +1,5 @@
+> [!note] Teoria: [[Equivalència Lògica]] · [[Equivalències en Predicats]] · [[Forma Normal Conjuntiva]]
+
 ## 1. Regles de la Implicació i Doble Implicació
 
 - **Implicació:** 

@@ -7,19 +7,30 @@ tags:
 
 # Gràfics per Computador — MOC
 
-Índex curat de les notes d'aquesta assignatura. Quan creïs una nota nova, afegeix-la a la secció que toqui.
+Índex curat de les notes atòmiques d'aquesta assignatura. Quan creïs una nota nova, afegeix-la a la secció que toqui.
 
-## Teoria general
+## Fonaments
 
-- [[Introducció Gràfics Per computador (1)]]
-- [[Introducció al Ray Tracing]]
-- [[RayTracing]]
-- [[Càmera i Reflexions]]
-- [[Ombres i Penombres]]
+- [[Gràfics per Computador]] · [[Pipeline de Visualització]] · [[Elements Gràfics]]
+- [[Objectes]] · [[Materials]] · [[Textures]] · [[Rendering]]
 
-## Apunts de classe
+## Ray Tracing
 
-- [[Introducció al Raytracing(2)]]
+- [[Ray Tracing]] · [[Raycasting vs Raytracing]] · [[Backward Ray Tracing]]
+- [[Algorisme Recursiu de Ray Tracing]] · [[Equació de Color]]
+- [[Model de Càmera]] · [[Raig Primari]] · [[Coordenades Homogènies]]
+
+## Geometria i interseccions
+
+- [[Intersecció Raig-Objecte]] · [[Intersecció Raig-Triangle]]
+- [[Objectes Paramètrics]] · [[Malles Poligonals]] · [[Malla de Triangles]] · [[Normal]]
+- [[Estructures de Malla en Memòria]] · [[Scene Graph i CSG]] · [[Estructures d'Acceleració]]
+
+## Il·luminació i efectes
+
+- [[Models d'Il·luminació]] · [[Blinn-Phong]]
+- [[Reflexions]] · [[Transparències]]
+- [[Ombres]] · [[Shadow Acne]] · [[Soft Shadows]]
 
 ## Pràctiques
 

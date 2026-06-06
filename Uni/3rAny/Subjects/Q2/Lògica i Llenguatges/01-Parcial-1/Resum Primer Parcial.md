@@ -1,3 +1,9 @@
+> [!abstract] Notes atòmiques del 1r Parcial · [[_MOC|MOC de LL]]
+> **Proposicional:** [[Lògica]] · [[Proposicions i Connectives]] · [[Implicació i Equivalència]] · [[Sintaxi de Proposicions]] · [[Formalització del Llenguatge Natural]] · [[Propietats Semàntiques]] · [[Equivalència Lògica]]
+> **Predicats:** [[Llenguatge de Predicats]] · [[Terme]] · [[Variables Lliures i Lligades]] · [[Interpretació en Predicats]] · [[Avaluació de Fórmules]]
+> **Demostradors:** [[Demostrador]] · [[Forma Normal Conjuntiva]] · [[Regla de Resolució]] · [[Forma Clausal]] · [[Unificació]]
+> **SAT:** [[Problema SAT]] · [[Davis-Putnam]] · [[DPLL]]
+
 # Tema 1 Llenguatge Proposicions
 
 ## 1. Introducció i Aplicacions de la Lògica

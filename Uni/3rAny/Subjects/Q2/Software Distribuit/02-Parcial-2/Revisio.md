@@ -8,6 +8,12 @@ tags:
 
 # SD Final — Repassada ràpida
 
+> [!abstract] Notes atòmiques del 2n Parcial
+> **Big Data:** [[Big Data i Teorema CAP]] · [[Hadoop]] · [[HDFS]] · [[MapReduce]] · [[Spark]] · [[RDD]] · [[Transformacions i Accions]] · [[Variables Compartides]]
+> **P2P:** [[P2P]] · [[DHT i Overlay Network]] · [[BitTorrent]] · [[Blockchain]] · [[Objectes Distribuïts]] · [[Java RMI]]
+> **Web Services:** [[Web Services]] · [[REST]] · [[Sessions i Autenticació]] · [[AJAX i WebSockets]]
+> **Microserveis:** [[Monòlit vs Microserveis]] · [[Microserveis]] · [[Comunicació Inter-Servei]] · [[Tolerància a Fallades]] · [[API Gateway]] · [[Arquitectura Basada en Esdeveniments]] · [[Docker i Kubernetes]]
+
 ---
 
 ## 1. P2P

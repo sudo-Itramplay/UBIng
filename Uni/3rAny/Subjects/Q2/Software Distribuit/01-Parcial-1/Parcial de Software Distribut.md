@@ -1,6 +1,13 @@
 
 # Tema 1 - Introduccio
 
+> [!abstract] Resum del 1r Parcial · notes atòmiques al [[_MOC|MOC de SD]]
+> **Intro:** [[Software Distribuït]] · [[Reptes dels Sistemes Distribuïts]] · [[Middleware]] · [[Arquitectura Multicapa]] · [[Tipologia de Clients]]
+> **SO:** [[Procés i Thread]] · [[IPC i Protocols]] · [[Sincronització]]
+> **Client-Servidor:** [[Model Client-Servidor]] · [[Sockets]] · [[TCP Stream-mode]] · [[UDP Datagram-mode]] · [[Endianness i Marshalling]] · [[Tipus de Servidors]] · [[Multicast]]
+> **Threads:** [[Threads]] · [[Threads a Java]] · [[Problemes de Concurrència]] · [[Sincronització en Java]] · [[Coordinació de Threads]]
+> **Web:** [[Web]] · [[HTTP]] · [[Contingut Dinàmic Web]] · [[MVC]]
+
 ## 1. Software Distribut
 
 - **Definició bàsica:** Sistemes on ordinadors independents col·laboren per a una tasca comuna.

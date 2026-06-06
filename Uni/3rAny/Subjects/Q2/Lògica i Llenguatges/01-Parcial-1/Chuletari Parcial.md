@@ -1,3 +1,5 @@
+> [!note] Vegeu [[Equivalència Lògica]] · [[Equivalències en Predicats]] · [[Forma Normal Conjuntiva]] · [[Regla de Resolució]] · [[Davis-Putnam]] · [[CHULETARI EQUIVALÈNCIES]]
+
 ## Ⅰ. Taula d'Equivalències Lògiques
 
 ### 1. Regles de la Implicació i Doble Implicació
