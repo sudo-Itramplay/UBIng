@@ -11,8 +11,7 @@ tags:
 
 ## Resums
 
-- [[Uni/3rAny/Subjects/Q1/TNUI/ThTNUI/T1/Resum Relacional de TNUI|Resum Relacional de TNUI (teoria)]]
-- [[Uni/3rAny/Subjects/Q1/TNUI/Tallers/1rParcial/Resum Relacional de TNUI|Resum Relacional de TNUI (tallers)]]
+- [[Uni/3rAny/Subjects/Q1/TNUI/ThTNUI/T1/Resum Relacional de TNUI|Resum Relacional de TNUI]]
 
 ## Teoria per parcial (ThTNUI)
 
@@ -29,4 +28,4 @@ tags:
 
 ## Pendents
 
-- [ ] Unificar els dos "Resum Relacional de TNUI" si convé
+- [ ]

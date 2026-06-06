@@ -11,7 +11,7 @@ tags:
 
 ## Resum Final
 
-- [[Revisio]] — repassada ràpida abans d'estudiar
+- [[Uni/3rAny/Subjects/Q2/FH/02-Parcial-2/Revisio]] — repassada ràpida abans d'estudiar
 - [[Resum-Final_FH]] — apunts complets per estudiar
 
 ## Teoria general

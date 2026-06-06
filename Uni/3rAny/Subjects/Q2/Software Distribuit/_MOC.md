@@ -11,7 +11,7 @@ tags:
 
 ## Resum Final
 
-- [[Revisio]] — repassada ràpida abans d'estudiar
+- [[Uni/3rAny/Subjects/Q2/Software Distribuit/02-Parcial-2/Revisio]] — repassada ràpida abans d'estudiar
 - [[Resum-Final-SD]] — apunts complets per estudiar
 
 ## Teoria general
