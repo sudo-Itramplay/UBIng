@@ -1,1 +1,0 @@
-Donat un output [[Vector de Classificació de valoracions|Z]] per a K classes, la funció [[Uni/3rAny/Tallers/1rParcial/PPT4/Bases dels Recomanadors/Softmax]] serveix per passar-les a probabilitats

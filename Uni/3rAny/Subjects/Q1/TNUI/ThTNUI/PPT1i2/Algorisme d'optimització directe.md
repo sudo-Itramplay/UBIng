@@ -1,0 +1,1 @@
+És un [[Uni/3rAny/Subjects/Q1/TNUI/ThTNUI/PPT1i2/Algorisme d'optimització]] Sense derivades
