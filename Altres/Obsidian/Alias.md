@@ -7,3 +7,5 @@ aliases:
 ---
 
 --- alias: Nom Alternatiu Únic ---
+
+Veure també: [[Callouts]] · [[Code Styler]]

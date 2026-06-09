@@ -17,7 +17,7 @@ tags:
 ## Teoria (Apunts de TH)
 
 - **T1 — Model OSI**: [[Capes Model OSI]] · [[OSI]] · [[Encapsulació]] · [[Peer-to-Peer]]
-- **T2 — Transmissió**: [[Modulació]] · [[Codificació]] · [[Medi de Transmissió de la informació]]
+- **T2 — Transmissió**: [[Modulació]] · [[Codificació]] · [[Medi de Transmissió de la informació]] · [[IEEE]]
 - **T2 — Soroll i capacitat**: [[Teorema de Shannon-Hartley]] · [[Teorema de Nyquist]] · [[SNR]]
 - **Codificació de línia**: [[NRZ bàsic]] · [[NRZ-L]]
 
@@ -29,6 +29,10 @@ tags:
 
 - [[Examen P3]] · [[Examen P4]] · [[Repàs per la revisió]]
 - [[Resum 1r Parcial Xarxes]] · [[Resum 2n Parcial Xarxes]]
+
+## Avaluació
+
+- [[Avaluació Examnes]] · [[Avaluació Pràctiques]]
 
 ## Pendents
 

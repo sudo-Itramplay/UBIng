@@ -23,8 +23,12 @@ tags:
 
 ## Pràctiques
 
-- **P2** — Scikit-image: [[Carregar Imatges]] · [[Mascares]] · [[Binary thresholding]]
-- **P3 / P4 / Final**: [[Apunts Lab]] · [[P4 Prova]] · [[P3]] · [[P4]] · [[P5]]
+- **P2** — Scikit-image: [[Carregar Imatges]] · [[Mascares]] · [[Binary thresholding]] · [[Plot de varies Imatges]] · [[Punts ski]]
+- **P3 / P4 / Final**: [[Apunts Lab]] · [[P4 Prova]] · [[P3]] · [[P4]] · [[P5]] · [[Ploting]]
+
+## Parcial
+
+- [[Resum Exc Pel Parcial]]
 
 ## Pendents
 

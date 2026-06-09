@@ -1,5 +1,7 @@
 Hi ha maneres de fer que la ia tingui millor rendiment fent ús de certes estructures, amb les que la IA ha estat entrenada
 
+Veure també: [[L2-template]]
+
 Prompt general ha de tenir la estructura:
 
 - Priming, primicia

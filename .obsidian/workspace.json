@@ -11,24 +11,10 @@
             "id": "503e5e82cf3ece64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/3rAny/Subjects/Q2/FH/02-Parcial-2/Lleis de la Interacció.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Lleis de la Interacció"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -181,6 +167,7 @@
   },
   "active": "503e5e82cf3ece64",
   "lastOpenFiles": [
+    "Uni/3rAny/Subjects/Q2/FH/02-Parcial-2/Lleis de la Interacció.md",
     "Uni/3rAny/Subjects/Q2/FH/02-Parcial-2/Heurístiques de Nielsen.md",
     "Uni/3rAny/Subjects/Q2/FH/02-Parcial-2/Guia d'Estil.md",
     "Uni/3rAny/Subjects/Q2/FH/02-Parcial-2/Ètica en l'Avaluació.md",
@@ -215,7 +202,6 @@
     "Uni/3rAny/Xarxes/Parcial25-26/Resum/2026-01-03_10-41.png",
     "Uni/3rAny/Xarxes/Parcial25-26/Resum/Pasted image 20260103102324.png",
     "Uni/3rAny/Tallers/2nParcial/PPT6/Hipòtesis i inferencies.md",
-    "Uni/3rAny/Tallers/2nParcial/PPT7/Exploració - Explotació.md",
     "Uni/3rAny/Xarxes/Parcial25-26/Resum",
     "Uni/3rAny/Tallers/2nParcial/PPT7",
     "Uni/3rAny/Tallers/Pràctiques/P4",

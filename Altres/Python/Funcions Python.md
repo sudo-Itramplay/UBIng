@@ -1,5 +1,7 @@
 #Python
 
+Veure també: [[Numpy]] · [[Intro a Pandas]]
+
 ## Per obtenir index i element alhora
 
 Enumerate retorna parells on el primer element és l'index i el segon el value de la seqüència iterable
