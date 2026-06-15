@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "66e67e66be5f2144",
+        "id": "815552d350c5e332",
         "type": "tabs",
         "children": [
           {
-            "id": "503e5e82cf3ece64",
+            "id": "ae468fa443a5ae59",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Uni/3rAny/Subjects/Q2/FH/Resum-Final_FH.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Resum-Final_FH"
             }
           }
         ]
@@ -165,8 +179,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "503e5e82cf3ece64",
+  "active": "ae468fa443a5ae59",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Personal/Vim/Vim & Neovim - Guia per Accions.md",
     "Uni/3rAny/Subjects/Q2/FH/02-Parcial-2/Lleis de la Interacció.md",
     "Uni/3rAny/Subjects/Q2/FH/02-Parcial-2/Heurístiques de Nielsen.md",
     "Uni/3rAny/Subjects/Q2/FH/02-Parcial-2/Guia d'Estil.md",
@@ -198,10 +214,8 @@
     "Uni/3rAny/Xarxes/Parcial25-26/Resum/Resum 2n Parcial Xarxes.md",
     "Uni/3rAny/Xarxes/Parcial25-26/Resum/2026-01-03_11-38.png",
     "Uni/3rAny/Xarxes/Parcial25-26/Resum/2026-01-03_11-19.png",
-    "Altres/Obsidian/Callouts.md",
     "Uni/3rAny/Xarxes/Parcial25-26/Resum/2026-01-03_10-41.png",
     "Uni/3rAny/Xarxes/Parcial25-26/Resum/Pasted image 20260103102324.png",
-    "Uni/3rAny/Tallers/2nParcial/PPT6/Hipòtesis i inferencies.md",
     "Uni/3rAny/Xarxes/Parcial25-26/Resum",
     "Uni/3rAny/Tallers/2nParcial/PPT7",
     "Uni/3rAny/Tallers/Pràctiques/P4",

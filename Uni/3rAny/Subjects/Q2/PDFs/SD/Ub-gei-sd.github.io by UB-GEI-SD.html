@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ub-gei-sd.github.io by UB-GEI-SD</title>
+    <link rel="stylesheet" href="Ub-gei-sd.github.io%20by%20UB-GEI-SD_files/syntax.css">
+    <link rel="stylesheet" href="Ub-gei-sd.github.io%20by%20UB-GEI-SD_files/styles.css">
+    <link rel="stylesheet" href="Ub-gei-sd.github.io%20by%20UB-GEI-SD_files/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>    <![endif]-->
+</head>
+<body>
+    <div id="wrapper">
+        <h1><a href="https://ub-gei-sd.github.io/">SD</a> | Docker  </h1>
+<div id="content">
+<hr>
+<h1 id="deploying-your-solution-virtualization-and-containerization">Deploying your solution, Virtualization and Containerization</h1>
+
+<p>Virtualization and Containerization  are solutions to the problem of 
+how to get software to run reliably when moved from one computing 
+environment to another. This could be from a developer’s laptop to a 
+test environment, from a staging environment into production and perhaps
+ from a physical machine in a data center to a virtual machine in a 
+private or public cloud.</p>
+
+<h2 id="the-virtual-machine">The Virtual Machine</h2>
+
+<p>A virtual machine (VM) is a completely virtualized environment that 
+only abstracts the physical hardware. A VM comes with its own BIOS, 
+virtualized network adapters, disk storage, CPU and a complete operating
+ system. When a VM boots, it has to go through the entire boot process –
+ just like a normal piece of hardware. While boot times in VMs are often
+ lower than those tied directly to hardware, it can still take several 
+seconds to minutes to boot, depending on several factors.</p>
+
+<p>The virtual machine  has been at the center of the cloud computing 
+explosion. The widespread use of virtualization led to amazing changes 
+across the technology industry. The rapid adoption of VMs led to 
+significant changes in processor architecture. Even more than that, the 
+cloud-based platform providers of today could not exist without the 
+virtual machine. Amazon, Digital Ocean, Linode and Joyent are just some 
+of the cloud providers that depend on virtual machines.</p>
+
+<h2 id="the-container">The Container</h2>
+
+<p>While a virtual machine abstracts away the hardware, container 
+abstraction happens at the operating system level. A container consists 
+of an entire runtime environment: an application, plus all its 
+dependencies, libraries and other binaries, and configuration files 
+needed to run it, bundled into one package. By containerizing the 
+application platform and its dependencies, differences in OS 
+distributions and underlying infrastructure are abstracted away. The 
+difference with VM is that a server running three containerized 
+applications runs a single operating system, and each container shares 
+the operating system kernel with the other containers. Shared parts of 
+the operating system are read only, while each container has its own 
+mount (i.e., a way to access the container) for writing. That means the 
+containers are much more lightweight and use far fewer resources than 
+virtual machines.</p>
+
+<h3 id="containers-vs-virtual-machines">Containers VS virtual machines</h3>
+
+<p>A container may be only tens of megabytes in size, whereas a virtual 
+machine with its own entire operating system may be several gigabytes in
+ size.</p>
+
+<p>Because of this, a single server can host far more containers than virtual machines.</p>
+
+
+&lt;/tr&gt;
+<table>
+<tbody><tr><td colspan="3" width="362">Average Start/Stop Times</td></tr><tr>
+<td width="143"></td>
+<td width="113">Start Time</td>
+<td width="105">Stop Time</td>
+</tr>
+<tr>
+<td width="143">Docker Containers</td>
+<td width="113">&lt; 50ms</td>
+<td width="105">&lt; 50ms</td>
+</tr>
+<tr>
+<td width="143">Virtual Machines</td>
+<td width="113">30 – 45 seconds</td>
+<td width="105">5 – 10 seconds</td>
+</tr>
+</tbody></table>
+
+<p>Virtual machines may take several minutes to boot up their operating 
+systems and begin running the applications they host, containerized 
+applications can be started almost instantly.</p>
+
+<p>Regarding security, a virtual machine is more secure than a 
+container. The main reason is that the virtual machine has the advantage
+ of having hardware isolation. Meanwhile, containers share kernel 
+resources and application libraries. This means that if a virtual 
+machine breaks down it is less likely to take other VMs with it.
+However, it’s very possible to make a containerized environment highly 
+secure. As with any operating system, you can take traditional security 
+precautions to lock down the environment inside a container.</p>
+
+<p>Virtualization and containers may come to be seen as complementary 
+technologies rather than competing ones. That’s because containers can 
+be run in lightweight virtual machines to increase isolation and 
+increase security, and because hardware virtualization makes it far 
+easier to manage the hardware infrastructure such as networks, servers 
+and storage which are needed to support containers.</p>
+
+<h3 id="docker">DOCKER</h3>
+
+<p>Docker is an open-source project that automates the deployment of Linux applications inside software containers:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Docker containers 
+wrap up a piece of software in a complete filesystem that contains 
+everything it needs to run: code, runtime, system tools, system 
+libraries – anything you can install on a server. This guarantees that 
+it will always run the same, regardless of the environment it is running
+ in.</code></p>
+
+<p>Docker was initially built on top of LXC. Each Docker container’s 
+purpose is to run a single application. As such, the scope for a Docker 
+container is built towards a particular application, as opposed to an 
+entire operating system as is the case for LXC. The file system inside a
+ Docker container provides an environment similar to a VM.</p>
+
+<p>Docker further incorporates a sophisticated container management 
+solution that allows for easy scripting and automation. Given the focus 
+on execution time for containerized applications, the ease of scripting 
+is even more important.</p>
+
+<h2 id="installing-docker">Installing Docker:</h2>
+
+<p>1) Choose your operative system and download the installation program:</p>
+
+<p>https://docs.docker.com/engine/installation/</p>
+
+<p>2) Open a terminal and test the installation with these commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ docker --version
+
+$ docker-compose --version
+
+$ docker-machine --version
+
+$ docker run hello-world
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+c04b14da8d14: Pull complete 
+Digest: sha256:0256e8a36e2070f7bf2d0b0763dbabdd67798512411de4cdcf9431a1feb60fd9
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker Hub account:
+ https://hub.docker.com
+
+For more examples and ideas, visit:
+ https://docs.docker.com/engine/userguide/
+</code></pre></div></div>
+
+<h2 id="terminology">Terminology</h2>
+
+<ul>
+  <li>
+    <p><strong>Images</strong>- The blueprints of our application which form the basis of containers.</p>
+  </li>
+  <li>
+    <p><strong>Containers</strong> - Created from Docker images and run the actual application. A list of running containers can be seen using the <code class="language-plaintext highlighter-rouge">docker ps</code> command.</p>
+  </li>
+  <li>
+    <p><strong>Docker Daemon</strong> - The background service running 
+on the host that manages building, running and distributing Docker 
+containers. The daemon is the process that runs in the operation system 
+to which clients talk to.</p>
+  </li>
+  <li>
+    <p><strong>Docker Client</strong> - The command line tool that 
+allows the user to interact with the daemon. More generally, there can 
+be other forms of clients too - such as Kitematic which provide a GUI to
+ the users.</p>
+  </li>
+  <li>
+    <p><strong>Docker Hub</strong> - A registry of Docker images. You 
+can think of the registry as a directory of all available Docker images.
+ If required, one can host their own Docker registries and can use them 
+for pulling images.</p>
+  </li>
+</ul>
+
+<h1 id="docker-images">Docker Images</h1>
+
+<p>Docker images are the basis of containers. To see the list of images that are available locally, use the <code class="language-plaintext highlighter-rouge">docker images</code> command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+hello-world         latest              c54a2cc56cbb        5 months ago        1.848 kB
+</code></pre></div></div>
+
+<p>For simplicity, you can think of an image akin to a git repository - 
+images can be committed with changes and have multiple versions. If you 
+don’t provide a specific version number, the client defaults to latest. 
+To get a new Docker image you can either get it from a registry (such as
+ the Docker Hub) or create your own. There are tens of thousands of 
+images available on Docker Hub. You can also search for images directly 
+from the command line using <code class="language-plaintext highlighter-rouge">docker search</code>.</p>
+
+<p>An important distinction to be aware of when it comes to images is the difference between base and child images.</p>
+
+<p>Base images are images that have no parent image, usually images with an OS like ubuntu, busybox or debian.
+Child images are images that build on base images and add additional functionality.
+Then there are official and user images, which can be both base and child images.</p>
+
+<p>Official images are images that are officially maintained and 
+supported by the folks at Docker. These are typically one word long. In 
+the list of images above, the python, ubuntu, busybox and hello-world 
+images are base images.
+User images are images created and shared by users like you and me. They
+ build on base images and add additional functionality. Typically, these
+ are formatted as user/image-name.</p>
+
+<h2 id="creating-an-image-for-a-wsgi-python-app">Creating an Image for a WSGI python APP:</h2>
+
+<p>As mentioned above, all user images are based off of a base image. 
+Since our application is written in Python, the base image we’re going 
+to use will be Python 3. More specifically, we are going to use the 
+python:3-onbuild version of the python image.</p>
+
+<p>What’s the onbuild version you might ask?</p>
+
+<p>These images include multiple ONBUILD triggers, which should be all 
+you need to bootstrap most applications. The build will COPY a 
+requirements.txt file, RUN pip install on said file, and then copy the 
+current directory into /usr/src/app.</p>
+
+<p>In other words, the onbuild version of the image includes helpers 
+that automate the boring parts of getting an app running. Rather than 
+doing these tasks manually (or scripting these tasks), these images do 
+that work for you. We now have all the ingredients to create our own 
+image - a functioning web app and a base image. How are we going to do 
+that? The answer is - using a <strong>Dockerfile.</strong></p>
+
+<h2 id="dockerfile">Dockerfile</h2>
+
+<p>A <strong>Dockerfile</strong> is a simple text-file that contains a 
+list of commands that the Docker client calls while creating an image. 
+It’s a simple way to automate the image creation process. The best part 
+is that the commands you write in a Dockerfile are almost identical to 
+their equivalent Linux commands. This means you don’t really have to 
+learn new syntax to create your own dockerfiles.</p>
+
+<p>The application directory does contain a Dockerfile but since we’re 
+doing this for the first time, we’ll create one from scratch. To start, 
+create a new blank file in our favorite text-editor and save it in the 
+same folder as the flask app by the name of <strong>Dockerfile</strong>.</p>
+
+<p>We start with specifying our base image. Use the FROM keyword to do that -</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    FROM python:3-onbuild
+</code></pre></div></div>
+
+<p>The next step usually is to write the commands of copying the files 
+and installing the dependencies. Luckily for us, the onbuild version of 
+the image takes care of that. The next thing we need to the specify is 
+the port number that needs to be exposed. Since our flask app is running
+ on port 5000, that’s what we’ll indicate.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    EXPOSE 5000
+</code></pre></div></div>
+
+<p>The last step is to write the command for running the application, 
+which is simply - python ./app.py. We use the CMD command to do that -</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    CMD ["python", "./app.py"]
+</code></pre></div></div>
+
+<p>The primary purpose of CMD is to tell the container which command it 
+should run when it is started. With that, our Dockerfile is now ready. 
+This is how it looks like -</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># our base image
+FROM python:3-onbuild
+
+# specify the port number the container should expose
+EXPOSE 5000
+
+# run the application
+CMD ["python", "./app.py"]
+</code></pre></div></div>
+
+<p>Now that we have our <strong>Dockerfile</strong>, we can build our image. The docker build command does the heavy-lifting of creating a Docker image from a Dockerfile.</p>
+
+<p>Before you run the command yourself, make sure to replace my username
+ with yours. This username should be the same one you created when you 
+registered on <code class="language-plaintext highlighter-rouge">Docker hub</code>.
+ If you haven’t done that yet, please go ahead and create an account. 
+The docker build command is quite simple - it takes an optional tag name
+ with -t and a location of the directory containing the Dockerfile.</p>
+
+<p>docker build -t eloipuertas/fooapp .</p>
+
+<p>If you don’t have the python:3-onbuild image, the client will first 
+pull the image and then create your image. Hence, your output from 
+running the command will look different from mine. Look carefully and 
+you’ll notice that the on-build triggers were executed correctly. If 
+everything went well, your image should be ready! Run docker images and 
+see if your image shows.</p>
+
+<p>The last step in this section is to run the image and see if it 
+actually works (replacing my username with yours). The option -p 
+redirects the port 5000 inside docker container to 5000 in your local 
+system, thus you should fine your app in http://localhost:5000 Be sure 
+that the host parameter is 0.0.0.0 in your app.py</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    $ docker run -p 5000:5000 eloipuertas/fooapp
+    * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+</code></pre></div></div>
+
+<p>http://localhost:5000/</p>
+
+<h2 id="docker-push">Docker push</h2>
+
+<p>There are many different Docker registries you can use (you can even 
+host your own). For now, let’s use Docker Hub to publish the image. To 
+publish, just type</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    docker push eloipuertas/fooapp
+</code></pre></div></div>
+
+<p>If this is the first time you are pushing an image, the client will 
+ask you to login. Provide the same credentials that you used for logging
+ into <code class="language-plaintext highlighter-rouge">Docker Hub</code>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
+    Username: eloipuertas
+    Password:
+    Login Succeeded
+</code></pre></div></div>
+
+<p>Remember to replace the name of the image tag above with yours. It is
+ important to have the format of username/image_name so that the client 
+knows where to publish.</p>
+
+<p>Once that is done, you can view your image on Docker Hub. For example, here’s the <a href="https://hub.docker.com/r/eloipuertas/fooapp/">web page</a>  for my image.</p>
+
+<p>Now that your image is online, anyone who has docker installed can play with your app by typing just a single command.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    $ docker run -p 5000:5000 eloipuertas/fooapp
+</code></pre></div></div>
+
+<p>Extracted from: https://prakhar.me/docker-curriculum/</p>
+
+</div>
+
+
+    </div>
+
+
+</body></html>
