@@ -1,0 +1,258 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "visibilidad_reducida_flow",
+        "label": "Protocolo de Luces en Visibilidad Reducida",
+        "nodes": [
+          "vehiculo_luces_vehiculo_cruce",
+          "vehiculo_luces_niebla_lluvia_intensa_antiniebla_trasera",
+          "vehiculo_luces_niebla_lluvia_intensa_antiniebla_delantera"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.9,
+        "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md"
+      },
+      {
+        "id": "luces_seguridad_activa",
+        "label": "Luces de Se\u00f1alizaci\u00f3n y Seguridad",
+        "nodes": [
+          "vehiculo_luces_vehiculo_freno",
+          "vehiculo_luces_vehiculo_emergencia",
+          "vehiculo_luces_vehiculo_marcha_atras"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "Vehiculo/Luces-Vehiculo.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "manifest.json",
+      "file_type": "code",
+      "source_file": "graphify-out.bak/manifest.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "graphify_out_bak_manifest",
+      "community": 2,
+      "community_name": "Community 2",
+      "norm_label": "manifest.json"
+    },
+    {
+      "label": "Luces con Niebla",
+      "file_type": "document",
+      "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md",
+      "id": "vehiculo_luces_niebla_lluvia_intensa_luces_niebla",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "luces con niebla"
+    },
+    {
+      "label": "Luces con Lluvia",
+      "file_type": "document",
+      "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md",
+      "id": "vehiculo_luces_niebla_lluvia_intensa_luces_lluvia",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "luces con lluvia"
+    },
+    {
+      "label": "Luz Antiniebla Trasera",
+      "file_type": "concept",
+      "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md",
+      "id": "vehiculo_luces_niebla_lluvia_intensa_antiniebla_trasera",
+      "community": 1,
+      "community_name": "Community 1",
+      "norm_label": "luz antiniebla trasera"
+    },
+    {
+      "label": "Luz Antiniebla Delantera",
+      "file_type": "concept",
+      "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md",
+      "id": "vehiculo_luces_niebla_lluvia_intensa_antiniebla_delantera",
+      "community": 3,
+      "community_name": "Community 3",
+      "norm_label": "luz antiniebla delantera"
+    },
+    {
+      "label": "Luz de Posici\u00f3n",
+      "file_type": "concept",
+      "source_file": "Vehiculo/Luces-Vehiculo.md",
+      "id": "vehiculo_luces_vehiculo_posicion",
+      "community": 1,
+      "community_name": "Community 1",
+      "norm_label": "luz de posicion"
+    },
+    {
+      "label": "Luz de Estacionamiento",
+      "file_type": "concept",
+      "source_file": "Vehiculo/Luces-Vehiculo.md",
+      "id": "vehiculo_luces_vehiculo_estacionamiento",
+      "community": 5,
+      "community_name": "Community 5",
+      "norm_label": "luz de estacionamiento"
+    },
+    {
+      "label": "Luz de Carretera (Largas)",
+      "file_type": "concept",
+      "source_file": "Vehiculo/Luces-Vehiculo.md",
+      "id": "vehiculo_luces_vehiculo_carretera",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "luz de carretera (largas)"
+    },
+    {
+      "label": "Luz de Cruce (Cortas)",
+      "file_type": "concept",
+      "source_file": "Vehiculo/Luces-Vehiculo.md",
+      "id": "vehiculo_luces_vehiculo_cruce",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "luz de cruce (cortas)"
+    },
+    {
+      "label": "Luz de Freno",
+      "file_type": "concept",
+      "source_file": "Vehiculo/Luces-Vehiculo.md",
+      "id": "vehiculo_luces_vehiculo_freno",
+      "community": 6,
+      "community_name": "Community 6",
+      "norm_label": "luz de freno"
+    },
+    {
+      "label": "Luz de Marcha Atr\u00e1s",
+      "file_type": "concept",
+      "source_file": "Vehiculo/Luces-Vehiculo.md",
+      "id": "vehiculo_luces_vehiculo_marcha_atras",
+      "community": 7,
+      "community_name": "Community 7",
+      "norm_label": "luz de marcha atras"
+    },
+    {
+      "label": "Luz de Emergencia (Warning)",
+      "file_type": "concept",
+      "source_file": "Vehiculo/Luces-Vehiculo.md",
+      "id": "vehiculo_luces_vehiculo_emergencia",
+      "community": 4,
+      "community_name": "Community 4",
+      "norm_label": "luz de emergencia (warning)"
+    },
+    {
+      "label": "MOC Veh\u00edculo",
+      "file_type": "document",
+      "source_file": "Vehiculo/_MOC",
+      "id": "vehiculo_moc",
+      "community": 1,
+      "community_name": "Community 1",
+      "norm_label": "moc vehiculo"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md",
+      "source": "vehiculo_luces_niebla_lluvia_intensa_luces_niebla",
+      "target": "vehiculo_luces_niebla_lluvia_intensa_antiniebla_trasera"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md",
+      "source": "vehiculo_luces_niebla_lluvia_intensa_luces_niebla",
+      "target": "vehiculo_luces_vehiculo_carretera"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md",
+      "source": "vehiculo_luces_niebla_lluvia_intensa_luces_niebla",
+      "target": "vehiculo_luces_vehiculo_cruce"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md",
+      "source": "vehiculo_luces_niebla_lluvia_intensa_luces_niebla",
+      "target": "vehiculo_moc"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md",
+      "source": "vehiculo_luces_niebla_lluvia_intensa_luces_lluvia",
+      "target": "vehiculo_luces_niebla_lluvia_intensa_antiniebla_trasera"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md",
+      "source": "vehiculo_luces_niebla_lluvia_intensa_luces_lluvia",
+      "target": "vehiculo_luces_vehiculo_carretera"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md",
+      "source": "vehiculo_luces_niebla_lluvia_intensa_luces_lluvia",
+      "target": "vehiculo_luces_vehiculo_cruce"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Vehiculo/Luces-Vehiculo.md",
+      "source": "vehiculo_luces_niebla_lluvia_intensa_antiniebla_trasera",
+      "target": "vehiculo_luces_vehiculo_posicion"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Vehiculo/Luces-Vehiculo.md",
+      "source": "vehiculo_luces_vehiculo_posicion",
+      "target": "vehiculo_moc"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "visibilidad_reducida_flow",
+      "label": "Protocolo de Luces en Visibilidad Reducida",
+      "nodes": [
+        "vehiculo_luces_vehiculo_cruce",
+        "vehiculo_luces_niebla_lluvia_intensa_antiniebla_trasera",
+        "vehiculo_luces_niebla_lluvia_intensa_antiniebla_delantera"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "Vehiculo/Luces-Niebla-Lluvia-Intensa.md"
+    },
+    {
+      "id": "luces_seguridad_activa",
+      "label": "Luces de Se\u00f1alizaci\u00f3n y Seguridad",
+      "nodes": [
+        "vehiculo_luces_vehiculo_freno",
+        "vehiculo_luces_vehiculo_emergencia",
+        "vehiculo_luces_vehiculo_marcha_atras"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "Vehiculo/Luces-Vehiculo.md"
+    }
+  ],
+  "built_at_commit": "72cc49ee5b8b52598a9ee50236d358ff3df7d937"
+}
