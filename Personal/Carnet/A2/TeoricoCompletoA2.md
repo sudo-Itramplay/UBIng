@@ -140,6 +140,32 @@ tags:
 > - Casco **integral obligatorio** en vías interurbanas
 > - Multa por incumplimiento: **200 €** (reducida a **100 €** con pronto pago)
 
+### Rueda de recambio y herramientas
+
+> [!info] La moto NO está obligada
+> El **Anexo XII del Reglamento General de Vehículos** (RD 2822/1998) obliga a los vehículos de motor a llevar una **rueda completa de repuesto** o **rueda de uso temporal**, **con las herramientas necesarias** para el cambio de ruedas. **PERO esta obligación exceptúa a las motocicletas.**
+
+Concretamente, las motos:
+
+- **NO** están obligadas a llevar rueda de recambio
+- **NO** están obligadas a llevar herramientas para cambio de ruedas
+- **NO** están obligadas a llevar triángulos de preseñalización (esto es solo para turismos/furgonetas)
+- **NO** están obligadas a llevar chaleco reflectante dentro de poblado (sí **fuera de poblado**)
+
+> [!warning] Trampa de examen típica
+> La pregunta "están obligados todos los automóviles a llevar rueda de recambio y herramientas" → la respuesta correcta es **NO**. Solo **turismos, camiones < 3.500 kg MMA y taxis**. **Las motocicletas NO están obligadas**.
+>
+> Razón técnica: en una moto de 2 ruedas no hay espacio físico para una rueda completa, y desmontar+remontar la rueda con herramientas es inviable en vía pública.
+
+> [!tip] Kit recomendable (no obligatorio)
+> Aunque no es obligatorio, muchos motoristas llevan:
+> - **Kit de reparación de pinchazos** (masilla + mechas)
+> - **Compresor portátil** 12V
+> - **Parches y mechas** de repuesto
+> - **Linterna** por si se avería de noche
+>
+> Esto no exime de la inmovilización segura si la rueda queda muy dañada (art. 97 RGC): señal V-16 + fuera de la calzada.
+
 ---
 
 ## Mandos de la moto
@@ -564,6 +590,121 @@ tags:
 | ¿Cuántas marchas tiene una moto A2 típica? | **6** (algunas 5) + punto muerto |
 | ¿Dónde está el punto muerto? | **Entre 1ª y 2ª** |
 | ¿Freno más potente en moto? | **Delantero** (70% de la frenada) |
+
+---
+
+## Mantenimiento básico de la motocicleta
+
+> [!info] Lo que preguntan en A2
+> Las preguntas de mantenimiento suelen ser **prácticas**: cada cuánto cambiar algo, qué pasa si no se revisa, qué elemento falla. No hace falta ser mecánico, pero sí conocer las **frecuencias** y los **puntos críticos**.
+
+### El carburador (sistema de alimentación clásico)
+
+> [!warning] Tema estrella del A2
+> El carburador ha caído en exámenes oficiales. Aunque las motos modernas usan **inyección electrónica**, el temario A2 incluye preguntas sobre el carburador porque sigue siendo **el sistema de referencia histórica** y la **base conceptual** de la alimentación.
+
+**¿Qué es?** El dispositivo que **mezcla aire + gasolina** en la proporción adecuada antes de entrar al cilindro.
+
+```
+         AIRE                    GASOLINA
+            │                       │
+            ▼                       ▼
+      ┌──────────┐           ┌──────────┐
+      │FILTRO AIRE│          │DEPOSITO  │
+      │(limpia)   │          │(grifo)   │
+      └─────┬────┘           └────┬─────┘
+            │                     │
+            └──────────┬──────────┘
+                       ▼
+               ┌───────────────┐
+               │  CARBURADOR   │ ← mezcla aire+gasolina (proporción)
+               │  · Cuba       │    (nivel de gasolina)
+               │  · Flotador   │    (regula entrada)
+               │  · Chiclé     │    (cantidad de gasolina)
+               │  · Difusor    │    (velocidad del aire)
+               └───────┬───────┘
+                       │
+                       ▼
+                 CILINDRO (motor)
+```
+
+**Partes clave del carburador:**
+
+| Parte | Función |
+|-------|---------|
+| **Cuba** | Depósito pequeño de gasolina dentro del carburador |
+| **Flotador** | Regula el nivel de gasolina (sube/baja con el nivel) |
+| **Chiclé (gicleur)** | Orificio calibrado que limita la cantidad de gasolina que pasa |
+| **Difusor** | Estrangulamiento que acelera el aire y crea succión |
+| **Tornillo de ralentí** | Ajusta las RPM al ralentí (motor en vacío) |
+| **Estrangulador (starter)** | Enriquece la mezcla al arrancar en frío |
+
+> [!danger] Preguntas típicas sobre el carburador
+> - **¿Qué pasa si el filtro de aire está sucio?** → Entra menos aire, la mezcla queda **rica en gasolina** (más consumo, humo negro, ralentí irregular)
+> - **¿Por qué la moto se ahoga en aceleración?** → Mezcla demasiado **rica** o demasiado **pobre**; revisar chiclé y filtro de aire
+> - **¿Cómo se ajusta el ralentí?** → Con el **tornillo de ralentí** (no con el acelerador)
+> - **¿Qué mezcla hace el carburador?** → **Aire + gasolina** en proporción adecuada
+
+### Mantenimiento por intervalos
+
+> [!tip] Frecuencias habituales (orientativas, cada fabricante indica las suyas)
+>
+> | Componente | Cada cuánto revisar | Cada cuánto cambiar |
+> |-----------|---------------------|---------------------|
+> | **Aceite del motor** | Revisar nivel cada 1.000 km | Cambiar cada 5.000-10.000 km |
+> | **Filtro de aire** | Cada 5.000 km (visual) | Cada 10.000-20.000 km (o antes si sucio) |
+> | **Bujía** | Cada 5.000 km (estado) | Cada 10.000-20.000 km |
+> | **Cadena** | Tensar y engrasar cada 500-1.000 km | Cambiar si muy estirada |
+> | **Frenos (pastillas)** | Cada 5.000 km (espesor) | Cambiar a 2-3 mm de espesor mínimo |
+> | **Líquido de frenos** | Revisar color cada 10.000 km | Cambiar cada 2 años (higroscópico) |
+> | **Neumáticos** | Revisar presión cada 2 semanas | Cambiar a 2-3 mm dibujo (1,6 mm legal) |
+> | **Refrigerante** (si líquido) | Revisar nivel cada mes | Cambiar cada 2-3 años |
+> | **Filtro de gasolina** | — | Cambiar cada 20.000-40.000 km |
+
+> [!warning] Trampas frecuentes
+> - **El aceite se cambia CADA X km**, NO "cuando se pone negro" (el aceite oscuro puede ser normal)
+> - **El filtro de aire sucio → mezcla rica** (NO pobre). Es un error común
+> - **La cadena se engrasa**, NO se limpia con agua a presión (lavado a presión elimina el engrase)
+> - **Los frenos**: el líquido es **higroscópico** (absorbe humedad), por eso se cambia **por tiempo**, no solo por km
+
+### Niveles que debes saber revisar
+
+| Componente | Cómo se revisa |
+|------------|----------------|
+| **Aceite del motor** | Caballete central o apoyo, tapón lateral con varilla. Nivel entre MIN y MAX |
+| **Líquido de frenos** | Mirilla en el depósito del manillar/pedal. Entre MIN y MAX |
+| **Refrigerante** | Depósito con marcas MIN/MAX. **En frío** (motor caliente = peligro de quemadura) |
+| **Presión neumáticos** | Con manómetro, en frío. Valores en el manual o marco de la puerta |
+
+> [!example] Orden de seguridad al revisar
+> 1. **Motor frío** (nunca abrir el tapón de aceite o refrigerante en caliente)
+> 2. **Moto apoyada en vertical** (no en el caballete lateral para aceite)
+> 3. **Superficie plana** (para nivel exacto)
+
+### Síntomas → diagnóstico rápido
+
+| Síntoma | Causa más probable |
+|---------|---------------------|
+| Motor no arranca | Batería descargada, bujía sucia, falta de gasolina |
+| Motor se calienta demasiado | Falta de refrigerante, termostato averiado |
+| Humo negro por el escape | Mezcla rica (filtro aire sucio, inyector/carburador mal regulado) |
+| Humo azul por el escape | Quema de aceite (anillos, retenes, segmento) |
+| Humo blanco | Agua en la cámara (junta culata, condensación) |
+| Ralentí irregular | Filtro aire sucio, chiclé obstruido, bujía en mal estado |
+| Frenos esponjosos | Aire en el circuito, líquido viejo |
+| Ruidos en la cadena | Falta de engrase, tensión incorrecta |
+
+### Mantenimiento antes de un viaje largo (>500 km)
+
+- [ ] **Nivel de aceite** del motor
+- [ ] **Presión de neumáticos** (en frío, según manual)
+- [ ] **Tensión y engrase de la cadena**
+- [ ] **Líquido de frenos** (mirilla)
+- [ ] **Luces** (posición, cruce, freno, intermitentes)
+- [ ] **Intermitentes** y **claxon**
+- [ ] **Frenos** comprobar respuesta (sin tráfico)
+- [ ] **Carburante** lleno + reserva comprobada
+- [ ] **Carga** bien repartida y sujeta (máx. 0,5 m sobresaliente)
 
 ---
 
