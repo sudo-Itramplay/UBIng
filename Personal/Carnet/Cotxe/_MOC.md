@@ -319,6 +319,56 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** Por fluidez solo pueden circular **turismos sin remolque y motocicletas**.
 - → Ver: [[Carril-Sentido-Contrario-Fluidez]]
 
+### 64. Personas y vehículos (art. 4 RGC)
+- **Error:** Confundir tipos de vehículo a motor y sin motor (ciclomotor NO es a motor legalmente).
+- **Corrección:** Camión (personas y mercancía separadas físicamente) ≠ furgoneta (mismo chasis). Ciclomotor ≤ 45 km/h, con placa amarilla, no es vehículo a motor.
+- → Ver: [[Personas-y-Vehiculos]]
+
+### 65. Estrechamientos — orden de prioridad
+- **Error:** Pensar que solo vale "el que haya entrado primero".
+- **Corrección:** Si hay duda, gana el **más largo** (camión con remolque > coche con remolque > vehículo solo). En subida, tiene prioridad el que sube.
+- → Ver: [[Estrechamientos]]
+
+### 66. Factor vía y condiciones adversas
+- **Error:** Olvidar que el sol y el viento también son condiciones adversas.
+- **Corrección:** Lluvia, niebla, nieve, sol, viento. **Aquaplaning:** NO frenar, soltar acelerador y mantener dirección. Cadenas en ruedas motrices.
+- → Ver: [[Factor-Via]]
+
+### 67. Mecánica básica — humo del motor
+- **Error:** Confundir los tipos de humo del escape.
+- **Corrección:** **Negro** = mezcla rica. **Azul** = aceite. **Blanco persistente** = agua. Aceite: motor frío y en llano. V-16 obligatoria desde 1/1/2026.
+- → Ver: [[Mecanica-Basica]]
+
+### 68. Etiquetas ambientales DGT
+- **Error:** Confundir C con B, o ECO con 0 emisiones.
+- **Corrección:** 0 emisiones = eléctrico + hidrógeno + híbridos > 40 km. ECO = híbridos < 40 km + GNC/GLP. C = gasolina 2006+ / diésel 2014+. B = gasolina 2000+ / diésel 2006+.
+- → Ver: [[Etiquetas-Ambientales-DGT]]
+
+### 69. Carril VAO — vehículos autorizados
+- **Error:** Creer que necesitan acompañante o que pueden ir camiones.
+- **Corrección:** Turismos **solos**, motos **solas**, autobuses +3.500 kg, emergencias, taxis. **NO** camiones, **NO** furgonetas, **NO** turismos con remolque.
+- → Ver: [[Carril-VAO]]
+
+### 70. Alcohol y drogas en test
+- **Error:** Confundir tasas 0,25 vs 0,5, o creer que novel cuenta desde el permiso actual.
+- **Corrección:** General 0,25 mg/l aire = 0,5 g/l sangre. Novel/profesional 0,15 = 0,3. Menor 0,0. Novel cuenta desde el **primer** permiso. Drogas: **presencia**, no intoxicación.
+- → Ver: [[Alcohol-y-Drogas-Test]]
+
+### 71. Conducción preventiva — cambios de marcha
+- **Error:** Poner gasolina a 2.000 rpm o diésel a 2.500 rpm (al revés).
+- **Corrección:** Gasolina **2.000-2.500 rpm**, diésel **1.300-2.000 rpm**. Parada cada 2h/200km. Poner intermitente **no da prioridad**.
+- → Ver: [[Conduccion-Preventiva-Tecnicas]]
+
+### 72. Neumáticos y seguridad pasiva
+- **Error:** Confundir mínimo legal (1,6 mm) con recomendado (2-3 mm), o no saber qué es ISOFIX.
+- **Corrección:** Mínimo legal 1,6 mm; cambiar antes de 2-3 mm. ISOFIX se ancla al **chasis** (no al asiento). Reposacabezas = esguince cervical. Parabrisas **laminado** = lámina de plástico.
+- → Ver: [[Neumaticos-y-Seguridad-Pasiva]]
+
+### 73. Señales de indicación (S) — resumen
+- **Error:** Confundir S-15 con barra vs sin barra, o los tres estados de S-21.
+- **Corrección:** S-15 con barra = sí tiene salida (peatonal). S-21: verde=todos, amarillo=algunos, rojo=nadie. S-22/23/24 = estancia/juegos/coexistencia. S-28 = zona peatonal.
+- → Ver: [[Senales-Indicacion-Resumen]]
+
 ---
 
 ## Errores del permiso A2 (Moto)

@@ -76,11 +76,16 @@ tags: []
 ### Dimecres 15 juliol
 
 - [ ] 2026-07-15 09:00 | FEINA | 360 min
-- [ ] 2026-07-15 15:30 | Test B tema: Carriles + distancia/velocidad (10-15 q) | 30 min
-- [ ] 2026-07-15 16:00 | Corregeix + errors al MOC | 15 min
-- [ ] 2026-07-15 17:30 | Apunts vídeo: minut 240-280 (40 min, acabar-ho gairebé tot) | 50 min (~2h de feina)
-- [ ] 2026-07-15 19:30 | Dinar + descans | 60 min
-- [ ] 2026-07-15 20:30 | **STOP** | 0 min
+- [x] 2026-07-15 15:30 | **Test B 1** (fora de planning) — suspès, 4 errors | 30 min
+- [x] 2026-07-15 16:00 | **Test B 2** (fora de planning) — suspès, 4 errors | 30 min
+- [x] 2026-07-15 16:30 | **Test B 3** (fora de planning) — suspès, 4 errors | 30 min
+- [x] 2026-07-15 17:00 | **Test A2 1** (fora de planning) — suspès, 3 errors | 30 min
+- [x] 2026-07-15 17:30 | Apunts vídeo: minut 240-280 (40 min, acabar-ho gairebé tot) | 50 min (~2h de feina)
+- [x] 2026-07-15 19:30 | Dinar + descans | 60 min
+- [x] 2026-07-15 20:30 | **STOP** | 0 min
+
+> [!warning] Resum dimecres 15
+> **Tests extra fora del planning:** 3 tests B (Carriles + distància/velocitat) + 1 test A2 (Frenada + Forces). Tots suspesos amb 3-4 errors. S'han anotat al calendari però **NO** al MOC (no s'han passat els errors). Vídeo acabat fins minut 280.
 
 ### Dijous 16 juliol
 
