@@ -394,6 +394,21 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - → Ver: [[Senales-Verticales-Derecha-Izquierda]]
 - → Ver: [[Senales-Indicacion-Resumen]]
 
+### 79. Cambio de neumáticos — cada 5 años
+- **Error:** No se sabía la periodicidad recomendada de cambio.
+- **Corrección:** Cambiar neumáticos **al menos cada 5 años** (la goma se endurece). A los 10 años, obligatorio sin excepción. Profundidad mínima legal: 1,6 mm.
+- → Ver: [[Cambio-Neumaticos-5-Anos]]
+
+### 80. Prohibido parar — túneles
+- **Error:** Se creía que solo estaba prohibido parar en curvas y cambios de rasante.
+- **Corrección:** También está prohibido parar en **tramos afectados por la señal túnel** (art. 90.2 RGC). En túnel = NUNCA salvo emergencia.
+- → Ver: [[Prohibido-Parar-Tunel]]
+
+### 81. Distribuidores de mercancías — exención cinturón en poblado
+- **Error:** No se Recordaba si estaban exentos ni en qué condiciones.
+- **Corrección:** Sí, exentos **solo en poblado** cuando realicen sucesivas operaciones de carga/descarga en recorridos cortos (art. 114.2.b RGC). En interurbana = obligado.
+- → Ver: [[Distribuidores-Mercancias-Cinturon-Poblado]]
+
 ---
 
 ## Errores del permiso A2 (Moto)
@@ -461,10 +476,12 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Carriles-Reservados]]
 - [[Cenirse-Borde-Derecho]]
 - [[Cintura-Seguridad-Exenciones]]
+- [[Cambio-Neumaticos-5-Anos]]
 - [[Cambio-Direccion-Izquierda-Doble-Sentido]]
 - [[Cambio-Sentido-Paso-Peatones]]
 - [[Cuando-Cambiar-Neumaticos]]
 - [[Distancias-Frenada-Reaccion-Detencion]]
+- [[Distribuidores-Mercancias-Cinturon-Poblado]]
 - [[Estacionamiento-Sentido-Unico]]
 - [[Facilitar-Incorporacion-Prioridad]]
 - [[Fumar-en-el-Vehiculo]]
@@ -486,6 +503,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Perdida-Maxima-Puntos]]
 - [[Periodo-Noviciado-Permiso-B]]
 - [[Permiso-B-Vehiculos-Pesados]]
+- [[Prohibido-Parar-Tunel]]
 - [[Responsable-Vehiculo-Titular]]
 - [[Revoluciones-Cambio-Marcha]]
 - [[R-302-Prohibicion-Cambiar-Sentido]]
