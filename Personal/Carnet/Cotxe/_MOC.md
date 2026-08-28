@@ -409,6 +409,26 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** Sí, exentos **solo en poblado** cuando realicen sucesivas operaciones de carga/descarga en recorridos cortos (art. 114.2.b RGC). En interurbana = obligado.
 - → Ver: [[Distribuidores-Mercancias-Cinturon-Poblado]]
 
+### 82. Furgoneta — máximo 9 plazas para permiso B
+- **Error:** Creer que son 5 plazas.
+- **Corrección:** Una furgoneta puede tener hasta **9 plazas incluida la del conductor** con permiso B. A partir de 10 = autobús = permiso D.
+- → Ver: [[Furgoneta-9-Plazas]]
+
+### 83. Girar a la izquierda — no invadir sentido contrario
+- **Error:** Creer que se puede invadir el carril contrario para girar.
+- **Corrección:** Siempre se gira **desde el carril propio sin invadir el contrario**. Solo el cambio de sentido permite invadir temporalmente.
+- → Ver: [[Giro-Izquierda-No-Invadir-Sentido-Contrario]]
+
+### 84. Cambio de sentido — marcha atrás prohibida
+- **Error:** Creer que se puede usar marcha atrás si no hay obstáculos.
+- **Corrección:** **NUNCA** se usa marcha atrás en cambio de sentido. Si no se consigue en una maniobra, se reinicia.
+- → Ver: [[Cambio-Sentido-Marcha-Atras-Prohibida]]
+
+### 85. Carga sobresaliente de noche — luz blanca por delante
+- **Error:** Creer que es amarilla o que solo aplica si sobresale >10%.
+- **Corrección:** Por delante = **luz blanca**. Por detrás = luz roja. Siempre, sin importar el porcentaje.
+- → Ver: [[Carga-Sobresaliente-Noche-Luz]]
+
 ---
 
 ## Errores del permiso A2 (Moto)
@@ -470,6 +490,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Autovia-vs-Autopista]]
 - [[Carga-Motocicleta]]
 - [[Carga-Sobresaliente-Turismo]]
+- [[Carga-Sobresaliente-Noche-Luz]]
 - [[Carril-Adicional-Circunstancial]]
 - [[Carril-Sentido-Contrario-Fluidez]]
 - [[Carril-Sentido-Contrario-Obras]]
@@ -479,14 +500,17 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Cambio-Neumaticos-5-Anos]]
 - [[Cambio-Direccion-Izquierda-Doble-Sentido]]
 - [[Cambio-Sentido-Paso-Peatones]]
+- [[Cambio-Sentido-Marcha-Atras-Prohibida]]
 - [[Cuando-Cambiar-Neumaticos]]
 - [[Distancias-Frenada-Reaccion-Detencion]]
 - [[Distribuidores-Mercancias-Cinturon-Poblado]]
 - [[Estacionamiento-Sentido-Unico]]
 - [[Facilitar-Incorporacion-Prioridad]]
 - [[Fumar-en-el-Vehiculo]]
+- [[Furgoneta-9-Plazas]]
 - [[Glorieta-Cambio-Sentido]]
 - [[Giro-Izquierda-Posicion]]
+- [[Giro-Izquierda-No-Invadir-Sentido-Contrario]]
 - [[Herido-Accidente-Abrigar]]
 - [[ITV-Distintivo-Posicion]]
 - [[ITV-Primera-Inspeccion]]
