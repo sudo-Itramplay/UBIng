@@ -367,6 +367,31 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 ### 73. Señales de indicación (S) — resumen
 - **Error:** Confundir S-15 con barra vs sin barra, o los tres estados de S-21.
 - **Corrección:** S-15 con barra = sí tiene salida (peatonal). S-21: verde=todos, amarillo=algunos, rojo=nadie. S-22/23/24 = estancia/juegos/coexistencia. S-28 = zona peatonal.
+
+### 74. Adelantamiento en pasos de peatones
+- **Error:** Creer que nunca está permitido adelantar en pasos de peatones.
+- **Corrección:** SÍ se puede adelantar, pero a **velocidad reducida** y con capacidad de frenada inmediata en caso de peligro de atropello.
+- → Ver: [[Adelantamiento-Paso-Peatones]]
+
+### 75. Ceñirse al borde derecho — curvas y cambios de rasante
+- **Error:** Creer que es por circular en sentido contrario.
+- **Corrección:** Se debe ceñirse al borde derecho **en curvas y cambios de rasante** por visibilidad reducida.
+- → Ver: [[Cenirse-Borde-Derecho]]
+
+### 76. ITV — segunda inspección después de la primera
+- **Error:** Creer que la segunda ITV es a los 4 años (igual que la primera).
+- **Corrección:** Después de la primera ITV, la siguiente es a los **2 años**. La periodicidad es 4-2-2-2-1.
+- → Ver: [[ITV-Segunda-Inspeccion]]
+
+### 77. Luces de estacionamiento en travesía insuficientemente iluminada
+- **Error:** Poner las de posición y las de cruce.
+- **Corrección:** Las **de posición del lado de la calzada** o las **de estacionamiento**. NUNCA las de cruce (deslumbran).
+- → Ver: [[Luces-Estacionamiento-Insuficientemente-Iluminado]]
+
+### 78. Señales verticales — derecha vs izquierda para continuar de frente
+- **Error:** Mirar la señal de la derecha para seguir recto.
+- **Corrección:** Para continuar de frente, obeyece **la señal de la izquierda**. La de la derecha es para carriles de la derecha.
+- → Ver: [[Senales-Verticales-Derecha-Izquierda]]
 - → Ver: [[Senales-Indicacion-Resumen]]
 
 ---
@@ -422,6 +447,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 
 - [[Accidente-Movil-Salida-Via]]
 - [[Adelantamiento-Espacio-Prohibido]]
+- [[Adelantamiento-Paso-Peatones]]
 - [[Adelantamiento-Vehiculos-2-Ruedas]]
 - [[Altura-Minima-Asiento-Delantero]]
 - [[Autobus-Facilitar-Maniobra]]
@@ -433,6 +459,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Carril-Sentido-Contrario-Fluidez]]
 - [[Carril-Sentido-Contrario-Obras]]
 - [[Carriles-Reservados]]
+- [[Cenirse-Borde-Derecho]]
 - [[Cintura-Seguridad-Exenciones]]
 - [[Cambio-Direccion-Izquierda-Doble-Sentido]]
 - [[Cambio-Sentido-Paso-Peatones]]
@@ -446,9 +473,11 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Herido-Accidente-Abrigar]]
 - [[ITV-Distintivo-Posicion]]
 - [[ITV-Primera-Inspeccion]]
+- [[ITV-Segunda-Inspeccion]]
 - [[Laminas-Adhesivas-Ventanillas-Posteriores]]
 - [[Lineas-Amarillas]]
 - [[Luces-Antiniebla-Cuando-Usar]]
+- [[Luces-Estacionamiento-Insuficientemente-Iluminado]]
 - [[Luces-Niebla-Lluvia-Intensa]]
 - [[Luces-Vehiculo]]
 - [[Nuevas-Normativas-2026]]
@@ -479,6 +508,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Senales-de-Prohibicion]]
 - [[Senales-de-Reduccion]]
 - [[Senales-Flecha-Distancia]]
+- [[Senales-Verticales-Derecha-Izquierda]]
 - [[Senyes-Paso-Nivel]]
 - [[Senyes-Velocidad-Consejo]]
 - [[Semaforos-Luces-Especiales]]
