@@ -1,6 +1,15 @@
 # Fumar en el Vehículo: ¿Está prohibido?
 
-## Pregunta de examen (errada)
+## Pregunta de examen (errada) — Actualitzada 30/08/2026
+
+> Fumar mientras se conduce...
+> A) no es recomendable, porque puede afectar a la atención en la conducción.
+> B) es recomendable, porque ayuda a mantener la atención.
+> C) está prohibido.
+
+**Resposta correcta: A** (no es recomendable). **NO està prohibit** (C és incorrecta).
+
+## Pregunta de examen (errada) — Original
 
 > Fumar no está totalmente prohibido. ¿Es correcto?
 

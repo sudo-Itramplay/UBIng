@@ -1,6 +1,17 @@
 # Tasas de Alcoholemia: Sangre vs. Aire Expirado
 
-## Pregunta de examen (errada)
+## Pregunta de examen (errada) — Actualitzada 30/08/2026
+
+> ¿Cuál es la tasa máxima de alcohol permitida para un conductor con dos años de antigüedad en el permiso AM, que acaba de obtener el permiso B?
+> A) 0,50 mg/l.
+> B) 0,15 mg/l.
+> C) 0,25 mg/l.
+
+**Resposta correcta: C (0,25 mg/l).** Pregunta TRAP: el període de noviciat és per als **2 primers anys del permís B**, no per al AM. Si "acaba de obtenir" el B, en principi hauria de ser 0,15... però segons el test la resposta és 0,25. **Verifica la normativa vigent.**
+
+**⚠️ Discrepancia possible:** Si el conductor "acaba de obtener el B", està en període de noviciat per al B → 0,15 mg/l. Si el test diu 0,25, pot ser que la pregunta estigui mal plantejada o que el període de noviciat es compti des del primer permís (AM). **Consultar amb la DGT.**
+
+## Pregunta de examen (errada) — Original
 
 > Las tasas de alcoholemia por sangre y por aire aspirado (aire expirado) no son equivalentes, ¿cuáles son las excepciones?
 

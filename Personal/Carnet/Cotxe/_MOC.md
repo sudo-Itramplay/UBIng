@@ -429,6 +429,21 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** Por delante = **luz blanca**. Por detrás = luz roja. Siempre, sin importar el porcentaje.
 - → Ver: [[Carga-Sobresaliente-Noche-Luz]]
 
+### 86. Remolques — Permiso de circulación por MMA
+- **Error:** Creer que TODO remolc necesita permiso de circulación.
+- **Corrección:** Solo remolques con **MMA > 750 kg** necesitan permiso de circulación propio. ≤750 kg va cubierto por el documento del coche.
+- → Ver: [[Remolques-MMA-750]]
+
+### 87. Señal R-3h (vado) — ¿Prohíbe parada o estacionamiento?
+- **Error:** Confundir R-3h (vado) con R-3g (prohibición total).
+- **Corrección:** R-3h (línea diagonal) = **solo estacionamiento**. R-3g (cruces) = estacionamiento + parada.
+- → Ver: [[Senal-Vado-R3h]]
+
+### 88. Nieve cuajada — marcas de otros vehículos
+- **Error:** Creer que las marcas de otros vehículos empeoran la adherencia.
+- **Corrección:** Circular sobre las marcas **mejora la adherencia** porque la nieve compactada es más dura que la nieve virgen.
+- → Ver: [[Nieve-Cuajar]]
+
 ---
 
 ## Errores del permiso A2 (Moto)
@@ -561,6 +576,9 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Via-Sentido-Unico-Multiples-Carriles]]
 - [[Velocidad-Turismo-Remolque-Autovia]]
 - [[Velocidades-Maximas]]
+- [[Remolques-MMA-750]]
+- [[Senal-Vado-R3h]]
+- [[Nieve-Cuajar]]
 |- [[A2-Carter-Lubricacion]]
 |- [[A2-Cuando-Cambiar-Neumaticos]]
 |- [[A2-Espejos-Retrovisores-Convexos]]
