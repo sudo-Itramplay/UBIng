@@ -592,3 +592,18 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 ---
 
 *Apuntes generados a partir de los errores de los tests. Cada apunte es atómico y remite aquí.*
+
+### 98. Señal carril bici — ¿Qué vehículos están obligados?
+- **Error:** Se creía que todas las motocicletas deben usar el carril bici.
+- **Corrección:** Solo las motocicletas de **dos ruedas** (sin sidecar) están obligadas.
+- → Ver: [[Senales-Carril-Bici-Motos]]
+
+### 99. Vehículo de movilidad reducida — ¿Le afectan las prohibiciones?
+- **Error:** Se creía que los vehículos de MR están exentos de señales de prohibición.
+- **Corrección:** NO — les afectan igual que a cualquier otro vehículo. Solo están exentos de restricciones específicas.
+- → Ver: [[Vehiculo-Movilidad-Reducida-Prohibicion]]
+
+### 100. Semáforo verde vs. STOP — ¿Cuál se obedece?
+- **Error:** Se creía que el STOP tiene prioridad por ser más restrictivo.
+- **Corrección:** El semáforo en funcionamiento **siempre** tiene prioridad sobre señales verticales.
+- → Ver: [[Semaforo-vs-STOP]]
