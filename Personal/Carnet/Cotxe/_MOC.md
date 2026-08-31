@@ -607,3 +607,33 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Error:** Se creía que el STOP tiene prioridad por ser más restrictivo.
 - **Corrección:** El semáforo en funcionamiento **siempre** tiene prioridad sobre señales verticales.
 - → Ver: [[Semaforo-vs-STOP]]
+
+### 101. Señal prohibido U-turn — ¿Prohíbe girar a la izquierda?
+- **Error:** Se creía que la señal de prohibido U-turn también prohíbe girar a la izquierda.
+- **Corrección:** Solo prohíbe el giro de 180° (media volta). Girar a la izquierda SÍ está permitido.
+- → Ver: [[Senal-Prohibido-UTurn]]
+
+### 102. Señales — ¿A qué se aplican?
+- **Error:** Se creía que las señales se aplican a toda la vía.
+- **Corrección:** Se aplican a **toda la anchura de la calzada** (no a toda la vía, que incluye aceras y arcenes).
+- → Ver: [[Senales-Aplicacion-Calzada]]
+
+### 103. Semáforos — ¿Qué vehículos se detienen?
+- **Error:** Se creía que todos los vehículos de la intersección se detienen igual.
+- **Corrección:** Cada vehículo obedece **su semáforo** (el de su carril/dirección).
+- → Ver: [[Semaforos-Vehiculos-Parada]]
+
+### 104. Semáforo con dos colores — ¿Cuál obeyecer?
+- **Error:** Se obedecía al semáforo rojo aunque estuviera en otro carril.
+- **Corrección:** Se obedece al semáforo **de tu lado/carril** (normalmente el de la derecha).
+- → Ver: [[Semaforo-Dos-Colores]]
+
+### 105. Semáforo verde + Ceda el paso — ¿Cuál manda?
+- **Error:** Se creía que el ceda el paso tenía prioridad sobre el semáforo verde.
+- **Corrección:** El semáforo en funcionamiento **siempre** tiene prioridad sobre señales de prioridad.
+- → Ver: [[Semaforo-Verde-Ceda-Paso]]
+
+### 106. Señal velocidad + intersección — ¿Dónde aplica?
+- **Error:** Se creía que el límite de velocidad asociado a un peligro se aplica a toda la vía.
+- **Corrección:** Se aplica **solo en la zona de peligro** (intersección, curva, etc.).
+- → Ver: [[Senal-Velocidad-Interseccion]]
