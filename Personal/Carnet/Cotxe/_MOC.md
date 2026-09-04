@@ -444,6 +444,81 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** Circular sobre las marcas **mejora la adherencia** porque la nieve compactada es más dura que la nieve virgen.
 - → Ver: [[Nieve-Cuajar]]
 
+### 107. Línea continua — Circular por la izquierda en sentido único
+- **Error:** Creer que nunca se puede circular por la izquierda de una línea continua.
+- **Corrección:** En vía de **sentido único**, sí se puede circular por la izquierda de la línea continua. La línea continua solo prohíbe el adelantamiento y el cambio de carril.
+- → Ver: [[Linea-Continua-Sentido-Unico]]
+
+### 108. Seguro obligatorio — Exclusiones de cobertura
+- **Error:** Creer que el seguro obligatorio cubre siempre los daños a terceros.
+- **Corrección:** El seguro **NO cubre** daños a terceros si el vehículo fue robado o conducido bajo efectos del alcohol/drogas.
+- → Ver: [[Seguro-Obligatorio-Exclusiones]]
+
+### 109. Rueda de repuesto del remolque — ¿Es obligatoria?
+- **Error:** Creer que es obligatorio llevar rueda de repuesto en un turismo con remolque (especialmente si no es ligero).
+- **Corrección:** La rueda de repuesto **NUNCA es obligatoria**, ni en turismo ni en remolque. Solo es obligatorio que los neumáticos estén en buen estado (≥1,6 mm).
+- → Ver: [[Rueda-Repuesto-Remolque-Obligatoria]]
+
+### 110. R-308 con fechas — Despiste de lectura (1-16 vs 16-1)
+- **Error:** Leer al revés las fechas de la señal R-308c (elegir "del 16 al 1" en vez de "del 1 al 16").
+- **Corrección:** La R-308c indica los días en que está **prohibido** estacionar. "1-15" = del día 1 al 15. "16-31" = del día 16 al 31. Leer siempre en orden cronológico.
+- → Ver: [[Senal-Estacionamiento-Prohibido-R308]]
+
+### 111. Carga motocicleta estrecha — Sobresalencia lateral
+- **Error:** Confundir los valores de sobresalencia lateral según la anchura de la moto (0,25 vs 0,50).
+- **Corrección:** Moto estrecha (< 1 m) = **0,50 m** lateral. Moto ancha (≥ 1 m) = **0,25 m** lateral. Al revés de lo que parece.
+- → Ver: [[Carga-Motocicleta-Estrecha-Lateral]]
+
+### 112. Prohibido parar — Zonas movilidad reducida vs. pasos peatones
+- **Error:** Creer que cerca de pasos de peatones está prohibido parar.
+- **Corrección:** Lo prohibido cerca de pasos de peatones es **estacionar**, no parar. Lo que sí prohíbe la parada son las **zonas de movilidad reducida** y los **túneles/curvas**.
+- → Ver: [[Prohibido-Parar-Zona-Movilidad-Reducida]]
+
+### 113. Peatones fuera de poblado — Sentido de circulación
+- **Error:** Creer que los peatones deben ir por su derecha fuera de poblado.
+- **Corrección:** Los peatones deben ir por su **izquierda** (en sentido contrario al tráfico) para poder ver los vehículos que se acercan. Excepción: grupos organizados con luz y chalecos van por la derecha.
+- → Ver: [[Peatones-Fuera-Poblado-Sentido]]
+
+### 114. Remolques — Tarjeta ITV obligatoria para todos
+- **Error:** Creer que los remolques ligeros no necesitan tarjeta ITV.
+- **Corrección:** **Todos** los remolques (ligeros y no ligeros) necesitan tarjeta ITV. Solo el permiso de circulación varía: los ligeros van bajo el del coche.
+- → Ver: [[Remolques-Tarjeta-ITV-Obligatoria]]
+
+### 115. Paneles de esquinas del camión — Carga sobresaliente por detrás
+- **Error:** Creer que los paneles de esquinas indican sobresalencia por delante.
+- **Corrección:** Los paneles de esquinas (amarillos con franjas rojas) se colocan en las **esquinas traseras** e indican que la carga sobresale por **detrás**.
+- → Ver: [[Paneles-Esquinas-Camion-Carga]]
+
+### 116. Adelantamiento en túnel — Permitido con varios carriles
+- **Error:** Creer que en un túnel nunca se puede adelantar.
+- **Corrección:** En un túnel con **más de un carril** por sentido, **SÍ se puede adelantar**. Solo está prohibido en túneles con un solo carril por sentido.
+- → Ver: [[Adelantamiento-Tunel-Carriles]]
+
+### 117. Carril velocidad obligatoria — Derecha para circular
+- **Error:** Creer que se puede elegir carril por comodidad o destino.
+- **Corrección:** Si no estás adelantando, debes ir por el **carril derecho** siempre. La izquierda es solo para adelantar.
+- → Ver: [[Carril-Velocidad-Obligatoria-Derecha]]
+
+### 118. Carga sobresaliente delantera — Prohibida en turismos
+- **Error:** Creer que la carga puede sobresalir por delante hasta un 15% si es indivisible.
+- **Corrección:** En turismos, la carga **NUNCA** puede sobresalir por delante. Solo por detrás (10% divisible, 15% indivisible).
+- → Ver: [[Carga-Sobresaliente-Delantera-Prohibida]]
+
+### 119. Prioridad animales — Vehículo cambiando dirección
+- **Error:** Creer que los animales tienen prioridad por la señalización.
+- **Corrección:** Los animales tienen prioridad porque el vehículo está **cambiando de dirección**. La prioridad viene de la maniobra, no de la señal.
+- → Ver: [[Prioridad-Animales-Calzada-Maniobra]]
+
+### 120. Motocicleta autoprotección — Un solo espejo
+- **Error:** Creer que la estructura de autoprotección obliga a llevar dos espejos.
+- **Corrección:** Si la velocidad máxima **no supera 100 km/h**, solo se necesita **1 espejo** (lado izquierdo). La autoprotección no cambia esto.
+- → Ver: [[Motocicleta-Autoproteccion-Espejo-Obligatorio]]
+
+### 121. Adelantar por el arcén — Prohibido siempre
+- **Error:** Creer que se puede adelantar por el arcén en determinadas situaciones.
+- **Corrección:** **NUNCA** se puede adelantar por el arcén. No importa la maniobra del otro vehículo.
+- → Ver: [[Adelantar-Arcen-Prohibido-Siempre]]
+
 ---
 
 ## Errores del permiso A2 (Moto)
