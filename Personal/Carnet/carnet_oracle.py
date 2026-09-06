@@ -2,9 +2,8 @@
 """
 carnet_oracle.py — Predictor d'errors d'examen del carnet de conduir B.
 
-Llegeix _MOC.md, classifica errors per tema específic (mínim 3 paraules
-significatives), calcula la probabilitat d'error per tema, i genera
-recomanacions personalitzades.
+Llegeix _MOC.md i els apunts atòmics, extreu paraules clau de cada pregunta,
+agrupa errors per similitud de paraules clau, i genera recomanacions.
 
 Ús:
     python3 carnet_oracle.py [--moc PATH] [--top N] [--json]
@@ -17,174 +16,131 @@ import json as json_mod
 from collections import Counter, defaultdict
 from pathlib import Path
 
-# ── Taxonomia de temes específics ──
-# Cada tema té 3+ paraules clau que l'identifiquen.
-# Format: (id_tema, paraules_clau)
+# ── Stop words (paraules buides que no aporten significat) ──
 
-TOPICS = [
-    # SEÑALIZACIÓN
-    ("señales prohibido estacionar R-308 días", ["estacionamiento", "prohibido", "r-308", "días", "romanos", "quincena"]),
-    ("señales prohibido circular entrada", ["circulación", "prohibida", "r-100", "r-101", "entrada"]),
-    ("señales peligro niebla precipitaciones", ["niebla", "precipitaciones", "viento", "p-15", "p-16", "p-17", "visibilidad"]),
-    ("señales indicación área descanso servicio", ["descanso", "servicio", "merendero", "s-123", "s-127"]),
-    ("señales paso nivel barreras aspa", ["paso", "nivel", "barreras", "aspa", "p-8a", "p-8b", "ferrocarril"]),
-    ("señales ciclomotor motocicleta confusión", ["ciclomotor", "motocicleta", "confusión", "triángulo", "círculo"]),
-    ("señales cruz fondo azul farmacia hospital", ["cruz", "fondo", "azul", "farmacia", "hospital", "roja"]),
-    ("señales panel complementario flecha distancia", ["panel", "complementario", "flecha", "distancia", "metros"]),
-    ("señales velocidad aconsejada panel azul", ["velocidad", "aconsejada", "panel", "azul", "cuadrado"]),
-    ("señales vado R-3h R-3g parada estacionamiento", ["vado", "r-3h", "r-3g", "diagonal", "cruces"]),
-    ("señales verticales derecha izquierda frente", ["verticales", "derecha", "izquierda", "frente", "carril"]),
-    ("señales aplicación calzada no segregada", ["calzada", "aplicación", "segregada", "no"]),
-    ("señales carril bici motos bicicletas", ["carril", "bici", "motos", "bicicletas"]),
-    ("señales prioridad derecha cruces intersecciones", ["prioridad", "derecha", "cruces", "intersecciones"]),
-    ("señales R-302 R-303 cambio sentido giros", ["r-302", "r-303", "cambio", "sentido", "giro"]),
+STOP_WORDS = {
+    "el", "la", "los", "las", "un", "una", "unos", "unas", "de", "del", "al",
+    "en", "por", "para", "con", "sin", "sobre", "entre", "hasta", "desde",
+    "es", "son", "está", "están", "hay", "no", "sí", "se", "que", "como",
+    "cuál", "qué", "dónde", "cuándo", "cuánto", "quién",
+    "y", "o", "pero", "sino", "ni", "aunque", "si", "cuando", "donde",
+    "puede", "debe", "deben", "tener", "hacer", "ir", "ver", "saber",
+    "ser", "estar", "haber", "poder", "querer",
+    "circula", "circular", "circulará", "pueden", "prohibido",
+    "permitido", "obligatorio", "obligatoria",
+    "señal", "señales", "vehículo", "vehículos", "vía", "vías",
+    "tipo", "tipos", "caso", "casos", "forma", "parte",
+    "según", "respecto", "acerca", "mediante",
+    "dónde", "cuáles", "cómo", "cuándo", "cuántos",
+    "esta", "este", "esto", "estos", "estas", "ese", "esa", "eso",
+    "así", "tan", "solo", "solamente", "además", "también",
+    "meter", "metros", "kilómetros", "km", "m",
+    "uno", "dos", "tres", "cuatro", "cinco",
+    "verdadero", "falso", "cierto", "incorrecto", "correcto",
+    "cual", "maxima", "tengo", "usan", "cambia", "equivocado",
+    "tienes", "girar", "aproximarse", "ademas", "tecnica", "anos",
+    "hinchar", "introduce", "novedades", "identificar", "diferencia",
+    "número", "números", "círculo", "llevar", "porque", "queda",
+    "turismo", "turismos", "permiso", "mma",
+}
 
-    # ADELANTAMIENTO
-    ("adelantamiento espacio prohibido no dejar", ["adelantamiento", "espacio", "prohibido", "dejar", "espacio"]),
-    ("adelantamiento vehículos dos ruedas distancia", ["vehículos", "dos", "ruedas", "distancia", "1,5", "lateral"]),
-    ("adelantamiento autobuses facilitar maniobra", ["autobuses", "facilitar", "maniobra", "paradas"]),
-    ("adelantamiento túnel varios carriles permitido", ["túnel", "carriles", "varios", "permitido", "sentido"]),
-    ("adelantamiento pasos peatones velocidad", ["pasos", "peatones", "velocidad", "reducida", "frenada"]),
+# ── Diccionari mínim de sinònims ──
 
-    # LUCES DEL VEHÍCULO
-    ("luces antiniebla niebla lluvia estrechas", ["antiniebla", "niebla", "lluvia", "estrechas", "curvas"]),
-    ("luces posición estacionamiento travesía", ["posición", "estacionamiento", "travesía", "iluminada", "insuficientemente"]),
-    ("luces rojas intermitentes cinco situaciones", ["rojas", "intermitentes", "bomberos", "puente", "aeronave"]),
-    ("luces cruce carretera niebla uso", ["cruce", "carretera", "niebla", "uso", "prohibido"]),
-    ("luces emergencia peligro señalización", ["emergencia", "peligro", "señalización", "v-16"]),
+SYNONYMS = {
+    # Convencions generals
+    "vs": "diferencias",
+    "diferencia": "diferencias",
+    "diferència": "diferencias",
 
-    # CAMBIO DE SENTIDO
-    ("cambio sentido glorieta siempre permitido", ["glorieta", "cambio", "sentido", "vuelta", "completa"]),
-    ("cambio sentido marcha atrás prohibida", ["marcha", "atrás", "prohibida", "reiniciar", "maniobra"]),
-    ("cambio sentido cerca paso peatones prohibido", ["cambio", "sentido", "peatones", "próximidades", "prohibido"]),
-    ("cambio sentido doble sentido borde izquierdo", ["doble", "sentido", "borde", "izquierdo", "ceñirse", "central"]),
+    # Velocitat
+    "máxima": "velocidad",
+    "máximas": "velocidad",
+    "màxima": "velocidad",
+    "màximes": "velocidad",
+    "límite": "velocidad",
+    "límits": "velocidad",
+    "velocidades": "velocidad",
 
-    # VELOCIDADES
-    ("velocidades máximas autopista autovía convencional", ["autopista", "autovía", "convencional", "urbana", "120", "100", "90", "50"]),
-    ("velocidades remolque turismo autovía 90", ["remolque", "turismo", "autovía", "90", "ligero"]),
-    ("velocidades carriles adicionales arcén 80", ["carril", "adicional", "arcén", "80", "60", "circunstancial"]),
+    # Aparcar / parar
+    "estacionar": "estacionamiento",
+    "estacionamiento": "estacionamiento",
+    "aparcar": "estacionamiento",
+    "parada": "parar",
+    "parar": "parar",
 
-    # CARRILES
-    ("carriles reservados VAO no circulación", ["reservados", "vao", "circulación", "normal", "efectos"]),
-    ("carriles sentido contrario obras fluidez", ["sentido", "contrario", "obras", "fluidez", "turismos", "motos"]),
-    ("carriles velocidad obligatoria derecha", ["velocidad", "obligatoria", "derecha", "adelantar", "carril"]),
-    ("carriles múltiples sentido único dirección", ["múltiples", "sentido", "único", "dirección", "adelantar"]),
-    ("carriles autobús línea discontinua", ["autobús", "línea", "discontinua", "carril"]),
+    # Frenada
+    "frenada": "frenada",
+    "frenar": "frenada",
+    "detención": "frenada",
+    "detenció": "frenada",
 
-    # NEUMÁTICOS
-    ("neumáticos mínimo legal 1.6 mm cambio", ["mínimo", "legal", "1,6", "mm", "cambio", "desgaste"]),
-    ("neumáticos periodicidad 5 años goma endurecida", ["periodicidad", "5", "años", "goma", "endurecida", "10"]),
-    ("neumáticos presión inflado fabricante recomendada", ["presión", "inflado", "fabricante", "recomendada", "máxima"]),
-    ("neumáticos nieve adherencia marcas compactada", ["nieve", "adherencia", "marcas", "compactada", "virgen"]),
+    # Giros / sentit
+    "glorieta": "rotonda",
+    "rotonda": "glorieta",
+    "giro": "sentido",
+    "girar": "sentido",
+    "dirección": "sentido",
+    "direcció": "sentido",
 
-    # ITV
-    ("ITV periodicidad primera segunda inspección", ["primera", "segunda", "inspección", "periodicidad", "4", "2", "anual"]),
-    ("ITV distintivo posición ángulo superior", ["distintivo", "posición", "ángulo", "superior", "derecho"]),
-    ("ITV remolques tarjeta inspección todos", ["remolques", "tarjeta", "inspección", "todos", "ligeros"]),
+    # Carretera
+    "carretera": "vía",
+    "via": "vía",
+    "vies": "vía",
 
-    # CARGA Y VEHÍCULO
-    ("carga motocicleta lateral anchura sobresalencia", ["motocicleta", "lateral", "anchura", "sobresalencia", "0,25", "0,50"]),
-    ("carga sobresaliente turismo detrás delante", ["sobresaliente", "turismo", "detrás", "delante", "10", "15"]),
-    ("carga camión paneles esquinas detrás", ["camión", "paneles", "esquinas", "detrás", "amarillos", "rojas"]),
-    ("carga motocicleta frontal trasera 0.50", ["motocicleta", "frontal", "trasera", "0,50", "metros"]),
+    # Prohibicions
+    "prohibido": "prohibición",
+    "prohibición": "prohibición",
+    "prohibit": "prohibición",
 
-    # SEGURIDAD
-    ("seguridad cinturón exenciones distribuidores", ["cinturón", "exenciones", "distribuidores", "mercancías", "poblado"]),
-    ("seguridad fumar vehículo privado permitido", ["fumar", "vehículo", "privado", "prohibido", "público", "distracción", "ley 28"]),
-    ("seguridad auriculares inalámbricos moto prohibidos", ["auriculares", "inalámbricos", "prohibidos", "moto"]),
-    ("seguridad movilidad reducida prohibido parar", ["movilidad", "reducida", "prohibido", "parar", "zonas"]),
-    ("seguridad arcén prohibido siempre", ["arcén", "adelantar", "prohibido", "siempre", "nunca", "circular"]),
+    # Obligacions
+    "obligatorio": "obligación",
+    "obligació": "obligación",
+    "obligatoria": "obligación",
+}
 
-    # PREFERENCIA Y PASO
-    ("preferencia estrechamientos prioridad orden", ["estrechamientos", "prioridad", "orden", "más", "largo", "subida"]),
-    ("preferencia tracción animal vehículos estrechamientos", ["tracción", "animal", "vehículos", "estrechamientos", "preferencia"]),
-    ("preferencia peatones fuera poblado izquierda", ["peatones", "fuera", "poblado", "izquierda", "sentido", "contrario"]),
-    ("preferencia autobús incorporación facilitar", ["autobús", "incorporación", "facilitar", "prioridad", "maniobra"]),
-    ("preferencia animales calzada maniobra giro", ["animales", "calzada", "maniobra", "giro", "dirección", "prioridad", "paso"]),
 
-    # ALCOHOLEMIA Y DROGAS
-    ("alcoholimia tasas sangre aire expirado", ["alcoholimia", "tasas", "sangre", "aire", "0,5", "0,25"]),
-    ("alcoholimia novelas profesionales 0.15", ["novelas", "profesionales", "0,15", "0,3", "primer", "permiso"]),
-    ("drogas presencia intoxicación tolerancia cero", ["drogas", "presencia", "intoxicación", "tolerancia", "cero"]),
+def normalize(word: str) -> str:
+    """Normalitza una paraula amb sinònims i accents."""
+    # Primero sinónimos
+    word = SYNONYMS.get(word, word)
+    # Luego normalizar accents variants comuns
+    accent_map = {
+        "autovia": "autovía",
+        "autopista": "autopista",
+        "via": "vía",
+        "unico": "único",
+        "continua": "continúa",
+    }
+    return accent_map.get(word, word)
 
-    # PERMISOS Y LICENCIAS
-    ("permisos B camiones furgonetas plazas", ["permiso", "b", "camiones", "furgonetas", "9", "plazas"]),
-    ("permisos noviciado puntos pérdida máxima", ["noviciado", "puntos", "pérdida", "máxima", "8", "2", "años"]),
-    ("permisos conductor habitual responsable titular", ["conductor", "habitual", "responsable", "titular", "notificaciones"]),
 
-    # MOTOCICLETA
-    ("moto carga lateral anchura menor 1 metro", ["moto", "carga", "lateral", "anchura", "menor", "1", "metro"]),
-    ("moto remolque solo día visibilidad", ["remolque", "solo", "día", "visibilidad", "50", "masa"]),
-    ("moto sidecar señales R-103 R-104", ["sidecar", "r-103", "r-104", "prohibido", "excepción"]),
-    ("moto casco guantes calzado reforma 2026", ["casco", "guantes", "calzado", "reforma", "2026", "obligatorio"]),
-    ("moto autoprotección espejo retrovisor 100", ["autoprotección", "espejo", "retrovisor", "100", "izquierdo", "exterior"]),
+def extract_keywords(text: str, max_keywords: int = 5) -> list[str]:
+    """Extreu paraules clau significatives d'un text."""
+    text = text.lower()
+    text = re.sub(r"[^\w\sáéíóúñü]", " ", text)
+    words = text.split()
+    keywords = []
+    seen = set()
+    for w in words:
+        w = normalize(w)
+        if w not in STOP_WORDS and len(w) >= 3 and w not in seen:
+            keywords.append(w)
+            seen.add(w)
+        if len(keywords) >= max_keywords:
+            break
+    return keywords
 
-    # TÉCNICA Y MECÁNICA
-    ("técnica revoluciones cambio marcha gasolina diésel", ["revoluciones", "cambio", "marcha", "gasolina", "diésel", "rpm"]),
-    ("técnica humo motor negro azul blanco", ["humo", "motor", "negro", "azul", "blanco", "aceite", "agua"]),
-    ("técnica servofreno asistencia freno", ["servofreno", "asistencia", "freno", "multiplica", "fuerza"]),
 
-    # CONDICIONES ADVERSES
-    ("condiciones niebla lluvia nieve sol viento", ["niebla", "lluvia", "nieve", "sol", "viento", "adversas"]),
-    ("condiciones aquaplaning frenado emergencia", ["aquaplaning", "frenado", "emergencia", "soltar", "acelerador"]),
-    ("condiciones túnel distancia seguridad 100m", ["túnel", "distancia", "seguridad", "100", "metros"]),
-
-    # SEGURO Y DOCUMENTACIÓN
-    ("seguro obligatorio exclusiones alcohol robo drogas", ["seguro", "obligatorio", "exclusiones", "alcohol", "robo", "drogas"]),
-    ("seguro obligatorio daños terceros póliza", ["seguro", "daños", "terceros", "póliza", "cubre"]),
-
-    # NORMATIVA 2026
-    ("normativa reforma RGC zonas urbanas VMP", ["reforma", "rgc", "zonas", "urbanas", "vmp", "2026"]),
-    ("normativa adelantamiento ciclistas 5 metros", ["adelantamiento", "ciclistas", "5", "metros", "1,5"]),
-
-    # ESTACIONAMIENTO
-    ("estacionamiento sentido único derecha izquierda", ["sentido", "único", "derecha", "izquierda", "urbana"]),
-    ("estacionamiento prohibido parada diferencia", ["estacionamiento", "parada", "diferencia", "3", "minutos", "conductor"]),
-    ("estacionamiento vado R-3h R-3g diagonal", ["vado", "r-3h", "r-3g", "diagonal", "cruces"]),
-
-    # PARTES DE LA VÍA
-    ("partes vía calzada arcén acera elementales", ["calzada", "arcén", "acera", "elementales", "partes"]),
-    ("partes vía líneas amarillas continuas discontinuas", ["líneas", "amarillas", "continuas", "discontinuas", "parar", "estacionar"]),
-
-    # PERSONAS Y VEHÍCULOS
-    ("personas vehículos art 4 ciclomotor motor", ["vehículos", "motor", "ciclomotor", "art", "4", "personas"]),
-    ("personas vehículos camión furgoneta diferencia", ["camión", "furgoneta", "diferencia", "chasis", "personas", "mercancía"]),
-
-    # HERIDO Y ACCIDENTE
-    ("herido accidente abrigar shock quemaduras", ["herido", "abrigar", "shock", "quemaduras", "golpe", "calor"]),
-    ("herido accidente movilidad salir vía móvil", ["movilidad", "salir", "vía", "móvil", "accidente", "frecuente"]),
-
-    # RECOLZAMENT I NETEJA
-    ("neumáticos repuesto presión fabricante", ["repuesto", "presión", "fabricante", "máxima", "hinchar"]),
-    ("neumáticos repuesto remolque obligatoria", ["repuesto", "remolque", "obligatoria", "ligero"]),
-
-    # CARGA ESPECÍFICA
-    ("carga sobresaliente delantera prohibida turismo", ["delantera", "delante", "prohibida", "turismo", "nunca", "0"]),
-    ("carga motocicleta estrecha lateral 0.50", ["estrecha", "lateral", "0,50", "0,50", "anchura", "eje"]),
-
-    # ADELANTAMIENTO ESPECÍFIC
-    ("adelantar arcén prohibido siempre nunca", ["arcén", "adelantar", "prohibido", "siempre", "nunca"]),
-    ("adelantamiento animales paso maniobra giro", ["animales", "maniobra", "giro", "dirección", "paso", "prioridad"]),
-
-    # SEMÁFOROS ESPECÍFICS
-    ("semáforo prioridad señales verticales manda", ["semáforo", "señales", "verticales", "prioridad", "manda", "funcionamiento"]),
-    ("semáforo carril propio lado derecho obeceer", ["carril", "propio", "lado", "derecho", "obedecer", "dos", "colores"]),
-    ("semáforo ceda paso prioridad verde manda", ["ceda", "paso", "verde", "prioridad", "manda", "señal"]),
-
-    # SEÑALS ESPECÍFIQUES
-    ("señal U-turn prohíbe giro izquierda no", ["u-turn", "giro", "izquierda", "prohíbe", "media", "volta"]),
-    ("señal carril bici motos obligados dos ruedas", ["carril", "bici", "motos", "obligados", "dos", "ruedas"]),
-    ("señal prohibido parar zonas movilidad reducida", ["parar", "prohibido", "movilidad", "reducida", "zonas", "exclusivo"]),
-    ("señal velocidad intersección zona peligro aplica", ["velocidad", "intersección", "peligro", "aplica", "zona", "solo"]),
-
-    # VEHÍCULES ESPECÍFICS
-    ("vehículos movilidad reducida exentos prohibiciones", ["movilidad", "reducida", "exentos", "prohibiciones", "afectan"]),
-    ("vehículos semáforos detienen cada obedece suyo", ["semáforos", "detienen", "cada", "obedece", "suyo", "intersección"]),
-
-    # CARRIL ESPECÍFIC
-    ("carril bici motos bicicletas obligados", ["carril", "bici", "motos", "bicicletas", "obligados"]),
-    ("carril contradictorio obras fluidez permitidos", ["contradictorio", "obras", "fluidez", "permitidos", "vehículos"]),
-]
+def keyword_overlap(kw1: list[str], kw2: list[str]) -> float:
+    """Calcula la similitud entre dues llistes de paraules clau."""
+    s1, s2 = set(kw1), set(kw2)
+    if not s1 or not s2:
+        return 0.0
+    intersection = s1 & s2
+    # Pes per paraules més llargues (més especifiques)
+    weight = sum(2 if len(w) >= 5 else 1 for w in intersection)
+    max_possible = min(len(s1), len(s2)) * 2
+    return weight / max_possible if max_possible > 0 else 0.0
 
 
 def parse_moc(moc_path: Path) -> list[dict]:
@@ -214,127 +170,191 @@ def parse_moc(moc_path: Path) -> list[dict]:
     return errors
 
 
-def classify_error(error: dict) -> str:
-    """Assigna un error al tema més específic de la taxonomia."""
-    combined = f"{error['title']} {error['error']} {error['correction']}".lower()
-    combined = re.sub(r"[^\w\s]", " ", combined)
-    combined_words = set(combined.split())
+def load_keywords_from_notes(base_path: Path, errors: list[dict]) -> dict[int, list[str]]:
+    """Llegeix els apunts atòmics i extreu paraules clau de cada pregunta."""
+    keywords_map = {}
 
-    best_topic = "altres errors diversos"
-    best_score = 0
+    for err in errors:
+        if not err["link"]:
+            continue
 
-    for topic_id, keywords in TOPICS:
-        # Comptem matches: keyword completa o substring significatiu
-        score = 0
-        for kw in keywords:
-            if kw in combined_words or kw in combined:
-                # Keywords més llargues pesen més (són més específiques)
-                weight = 2 if len(kw) >= 5 else 1
-                score += weight
-        if score > best_score:
-            best_score = score
-            best_topic = topic_id
+        # Busca el fitxer atòmic
+        note_path = None
+        for p in base_path.rglob(f"{err['link']}.md"):
+            note_path = p
+            break
 
-    # Threshold: necessitem mínim 2 punts per classificar
-    if best_score < 2:
-        return "altres errors diversos"
+        if not note_path:
+            continue
 
-    return best_topic
+        note_text = note_path.read_text(encoding="utf-8")
 
+        # Extreu text de la pregunta
+        question_match = re.search(
+            r"## Pregunta de examen.*?\n\n> (.+?)(?:\n\n|\n\*\*)",
+            note_text,
+            re.DOTALL,
+        )
+        question = question_match.group(1).strip() if question_match else ""
 
-def compute_topic_scores(errors: list[dict]) -> dict:
-    """Calcula puntuació per tema."""
-    topic_counts = Counter()
-    topic_errors = defaultdict(list)
+        # Extreu correcció
+        correction_match = re.search(r"\*\*Correcci[oó]n:\*\*\s*(.+)", note_text)
+        correction = correction_match.group(1).strip() if correction_match else ""
 
-    for error in errors:
-        topic = classify_error(error)
-        topic_counts[topic] += 1
-        topic_errors[topic].append(error["num"])
+        # Combina títol + pregunta + correcció per extreure paraules clau
+        combined = f"{err['title']} {question} {correction}"
+        keywords = extract_keywords(combined)
+        keywords_map[err["num"]] = keywords
 
-    total = len(errors)
-    scores = {}
-    for topic, count in topic_counts.most_common():
-        scores[topic] = {
-            "count": count,
-            "pct": round(count / total * 100, 1),
-            "error_nums": topic_errors[topic],
-        }
-    return scores
+    return keywords_map
 
 
-def generate_report(errors: list[dict], scores: dict, top_n: int) -> str:
-    """Genera l'informe complet."""
-    total = len(errors)
+def group_errors_by_keywords(
+    errors: list[dict],
+    keywords_map: dict[int, list[str]],
+    threshold: float = 0.4,
+) -> list[list[dict]]:
+    """Agrupa errors per similitud de paraules clau."""
+    assigned = set()
+    groups = []
+
+    for err in sorted(errors, key=lambda e: e["num"]):
+        num = err["num"]
+        if num in assigned:
+            continue
+
+        group = [err]
+        assigned.add(num)
+        kw1 = keywords_map.get(num, [])
+
+        for other in errors:
+            other_num = other["num"]
+            if other_num in assigned or other_num == num:
+                continue
+            kw2 = keywords_map.get(other_num, [])
+            overlap = keyword_overlap(kw1, kw2)
+            if overlap >= threshold:
+                group.append(other)
+                assigned.add(other_num)
+
+        groups.append(group)
+
+    return groups
+
+
+def format_groups(
+    groups: list[list[dict]],
+    keywords_map: dict[int, list[str]],
+    top_n: int = 10,
+) -> str:
+    """Formateja els grups per a la sortida."""
+    # Ordena grups per mida (descendent) i després per número d'error mínim
+    groups_sorted = sorted(groups, key=lambda g: (-len(g), g[0]["num"]))
 
     lines = []
     lines.append("=" * 65)
     lines.append("  ORACLE DEL CARNET DE CONDUIR B")
-    lines.append(f"  {total} errors registrats")
+    lines.append(f"  {sum(len(g) for g in groups)} errors registrats")
     lines.append("=" * 65)
     lines.append("")
-    lines.append("  RANKING PER TEMA ESPECÍFIC")
-    lines.append("  " + "─" * 50)
-    lines.append("")
 
-    rank = 0
-    for topic, data in scores.items():
-        if rank >= top_n:
-            break
-        rank += 1
-        pct = data["pct"]
-        barra = "█" * max(1, int(pct))
-        lines.append(f"  #{rank:2d}  {topic}")
-        lines.append(f"       {data['count']:2d} errors ({pct:4.1f}%)  {barra}")
-        lines.append(f"       errors: {', '.join(str(n) for n in data['error_nums'])}")
-        lines.append("")
+    for i, group in enumerate(groups_sorted[:top_n]):
+        if len(group) < 2:
+            # Error individual
+            err = group[0]
+            kws = keywords_map.get(err["num"], [])
+            lines.append(f"  # {i+1:2d}  {err['title']}")
+            lines.append(f"        1 error (error aïllat)")
+            lines.append(f"       error: {err['num']}")
+            lines.append(f"       keywords: {kws}")
+            lines.append("")
+        else:
+            # Grup d'errors
+            group_title = " + ".join(e["title"][:35] for e in group[:3])
+            if len(group) > 3:
+                group_title += f" + {len(group)-3} més"
 
-    # Resum ràpid
+            # Troba paraules clau compartides
+            all_kws = [set(keywords_map.get(e["num"], [])) for e in group]
+            if all_kws:
+                shared = set.intersection(*all_kws) if all_kws else set()
+            else:
+                shared = set()
+
+            lines.append(f"  # {i+1:2d}  {group_title}")
+            lines.append(
+                f"        {len(group)} errors ({len(group)*100//sum(len(g) for g in groups)}% del total)"
+            )
+            lines.append(f"       errors: {', '.join(str(e['num']) for e in group)}")
+            lines.append(f"       keywords compartides: {sorted(shared) if shared else 'cap'}")
+            lines.append("")
+
+    # Recomanació pre-test
     lines.append("=" * 65)
     lines.append("  RECOMANACIÓ PRE-TEST")
-    lines.append("  " + "─" * 50)
+    lines.append("  " + "─" * 45)
     lines.append("")
 
-    top3 = list(scores.items())[:3]
-    if top3:
-        lines.append("  Revisa AQUESTS 3 temes abans del proper test:")
-        for i, (topic, data) in enumerate(top3, 1):
-            lines.append(f"  {i}. {topic.upper()} ({data['count']} errors)")
+    # Top 3 grups més grans (només grups, no individuals)
+    big_groups = [g for g in groups_sorted if len(g) >= 2][:3]
+    if big_groups:
+        for i, group in enumerate(big_groups):
+            group_title = " + ".join(e["title"][:30] for e in group[:2])
+            lines.append(f"  {i+1}. {group_title} ({len(group)} errors)")
         lines.append("")
-        top3_pct = sum(d["count"] for _, d in top3) / total * 100
-        lines.append(f"  Si dominés aquests 3, reduiries errors ~{top3_pct:.0f}%.")
+        total_in_top = sum(len(g) for g in big_groups)
+        total_errors = sum(len(g) for g in groups)
+        pct = total_in_top * 100 // total_errors if total_errors else 0
+        lines.append(
+            f"  Si dominés aquests 3 grups, reduiries errors ~{pct}%."
+        )
+    else:
+        lines.append("  No hi ha grups significatius de repetició.")
 
-    lines.append("")
     return "\n".join(lines)
 
 
 def main():
     parser = argparse.ArgumentParser(description="Oracle del carnet de conduir B")
-    parser.add_argument("--moc", default=None)
-    parser.add_argument("--top", type=int, default=20)
-    parser.add_argument("--json", action="store_true")
+    parser.add_argument(
+        "--moc",
+        default=str(Path(__file__).parent / "Cotxe" / "_MOC.md"),
+        help="Path al fitxer _MOC.md",
+    )
+    parser.add_argument("--top", type=int, default=10, help="Número de grups a mostrar")
+    parser.add_argument("--json", action="store_true", help="Sortida en format JSON")
     args = parser.parse_args()
 
-    moc_path = Path(args.moc) if args.moc else Path(__file__).parent / "Cotxe" / "_MOC.md"
-    if not moc_path.exists():
-        print(f"Error: {moc_path} no existeix", file=sys.stderr)
-        sys.exit(1)
+    moc_path = Path(args.moc)
+    base_path = moc_path.parent
 
+    # Parseja el MOC
     errors = parse_moc(moc_path)
-    if not errors:
-        print("Error: sense errors al MOC", file=sys.stderr)
-        sys.exit(1)
 
-    scores = compute_topic_scores(errors)
+    # Carrega paraules clau dels apunts atòmics
+    keywords_map = load_keywords_from_notes(base_path, errors)
+
+    # Agrupa errors per similitud
+    groups = group_errors_by_keywords(errors, keywords_map)
 
     if args.json:
-        out = {
-            "total_errors": len(errors),
-            "topics": {k: {"count": v["count"], "pct": v["pct"], "error_nums": v["error_nums"]} for k, v in scores.items()}
-        }
-        print(json_mod.dumps(out, indent=2, ensure_ascii=False))
+        # Sortida JSON
+        result = []
+        for group in sorted(groups, key=lambda g: (-len(g), g[0]["num"])):
+            shared = set.intersection(
+                *[set(keywords_map.get(e["num"], [])) for e in group]
+            ) if group else set()
+            result.append({
+                "size": len(group),
+                "errors": [e["num"] for e in group],
+                "titles": [e["title"] for e in group],
+                "shared_keywords": sorted(shared),
+            })
+        print(json_mod.dumps(result, ensure_ascii=False, indent=2))
     else:
-        print(generate_report(errors, scores, args.top))
+        # Sortida formatejada
+        output = format_groups(groups, keywords_map, top_n=args.top)
+        print(output)
 
 
 if __name__ == "__main__":

@@ -6,248 +6,98 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 
 ---
 
-### 1. ITV — Posición del distintivo
-- **Error:** Se ponía en el lado inferior derecho.
-- **Corrección:** El distintivo de la ITV irá **colocado en el ángulo superior derecho** del vehículo.
-- → Ver: [[ITV-Distintivo-Posicion]]
-
-### 2. Atravesar el borde de la calzada
-- **Error:** Se creía que no se podía.
-- **Corrección:** Se puede atravesar cuando sea necesario (incorporación, acceso a propiedades laterales, evitar obstáculos).
-- → Ver: [[Atravesar-Borde-Calzada]]
-
-### 3. Velocidades máximas
+### 1. Velocidades máximas
 - **Error:** Confusión entre autovía (100) y autopista (120).
 - **Corrección:** Autopista = 120 km/h, Autovía = 100 km/h, Carretera convencional = 90 km/h, Urbana = 50 km/h (o 30).
 - → Ver: [[Velocidades-Maximas]]
 
-### 4. Adelantamiento — Espacio prohibido
-- **Error:** Se dejaba espacio suficiente para permitir el adelantamiento donde estaba prohibido.
-- **Corrección:** Donde está prohibido avanzar, **no se deja espacio** para evitar tentaciones.
-- → Ver: [[Adelantamiento-Espacio-Prohibido]]
-
-### 5. Adelantamiento — Vehículos de 2 ruedas
+### 2. Adelantamiento — Vehículos de 2 ruedas
 - **Error:** Se daba 1m o distancia insuficiente.
 - **Corrección:** Al adelantar un vehículo de 2 ruedas (motociclistas, ciclomotores, bicicletas), hay que dejar como mínimo **1,5 metros** de distancia lateral.
 - → Ver: [[Adelantamiento-Vehiculos-2-Ruedas]]
 
-### 6. Vehículos de tracción animal — Preferencia
-- **Error:** Se desconocía la regla.
-- **Corrección:** Los vehículos de tracción animal tienen **preferencia en los estrechamientos** (puntos estrechos de la vía).
-- → Ver: [[Vehiculos-Traccion-Animal-Preferencia]]
-
-### 7. Cambio de sentido cerca de paso de peatones
-- **Error:** Se podía hacer cambio de sentido cerca de un paso de peatones.
-- **Corrección:** **No se puede hacer cambio de sentido en las proximidades** de un paso de peatones.
-- → Ver: [[Cambio-Sentido-Paso-Peatones]]
-
-### 8. Permiso B — Camiones
+### 3. Permiso B — Camiones
 - **Error:** Se creía que sí se podía.
 - **Corrección:** Con permiso B **NO se puede conducir un camión** (requiere permiso C o C1). Furgonetas pequeñas de hasta 3.500 kg MMA.
 - → Ver: [[Permiso-B-Vehiculos-Pesados]]
 
-### 9. Vehiculos de distribucion de mercancias — Cinturon
-- **Error:** Se creia que estaban exentos del cinturon.
-- **Correccion:** Los distribuidores de mercancias **NO estan exentos** del uso del cinturon.
-- → Ver: [[Cintura-Seguridad-Exenciones]]
-
-### 10. Carriles reservados
-- **Error:** No se tenían en cuenta a efectos de utilización normal.
-- **Corrección:** Los **carriles reservados** no se consideran a efectos de circulación normal.
-- → Ver: [[Carriles-Reservados]]
-
-### 11. Adelantamiento de autobuses
-- **Error:** No se facilitaba la maniobra.
-- **Corrección:** Hay que facilitar la maniobra a los autobuses cuando estén entrando o saliendo de paradas.
-- → Ver: [[Autobus-Facilitar-Maniobra]]
-
-### 12. Semáforo — Dos luces rojas intermitentes
-- **Error:** Se vinculaba a bomberos o equipos antiincendios.
-- **Corrección:** Dos luces rojas **intermitentes** indican **paso restringido** (vía cortada).
-- → Ver: [[Semaforos-Luces-Especiales]]
-
-### 13. Flecha en señales — ¿Distancia o duración?
-- **Error:** Se creía que la flecha indicaba los metros donde el peligro existe.
-- **Corrección:** La flecha indica la **distancia en metros** desde la señal hasta donde **acaba** el peligro.
-- → Ver: [[Senales-Flecha-Distancia]]
-
-### 14. Servofreno
-- **Error:** Se desconocía qué era exactamente.
-- **Corrección:** El servofreno es un sistema de asistencia al freno que multiplica la fuerza del pedal.
-- → Ver: [[Servofreno]]
-
-### 15. Carga en motocicleta
-- **Error:** Se daba un valor incorrecto.
-- **Corrección:** La carga de una moto no debe sobresalir lateralmente; por delante o detrás máximo 0,5 metros.
-- → Ver: [[Carga-Motocicleta]]
-
-### 16. Señales: ciclomotor vs. motocicleta
-- **Error:** Confusión entre ambas señales.
-- **Corrección:** Ciclomotor = triángulo azul, rueda cuadrada. Motocicleta = círculo, silueta de moto.
-- → Ver: [[Senales-Ciclomotor-Motocicleta]]
-
-### 17. Luces del vehículo
-- **Errores:** Confusión entre luz de posición, estacionamiento y cómo se activan.
-- → Ver: [[Luces-Vehiculo]]
-
-### 18. Partes de la vía
-- **Error:** Confusión entre calzada, arcén, acera, etc.
-- → Ver: [[Partes-de-la-Carretera]]
-
-### 19. Tasas de alcoholemia
+### 4. Tasas de alcoholemia
 - **Error:** Confusión entre las tasas por sangre y aire expirado.
 - **Corrección:** 0,5 g/l sangre = 0,25 mg/l aire (ordinario). 0,3 g/l = 0,15 mg/l (noveles/profesionales).
 - → Ver: [[Tasas-Alcoholemia]]
 
-### 20. Panel azul cuadrado — Velocidad aconsejada
-- **Error:** Se creía que era una velocidad máxima obligatoria.
-- **Corrección:** Es la velocidad máxima aconsejada, no obligatoria.
-- → Ver: [[Senyes-Velocidad-Consejo]]
-
-### 21. Señal X — Paso a nivel con barreras
-- **Error:** Se desconocía que la X indicase paso a nivel con barreras.
-- **Corrección:** La X (P-8a) señala paso a nivel con barreras. Sin barreras = P-8b.
-- → Ver: [[Senyes-Paso-Nivel]]
-
-### 22. Estacionamiento en vía de sentido único
+### 5. Estacionamiento en vía de sentido único
 - **Error:** Se creía que solo se podía aparcar a la derecha.
 - **Corrección:** En vía urbana de sentido único se puede aparcar a la **derecha O izquierda**.
 - → Ver: [[Estacionamiento-Sentido-Unico]]
 
-### 23. Lineas amarillas
+### 6. Lineas amarillas
 - **Error:** Solo se conocia la linea amarilla continua.
 - **Correccion:** Amarilla continua = prohibe parar y estacionar. Discontinua = prohibe estacionar (parada sí).
 - → Ver: [[Lineas-Amarillas]]
 
-### 24. Nuevas normativas 2026
+### 7. Nuevas normativas 2026
 - **Error:** Desconocimiento de la reforma del RGC de 2026.
 - **Correccion:** Reforma del RGC de 23/06/2026: Título VI (zonas urbanas), VMP, riders, motoristas (guantes y calzado cerrado obligatorio).
 - → Ver: [[Nuevas-Normativas-2026]]
 
-### 25. Ruedas de repuesto — Presion de inflado
+### 8. Ruedas de repuesto — Presion de inflado
 - **Error:** Se creia que se debian hinchar a la presion maxima.
 - **Correccion:** La rueda de repuesto se infla a la presion indicada por el fabricante.
 - → Ver: [[Ruedas-Repuesto-Presion]]
 
-### 26. Tunel — Distancia minima de seguridad
-- **Error:** Se desconocia la distancia minima en tuneles.
-- **Correccion:** En un tunel se debe mantener al menos 100 metros con el vehiculo de delante.
-- → Ver: [[Tunel-Distancia-Seguridad]]
-
-### 27. Senal de visibilidad reducida
-- **Error:** No se conocia la senal.
-- **Correccion:** Senales de peligro P-15 (niebla), P-16 (precipitaciones), P-17 (viento lateral). Panel R-413 obliga a encender luces de cruce.
-- → Ver: [[Senal-Visibilidad-Reducida]]
-
-### 28. Senal de circulacion prohibida
-- **Error:** No se conocia la senal.
-- **Correccion:** R-100 = prohibido circular en ambos sentidos. R-101 = entrada prohibida.
-- → Ver: [[Senal-Circulacion-Prohibida]]
-
-### 29. ITV — Primera inspeccion
+### 9. ITV — Primera inspeccion
 - **Error:** Se desconocia la periodicidad.
 - **Correccion:** Primera ITV a los 4 años, luego cada 2 años (hasta 10), después anual.
 - → Ver: [[ITV-Primera-Inspeccion]]
 
-### 30. Altura minima para asiento delantero
-- **Error:** Se desconocia la altura minima.
-- **Correccion:** Para asiento delantero se necesita 1,35 m o más. Por debajo, SRI obligatorio.
-- → Ver: [[Altura-Minima-Asiento-Delantero]]
-
-### 31. Luces con niebla y lluvia intensa
+### 10. Luces con niebla y lluvia intensa
 - **Error:** Confusion sobre que luces usar.
 - **Correccion:** Niebla = cruce + antiniebla trasera. Lluvia intensa = cruce + antiniebla trasera. Nunca carretera con niebla.
 - → Ver: [[Luces-Niebla-Lluvia-Intensa]]
 
-### 32. Glorieta — Cambio de sentido
-- **Error:** Se desconocia si se podia cambiar de sentido.
-- **Correccion:** En una glorieta siempre se puede hacer cambio de sentido dando la vuelta completa.
-- → Ver: [[Glorieta-Cambio-Sentido]]
-
-### 33. Herido en accidente — ¿Abrigar siempre?
-- **Error:** Se creia que siempre hay que abrigar.
-- **Correccion:** Solo si hay shock o frío. No si hay golpe de calor o quemaduras.
-- → Ver: [[Herido-Accidente-Abrigar]]
-
-### 34. Revoluciones para cambiar de marcha
+### 11. Revoluciones para cambiar de marcha
 - **Error:** Se desconocian las revoluciones de cambio.
 - **Correccion:** Gasolina = 2.000-2.500 rpm. Diesel = 1.500-2.000 rpm.
 - → Ver: [[Revoluciones-Cambio-Marcha]]
 
-### 35. Via de sentido unico con multiples carriles
-- **Error:** Confusion con 3 o 4 carriles.
-- **Correccion:** Todos en la misma direccion. Derecho para circular, los demas para adelantar.
-- → Ver: [[Via-Sentido-Unico-Multiples-Carriles]]
-
-### 36. Autovia vs Autopista
+### 12. Autovia vs Autopista
 - **Error:** Confusion entre ambas vias.
 - **Correccion:** Autopista = accesos controlados, 120 km/h. Autovia = accesos limitados, 100 km/h.
 - → Ver: [[Autovia-vs-Autopista]]
 
-### 37. Senal de cruz con fondo azul
+### 13. Senal de cruz con fondo azul
 - **Error:** Confusion entre diferentes senales de cruz.
 - **Correccion:** Cruz verde + azul = farmacia. H + azul = hospital. Cruz roja en circulo = prohibido estacionar.
 - → Ver: [[Senal-Cruz-Fondo-Azul]]
 
-### 38. Senal P y N en paso a nivel
-- **Error:** No se sabia que significaba.
-- **Correccion:** P = Paso, N = Nivel. Indica proximidad de cruce con via ferrea.
-- → Ver: [[Senal-P-N-Aspa-Paso-Nivel]]
-
-### 39. Cuando cambiar los neumaticos
+### 14. Cuando cambiar los neumaticos
 - **Error:** Se desconocia el limite legal.
 - **Correccion:** Cambiar cuando el dibujo es menor de 1,6 mm (legal) o antes de 3 mm (recomendable).
 - → Ver: [[Cuando-Cambiar-Neumaticos]]
 
-### 40. Semaforo rojo intermitente — Situaciones de uso
-- **Error:** Se creia que solo era para bomberos.
-- **Correccion:** Cinco situaciones: paso a nivel, puente móvil, pontón transbordador, salida de bomberos, aeronave a escasa altura.
-- → Ver: [[Semaforos-Luces-Rojas-Intermitentes-Situaciones]]
-
-### 41. Distancias de frenada, reacción y detención
+### 15. Distancias de frenada, reacción y detención
 - **Error:** Se desconocían y se confundían.
 - **Correccion:** Reacción (1s) + Frenada = Detención. A 120 km/h ~98 metros. Mantener 2 segundos de separación.
 - → Ver: [[Distancias-Frenada-Reaccion-Detencion]]
 
-### 42. Fumar en el vehículo
-- **Error:** Se creía que estaba totalmente prohibido.
-- **Corrección:** En coche privado NO está prohibido. Prohibido en transporte público y empresa (Ley 28/2005). La DGT lo considera distracción.
-- → Ver: [[Fumar-en-el-Vehiculo]]
-
-### 43. Señal de ciclomotor — ¿Se refiere a bicicletas?
-- **Error:** Confusión entre ciclomotor y "ciclos" (bicicletas).
-- **Corrección:** La señal de ciclomotor NO se refiere a bicicletas. "Ciclos" = bicicletas (sin motor). Ciclomotor = vehículo a motor ≤ 50 cc.
-- → Ver: [[Senal-Ciclomotor-No-Bicicleta]]
-
-### 44. Señales: Área de descanso vs servicio vs merendero
+### 16. Señales: Área de descanso vs servicio vs merendero
 - **Error:** Confusión entre las tres señales y sus servicios.
 - **Corrección:** Área de descanso (S-123) = picnic + estacionar. Área de servicio (S-127) = gasolinera + restaurante + hotel (solo autopista/autovía). Merendero = zona de picnic dentro del área de descanso.
 - → Ver: [[Senal-Area-Descanso-Servicio-Merendero]]
 
-### 45. Carga sobresaliente en turismo
-- **Error:** No se sabía cuánto puede sobresalir ni por dónde.
-- **Corrección:** Solo por detrás: 10% (divisible) o 15% (indivisible). NUNCA por delante ni laterales en turismo.
-- → Ver: [[Carga-Sobresaliente-Turismo]]
-
-### 46. Período de noviciado con permiso A previo
+### 17. Período de noviciado con permiso A previo
 - **Error:** Creer que tener el A desde hace 2 años exime del noviciado al obtener el B.
 - **Corrección:** Cada permiso tiene su propio período de noviciado de 2 años. Al obtener el B, eres novel para el B: tasa 0,15 mg/l y 8 puntos.
 - → Ver: [[Periodo-Noviciado-Permiso-B]]
 
-### 47. Accidente más frecuente por uso del móvil
-- **Error:** No se sabía qué accidente es el más frecuente.
-- **Corrección:** El accidente más frecuente por uso del móvil es la **salida de la vía** (>40% de los casos por distracción).
-- → Ver: [[Accidente-Movil-Salida-Via]]
-
-### 48. Giro a la izquierda — Posición obligatoria
+### 18. Giro a la izquierda — Posición obligatoria
 - **Error:** Se respondió "con más de un carril para uno de los dos sentidos".
 - **Corrección:** La respuesta correcta es "de un solo sentido de circulación". En vía de doble sentido te colocas en el centro (junto a la línea central), no en el borde izquierdo.
 - → Ver: [[Giro-Izquierda-Posicion]]
 
-### 49. Responsable del vehículo: el titular
-- **Error:** Creer que el conductor habitual es el responsable.
-- **Corrección:** El responsable del vehículo **es el titular**, no el conductor habitual. El titular puede comunicar el conductor habitual para que las notificaciones vayan a él.
-- → Ver: [[Responsable-Vehiculo-Titular]]
+
+---
 
 ### 50. Señal R-308 — Estacionamiento prohibido con números
 - **Error:** No se sabía qué indican los números en la señal de prohibido estacionar.
@@ -519,154 +369,35 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** **NUNCA** se puede adelantar por el arcén. No importa la maniobra del otro vehículo.
 - → Ver: [[Adelantar-Arcen-Prohibido-Siempre]]
 
----
+### 122. VMP — Tipo de motor
+- **Error:** Creer que los VMP pueden tener motor de combustión o híbrido.
+- **Corrección:** Un VMP **solo puede tener motor eléctrico**. Si tiene combustión o híbrido, ya no es VMP (es ciclomotor o moto).
+- → Ver: [[VMP-Motor-Electrico]]
 
-## Errores del permiso A2 (Moto)
+### 123. VMP — Puede tener sillín
+- **Error:** Responder "Sí" sin condición.
+- **Corrección:** Un VMP **puede tener sillín solo si tiene sistema de autoequilibrado** (tipo Segway). Sin autoequilibrado, deja de ser VMP.
+- → Ver: [[VMP-Sillin-Autoequilibrado]]
 
-### A2.1. ¿Se pueden conducir tractores?
-- **Error:** Se creia que si.
-- **Correccion:** Con A2 **NO se pueden conducir tractores**. Requieren permiso B o especifico.
-- → Ver: [[A2-No-Tractores]]
+### 124. VMP — Prohibido en túneles urbanos
+- **Error:** Creer que está permitido "salvo que esté expresamente prohibido".
+- **Corrección:** Los VMPs tienen **PROHIBIDA** la circulación por túneles urbanos. No hay excepciones.
+- → Ver: [[VMP-Tunel-Urbano-Prohibido]]
 
-### A2.2. El carter y la lubricacion
-- **Error:** Se creia que el carter lleva la lubricacion.
-- **Correccion:** El carter es el deposito de aceite. La bomba de aceite es la que lleva la lubricacion.
-- → Ver: [[A2-Carter-Lubricacion]]
+### 125. VMP — Donde puede circular
+- **Error:** Creer que los VMP pueden circular por la acera o carretera interurbana.
+- **Corrección:** Solo por **calzada urbana** y **carril bici**. **NUNCA** acera (200 €), **NUNCA** interurbana sin carril bici, **NUNCA** autopista/autovía.
+- → Ver: [[VMP-Donde-Circular]]
 
-### A2.3. Cuando cambiar los neumaticos de moto
-- **Error:** Se desconocia el limite.
-- **Correccion:** En moto, cambiar antes de los 2-3 mm (limite legal 1,6 mm). Mas critico que en coche.
-- → Ver: [[A2-Cuando-Cambiar-Neumaticos]]
+### 126. Carretera multicarril — Definición
+- **Error:** Confundir "convencional" con "multicarril".
+- **Corrección:** La carretera **multicarril** tiene **≥ 2 carriles por sentido** pero **NO es autovía ni autopista**. Puede tener accesos directos y cruces a nivel (que la autovía/autopista no permite).
+- → Ver: [[Carretera-Multicarril]]
 
-### A2.4. Señal que incluye sidecar
-- **Error:** Se desconocia como identificarlo.
-- **Correccion:** La senal incluye sidecar cuando el pictograma muestra la moto con sidecar.
-- → Ver: [[A2-Senal-Sidecar]]
-
-### A2.5. Fuerza centrípeta vs centrífuga
-- **Error:** Se creia que la fuerza centripeta es la que "el conductor ha de mantener".
-- **Correccion:** Centrifuga = empuja hacia FUERA (inercia). Centripeta = tira hacia el CENTRO (neumaticos, inclinacion).
-- → Ver: [[A2-Fuerza-Centripeta-Centrifuga]]
-
-### A2.6. Espejos retrovisores convexos
-- **Error:** Se creia que los objetos se ven mas grandes y cerca.
-- **Correccion:** Con espejo convexo los objetos se ven mas pequenos y parecen mas lejanos de lo que estan.
-- → Ver: [[A2-Espejos-Retrovisores-Convexos]]
-
-### A2.7. Señal R-308C — Estacionamiento 1ª quincena vs parada
-- **Error:** Se creia que la senal "1-15" prohibe tambien la parada.
-- **Correccion:** R-308C prohibe ESTACIONAR, NO la parada (<2 min, conductor a bordo).
-- → Ver: [[A2-Senal-R308C-Estacionamiento-Parada]]
-
-### A2.8. Moto con remolque — Solo de dia
-- **Error:** Se creia que se podia circular de noche.
-- **Correccion:** Moto+remolque: solo de dia, buena visibilidad, −10% velocidad, remolque ≤50% masa en vacio.
-- → Ver: [[A2-Remolque-Motocicleta]]
-
-### A2.9. Señales R-103 y R-104 — Sidecar
-- **Error:** No se sabia que R-103 (turismo) exceptua motos 2 ruedas sin sidecar.
-- **Correccion:** R-103 prohibe vehiculos a motor EXCEPTO motos 2 ruedas sin sidecar. Con sidecar = prohibido. R-104 prohibe todas las motos.
-- → Ver: [[A2-Senal-R103-R104-Sidecar]]
-
----
-
-- [[Accidente-Movil-Salida-Via]]
-- [[Adelantamiento-Espacio-Prohibido]]
-- [[Adelantamiento-Paso-Peatones]]
-- [[Adelantamiento-Vehiculos-2-Ruedas]]
-- [[Altura-Minima-Asiento-Delantero]]
-- [[Autobus-Facilitar-Maniobra]]
-- [[Averia-Tunel-Abandonar-Vehiculo]]
-- [[Autovia-vs-Autopista]]
-- [[Carga-Motocicleta]]
-- [[Carga-Sobresaliente-Turismo]]
-- [[Carga-Sobresaliente-Noche-Luz]]
-- [[Carril-Adicional-Circunstancial]]
-- [[Carril-Sentido-Contrario-Fluidez]]
-- [[Carril-Sentido-Contrario-Obras]]
-- [[Carriles-Reservados]]
-- [[Cenirse-Borde-Derecho]]
-- [[Cintura-Seguridad-Exenciones]]
-- [[Cambio-Neumaticos-5-Anos]]
-- [[Cambio-Direccion-Izquierda-Doble-Sentido]]
-- [[Cambio-Sentido-Paso-Peatones]]
-- [[Cambio-Sentido-Marcha-Atras-Prohibida]]
-- [[Cuando-Cambiar-Neumaticos]]
-- [[Distancias-Frenada-Reaccion-Detencion]]
-- [[Distribuidores-Mercancias-Cinturon-Poblado]]
-- [[Estacionamiento-Sentido-Unico]]
-- [[Facilitar-Incorporacion-Prioridad]]
-- [[Fumar-en-el-Vehiculo]]
-- [[Furgoneta-9-Plazas]]
-- [[Glorieta-Cambio-Sentido]]
-- [[Giro-Izquierda-Posicion]]
-- [[Giro-Izquierda-No-Invadir-Sentido-Contrario]]
-- [[Herido-Accidente-Abrigar]]
-- [[ITV-Distintivo-Posicion]]
-- [[ITV-Primera-Inspeccion]]
-- [[ITV-Segunda-Inspeccion]]
-- [[Laminas-Adhesivas-Ventanillas-Posteriores]]
-- [[Lineas-Amarillas]]
-- [[Luces-Antiniebla-Cuando-Usar]]
-- [[Luces-Estacionamiento-Insuficientemente-Iluminado]]
-- [[Luces-Niebla-Lluvia-Intensa]]
-- [[Luces-Vehiculo]]
-- [[Nuevas-Normativas-2026]]
-- [[Panel-Complementario-Distancia-Prohibicion]]
-- [[Partes-de-la-Carretera]]
-- [[Perdida-Maxima-Puntos]]
-- [[Periodo-Noviciado-Permiso-B]]
-- [[Permiso-B-Vehiculos-Pesados]]
-- [[Prohibido-Parar-Tunel]]
-- [[Responsable-Vehiculo-Titular]]
-- [[Revoluciones-Cambio-Marcha]]
-- [[R-302-Prohibicion-Cambiar-Sentido]]
-- [[Ruedas-Repuesto-Presion]]
-- [[Senal-Area-Descanso-Servicio-Merendero]]
-- [[Senal-Ciclomotor-No-Bicicleta]]
-- [[Senal-Circulacion-Prohibida]]
-- [[Senal-Cruz-Fondo-Azul]]
-- [[Senal-Estacionamiento-Prohibido-R308]]
-- [[Senal-P-N-Aspa-Paso-Nivel]]
-- [[Senal-STOP-Detencion-Obligatoria]]
-- [[Senal-Visibilidad-Reducida]]
-- [[Senales-Ciclomotor-Motocicleta]]
-- [[Senales-de-Carril-Bici]]
-- [[Senales-de-Indicacion]]
-- [[Senales-de-Obligacion]]
-- [[Senales-de-Panel-Complementario]]
-- [[Senales-de-Peligro]]
-- [[Senales-de-Prioridad]]
-- [[Senales-de-Prohibicion]]
-- [[Senales-de-Reduccion]]
-- [[Senales-Flecha-Distancia]]
-- [[Senales-Verticales-Derecha-Izquierda]]
-- [[Senyes-Paso-Nivel]]
-- [[Senyes-Velocidad-Consejo]]
-- [[Semaforos-Luces-Especiales]]
-- [[Semaforos-Luces-Rojas-Intermitentes-Situaciones]]
-- [[Servofreno]]
-- [[Tasas-Alcoholemia]]
-- [[Tunel-Distancia-Seguridad]]
-- [[Via-Sentido-Unico-Multiples-Carriles]]
-- [[Velocidad-Turismo-Remolque-Autovia]]
-- [[Velocidades-Maximas]]
-- [[Remolques-MMA-750]]
-- [[Senal-Vado-R3h]]
-- [[Nieve-Cuajar]]
-|- [[A2-Carter-Lubricacion]]
-|- [[A2-Cuando-Cambiar-Neumaticos]]
-|- [[A2-Espejos-Retrovisores-Convexos]]
-|- [[A2-Fuerza-Centripeta-Centrifuga]]
-|- [[A2-No-Tractores]]
-|- [[A2-Remolque-Motocicleta]]
-|- [[A2-Senal-R103-R104-Sidecar]]
-|- [[A2-Senal-R308C-Estacionamiento-Parada]]
-|- [[A2-Senal-Sidecar]]
-
----
-
-*Apuntes generados a partir de los errores de los tests. Cada apunte es atómico y remite aquí.*
+### 127. Fin de prohibición de adelantamiento — Señal o fin de prohibiciones
+- **Error:** Creer que la prohibición termina cuando acaba el peligro.
+- **Corrección:** La prohibición de adelantamiento **solo termina** con la señal R-301b (fin de prohibición de adelantamiento) o R-304 (fin de prohibiciones). NO con el fin del peligro.
+- → Ver: [[Fin-Prohibicion-Adelantamiento]]
 
 ### 98. Señal carril bici — ¿Qué vehículos están obligados?
 - **Error:** Se creía que todas las motocicletas deben usar el carril bici.
@@ -712,3 +443,100 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Error:** Se creía que el límite de velocidad asociado a un peligro se aplica a toda la vía.
 - **Corrección:** Se aplica **solo en la zona de peligro** (intersección, curva, etc.).
 - → Ver: [[Senal-Velocidad-Interseccion]]
+
+### 128. Señales de agentes — Brazo levantado vs extendido horizontalmente
+- **Error:** Confundir "brazo levantado verticalmente" (stop para todos, cualquier dirección) con "brazos extendidos horizontalmente" (stop solo para direcciones que corten la línea).
+- **Corrección:** Vertical = TODOS. Horizontal (T) = solo las direcciones que corten la línea (frente/espaldas, NO costados).
+- → Ver: [[Agente-Brazo-Vertical-Horizontal]]
+
+---
+
+## Índice alfabético de apuntes
+
+- [[Adelantamiento-Paso-Peatones]]
+- [[Adelantamiento-Tunel-Carriles]]
+- [[Adelantamiento-Vehiculos-2-Ruedas]]
+- [[Adelantar-Arcen-Prohibido-Siempre]]
+- [[Agente-Brazo-Vertical-Horizontal]]
+- [[Alcohol-y-Drogas-Test]]
+- [[Autovia-vs-Autopista]]
+- [[Averia-Tunel-Abandonar-Vehiculo]]
+- [[Cambio-Direccion-Izquierda-Doble-Sentido]]
+- [[Cambio-Neumaticos-5-Anos]]
+- [[Cambio-Sentido-Marcha-Atras-Prohibida]]
+- [[Carga-Motocicleta-Estrecha-Lateral]]
+- [[Carga-Sobresaliente-Delantera-Prohibida]]
+- [[Carga-Sobresaliente-Noche-Luz]]
+- [[Carretera-Multicarril]]
+- [[Carril-Adicional-Circunstancial]]
+- [[Carril-Sentido-Contrario-Fluidez]]
+- [[Carril-Sentido-Contrario-Obras]]
+- [[Carril-VAO]]
+- [[Carril-Velocidad-Obligatoria-Derecha]]
+- [[Cenirse-Borde-Derecho]]
+- [[Conduccion-Preventiva-Tecnicas]]
+- [[Cuando-Cambiar-Neumaticos]]
+- [[Distancias-Frenada-Reaccion-Detencion]]
+- [[Distribuidores-Mercancias-Cinturon-Poblado]]
+- [[Estacionamiento-Sentido-Unico]]
+- [[Estrechamientos]]
+- [[Etiquetas-Ambientales-DGT]]
+- [[Facilitar-Incorporacion-Prioridad]]
+- [[Factor-Via]]
+- [[Fin-Prohibicion-Adelantamiento]]
+- [[Furgoneta-9-Plazas]]
+- [[Giro-Izquierda-No-Invadir-Sentido-Contrario]]
+- [[Giro-Izquierda-Posicion]]
+- [[ITV-Primera-Inspeccion]]
+- [[ITV-Segunda-Inspeccion]]
+- [[Laminas-Adhesivas-Ventanillas-Posteriores]]
+- [[Linea-Continua-Sentido-Unico]]
+- [[Lineas-Amarillas]]
+- [[Luces-Antiniebla-Cuando-Usar]]
+- [[Luces-Estacionamiento-Insuficientemente-Iluminado]]
+- [[Luces-Niebla-Lluvia-Intensa]]
+- [[Mecanica-Basica]]
+- [[Motocicleta-Autoproteccion-Espejo-Obligatorio]]
+- [[Neumaticos-y-Seguridad-Pasiva]]
+- [[Nieve-Cuajar]]
+- [[Nuevas-Normativas-2026]]
+- [[Panel-Complementario-Distancia-Prohibicion]]
+- [[Paneles-Esquinas-Camion-Carga]]
+- [[Peatones-Fuera-Poblado-Sentido]]
+- [[Perdida-Maxima-Puntos]]
+- [[Periodo-Noviciado-Permiso-B]]
+- [[Permiso-B-Vehiculos-Pesados]]
+- [[Personas-y-Vehiculos]]
+- [[Prioridad-Animales-Calzada-Maniobra]]
+- [[Prohibido-Parar-Tunel]]
+- [[Prohibido-Parar-Zona-Movilidad-Reducida]]
+- [[R-302-Prohibicion-Cambiar-Sentido]]
+- [[Remolques-MMA-750]]
+- [[Remolques-Tarjeta-ITV-Obligatoria]]
+- [[Revoluciones-Cambio-Marcha]]
+- [[Rueda-Repuesto-Remolque-Obligatoria]]
+- [[Ruedas-Repuesto-Presion]]
+- [[Seguro-Obligatorio-Exclusiones]]
+- [[Semaforo-Dos-Colores]]
+- [[Semaforo-Verde-Ceda-Paso]]
+- [[Semaforo-vs-STOP]]
+- [[Semaforos-Vehiculos-Parada]]
+- [[Senal-Area-Descanso-Servicio-Merendero]]
+- [[Senal-Cruz-Fondo-Azul]]
+- [[Senal-Estacionamiento-Prohibido-R308]]
+- [[Senal-Prohibido-UTurn]]
+- [[Senal-STOP-Detencion-Obligatoria]]
+- [[Senal-Vado-R3h]]
+- [[Senal-Velocidad-Interseccion]]
+- [[Senales-Aplicacion-Calzada]]
+- [[Senales-Carril-Bici-Motos]]
+- [[Senales-Indicacion-Resumen]]
+- [[Senales-Verticales-Derecha-Izquierda]]
+- [[Tasas-Alcoholemia]]
+- [[VMP-Donde-Circular]]
+- [[VMP-Motor-Electrico]]
+- [[VMP-Sillin-Autoequilibrado]]
+- [[VMP-Tunel-Urbano-Prohibido]]
+- [[Vehiculo-Movilidad-Reducida-Prohibicion]]
+- [[Velocidad-Turismo-Remolque-Autovia]]
+- [[Velocidades-Maximas]]
