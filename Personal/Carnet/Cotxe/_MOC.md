@@ -459,6 +459,21 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** El camioner indica que se le puede adelantar **moviendo el brazo extendido de atrás hacia adelante** (señal manual). El intermitente solo indica cambio de carril.
 - → Ver: [[Camion-Indicar-Adelantamiento-Seguro]]
 
+### 131. Hielo en calzada sin ABS — Evitar pisar el freno
+- **Error:** Creer que es mejor frenar levemente con hielo y sin ABS.
+- **Corrección:** Con hielo y sin ABS, **evitar pisar el freno**. Cualquier frenada puede bloquear las ruedas. Usar el fre del motor.
+- → Ver: [[Hielo-Calzada-Sin-ABS-Freno]]
+
+### 132. Cambio de sentido en autopista — Lugares habilitados
+- **Error:** Creer que en una autopista nunca está permitido el cambio de sentido.
+- **Corrección:** Sí está permitido **en lugares habilitados por la señalización** (intercambiadores, áreas de servicio). La autopista no tiene pasos a nivel (acceso controlado).
+- → Ver: [[Cambio-Sentido-Autopista-Habilitado]]
+
+### 133. Velocidad de diseño vs. velocidad de fluidez
+- **Error:** Confundir "velocidad de diseño" (máxima segura) con "velocidad de fluidez" (observacional).
+- **Corrección:** La **velocidad de diseño** es la máxima segura (estructura de la vía). La de fluidez es el ritmo del tráfico, no define el límite de seguridad.
+- → Ver: [[Velocidad-Diseno-vs-Fluidez]]
+
 ---
 
 ## Índice alfabético de apuntes
@@ -474,6 +489,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Camion-Indicar-Adelantamiento-Seguro]]
 - [[Cambio-Direccion-Izquierda-Doble-Sentido]]
 - [[Cambio-Neumaticos-5-Anos]]
+- [[Cambio-Sentido-Autopista-Habilitado]]
 - [[Cambio-Sentido-Marcha-Atras-Prohibida]]
 - [[Carga-Motocicleta-Estrecha-Lateral]]
 - [[Carga-Sobresaliente-Delantera-Prohibida]]
@@ -499,6 +515,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Furgoneta-9-Plazas]]
 - [[Giro-Izquierda-No-Invadir-Sentido-Contrario]]
 - [[Giro-Izquierda-Posicion]]
+- [[Hielo-Calzada-Sin-ABS-Freno]]
 - [[ITV-Primera-Inspeccion]]
 - [[ITV-Segunda-Inspeccion]]
 - [[Laminas-Adhesivas-Ventanillas-Posteriores]]
@@ -550,5 +567,6 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[VMP-Sillin-Autoequilibrado]]
 - [[VMP-Tunel-Urbano-Prohibido]]
 - [[Vehiculo-Movilidad-Reducida-Prohibicion]]
+- [[Velocidad-Diseno-vs-Fluidez]]
 - [[Velocidad-Turismo-Remolque-Autovia]]
 - [[Velocidades-Maximas]]
