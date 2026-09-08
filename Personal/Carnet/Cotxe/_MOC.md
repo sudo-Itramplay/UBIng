@@ -489,10 +489,36 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** **Sí se puede usar la delantera** (ilumina sin deslumbrar). **NO la trasera** (sí deslumbra).
 - → Ver: [[Antiniebla-Delantera-Neve-Ligera]]
 
+### 137. Accidentes de tráfico — Una de las principales causas de mortalidad
+- **Error:** Creer que son "la causa principal a nivel mundial".
+- **Corrección:** Son **una de las principales causas de mortalidad en nuestro país** (no la principal a nivel mundial).
+- → Ver: [[Accidentes-Trafico-Principal-Mortalidad]]
+
+### 138. OMS — Siniestralidad vial es problema prioritario en todo el mundo
+- **Error:** Creer que solo afecta a los países más desarrollados.
+- **Corrección:** La OMS considera la siniestralidad vial un problema prioritario **en todo el mundo**.
+- → Ver: [[OMS-Siniestralidad-Todo-Mundo]]
+
+### 139. Carga indivisible delantera — Un tercio de la longitud
+- **Error:** Confundir 15% (darrere) con 1/3 (davant).
+- **Corrección:** Carga indivisible **delante** → **1/3** de la longitud. Detrás → 15%.
+- → Ver: [[Carga-Indivisible-Delantera-Tercio]]
+
+### 140. Señal paso a nivel — Creu de Sant Andreu (sense barreres, múltiples vies)
+- **Error:** Confundir la creu de Sant Andreu amb barreres.
+- **Corrección:** **Creu (X vermella)** = pas a nivell **sense barreres** amb **més d'una via** fèrrea.
+- → Ver: [[Paso-Nivel-Sin-Barreras-Multiples-Vias]]
+
+### 141. Fatiga al volante — Horas más peligrosas
+- **Error:** Confondre "madrugada" amb "primeres hores del matí".
+- **Corrección:** Les hores **més** perilloses són la **madrugada (2h-6h)** i la **primera hora de la tarda (14h-16h)**.
+- → Ver: [[Fatiga-Volante-Horas-Peligrosas]]
+
 ---
 
 ## Índice alfabético de apuntes
 
+- [[Accidentes-Trafico-Principal-Mortalidad]]
 - [[Adelantamiento-Paso-Peatones]]
 - [[Adelantamiento-Tunel-Carriles]]
 - [[Adelantamiento-Vehiculos-2-Ruedas]]
@@ -509,6 +535,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Cambio-Sentido-Autopista-Habilitado]]
 - [[Cambio-Sentido-Marcha-Atras-Prohibida]]
 - [[Carga-Motocicleta-Estrecha-Lateral]]
+- [[Carga-Indivisible-Delantera-Tercio]]
 - [[Carga-Sobresaliente-Delantera-Prohibida]]
 - [[Carga-Sobresaliente-Noche-Luz]]
 - [[Carretera-Multicarril]]
@@ -526,6 +553,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Estacionamiento-Sentido-Unico]]
 - [[Estacionamiento-Grave-Obstaculo-Doble-Fila]]
 - [[Estrechamientos]]
+- [[Fatiga-Volante-Horas-Peligrosas]]
 - [[Etiquetas-Ambientales-DGT]]
 - [[Facilitar-Incorporacion-Prioridad]]
 - [[Factor-Via]]
@@ -547,8 +575,10 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Neumaticos-y-Seguridad-Pasiva]]
 - [[Nieve-Cuajar]]
 - [[Nuevas-Normativas-2026]]
+- [[OMS-Siniestralidad-Todo-Mundo]]
 - [[Panel-Complementario-Distancia-Prohibicion]]
 - [[Paneles-Esquinas-Camion-Carga]]
+- [[Paso-Nivel-Sin-Barreras-Multiples-Vias]]
 - [[Peatones-Fuera-Poblado-Sentido]]
 - [[Perdida-Maxima-Puntos]]
 - [[Periodo-Noviciado-Permiso-B]]
