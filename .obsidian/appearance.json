@@ -1,3 +1,6 @@
 {
-  "accentColor": "#ff0000"
+  "accentColor": "#ff0000",
+  "enabledCssSnippets": [
+    "noctalia"
+  ]
 }
