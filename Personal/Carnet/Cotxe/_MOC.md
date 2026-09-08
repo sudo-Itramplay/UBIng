@@ -474,6 +474,21 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** La **velocidad de diseño** es la máxima segura (estructura de la vía). La de fluidez es el ritmo del tráfico, no define el límite de seguridad.
 - → Ver: [[Velocidad-Diseno-vs-Fluidez]]
 
+### 134. Estacionamiento — Grave obstáculo vs. obstaculizar gravemente
+- **Error:** Confundir "grave obstáculo para la circulación" (doble fila) con "obstaculizar gravemente" (pasos discapacitados) o "zona MR" (reserva de espacio).
+- **Corrección:** **Doble fila sin conductor** = grave obstáculo. Son tres conceptes legales diferentes.
+- → Ver: [[Estacionamiento-Grave-Obstaculo-Doble-Fila]]
+
+### 135. Adelantar por la derecha — Siempre prohibido
+- **Error:** Creer que se puede adelantar por la derecha si el otro vehículo circula incorrectamente.
+- **Corrección:** **NUNCA** se puede adelantar por la derecha. Si el otro va mal, tú frenas, no adelantas.
+- → Ver: [[Adelantar-Por-La-Derecha-Prohibido]]
+
+### 136. Luz antiniebla delantera — Permitida con nieve ligera
+- **Error:** Creer que está prohibido usar la luz antiniebla con nieve ligera.
+- **Corrección:** **Sí se puede usar la delantera** (ilumina sin deslumbrar). **NO la trasera** (sí deslumbra).
+- → Ver: [[Antiniebla-Delantera-Neve-Ligera]]
+
 ---
 
 ## Índice alfabético de apuntes
@@ -482,10 +497,12 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Adelantamiento-Tunel-Carriles]]
 - [[Adelantamiento-Vehiculos-2-Ruedas]]
 - [[Adelantar-Arcen-Prohibido-Siempre]]
+- [[Adelantar-Por-La-Derecha-Prohibido]]
 - [[Agente-Brazo-Vertical-Horizontal]]
 - [[Alcohol-y-Drogas-Test]]
 - [[Autovia-vs-Autopista]]
 - [[Averia-Tunel-Abandonar-Vehiculo]]
+- [[Antiniebla-Delantera-Neve-Ligera]]
 - [[Camion-Indicar-Adelantamiento-Seguro]]
 - [[Cambio-Direccion-Izquierda-Doble-Sentido]]
 - [[Cambio-Neumaticos-5-Anos]]
@@ -507,6 +524,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Distancias-Frenada-Reaccion-Detencion]]
 - [[Distribuidores-Mercancias-Cinturon-Poblado]]
 - [[Estacionamiento-Sentido-Unico]]
+- [[Estacionamiento-Grave-Obstaculo-Doble-Fila]]
 - [[Estrechamientos]]
 - [[Etiquetas-Ambientales-DGT]]
 - [[Facilitar-Incorporacion-Prioridad]]
