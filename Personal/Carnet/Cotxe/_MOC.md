@@ -449,6 +449,16 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** Vertical = TODOS. Horizontal (T) = solo las direcciones que corten la línea (frente/espaldas, NO costados).
 - → Ver: [[Agente-Brazo-Vertical-Horizontal]]
 
+### 129. Dispositivo de retención orientado hacia atrás — Precaución con airbag
+- **Error:** Creer que no se puede instalar un SRI orientado hacia atrás con airbag frontal.
+- **Corrección:** SÍ se puede instalar, pero hay que **desactivar el airbag frontal** (automática o manualmente). Solo es imposible si el airbag no se puede desactivar.
+- → Ver: [[Dispositivo-Retencion-Trasero-Airbag]]
+
+### 130. Camión — Indicar que puede ser adelantado con seguridad
+- **Error:** Creer que el intermitente izquierdo indica que se puede adelantar al camión.
+- **Corrección:** El camioner indica que se le puede adelantar **moviendo el brazo extendido de atrás hacia adelante** (señal manual). El intermitente solo indica cambio de carril.
+- → Ver: [[Camion-Indicar-Adelantamiento-Seguro]]
+
 ---
 
 ## Índice alfabético de apuntes
@@ -461,6 +471,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Alcohol-y-Drogas-Test]]
 - [[Autovia-vs-Autopista]]
 - [[Averia-Tunel-Abandonar-Vehiculo]]
+- [[Camion-Indicar-Adelantamiento-Seguro]]
 - [[Cambio-Direccion-Izquierda-Doble-Sentido]]
 - [[Cambio-Neumaticos-5-Anos]]
 - [[Cambio-Sentido-Marcha-Atras-Prohibida]]
@@ -476,6 +487,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Cenirse-Borde-Derecho]]
 - [[Conduccion-Preventiva-Tecnicas]]
 - [[Cuando-Cambiar-Neumaticos]]
+- [[Dispositivo-Retencion-Trasero-Airbag]]
 - [[Distancias-Frenada-Reaccion-Detencion]]
 - [[Distribuidores-Mercancias-Cinturon-Poblado]]
 - [[Estacionamiento-Sentido-Unico]]
