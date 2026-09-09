@@ -529,6 +529,16 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** **Tots** els camions i furgones, **independentment de la massa**.
 - → Ver: [[Señal-Azul-Camion-Todos-Masa]]
 
+### 145. Estrechamiento — Prioridad por longitud (cotxe+remolc > autobús)
+- **Error:** Creure que l'autobús té preferència en un estrechament.
+- **Corrección:** El vehicle **més llarg** té preferència. Cotxe+remolc pot ser més llarg que un autobús urbà.
+- → Ver: [[Estrechamiento-Prioridad-Longitud]]
+
+### 146. Carril izquierdo en 3 carriles — No es solo para adelantar
+- **Error:** Creure que el carril esquerra en via de 3 carrils és NOMÉS per adelantar.
+- **Corrección:** S'hi pot circular quan els altres carrils estan ocupats + no entorpeixes els vehicles de darrere.
+- → Ver: [[Carril-Izquierdo-Tres-Carriles-No-Solo-Adelantar]]
+
 ---
 
 ## Índice alfabético de apuntes
@@ -556,6 +566,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Carga-Sobresaliente-Noche-Luz]]
 - [[Carretera-Multicarril]]
 - [[Carril-Adicional-Circunstancial]]
+- [[Carril-Izquierdo-Tres-Carriles-No-Solo-Adelantar]]
 - [[Carril-Sentido-Contrario-Fluidez]]
 - [[Carril-Sentido-Contrario-Obras]]
 - [[Carril-VAO]]
@@ -568,6 +579,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Distribuidores-Mercancias-Cinturon-Poblado]]
 - [[Estacionamiento-Sentido-Unico]]
 - [[Estacionamiento-Grave-Obstaculo-Doble-Fila]]
+- [[Estrechamiento-Prioridad-Longitud]]
 - [[Estrechamientos]]
 - [[Fatiga-Volante-Horas-Peligrosas]]
 - [[Etiquetas-Ambientales-DGT]]
