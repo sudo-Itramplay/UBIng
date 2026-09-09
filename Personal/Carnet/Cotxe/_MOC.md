@@ -514,6 +514,21 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** Les hores **més** perilloses són la **madrugada (2h-6h)** i la **primera hora de la tarda (14h-16h)**.
 - → Ver: [[Fatiga-Volante-Horas-Peligrosas]]
 
+### 142. Cambio de rasante — Parada y estacionamiento
+- **Error:** Creer que està prohibit parar i estacionar en tot canvi de rasant.
+- **Corrección:** NO està prohibit, **excepte en els de visibilitat reduïda**.
+- → Ver: [[Cambio-Rasante-Parada-Estacionamiento]]
+
+### 143. Vehículo especial sin señalización de frenado — 25 km/h
+- **Error:** Confondre 25 km/h (sense senyalització) amb 40 km/h (amb senyalització).
+- **Corrección:** Sense senyalització de frenada → **25 km/h**. Amb senyalització → 40 km/h.
+- → Ver: [[Vehiculo-Especial-Sin-Frenado-25]]
+
+### 144. Señal azul camión — Obligación circular camiones y furgones
+- **Error:** Creure que només és per a camions pesats.
+- **Corrección:** **Tots** els camions i furgones, **independentment de la massa**.
+- → Ver: [[Señal-Azul-Camion-Todos-Masa]]
+
 ---
 
 ## Índice alfabético de apuntes
@@ -532,6 +547,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Camion-Indicar-Adelantamiento-Seguro]]
 - [[Cambio-Direccion-Izquierda-Doble-Sentido]]
 - [[Cambio-Neumaticos-5-Anos]]
+- [[Cambio-Rasante-Parada-Estacionamiento]]
 - [[Cambio-Sentido-Autopista-Habilitado]]
 - [[Cambio-Sentido-Marcha-Atras-Prohibida]]
 - [[Carga-Motocicleta-Estrecha-Lateral]]
@@ -598,7 +614,8 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Semaforo-Verde-Ceda-Paso]]
 - [[Semaforo-vs-STOP]]
 - [[Semaforos-Vehiculos-Parada]]
-- [[Senal-Area-Descanso-Servicio-Merendero]]
+- [[Señal-Azul-Camion-Todos-Masa]]
+- [[Señal-Area-Descanso-Servicio-Merendero]]
 - [[Senal-Cruz-Fondo-Azul]]
 - [[Senal-Estacionamiento-Prohibido-R308]]
 - [[Senal-Prohibido-UTurn]]
@@ -615,6 +632,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[VMP-Sillin-Autoequilibrado]]
 - [[VMP-Tunel-Urbano-Prohibido]]
 - [[Vehiculo-Movilidad-Reducida-Prohibicion]]
+- [[Vehiculo-Especial-Sin-Frenado-25]]
 - [[Velocidad-Diseno-vs-Fluidez]]
 - [[Velocidad-Turismo-Remolque-Autovia]]
 - [[Velocidades-Maximas]]
