@@ -63,6 +63,23 @@
 - **Camioner** → braç extendit darrere→endavant = "pots avançar-me"
 - **Velocitat disseny** ≠ velocitat de fluidez
 
+### ALCOHOL (tasas)
+| Conductor | Sangre | Aire espirado |
+|-----------|--------|---------------|
+| **General** | **0,5 g/l** | **0,25 mg/l** |
+| **Novel** (2 anys des del primer permís) | **0,3 g/l** | **0,15 mg/l** |
+| **Profesional** | **0,3 g/l** | **0,15 mg/l** |
+| **Menor** | **0,0** | **0,0** |
+- Novel = des del **PRIMER permís** (no l'actual)
+- **Droges** = presència, NO intoxicació (THC del finde → divendres)
+- **Cap truc** treu l'alcohol (ni café, ni aigua, ni exercici)
+
+### CARRILS (la diferència clau)
+- **Urbana** → carril **segons destí** (gir esquerra = carril esquerra)
+- **Carretera** → dreta = circular, esquerra = adelantar
+- **3 carrils carretera** → esquerra = avançar + circular si altres ocupats
+- **VAO** → només turismes sols, motos soles, autobusos
+
 ---
 
 *Última actualització: 09/09/2026*

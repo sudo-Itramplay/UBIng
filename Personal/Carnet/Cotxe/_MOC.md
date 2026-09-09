@@ -539,11 +539,33 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** S'hi pot circular quan els altres carrils estan ocupats + no entorpeixes els vehicles de darrere.
 - → Ver: [[Carril-Izquierdo-Tres-Carriles-No-Solo-Adelantar]]
 
+### 147. Carga en motocicleta — No necesita señalización
+- **Error:** Creure que la càrrega sobresortint d'una moto cal senyalitzar-la.
+- **Corrección:** En motocicletes, la càrrega **NO necessita senyalització**.
+- → Ver: [[Carga-Moto-Sin-Senalizacion]]
+
+### 148. Accidente — Avisar a la Autoridad
+- **Error:** Creure que sempre cal avisar l'Autoritat en un accident.
+- **Corrección:** NO cal avisar si **no hi ha ferits + seguretat restablerta + ningú ho demana**.
+- → Ver: [[Accidente-Autoridad-Sin-Heridos]]
+
+### 149. Adelantamiento — Preferència per senyalització
+- **Error:** Creure que no pots avançar mai a un vehicle que senyala.
+- **Corrección:** Si l'altre **senyala** que vol avançar → té **preferència**. Tu esperes.
+- → Ver: [[Adelantamiento-Preferencia-Senalizacion]]
+
+### 150. Estrechamiento — Regla completa (no és només longitud)
+- **Error:** Creure que sempre guanya el més llarg.
+- **Corrección:** **SENYAL > vehicle dins > longitud > pujada.** Si un ja és dins, té prioritat.
+- → Ver: [[Estrechamiento-Regla-Completa]]
+
 ---
 
 ## Índice alfabético de apuntes
 
+- [[Accidente-Autoridad-Sin-Heridos]]
 - [[Accidentes-Trafico-Principal-Mortalidad]]
+- [[Adelantamiento-Preferencia-Senalizacion]]
 - [[Adelantamiento-Paso-Peatones]]
 - [[Adelantamiento-Tunel-Carriles]]
 - [[Adelantamiento-Vehiculos-2-Ruedas]]
@@ -561,6 +583,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Cambio-Sentido-Autopista-Habilitado]]
 - [[Cambio-Sentido-Marcha-Atras-Prohibida]]
 - [[Carga-Motocicleta-Estrecha-Lateral]]
+- [[Carga-Moto-Sin-Senalizacion]]
 - [[Carga-Indivisible-Delantera-Tercio]]
 - [[Carga-Sobresaliente-Delantera-Prohibida]]
 - [[Carga-Sobresaliente-Noche-Luz]]
@@ -580,6 +603,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Estacionamiento-Sentido-Unico]]
 - [[Estacionamiento-Grave-Obstaculo-Doble-Fila]]
 - [[Estrechamiento-Prioridad-Longitud]]
+- [[Estrechamiento-Regla-Completa]]
 - [[Estrechamientos]]
 - [[Fatiga-Volante-Horas-Peligrosas]]
 - [[Etiquetas-Ambientales-DGT]]
