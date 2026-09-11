@@ -559,6 +559,66 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** **SENYAL > vehicle dins > longitud > pujada.** Si un ja és dins, té prioritat.
 - → Ver: [[Estrechamiento-Regla-Completa]]
 
+### 151. Cinturón en taxi — Excepción solo urbano + ≤135 cm + traseros
+- **Error:** Creer que los pasajeros de taxi nunca llevan cinturón o que solo es en delanteras.
+- **Corrección:** Sí es obligatorio, **EXCEPTE si se cumplen las 3 condiciones simultáneamente**: tráfico urbano + ≤135 cm de estatura + asiento trasero.
+- → Ver: [[Cinturon-Taxi-Exencion]]
+
+### 152. Avería en autovía/autopista — Ocupantes no pueden transitar por la calzada
+- **Error:** Creer que los ocupantes pueden caminar por la calzada con precauciones.
+- **Corrección:** **NINGUNO** de los ocupantes puede transitar por la calzada. Deben permanecer fuera (barrera, arcén seguro, refugio).
+- → Ver: [[Averia-Autovia-Ocupantes-Calzada]]
+
+### 153. Alcoholemia — Camión <3500 kg = conductor general (0,25), no profesional
+- **Error:** Creer que un camión <3500 kg siempre implica tasa de profesional (0,15).
+- **Corrección:** Camión <3500 kg se conduce con permiso B → conductor **general** → **0,25 mg/l**. Solo 0,15 si es novato o profesional de transporte.
+- → Ver: [[Alcohol-Camion-3500-General]]
+
+### 154. Parar motor — Siempre al abandonar el puesto de conducción
+- **Error:** Creer que en poblado no hace falta apagar el motor si es solo un momento.
+- **Corrección:** **SIEMPRE** hay que parar el motor al abandonar el puesto de conducción (Art. 17 RGC). Poblado o interurbana, da igual.
+- → Ver: [[Parar-Motor-Abandonar-Siempre]]
+
+### 155. Ciclomotores — Pueden arrastrar remolque con condiciones
+- **Error:** Creer que a los ciclomotores les está prohibido arrastrar remolques.
+- **Corrección:** **SÍ pueden**, con condiciones: ≤50% masa del ciclomotor, solo de día, sin pasajeros en el remolque, velocidad -10%.
+- → Ver: [[Ciclomotor-Remolque-Condiciones]]
+
+### 156. Carril sentido contrario por fluidez — Velocidad 80 km/h
+- **Error:** Creer que se puede circular a 100 km/h en carril en sentido contrario por fluidez.
+- **Corrección:** La velocidad máxima es **80 km/h**. Solo turismos sin remolque y motocicletas.
+- → Ver: [[Carril-Sentido-Contrario-Fluidez-Velocidad]]
+
+### 157. Vehículo especial — Velocidad general 40 km/h (no 45)
+- **Error:** Confundir 45 km/h (ciclomotores) con 40 km/h (vehículos especiales).
+- **Corrección:** La velocidad máxima general para un vehículo especial es **40 km/h**. Solo 25 si tiene remolque/sin frenado, o 70 si puede ir >60 en llano.
+- → Ver: [[Vehiculos-Especiales-Velocidades]]
+
+### 158. Camiones <3500 kg — Carril sentido contrario solo por OBRAS
+- **Error:** Creer que los camiones <3500 kg nunca pueden usar carril en sentido contrario, o que la condición es la luz de cruce.
+- **Corrección:** **SÍ pueden**, pero SOLO cuando el carril se ha abierto por **OBRAS**. Por fluidez NO (solo turismos y motos).
+- → Ver: [[Camion-3500-Carril-Contrario-Obras]]
+
+### 159. Seguridad activa vs. pasiva — Confundir cinturones y airbags con activa
+- **Error:** Creer que los cinturones y airbags son seguridad activa.
+- **Corrección:** **ACTIVA** = previene el accidente (frenos, dirección, neumáticos, alumbrado). **PASIVA** = protege durante el accidente (cinturones, airbags, casco, chasis, reposacabezas).
+- → Ver: [[Seguridad-Activa-Pasiva]]
+
+### 160. Puente móvil — Reducir velocidad, no detenerse siempre
+- **Error:** Creer que hay que detenerse SIEMPRE antes de un puente móvil.
+- **Corrección:** Hay que **reducir velocidad** SIEMPRE. Detenerse SOLO si el puente está en movimiento.
+- → Ver: [[Puente-Movil-Velocidad]]
+
+### 161. Distancia de seguridad — No es fija (no 100 metros)
+- **Error:** Creer que la distancia de seguridad reglamentaria es siempre 100 metros.
+- **Corrección:** La distancia **varía según la velocidad**. Regla práctica: 2 segundos. A 120 km/h ≈ 67 metros, no 100.
+- → Ver: [[Distancia-Seguridad-Variable]]
+
+### 162. Marca transversal continua — Se puede cruzar si no es STOP
+- **Error:** Creer que la marca transversal continua nunca se puede cruzar sin detenerse.
+- **Corrección:** **SÍ se puede** cruzar sin detenerse cuando **no es obligatoria la detención** (Ceda el Paso). En STOP, SIEMPRE parar.
+- → Ver: [[Marca-Transversal-Continua-Cruce]]
+
 ---
 
 ## Índice alfabético de apuntes
@@ -575,6 +635,8 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Alcohol-y-Drogas-Test]]
 - [[Autovia-vs-Autopista]]
 - [[Averia-Tunel-Abandonar-Vehiculo]]
+- [[Averia-Autovia-Ocupantes-Calzada]]
+- [[Alcohol-Camion-3500-General]]
 - [[Antiniebla-Delantera-Neve-Ligera]]
 - [[Camion-Indicar-Adelantamiento-Seguro]]
 - [[Cambio-Direccion-Izquierda-Doble-Sentido]]
@@ -595,6 +657,11 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Carril-VAO]]
 - [[Carril-Velocidad-Obligatoria-Derecha]]
 - [[Cenirse-Borde-Derecho]]
+- [[Cinturon-Taxi-Exencion]]
+- [[Ciclomotor-Remolque-Condiciones]]
+- [[Carril-Sentido-Contrario-Fluidez-Velocidad]]
+- [[Camion-3500-Carril-Contrario-Obras]]
+- [[Vehiculos-Especiales-Velocidades]]
 - [[Conduccion-Preventiva-Tecnicas]]
 - [[Cuando-Cambiar-Neumaticos]]
 - [[Dispositivo-Retencion-Trasero-Airbag]]
@@ -623,6 +690,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Luces-Estacionamiento-Insuficientemente-Iluminado]]
 - [[Luces-Niebla-Lluvia-Intensa]]
 - [[Mecanica-Basica]]
+- [[Marca-Transversal-Continua-Cruce]]
 - [[Motocicleta-Autoproteccion-Espejo-Obligatorio]]
 - [[Neumaticos-y-Seguridad-Pasiva]]
 - [[Nieve-Cuajar]]
@@ -636,6 +704,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Periodo-Noviciado-Permiso-B]]
 - [[Permiso-B-Vehiculos-Pesados]]
 - [[Personas-y-Vehiculos]]
+- [[Parar-Motor-Abandonar-Siempre]]
 - [[Prioridad-Animales-Calzada-Maniobra]]
 - [[Prohibido-Parar-Tunel]]
 - [[Prohibido-Parar-Zona-Movilidad-Reducida]]
@@ -646,6 +715,9 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Rueda-Repuesto-Remolque-Obligatoria]]
 - [[Ruedas-Repuesto-Presion]]
 - [[Seguro-Obligatorio-Exclusiones]]
+- [[Seguridad-Activa-Pasiva]]
+- [[Puente-Movil-Velocidad]]
+- [[Distancia-Seguridad-Variable]]
 - [[Semaforo-Dos-Colores]]
 - [[Semaforo-Verde-Ceda-Paso]]
 - [[Semaforo-vs-STOP]]
