@@ -2,7 +2,29 @@
 
 ## Fuente: Art. 48 del Reglamento General de Circulación (vigente 2026)
 
-## Tabla principal (fuera de poblado)
+## ¿QUIÉN NO PUEDE IR A 120 km/h?
+
+La mayoría de la gente piensa "¿quién va a 120?" pero es más fácil recordar **QUIÉN NO** puede:
+
+| NO puede ir a 120 km/h | Velocidad máxima |
+|---|---|
+| **Autobuses** | **100** en autopista/autovía |
+| **Derivados de turismo y mixtos adaptables** | **100** en autopista/autovía |
+| **Camiones >3500 kg, tractocamiones, furgonetas >3500 kg** | **90** en autopista/autovía, **80** en convencional |
+| **Articulados y vehículos con remolque** | **90** en autopista/autovía, **80** en convencional |
+| **Ciclos, ciclomotores, cuadriciclos ligeros** | **45** |
+| **Vehículos especiales** | **25-70** según el caso |
+
+## ¿QUIÉN SÍ puede ir a 120 km/h?
+
+| SÍ puede ir a 120 km/h | Autopista/Autovía | Carretera convencional |
+|---|---|---|
+| **Turismos** | **120** | 90 |
+| **Motocicletas** | **120** | 90 |
+| **Autocaravanas ≤3500 kg** | **120** | 90 |
+| **Pick-up** | **120** | 90 |
+
+## Tabla completa (fuera de poblado)
 
 | Tipo de vehículo | Autopista / Autovía | Carretera convencional |
 |---|:---:|:---:|
@@ -43,12 +65,11 @@
 ## Recordatorio rápido
 
 ```
-AUTOPISTA: 120 / 100 / 90  (turismo / bus / camión)
-AUTOVÍA:   120 / 100 / 90
-CONVENCIONAL: 90 / 90 / 80  (turismo / bus / camión)
-URBANA:    50 (general) / 30 (residencial)
-CICLO:     45
-TRCTOR:    25
+QUIÉN VA A 120: Turismos, motos, autocaravanas ≤3500kg, pick-up
+QUIÉN VA A 100: Autobuses, derivados de turismo, mixtos
+QUIÉN VA A 90:  Camiones >3500kg, furgonetas >3500kg, con remolque
+QUIÉN VA A 45:  Ciclos, ciclomotores
+QUIÉN VA A 25:  Tractor con remolque, veh. especiales sin frenado
 ```
 
 ---

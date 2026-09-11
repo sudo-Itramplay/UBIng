@@ -19,7 +19,8 @@
 | **Pasos a nivel** | **NO tiene** | **Puede tener** pasos a nivel o cruces |
 | **Arcen** | Siempre **pavimentado** y ancho | Puede ser mas **estrecho** o no pavimentado |
 | **Intersecciones** | A distinto nivel (puentes) | A distinto nivel, pero puede tener algun cruce |
-| **Velocidad maxima** | 120 km/h | 100 km/h |
+| **Velocidad maxima (turismos)** | **120 km/h** | **120 km/h** (IGUAL que autopista) |
+| **Velocidad maxima (camiones)** | 90 km/h | 90 km/h |
 | **Carril de aceleracion/desaceleracion** | Siempre | A veces mas cortos |
 | **Bermas (separador central)** | Si, anchas y protegidas | Pueden ser mas estrechas |
 | **Peaje** | Puede ser de peaje | Generalmente gratuita |
@@ -39,8 +40,9 @@
 - **Autovia:** el arcen puede ser **mas estrecho** o incluso no estar pavimentado.
 
 #### 4. Velocidad maxima
-- **Autopista:** 120 km/h (turismos)
-- **Autovia:** 100 km/h (turismos)
+- **Autopista:** 120 km/h (turismos), 100 (buses), 90 (camiones)
+- **Autovia:** 120 km/h (turismos), 100 (buses), 90 (camiones)
+- **IMPORTANTE:** Para turismos, la velocidad es la MISMA en ambas vias.
 
 ### Como identificarlas en la practica
 
@@ -53,16 +55,17 @@
 
 ### Errores habituales
 
-| Error | Peligro |
-|-------|---------|
-| Creer que autovia = 120 km/h | La velocidad maxima es 100 km/h |
-| Confundir autopista con autovia | Multa por exceso de velocidad |
-| No saber que la autovia puede tener pasos a nivel | No anticipar el peligro |
-| Pensar que todas las vias rapidas son autopistas | La autovia tiene menos requisitos |
+| Error | Correccion |
+|-------|-----------|
+| Creer que autovia = 100 km/h para turismos | Autovia = **120 km/h** para turismos |
+| Confundir autopista con autovia | Autopista tiene acceso controlado, NO pasos a nivel |
+| No saber que la autovia puede tener pasos a nivel | Autovia SÍ puede tener pasos a nivel |
+| Creer que todas las vias rapidas son autopistas | La autovia tiene menos requisitos |
 
 ## Recordatorio
 
-**Autopista = acceso controlado, 120 km/h, arcen ancho.** **Autovia = acceso limitado, 100 km/h, puede tener cruces.**
+**Autopista = acceso controlado, NO pasos a nivel, 120 km/h.**
+**Autovía = acceso limitado, PUEDE tener pasos a nivel, 120 km/h (igual).**
 
 ---
 
