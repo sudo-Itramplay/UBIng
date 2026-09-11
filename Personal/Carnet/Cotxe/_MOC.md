@@ -634,6 +634,16 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** Autocaravana ≤3500 kg = **turismo** = **120 km/h** en autopista/autovía.
 - → Ver: [[Autocaravana-3500-Velocidad]]
 
+### 166. Rueda de repuesto — Presión más alta del fabricante (no la misma)
+- **Error:** Creer que la rueda de repuesto se infla a la misma presión que las demás.
+- **Corrección:** Se infla a la **presión MÁS ALTA** del rango fijado por el fabricante, para compensar posibles pérdidas y estar preparada.
+- → Ver: [[Rueda-Repuesto-Presion-Maxima]]
+
+### 167. Placas de matrícula — Solo la trasera entre posta y sortida de sol
+- **Error:** Creer que hay que iluminar ambas placas (delantera y trasera).
+- **Corrección:** Solo la **trasera** necesita iluminación addicional. La delantera ya se ilumina con los luces de cruce.
+- → Ver: [[Placa-Matricula-Iluminacion-Trasera]]
+
 ---
 
 ## Índice alfabético de apuntes
@@ -716,6 +726,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Panel-Complementario-Distancia-Prohibicion]]
 - [[Paneles-Esquinas-Camion-Carga]]
 - [[Paso-Nivel-Sin-Barreras-Multiples-Vias]]
+- [[Placa-Matricula-Iluminacion-Trasera]]
 - [[Peatones-Fuera-Poblado-Sentido]]
 - [[Perdida-Maxima-Puntos]]
 - [[Periodo-Noviciado-Permiso-B]]
@@ -731,6 +742,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Revoluciones-Cambio-Marcha]]
 - [[Rueda-Repuesto-Remolque-Obligatoria]]
 - [[Ruedas-Repuesto-Presion]]
+- [[Rueda-Repuesto-Presion-Maxima]]
 - [[Seguro-Obligatorio-Exclusiones]]
 - [[Seguridad-Activa-Pasiva]]
 - [[Puente-Movil-Velocidad]]
