@@ -619,6 +619,21 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** **SÍ se puede** cruzar sin detenerse cuando **no es obligatoria la detención** (Ceda el Paso). En STOP, SIEMPRE parar.
 - → Ver: [[Marca-Transversal-Continua-Cruce]]
 
+### 163. Carril VAO — Ciclomotores NO autorizados
+- **Error:** Creer que un ciclomotor con 2 personas puede usar el carril VAO.
+- **Corrección:** El carril VAO es para vehículos **SOLOS**. Los ciclomotores **NUNCA** están autorizados (solo turismos solos, motos solas, autobuses >3500kg, emergencias, taxis).
+- → Ver: [[Carril-VAO-Ciclomotor-No]]
+
+### 164. Vehículo accidentado ardiendo — Sacar heridos primero
+- **Error:** Creer que lo primero es apagar el fuego o llamar al 112.
+- **Corrección:** Lo primero es **SACAR A LOS HERIDOS**. La vida humana siempre es prioridad.uego → Señalizar → Llamar 112.
+- → Ver: [[Vehiculo-Ardiendo-Sacar-Heridos]]
+
+### 165. Autocaravana ≤3500 kg — 120 km/h en autovía (como turismo)
+- **Error:** Creer que una autocaravana ≤3500 kg va a 100 km/h (como autobús).
+- **Corrección:** Autocaravana ≤3500 kg = **turismo** = **120 km/h** en autopista/autovía.
+- → Ver: [[Autocaravana-3500-Velocidad]]
+
 ---
 
 ## Índice alfabético de apuntes
@@ -634,6 +649,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Agente-Brazo-Vertical-Horizontal]]
 - [[Alcohol-y-Drogas-Test]]
 - [[Autovia-vs-Autopista]]
+- [[Autocaravana-3500-Velocidad]]
 - [[Averia-Tunel-Abandonar-Vehiculo]]
 - [[Averia-Autovia-Ocupantes-Calzada]]
 - [[Alcohol-Camion-3500-General]]
@@ -655,6 +671,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Carril-Sentido-Contrario-Fluidez]]
 - [[Carril-Sentido-Contrario-Obras]]
 - [[Carril-VAO]]
+- [[Carril-VAO-Ciclomotor-No]]
 - [[Carril-Velocidad-Obligatoria-Derecha]]
 - [[Cenirse-Borde-Derecho]]
 - [[Cinturon-Taxi-Exencion]]
@@ -741,6 +758,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[VMP-Tunel-Urbano-Prohibido]]
 - [[Vehiculo-Movilidad-Reducida-Prohibicion]]
 - [[Vehiculo-Especial-Sin-Frenado-25]]
+- [[Vehiculo-Ardiendo-Sacar-Heridos]]
 - [[Velocidad-Diseno-vs-Fluidez]]
 - [[Velocidad-Turismo-Remolque-Autovia]]
 - [[Velocidades-Maximas]]
