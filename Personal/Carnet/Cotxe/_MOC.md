@@ -93,8 +93,8 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 
 ### 18. Giro a la izquierda — Posición obligatoria
 - **Error:** Se respondió "con más de un carril para uno de los dos sentidos".
-- **Corrección:** La respuesta correcta es "de un solo sentido de circulación". En vía de doble sentido te colocas en el centro (junto a la línea central), no en el borde izquierdo.
-- → Ver: [[Giro-Izquierda-Posicion]]
+- **Corrección:** La respuesta correcta es "de un solo sentido de circulación". En vía de doble sentido te colocas en el centro (junto a la línea central), no en el borde izquierdo. **Art. 75.1.b literal:** doble sentido → junto a la marca de separación de sentidos; 3 carriles → carril central.
+- → Ver: [[Giro-Izquierda-Posicion]], [[Giro-Izquierda-Posicion-Art75]]
 
 
 ---
@@ -644,6 +644,151 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - **Corrección:** Solo la **trasera** necesita iluminación addicional. La delantera ya se ilumina con los luces de cruce.
 - → Ver: [[Placa-Matricula-Iluminacion-Trasera]]
 
+### 168. Seguro obligatorio — Al causante NO cubre ni personales ni su vehículo
+- **Error:** Creer que los daños del vehículo contrario no están cubiertos.
+- **Corrección:** Al causante NO cubre los daños personales de él ni de los ocupantes de su vehículo. El vehículo contrario SÍ está cubierto (es un tercero).
+- → Ver: [[Seguro-Causante-No-Cubierto]]
+
+### 169. Panel debajo de señal de peligro — Longitud del peligro
+- **Error:** Creer que a 800 metros hay un peligro.
+- **Corrección:** El panel pegado debajo indica la **longitud** del tramo peligroso. Separado de la señal = distancia hasta el peligro.
+- → Ver: [[Panel-Longitud-Peligro]]
+
+### 170. Ceda el paso — Detenerse donde gane visibilidad (no siempre en la línea)
+- **Error:** Aplicar el procedimiento del STOP ("primero la línea, luego avanzo a mirar") al ceda el paso.
+- **Corrección:** En ceda el paso NO hay parada obligatoria: te detienes **donde veas bien la otra vía**, sin poner en peligro a otros. El "primero en la línea y después avanzo" es del STOP.
+- → Ver: [[Ceda-Paso-Donde-Detenerse]]
+
+### 171. Vehículo derivado de turismo — Servicios o mercancías EXCLUSIVAS
+- **Error:** Creer que puede llevar personas y mercancías (simultáneo o no).
+- **Corrección:** Destinado a **servicios o transporte EXCLUSIVO de mercancías**. "Simultáneo" = vehículo mixto, trampa.
+- → Ver: [[Vehiculo-Derivado-Turismo-Uso]]
+
+### 172. R-401 calzada para automóviles — Moto sin sidecar exenta
+- **Error:** Creer que la excepción son ciclomotores y bicicletas.
+- **Corrección:** Obliga a todos los automóviles EXCEPTO **motocicletas sin sidecar** (exentas de la obligación). Ciclomotores/bicis no son automóviles.
+- → Ver: [[R401-Calzada-Automoviles-Moto-Sin-Sidecar]]
+
+### 173. Área de descanso azul → autovía → mínima turismos 60
+- **Error:** Confundir autovía con carretera convencional y responder 90.
+- **Corrección:** Señal azul de área de descanso (1250 m) solo existe en autopista/autovía. Turismo: mínima = mitad del máximo = 120/2 = **60**.
+- → Ver: [[Autovia-Velocidad-Minima-60]]
+
+### 174. Zona de estacionamiento limitado — Disco horario
+- **Error:** Leerla como prohibición de estacionar.
+- **Corrección:** Estacionamiento de duración limitada: hay que indicar la **hora de inicio** (disco horario). Prohibición = diagonal roja.
+- → Ver: [[Zona-Estacionamiento-Limitado-Disco-Horario]]
+
+### 175. Cinturón — Marcha atrás (cualquier vía)
+- **Error:** Creer que solo se está exento en vías urbanas.
+- **Corrección:** En marcha atrás el conductor está exento del cinturón en TODAS las vías.
+- → Ver: [[Cinturon-Marcha-Atras-Exento]]
+
+### 176. Venta de vehículo — Notifica el VENDEDOR en 10 días
+- **Error:** Atribuir la notificación al comprador con plazo de 15 días.
+- **Corrección:** El **vendedor** notifica la venta a Jefatura en **10 días**.
+- → Ver: [[Venta-Vehiculo-Notificacion-Vendedor-10-Dias]]
+
+### 177. Alcoholemia ciclistas — Tasa general 0,25
+- **Error:** Aplicar al ciclista la tasa de novel (0,15).
+- **Corrección:** Bici = tasa **GENERAL 0,25 mg/l** (0,5 g/l). 0,15 = novel/profesional; 0,0 = menor de edad.
+- → Ver: [[Alcoholemia-Ciclistas-025]]
+
+### 178. Motista con hemorragia nasal — Ni casco, ni taponar, ni boca arriba
+- **Error:** Colocar boca arriba.
+- **Corrección:** Nunca quitar el casco, nunca taponar, nunca boca arriba (asfixia). Posición lateral de seguridad + 112.
+- → Ver: [[Primeros-Auxilios-Motista-Hemorragia-Nasal]]
+
+### 179. Carril VAO — Discapacidad V-15 puede (aunque vaya solo)
+- **Error:** No saber que los vehículos con señal V-15 pueden usar el carril VAO/BUS-VAO.
+- **Corrección:** SÍ pueden, incluso solos, si llevan la señal V-15.
+- → Ver: [[VAO-Movilidad-Reducida-V15]]
+
+### 180. Permiso B — Tractor >3500 kg si velocidad de diseño ≤45 km/h
+- **Error:** Creer que el B solo cubre tractores ≤3500 kg.
+- **Corrección:** El B cubre tractores agrícolas de CUALQUIER masa si su velocidad de diseño no supera 45 km/h.
+- → Ver: [[Permiso-B-Tractor-45kmh]]
+
+### 181. Altura máxima vehículos incluida la carga — 4 m (general)
+- **Error:** No recordar las medidas/gálibo.
+- **Corrección:** Altura general **4 m** (urbano clase I: 4,20; portavehículos/grúas: 4,50). Anchura 2,55. Sobresalida: carga indivisible en mercancías = 2 m delante / 3 m detrás; turismo = 10% (15% indivisible) detrás.
+- → Ver: [[Medidas-Altura-Anchura-Longitud]]
+
+### 182. R-418 calzada obligatoria motos — Obliga, no prohíbe
+- **Error:** Leer la señal de calzada obligatoria como prohibición a los demás.
+- **Corrección:** R-418 obliga a las motocicletas de DOS ruedas; NO prohíbe a otros usuarios (trampa "prohibición "). Moto con sidecar no está obligada.
+- → Ver: [[R418-Calzada-Obligatoria-Motos]]
+
+### 183. ITV 5 años = cada DOS años (4-2-2-1)
+- **Error:** Responder "cada año".
+- **Corrección:** Turismo: 1ª ITV a los 4 años, bienal hasta 10, anual desde 10. Con 5 años = bienal.
+- → Ver: [[ITV-Turismos-4-2-2-1]]
+
+### 184. Luces rojas intermitentes = salida de bomberos
+- **Error:** Suponer "obras en la calzada".
+- **Corrección:** Rojo intermitente en puerta de bomberos = salida de vehículos de extinción: detenerse. Obras = ámbar intermitente.
+- → Ver: [[Semaforo-Rojas-Intermitentes-Bomberos]]
+
+### 185. Adelantar vehículo que señala adelantamiento — Sí, tras tiempo prudencial y avisando
+- **Error:** Creer que hay que esperar siempre ("preferencia siempre").
+- **Corrección:** SÍ se puede si tras un tiempo prudencial no lo hace, advirtiendo con señales acústicas u ópticas.
+- → Ver: [[Adelantar-Vehiculo-Que-Sena-Adelantamiento]]
+
+### 186. Avería señal V-2 — Cruce + emergencia
+- **Error:** Creer que hay que circular por el carril derecho a <40 km/h (o que está prohibido seguir).
+- **Corrección:** Se sigue circulando con luz de cruce y señal de emergencia encendidas.
+- → Ver: [[Averia-V2-Cruce-Emergencia]]
+
+### 187. Vehículo acompañante de ciclistas — Por el arcén (si transitable)
+- **Error:** Creer que debe ir por el carril derecho "para proteger".
+- **Corrección:** Con arcén transitable y suficiente → por el arcén; si no, calzada junto al grupo.
+- → Ver: [[Acompanamiento-Ciclistas-Arcen]]
+
+### 188. Alcoholemia camión <3500 kg — Tasa GENERAL 0,25
+- **Error:** Aplicar la tasa profesional (0,15) a todo camión.
+- **Corrección:** La tasa 0,3/0,15 es para transporte de mercancías con MMA **SUPERIOR a 3500** (y viajeros >9 plazas, escolar, peligroso...). Camión <3500 kg = 0,25. "Profesional" va por tipo de transporte, no por carnet; novel también 0,15 (2 años desde el primer permiso).
+- → Ver: [[Alcoholemia-Camion-Menos-3500-025]]
+
+### 189. Latigazo cervical — Colisiones por alcance
+- **Error:** Confundir con salida de vía.
+- **Corrección:** Más frecuente en impactos POR DETRÁS (alcance). Apoyacabezas bien regulado lo reduce.
+- → Ver: [[Latigazo-Cervical-Alcance]]
+
+### 190. R-411 prohibido conjuntos — Remolque de UN eje sí entra
+- **Error (recordatorio):** Excepción clave del test.
+- **Corrección:** Turismo + remolque de **un solo eje** puede entrar en vía con prohibición de conjuntos.
+- → Ver: [[R411-Conjuntos-Remolque-Un-Eje]]
+
+### 191. Autopista/autovía dentro de poblado — 80 km/h
+- **Error:** Responder 50 (el urbano genérico).
+- **Corrección:** Art. 50.6: **80 km/h**, ampliable con señalización específica hasta el genérico fuera de poblado.
+- → Ver: [[Autopista-urbana-80kmh]]
+
+### 192. Prioridad señalizada vs regla de la derecha
+- **Error:** Creer que la señal de prioridad indica "tienen preferencia los que entran por mi derecha".
+- **Corrección:** Con señal de prioridad en mi vía, TENGO YO la preferencia. La regla de la derecha solo aplica en cruces SIN señalización de prioridad.
+- → Ver: [[Prioridad-Senyalizada-vs-Regla-Derecha]]
+
+### 193. Panel verde de ramal — Salida hacia autopista/autovía
+- **Error:** Leerlo como salida a carretera convencional.
+- **Corrección:** El panel verde con ramal indica la próxima salida hacia autopista o autovía.
+- → Ver: [[Senal-Ramal-Verde-Autovia]]
+
+### 194. Puente <6 m — No cruzarse vehículos con autorización especial
+- **Error:** Responder "vehículos articulados".
+- **Corrección:** Art. 61.3: los que necesitan autorización especial no pueden cruzarse (3 m por vehículo). Articulados normales SÍ.
+- → Ver: [[Puente-6m-Autorizacion-Especial]]
+
+### 195. Adelantamiento — No cerrar la distancia de seguridad
+- **Error:** Creer que pegarse hace la maniobra más segura.
+- **Corrección:** La distancia se mantiene SIEMPRE; el adelantamiento se hace desplazándose lateralmente.
+- → Ver: [[Adelantamiento-Mantener-Distancia-Seguridad]]
+
+### 196. ITV camión N1 (2500 kg, 7 años) — Anual (no semestral)
+- **Error:** Ir directo al semestral.
+- **Corrección:** N1 ≤3500: 1ª a los 2 años, bienal hasta 6, **anual 6-10**, semestral >10. Con 7 años = anual.
+- → Ver: [[ITV-Camion-2500-Mensualitat]]
+
 ---
 
 ## Índice alfabético de apuntes
@@ -659,6 +804,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Agente-Brazo-Vertical-Horizontal]]
 - [[Alcohol-y-Drogas-Test]]
 - [[Autovia-vs-Autopista]]
+- [[Autovia-Velocidad-Minima-60]]
 - [[Autocaravana-3500-Velocidad]]
 - [[Averia-Tunel-Abandonar-Vehiculo]]
 - [[Averia-Autovia-Ocupantes-Calzada]]
@@ -684,7 +830,9 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Carril-VAO-Ciclomotor-No]]
 - [[Carril-Velocidad-Obligatoria-Derecha]]
 - [[Cenirse-Borde-Derecho]]
+- [[Ceda-Paso-Donde-Detenerse]]
 - [[Cinturon-Taxi-Exencion]]
+- [[Cinturon-Marcha-Atras-Exento]]
 - [[Ciclomotor-Remolque-Condiciones]]
 - [[Carril-Sentido-Contrario-Fluidez-Velocidad]]
 - [[Camion-3500-Carril-Contrario-Obras]]
@@ -695,6 +843,8 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Distancias-Frenada-Reaccion-Detencion]]
 - [[Distribuidores-Mercancias-Cinturon-Poblado]]
 - [[Estacionamiento-Sentido-Unico]]
+- [[Zona-Estacionamiento-Limitado-Disco-Horario]]
+- [[Venta-Vehiculo-Notificacion-Vendedor-10-Dias]]
 - [[Estacionamiento-Grave-Obstaculo-Doble-Fila]]
 - [[Estrechamiento-Prioridad-Longitud]]
 - [[Estrechamiento-Regla-Completa]]
@@ -724,6 +874,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Nuevas-Normativas-2026]]
 - [[OMS-Siniestralidad-Todo-Mundo]]
 - [[Panel-Complementario-Distancia-Prohibicion]]
+- [[Panel-Longitud-Peligro]]
 - [[Paneles-Esquinas-Camion-Carga]]
 - [[Paso-Nivel-Sin-Barreras-Multiples-Vias]]
 - [[Placa-Matricula-Iluminacion-Trasera]]
@@ -731,6 +882,26 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Perdida-Maxima-Puntos]]
 - [[Periodo-Noviciado-Permiso-B]]
 - [[Permiso-B-Vehiculos-Pesados]]
+- [[Permiso-B-Tractor-45kmh]]
+- [[Alcoholemia-Ciclistas-025]]
+- [[Primeros-Auxilios-Motista-Hemorragia-Nasal]]
+- [[VAO-Movilidad-Reducida-V15]]
+- [[Medidas-Altura-Anchura-Longitud]]
+- [[R418-Calzada-Obligatoria-Motos]]
+- [[ITV-Turismos-4-2-2-1]]
+- [[Semaforo-Rojas-Intermitentes-Bomberos]]
+- [[Adelantar-Vehiculo-Que-Sena-Adelantamiento]]
+- [[Averia-V2-Cruce-Emergencia]]
+- [[Acompanamiento-Ciclistas-Arcen]]
+- [[Alcoholemia-Camion-Menos-3500-025]]
+- [[Latigazo-Cervical-Alcance]]
+- [[R411-Conjuntos-Remolque-Un-Eje]]
+- [[Autopista-urbana-80kmh]]
+- [[Prioridad-Senyalizada-vs-Regla-Derecha]]
+- [[Senal-Ramal-Verde-Autovia]]
+- [[Puente-6m-Autorizacion-Especial]]
+- [[Adelantamiento-Mantener-Distancia-Seguridad]]
+- [[ITV-Camion-2500-Mensualitat]]
 - [[Personas-y-Vehiculos]]
 - [[Parar-Motor-Abandonar-Siempre]]
 - [[Prioridad-Animales-Calzada-Maniobra]]
@@ -744,6 +915,7 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Ruedas-Repuesto-Presion]]
 - [[Rueda-Repuesto-Presion-Maxima]]
 - [[Seguro-Obligatorio-Exclusiones]]
+- [[Seguro-Causante-No-Cubierto]]
 - [[Seguridad-Activa-Pasiva]]
 - [[Puente-Movil-Velocidad]]
 - [[Distancia-Seguridad-Variable]]
@@ -771,6 +943,8 @@ Este documento es el **RESUMEN CENTRAL**. Aquí se muestran, de manera resumida,
 - [[Vehiculo-Movilidad-Reducida-Prohibicion]]
 - [[Vehiculo-Especial-Sin-Frenado-25]]
 - [[Vehiculo-Ardiendo-Sacar-Heridos]]
+- [[Vehiculo-Derivado-Turismo-Uso]]
+- [[R401-Calzada-Automoviles-Moto-Sin-Sidecar]]
 - [[Velocidad-Diseno-vs-Fluidez]]
 - [[Velocidad-Turismo-Remolque-Autovia]]
 - [[Velocidades-Maximas]]

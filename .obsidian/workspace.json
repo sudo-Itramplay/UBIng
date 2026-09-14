@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Carnet/A2/TeoricoCompletoA2.md",
+                "file": "Personal/Carnet/Cotxe/Pre-Examen/FITXA-FINAL-PreExamen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TeoricoCompletoA2"
+              "title": "FITXA-FINAL-PreExamen"
             }
           }
         ]
@@ -51,7 +51,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -181,9 +183,9 @@
   },
   "active": "ae468fa443a5ae59",
   "lastOpenFiles": [
+    "Personal/Carnet/A2/TeoricoCompletoA2.md",
     "Personal/Carnet/Cotxe/Adelantamiento/Adelantamiento-Espacio-Prohibido.md",
     "Personal/Carnet/A2/TeoricoCompletoA2.md~",
-    "Personal/Carnet/A2/TeoricoCompletoA2.md",
     "Personal/Carnet/Cotxe/_MOC.md",
     "Personal/Carnet/Cotxe/Discrepancias-Tests-vs-DGT.md",
     "Personal/Carnet/Cotxe/Motocicleta/A2-Senal-Sidecar.md",

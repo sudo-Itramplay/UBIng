@@ -167,6 +167,34 @@ def parse_moc(moc_path: Path) -> list[dict]:
             "link": link,
         })
 
+    # Errors de Pre-Examen no registrats al MOC: cada fitxer .md de Pre-Examen
+    # sense entrada corresponent al MOC compta com a error addicional.
+    pre_exam_path = moc_path.parent / "Pre-Examen"
+    if pre_exam_path.is_dir():
+        next_num = max((e["num"] for e in errors), default=1000) + 1
+        for note in sorted(pre_exam_path.glob("*.md")):
+            title = note.stem.replace("_", " ")
+            # ja registrat si algun títol del MOC fa referència al fitxer
+            # (el MOC enllaça amb [[Titol]] i es repassa perr el link)
+            already = any(title.lower() in str(e.get("link", "")).lower() for e in errors)
+            if already:
+                continue
+            text = note.read_text(encoding="utf-8", errors="replace")
+            question = ""
+            for line in text.splitlines():
+                q = line.strip().lstrip("> ").strip()
+                if q and not q.startswith("#") and not q.startswith("*"):
+                    question = q
+                    break
+            errors.append({
+                "num": next_num,
+                "title": title,
+                "error_text": question or title,
+                "correction": "",
+                "link": f"Pre-Examen/{note.name}",
+            })
+            next_num += 1
+
     return errors
 
 
@@ -178,9 +206,12 @@ def load_keywords_from_notes(base_path: Path, errors: list[dict]) -> dict[int, l
         if not err["link"]:
             continue
 
-        # Busca el fitxer atòmic
+        # Busca el fitxer atòmic (el link pot ser "Carpeta/Fitxer" o "Fitxer")
         note_path = None
-        for p in base_path.rglob(f"{err['link']}.md"):
+        link_name = err["link"].split("/")[-1]
+        if not link_name.endswith(".md"):
+            link_name += ".md"
+        for p in base_path.rglob(link_name):
             note_path = p
             break
 
@@ -195,7 +226,7 @@ def load_keywords_from_notes(base_path: Path, errors: list[dict]) -> dict[int, l
             note_text,
             re.DOTALL,
         )
-        question = question_match.group(1).strip() if question_match else ""
+        question = question_match.group(1).strip() if question_match else note_text[:500]
 
         # Extreu correcció
         correction_match = re.search(r"\*\*Correcci[oó]n:\*\*\s*(.+)", note_text)

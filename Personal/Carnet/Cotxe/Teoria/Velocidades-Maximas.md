@@ -32,7 +32,7 @@
 |---|---|
 | **Autobuses** | 100 |
 | **Derivados de turismo y mixtos** | 100 |
-| **Camiones >3500 kg, furgonetas >3500 kg** | 90/80 |
+| **Camiones (TODOS), tractocamiones, FURGONETAS (TODAS, sin límite de masa), autocaravanas >3500 kg** | 90/80 |
 | **Articulados, con remolque** | 90/80 |
 | **Ciclos, ciclomotores** | 45 |
 

@@ -10,7 +10,7 @@ La mayoría de la gente piensa "¿quién va a 120?" pero es más fácil recordar
 |---|---|
 | **Autobuses** | **100** en autopista/autovía |
 | **Derivados de turismo y mixtos adaptables** | **100** en autopista/autovía |
-| **Camiones >3500 kg, tractocamiones, furgonetas >3500 kg** | **90** en autopista/autovía, **80** en convencional |
+| **Camiones (todos), tractocamiones, FURGONETAS (TODAS, sin límite de masa), autocaravanas >3500 kg, articulados, automóviles con remolque** | **90** en autopista/autovía, **80** en convencional |
 | **Articulados y vehículos con remolque** | **90** en autopista/autovía, **80** en convencional |
 | **Ciclos, ciclomotores, cuadriciclos ligeros** | **45** |
 | **Vehículos especiales** | **25-70** según el caso |
@@ -30,7 +30,7 @@ La mayoría de la gente piensa "¿quién va a 120?" pero es más fácil recordar
 |---|:---:|:---:|
 | **Turismos, motos, autocaravanas ≤3500 kg, pick-up** | **120** | **90** |
 | **Autobuses, derivados de turismo, mixtos adaptables** | **100** | **90** |
-| **Camiones >3500 kg, tractocamiones, furgonetas >3500 kg, articulados, con remolque** | **90** | **80** |
+| **Camiones (TODOS), tractocamiones, FURGONETAS (TODAS, sin límite de masa), articulados, automóviles con remolque** | **90** | **80** |
 | **Ciclos, ciclomotores, cuadriciclos ligeros** | **45** | **45** |
 | **Veh. especiales (sin frenado / con remolque / motocultores)** | **25** | **25** |
 | **Veh. especiales (resto)** | **40** (70 si >60 en llano) | **40** (70 si >60 en llano) |
@@ -38,12 +38,14 @@ La mayoría de la gente piensa "¿quién va a 120?" pero es más fácil recordar
 
 ## Reducciones especiales
 
-| Concepto | Reducción |
+| Concepto (convencional, fuera de poblado) | Límite |
 |---|---|
+| Turismos/motos en convencional **con separación física de sentidos** (y accesos controlados si lo fija el titular de la vía) | **100 km/h** |
+| Vía **sin pavimentar** | **30 km/h** |
 | Transporte escolar / de menores | **-10 km/h** sobre los límites del grupo |
 | Mercancías peligrosas | **-10 km/h** sobre los límites del grupo |
-| Autobús sin cinturón o con pasajeros de pie | **80 km/h** máx. en cualquier vía interurbana |
-| Moto con remolque | **-10%** sobre límites generales |
+| Autobús sin cinturón o con pasajeros de pie | **80 km/h** máx. en cualquier vía fuera de poblado |
+| **Furgoneta piècura (≤3500 kg)** | **90** autopista/autovía — 80 convencional (trampa: NO va a 120) |
 | Vehículos régimen transporte especial | Según Anexo III RGC |
 
 ## Velocidades mínimas (Art. 49 RGC)
@@ -67,7 +69,7 @@ La mayoría de la gente piensa "¿quién va a 120?" pero es más fácil recordar
 ```
 QUIÉN VA A 120: Turismos, motos, autocaravanas ≤3500kg, pick-up
 QUIÉN VA A 100: Autobuses, derivados de turismo, mixtos
-QUIÉN VA A 90:  Camiones >3500kg, furgonetas >3500kg, con remolque
+QUIÉN VA A 90:  TODOS los camiones, TODAS las furgonetas, con remolque, articulados
 QUIÉN VA A 45:  Ciclos, ciclomotores
 QUIÉN VA A 25:  Tractor con remolque, veh. especiales sin frenado
 ```

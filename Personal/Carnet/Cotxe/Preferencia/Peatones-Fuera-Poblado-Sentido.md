@@ -21,9 +21,11 @@
 
 | Situación | ¿Por dónde van? |
 |---|---|
-| Peatón solo | **Izquierda** (sentido contrario al tráfico) |
-| Grupo organizado (excursión, escolar) con luz + chalecos | **Derecha** (conozca la vía o no) |
-| Grupo sin elementos de seguridad | **Izquierda** (regla general) |
+| **Peatón SOLO** | **Izquierda** (sentido contrario al tráfico) — para ver los vehículos que se acercan |
+| **Grupo organizado** (excursión, escolar) con luz + chalecos | **Derecha** (conozca la vía o no) |
+| **Grupo sin elementos de seguridad** | **Izquierda** (regla general) |
+
+> ⚠️ **Clau d'examen**: si la pregunta diu "peatones" (plural, grup) → **dreta**. Si diu "peató" (individual) → **esquerra**. La trampa és confondre el singular amb el plural.
 
 ### Por qué se confunde
 
