@@ -349,7 +349,7 @@ def main():
     parser = argparse.ArgumentParser(description="Oracle del carnet de conduir B")
     parser.add_argument(
         "--moc",
-        default=str(Path(__file__).parent / "Cotxe" / "_MOC.md"),
+        default=str(Path(__file__).parents[2] / "Cotxe" / "_MOC.md"),
         help="Path al fitxer _MOC.md",
     )
     parser.add_argument("--top", type=int, default=10, help="Número de grups a mostrar")
