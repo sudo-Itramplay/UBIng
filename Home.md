@@ -7,6 +7,22 @@ tags:
 
 Punt d'entrada del vault: el meu **segon cervell** de la carrera. Tot viu en un sol repositori; les assignatures s'organitzen per curs i quadrimestre dins de `Uni/`.
 
+## 4t Curs
+
+### Q1 — Primer Quadrimestre
+
+- [[Uni/4tAny/Subjects/Q1/Aprenentatge Automatic/_MOC|Aprenentatge Automàtic]]
+- [[Uni/4tAny/Subjects/Q1/Enginyeria del Software/_MOC|Enginyeria del Software]]
+- [[Uni/4tAny/Subjects/Q1/Etica i Legislacio/_MOC|Ètica i Legislació]]
+- [[Uni/4tAny/Subjects/Q1/Sistemes Operatius I/_MOC|Sistemes Operatius I]]
+- [[Uni/4tAny/Horaris|Horari 4t]]
+
+### Q2 — Segon Quadrimestre
+
+- [[Uni/4tAny/Subjects/Q2/Grafics i Visualitzacio/_MOC|Gràfics i Visualització]]
+- [[Uni/4tAny/Subjects/Q2/Microcontroladors/_MOC|Microcontroladors]]
+- [[Uni/4tAny/Subjects/Q2/Fonaments de Ciberseguretat/_MOC|Fonaments de Ciberseguretat]]
+
 ## 3r Curs
 
 ### Q1 — Primer Quadrimestre

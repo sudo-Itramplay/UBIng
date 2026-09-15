@@ -1,19 +1,17 @@
 ---
-id: _MOC
-aliases: []
+assignatura: ES
 tags:
   - tipus/moc
-  - assignatura/EL
-assignatura: EL
+  - assignatura/ES
 ---
 
-# Ètica i Legislació — MOC
+# Enginyeria del Software — MOC
 
-Índex de l'assignatura de Ètica i Legislació (4t any). Cada nota nova s'afegeix a la secció que toqui.
+Índex de l'assignatura de Enginyeria del Software (4t any). Cada nota nova s'afegeix a la secció que toqui.
 
 ## Horari
 
-Teoria T1: Dilluns i Dimecres 17-18
+Teoria T1: Dimarts 17-18 · Lab f00: Dimarts 15-16
 
 ## Teoria
 
