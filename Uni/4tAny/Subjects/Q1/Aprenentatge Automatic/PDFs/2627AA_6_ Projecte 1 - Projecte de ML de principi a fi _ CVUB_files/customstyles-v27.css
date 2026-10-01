@@ -1,0 +1,784 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #000000;
+}
+
+/* main-color: #0072CE; */
+a:link, a:visited, .tabtree .tabrow0 li a {
+    color: #0072CE;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #0072CE;
+    text-decoration: none;
+}
+
+a:visited, a:active {
+	color: #0072CE;
+}
+
+#page a:focus {
+	box-shadow: none !important;
+}
+
+a.btn-primary {
+	color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px 0px 10px;
+	font-weight: 600;
+	color: #0072CE;
+font-family: 'Roboto', sans-serif;
+}
+
+body.pagelayout-frontpage #page-header h1.h2 {
+	color: #0072CE;
+}
+
+/*Boost css*/
+.popover-body .footer-support-link {
+    display: none !important;
+}
+#new-ub-resources li a {
+    font-size: 16px !important;
+}
+
+body:not(.pagelayout-frontpage):not(page-mycourses) #page-header {
+ 
+    background: none;
+
+}
+.pagelayout-frontpage #page-header  h1.h2 {
+color: white !important;
+}
+body:not(.pagelayout-frontpage):not(page-mycourses):not(page-mymedia-index) #page-header h1.h2, body:not(.pagelayout-frontpage):not(page-mycourses):not(page-mymedia-index)  #page-header h2 {
+    color: #000;
+}
+
+#page-mymedia-index #page-header  h1.h2 {
+color: white !important;
+}
+#page-my-index #page-header  h1.h2 {
+color: white !important;
+}
+
+
+
+/*nav bar top */
+.navbar.fixed-top .navbar-brand img.logo {
+	opacity: 0;
+}
+
+.navbar.fixed-top .navbar-brand {
+	background: url(https://estatics.web.ub.edu/image/company_logo?img_id=2946262&t=1685878955767);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 50% 54%;
+}
+
+@media (min-width: 768px) {
+/*
+.navbar.fixed-top .navbar-brand::after {
+  content: "Campus Virtual UB";
+  display: block;
+  position: absolute;
+  left: 352px;
+  top: 28px;
+  color: #0072CE;
+  font-weight: 600;
+  font-size: 20px;  
+  font-family: 'Roboto', sans-serif;
+}
+*/
+}
+
+.navbar.fixed-top {
+  border-bottom: #ebebeb 2px solid;
+  height: 110px;
+}
+
+.navbar.fixed-top .navbar-brand .logo {
+  max-height: calc(70px - (0.25rem * 2));
+}
+
+.navbar.fixed-top .primary-navigation {
+	padding-top: 47px;
+}
+
+.primary-navigation .navigation .nav-link {
+  font-size: .92rem;
+  font-weight: 700;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  padding-top: 0px;
+  border-top: 0px;
+  
+  height: 63px;
+}
+
+.primary-navigation .navigation {
+  height: 63px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link {
+	color:#000000;
+}
+
+.navbar.fixed-top .divider {
+  border-color: #000000 !important;
+  height: 40% !important;
+}
+
+.custom-switch .custom-control-label:after {
+	background-color: #000000;
+}
+
+.custom-control-label:before {
+	border-color: #000000 !important;
+}
+
+body .dropdown-toggle:after {
+	color: #000000;
+}
+
+/*body containers */
+
+#page.drawers {
+  margin-top: 110px;
+  height: calc(100vh - 110px);
+  }
+  
+[data-region="right-hand-drawer"].drawer {
+top: 110px;
+height: calc(100% - 110px);
+}  
+
+@media (min-width: 768px) {
+.pagelayout-standard #page.drawers .main-inner, body.limitedwidth #page.drawers .main-inner {
+  max-width: 1230px;
+}
+
+#page.drawers div[role="main"] {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.pagelayout-standard #page.drawers .footer-popover, body.limitedwidth #page.drawers .footer-popover {
+	max-width: 3000px;
+}
+
+.footer-content-popover.container {
+	max-width: 3000px;
+}
+
+.navbar.fixed-top .primary-navigation {
+  padding-left: 50px;
+}
+
+}
+
+.moremenu .nav-link {
+	  font-size: .92rem;
+	  font-weight: 600;
+	  color: #000000;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+	 color: #000000;
+}
+
+.moremenu .nav-link.active:focus, .moremenu .nav-link.active:hover {
+	background-color: transparent;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: -3px;
+}
+
+.secondary-navigation .navigation {
+	border-bottom: 2px solid #ebebeb;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #000000;
+  background: transparent;
+  border-bottom: 3px solid #0072CE;
+  
+  box-shadow: none !important;
+}
+
+.nav-link.popover-region-toggle.position-relative.icon-no-margin {
+	border-bottom: 3px solid #fff;
+}
+
+.moremenu .nav-link:hover, .moremenu .nav-link:focus {
+  color: #000000;
+  background: transparent;
+  border-bottom: 3px solid #0072CE;
+}
+
+.secondary-navigation .navigation {
+  margin: 0 0;
+}
+
+@media (min-width: 768px) {
+
+.header-maxwidth {
+  padding-left: 0px;
+  max-width: 1230px;
+}
+
+.secondary-navigation .navigation .nav-tabs {
+  max-width: 1230px;
+}
+
+}
+
+/*drawers */
+@media (min-width: 992px) {
+
+.drawer-left, .drawer-right {
+  top: 110px;
+  height: calc(100vh - 100px);
+}
+
+}
+
+.drawer.drawer-left .drawertoggle {
+  margin-right: 5px;
+  margin-left: auto;
+}
+
+.drawer.drawer-right .drawertoggle {
+  margin-right: auto;
+  margin-left: 5px;
+}
+
+.drawer-toggles .drawer-toggler {
+  position: fixed;
+  top: calc(100px + 0.7rem);
+  z-index: 2;
+}
+
+.drawer-toggles .drawer-toggler .btn {
+  background-color: #0072CE;
+  color: #fff;
+}
+
+.drawer.drawer-left {
+  
+}
+
+.drawer.drawer-right {
+  
+}
+
+.drawer.drawer-right .card {
+background: transparent;
+border-radius: 0px;
+border: 0px;
+}
+
+@media (min-width: 576px) {
+
+#page.drawers .drawer-right-toggle {
+  margin-right: 0;
+}
+
+}
+
+/*flexslider */
+
+#fcontainer {
+position: relative;
+}
+
+body .flexslider .flex-viewport li {
+position: relative;
+}
+
+body .flexslider {
+margin-bottom: 40px;
+overflow: hidden;
+border-radius: 0px;
+}
+
+body .flex-caption {
+  width: 36%;
+  max-width: 450px;
+  float: none;
+  padding: 0px;
+  margin: auto;
+ 
+  margin-top: 0px;
+  border: solid 0px #000000;
+  left: 0;
+  bottom: 0;
+  background: rgba(255,255,255,.0);
+  color: #fff;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+  
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+}
+
+.flexslider h3 {
+  color: #fff;
+  margin-bottom: 0px;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+body .flex-caption.flex-caption-right {
+left: inherit;
+right: 8%;
+}
+
+#page-site-index .course-content ul.topics li.section, .course-content ul.weeks li.section {
+  padding-top: 0px;
+}
+
+#page-site-index .topics.frontpage
+ {
+  margin-top: -30px;
+}
+
+/*frontpage other 
+.courses.frontpage-course-list-enrolled.row {
+	margin: 0;
+}
+
+#page-site-index #frontpage-available-course-list .coursebox, #frontpage-course-list .coursebox, #page-site-index .course-search-result .coursebox {
+border: 0px;
+border-radius: 0px;
+padding: 0px;
+}
+
+*/
+
+#page-site-index:not(.editing) .section .label .contentwithoutlink, #page-site-index:not(.editing) .section .label .activityinstance {
+  padding-right: 0px;
+}
+
+.container.ub-bottons {
+  padding: 0;
+  padding-top: 20px;
+  max-width: 3000px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ub-bottons .btn {
+  background: black;
+  text-align: center;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  padding-right: 35px;
+  min-height: 95px;
+  margin-bottom: 15px;
+
+display: flex;
+min-width: 100%;  
+align-items: center;
+justify-content: center;
+}
+
+.ub-bottons .btn:hover, .ub-bottons .btn:active {
+	background: #0072CE;
+}
+
+.container.ub-bottons .fas {
+  font-family: fontawesome;
+  font-style: normal;
+  position: absolute;
+  right: 35px;
+}
+
+.container.market1 {
+  padding: 0;
+  padding-top: 0px;
+  max-width: 3000px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.market1-inner {
+  padding: 20px 30px;
+  background: #f8f9fa;
+  margin: 0;
+  
+  min-height: 300px;
+  margin-bottom: 15px;
+}
+
+.market1-inner h3 {
+	font-size: 1.4rem;
+	color: #000;
+}
+
+.market1-inner .col-md-7 {
+	padding-left: 0px;
+}
+
+.market1-inner .col-md-5 {
+	padding-right: 0px;
+}
+
+/*footer */
+.jsenabled #page-footer .footer-content-popover {
+  display: block;
+}
+
+
+#page-footer .p-3, .footer-content-popover.container {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.footer-support-link {
+  display: none;
+}
+
+portlet-body ul[aria-label="social"] {
+  padding-block-end: 1rem;
+}
+
+.portlet-body ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portlet-body ul[aria-label="social"] li {
+  margin-inline-end: .5rem;
+  margin-block: .5rem;
+}
+
+.portlet-body ul.institucional-links li:not(:last-of-type) {
+  margin-inline-end: 30px;
+  margin-block-end: 1rem;
+}
+
+.portlet-body :any-link {
+  color: #666;
+  line-height: 1;
+  padding: .2em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.portlet-body ul.institucional-links li :any-link {
+  padding-inline: 0;
+  color: #666;
+  font-size: 12px !important;
+}
+
+
+.portlet-body ul.institucional-links li :any-link img, .portlet-body ul.institucional-links li :any-link picture {
+  display: block;
+  height: 65px;
+  margin-top: 1rem;
+}
+
+#page-footer .logininfo, #page-footer .tool_usertours-resettourcontainer, #page-footer .tool_dataprivacy {
+	display: none;
+}
+
+.footer-section.p-3 {
+  display: none;
+}
+
+.footer-section.p-3.border-bottom {
+  display: block !important;
+  border: 0px !important;
+}
+
+#page-footer {
+	border-top: 2px solid #ebebeb;
+}
+
+.footer-section.p-3.border-bottom > a {
+  opacity: 0;
+  display: none;
+}
+
+/*page header */
+
+body:not(.pagelayout-frontpage) #page-header {
+  min-height:90px;
+  background: url(https://testing.eduthemer.us/UB/banner1.jpg);
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  color: #fff;
+  border-radius: 6px;
+  padding: 30px 30px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+	body:not(.pagelayout-frontpage) #page-header {
+  min-height: 100px;
+	}
+}
+
+body:not(.pagelayout-frontpage) #page-header h1.h2, body:not(.pagelayout-frontpage) #page-header h2 {
+	color: #fff;
+}
+
+/*course edits */
+
+li .activityname .aalink {
+  font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+
+.activity-item:not(.activityinline) {
+  box-shadow: 2px 2px 4px rgba(0,0,0,.1);
+  margin-bottom: 15px;
+}
+
+}
+
+.block_myoverview h5.card-title {
+  margin-top: 30px;
+  display: block !important;
+  font-size: 1.5rem;
+}
+
+#page-navbar, #page-navbar  {
+  color: #000000;
+}
+a .breadcrumb-item + .breadcrumb-item:before {
+  color: #000000;
+}
+#page-mymedia-index #page-navbar, #page-navbar a .breadcrumb-item + .breadcrumb-item:before {
+    color: #ffffff;
+  }
+/*some login stuff */
+.notloggedin nav .langmenu, .notloggedin .navbar.fixed-top .divider {
+	display: none;
+}
+
+.usermenu .login a {
+  background: #0072CE;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  font-weight: 600;
+}
+
+.row.introbuttons {
+  margin: 0;
+  padding-top: 15px;
+}
+
+.row.introbuttons .btn {
+  color: #fff;
+  display: block;
+  border-radius: 0px;
+  padding: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.row.introbuttons .col-md-6 {
+	padding-left: 0px;
+}
+
+.psmaller {
+  font-size: 12px;
+}
+
+.btn.btn-icon.bg-secondary.icon-no-margin.btn-footer-popover {
+  background: #0072CE !important;
+  color: #fff;
+}
+
+/*random fixes */
+.popover-body {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+#page-footer .popover-body .logininfo, #page-footer .popover-body .tool_usertours-resettourcontainer, #page-footer .popover-body .tool_dataprivacy {
+	display: inherit !important;
+}
+
+.path-question #page-wrapper {
+  overflow: auto;
+}
+
+body .badge-info {
+	color: #fff !important;
+}
+
+body .navbar .count-container {
+	top: 40px;
+}
+
+#new-ub-resources ul, #new-ub-resources li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#new-ub-resources li {
+	position: relative;
+	padding: 8px 0px;
+	padding-left: 30px;
+}
+
+#new-ub-resources li a {
+	font-size: 18px;
+	color: #000;
+	text-decoration: underline !important;
+}
+
+#new-ub-resources li a:before {
+  content: " ";
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: -10px;
+  top: 50%;
+}
+
+
+/*banners */
+body#page-mymedia-index #page-header {
+    background-image: url('https://assets.cdn.ethinkcloud.net/barcelona/UB_MULTIMEDIA1.jpg') !important;
+    min-height: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  body.page-mycourses #page-header {
+    background-image: url('https://assets.cdn.ethinkcloud.net/barcelona/UB_CURSOS1.jpg') !important;
+    min-height: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+  }
+  
+  body#page-my-index:not(.page-mycourses) #page-header {
+    background-image: url('https://assets.cdn.ethinkcloud.net/barcelona/UB_TABLERO1.jpg') !important;
+    min-height: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+  }
+  
+  
+
+
+  #page-admin-tool-policy-viewall div#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_footersocial_ {
+    display: none;
+}
+
+  #page-admin-tool-policy-viewall .journal-content-article {
+      display: none;
+  }
+  body:not(.pagelayout-frontpage):not(page-mycourses):not(page-mymedia-index) #page-header h2 {
+    color: #fff !important;
+}
+
+
+
+/*Footer links*/
+.popover-body .newfooterlinks {
+    display: block !important;
+}
+.newfooterlinks {
+    display: none;
+}
+.pagelayout-frontpage #page-header h1.h2 {
+  color: black !important;
+}
+
+/*mobile styles */
+
+@media (max-width: 768px) {
+
+nav .navbar-brand.d-none {
+  display: inherit !important;
+}
+
+body .flex-caption {
+  width: 90%;
+  max-width: 550px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  bottom: 0;
+  left: 10px;
+}
+
+.flexslider h3 {
+  font-size: 23px;
+}
+
+.jsenabled #page-footer .footer-content-popover {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+}
+
+@media (max-width: 600px) {
+
+.navbar.fixed-top .navbar-brand .logo {
+  max-height: 45px;
+}
+
+}
+
+/*changes*/
+#page-mod-quiz-reviewquestion div#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_footersocial_ {
+  display: none;
+}
+#page-mod-quiz-reviewquestion section#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_footerinstituciones {
+  display: none;
+}
+.text-truncate {
+  overflow: hidden !important;
+  text-overflow: unset;
+  white-space: normal;
+}
+
+#page-mod-quiz-comment div#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_footersocial_ {
+  display: none;
+}
+#page-mod-quiz-comment #portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_footerinstituciones {
+    display: none;
+}
+
+#page-mod-quiz-comment .portlet-body {
+  display: none;
+}
+
+#page-mod-page-view div#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_footersocial_{
+    display: none !important;
+}
+
+#page-mod-page-view div#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_footerinstituciones_ {
+  display: none !important;
+}
