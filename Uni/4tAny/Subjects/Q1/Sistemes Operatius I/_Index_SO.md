@@ -16,6 +16,9 @@ Teoria T1: Dijous 15-16 · Lab f00: Dijous 17-18
 - [[T1-Introduccio-Seguretat-SO|T1 — Introducció Seguretat SO]] — Resum complet (D1-57)
 - [[Qüestions-T1-Seguretat|Qüestions T1 — Seguretat]] — Test de pràctica (P1-P6)
 
+### 02 — Màquines Virtuals i virtualització
+- [[T2-Maquines-Virtualitzacio-SO|T2 — MV i virtualització]] — Resum (PDF 02)
+
 ## Classes
 *(buit — les notes de classe ja estan processades al resum)*
 
