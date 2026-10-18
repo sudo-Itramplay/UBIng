@@ -243,5 +243,6 @@ data: "2026-10-01"
 
 ## Enllaços relacionats
 
+- [[T2b-Contenedors-Docker|T2b — Contenedors i Docker (Parte 2)]]
 - [[T1-Introduccio-Seguretat-SO|T1 — Introducció Seguretat SO]]
 - [[classe1|Classe 1 — notes brutes (MV i coses)]]

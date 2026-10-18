@@ -16,6 +16,39 @@ Teoria T1: Dimarts 17-18 · Lab f00: Dimarts 15-16
 ## Teoria
 
 - [[Intro]]
+- [[SCRUM]]
+- [[UserStories]]
+- [[KANBAN]]
+- [[CI_CD]]
+
+## Atòmiques
+
+*(conceptes recurrents o difícils, viuen a `Atomiques/`)*
+
+- [[Sprint]]
+- [[Product Backlog]]
+- [[Scrum Roles]]
+- [[Daily Scrum]]
+- [[Definition of Done]]
+- [[Burndown Chart]]
+- [[Inspect and Adapt]]
+- [[Agile vs Scrum]]
+- [[INVEST]]
+- [[User Story]]
+- [[Three C's]]
+- [[Piràmide de requisits]]
+- [[WIP]]
+- [[Pull system]]
+- [[Cumulative Flow Chart]]
+- [[Lead Time i Cycle Time]]
+- [[Polítiques explícites]]
+- [[Swarm]]
+- [[CI]]
+- [[CD]]
+- [[Branching i mainline]]
+- [[Estratègies de desplegament]]
+- [[GitHub Actions]]
+- [[Mono-repo i Multi-repo]]
 
 ## Laboratori / Pràctiques
 
