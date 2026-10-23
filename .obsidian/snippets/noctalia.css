@@ -6,7 +6,7 @@
   --background-primary-alt:     #1a1a22;
   --background-secondary:       #1f1f28;
   --background-secondary-alt:   #282833;
-  --background-modifier-border: #4d5454;
+  --background-modifier-border: #717c7c;
   --background-modifier-form-field: #17171f;
   --background-modifier-form-field-highlighted: #1a1a22;
   --background-modifier-box-shadow: #10101a;
@@ -38,7 +38,7 @@
 
   /* Scrollbar */
   --scrollbar-bg:               #16161d;
-  --scrollbar-thumb-bg:         rgba(77, 84, 84, 0.3);
+  --scrollbar-thumb-bg:         rgba(113, 124, 124, 0.3);
   --scrollbar-active-thumb-bg:  rgba(113, 124, 124, 0.5);
 
   /* Tab styling */
@@ -46,7 +46,7 @@
   --tab-text-color-focused:     #dcd7ba;
   --tab-text-color-focused-active: #c34043;
   --tab-background-active:      #16161d;
-  --tab-divider-color:          #4d5454;
+  --tab-divider-color:          #717c7c;
 
   /* Navigation */
   --nav-item-color:             #c8c093;
@@ -98,7 +98,7 @@
   --checkbox-border-color:      #717c7c;
 
   /* Graph view */
-  --graph-line:                 rgba(77, 84, 84, 0.4);
+  --graph-line:                 rgba(113, 124, 124, 0.4);
   --graph-node:                 #c34043;
   --graph-node-focused:         #957fb8;
   --graph-node-tag:             #7aa89f;
@@ -108,8 +108,8 @@
   --vault-name-color:           #dcd7ba;
 
   /* Indentation guide */
-  --indentation-guide-color:    rgba(77, 84, 84, 0.3);
-  --indentation-guide-color-active: rgba(77, 84, 84, 0.6);
+  --indentation-guide-color:    rgba(113, 124, 124, 0.3);
+  --indentation-guide-color-active: rgba(113, 124, 124, 0.6);
 
   /* Obsidian 1.0+ variables */
   --color-accent:               #c34043;
@@ -123,7 +123,7 @@
   --icon-color-focused:         #c34043;
 
   /* Divider */
-  --divider-color:              #4d5454;
+  --divider-color:              #717c7c;
   --divider-color-hover:        #717c7c;
 
   /* Status bar */
@@ -132,10 +132,10 @@
 
   /* Modal */
   --modal-background:           #1f1f28;
-  --modal-border-color:         #4d5454;
+  --modal-border-color:         #717c7c;
 
   /* Prompt / suggestion */
-  --prompt-border-color:        #4d5454;
+  --prompt-border-color:        #717c7c;
 
   /* Inline title */
   --inline-title-color:         #dcd7ba;
@@ -154,7 +154,7 @@
   --background-primary-alt:     #efe8bb;
   --background-secondary:       #ece5bb;
   --background-secondary-alt:   #e8dfab;
-  --background-modifier-border: #adab9a;
+  --background-modifier-border: #8a8770;
   --background-modifier-form-field: #f0eabb;
   --background-modifier-form-field-highlighted: #efe8bb;
   --background-modifier-box-shadow: #43424e;
@@ -186,7 +186,7 @@
 
   /* Scrollbar */
   --scrollbar-bg:               #f2ecbc;
-  --scrollbar-thumb-bg:         rgba(173, 171, 154, 0.3);
+  --scrollbar-thumb-bg:         rgba(138, 135, 112, 0.3);
   --scrollbar-active-thumb-bg:  rgba(138, 135, 112, 0.5);
 
   /* Tab styling */
@@ -194,7 +194,7 @@
   --tab-text-color-focused:     #545464;
   --tab-text-color-focused-active: #c34043;
   --tab-background-active:      #f2ecbc;
-  --tab-divider-color:          #adab9a;
+  --tab-divider-color:          #8a8770;
 
   /* Navigation */
   --nav-item-color:             #5d5a48;
@@ -246,7 +246,7 @@
   --checkbox-border-color:      #8a8770;
 
   /* Graph view */
-  --graph-line:                 rgba(173, 171, 154, 0.4);
+  --graph-line:                 rgba(138, 135, 112, 0.4);
   --graph-node:                 #c34043;
   --graph-node-focused:         #957fb8;
   --graph-node-tag:             #76946a;
@@ -256,8 +256,8 @@
   --vault-name-color:           #545464;
 
   /* Indentation guide */
-  --indentation-guide-color:    rgba(173, 171, 154, 0.3);
-  --indentation-guide-color-active: rgba(173, 171, 154, 0.6);
+  --indentation-guide-color:    rgba(138, 135, 112, 0.3);
+  --indentation-guide-color-active: rgba(138, 135, 112, 0.6);
 
   /* Obsidian 1.0+ variables */
   --color-accent:               #c34043;
@@ -271,7 +271,7 @@
   --icon-color-focused:         #c34043;
 
   /* Divider */
-  --divider-color:              #adab9a;
+  --divider-color:              #8a8770;
   --divider-color-hover:        #8a8770;
 
   /* Status bar */
@@ -280,10 +280,10 @@
 
   /* Modal */
   --modal-background:           #ece5bb;
-  --modal-border-color:         #adab9a;
+  --modal-border-color:         #8a8770;
 
   /* Prompt / suggestion */
-  --prompt-border-color:        #adab9a;
+  --prompt-border-color:        #8a8770;
 
   /* Inline title */
   --inline-title-color:         #545464;
