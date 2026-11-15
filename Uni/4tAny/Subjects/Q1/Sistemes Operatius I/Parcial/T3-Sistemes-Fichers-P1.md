@@ -78,7 +78,7 @@ data: "2026-10-17"
 - La majoria de SOs utilitzen el seu **propi** sistema de fitxers
 
 > [!question]- Ràpid: com s'emmagatzema la informació dels fitxers? I la dels directoris? I com es gestiona l'espai lliure?
-> Respostes que dona el PPT més endavant (veure seccions [[#10. Fonaments de disseny]] i [[#12. El sistema FAT en detall]]):
+> Respostes que dona el PPT més endavant (veure seccions [[#10. Fonaments dels dissenys implementats]] i [[#12. El sistema FAT en detall]]):
 > - **Fitxers**: **contigus o no contigus** als disc. FAT = **llista enlazada** (blocs no contigus); FFS = **vectors** (apunta a blocs contigus, millor rendiment). Idealment contigus
 > - **Directoris**: cada directori s'emmagatzema com un **fitxer amb una estructura de taula** (llistat d'entrades: noms, mida, permisos, apuntadors als blocs; i entrades per subdirectoris)
 > - **Espai lliure**: el sistema ha de saber quins blocs són lliures (a FAT: recórrer la **taula FAT** buscant elements no ocupats, marcats amb un **codi especial**); si són contigus, millor
@@ -172,10 +172,20 @@ file mensaje.jpg reserva.bin
 > 3. **`df -h`** — mostra l'espai total, utilitzat i disponible del sistema de fitxers
 
 > [!question]- Exercici: mida lògica? Espai assignat? Espai disponible? Quin tipus de contingut reconeix el sistema?
-> - **Mida lògica**: `mensaje.jpg` ~24 bytes; `reserva.bin` **100 MiB**
-> - **Espai assignat**: `mensaje.jpg` ocupa un bloc real (petit); `reserva.bin` **0 bytes** de dades reals
-> - **Espai disponible**: el que mostri `df -h .` (a l'exemple del PPT, 20 GiB)
-> - **Tipus** (`file`): `mensaje.jpg` → **text**; `reserva.bin` → **buit / dades buides** — res a veure amb les extensions
+> *(executat de debò el 2026-10-25, ext4 amb blocs de 4 KB)*
+>
+> | Comanda | `mensaje.jpg` | `reserva.bin` |
+> |---|---|---|
+> | `ls -lh` / `stat` Size (**mida lògica**) | 26 B | 100 MiB (104857600 B) |
+> | `stat` Blocks (**blocs assignats**, en unitats de 512 B) | **8** = 4 KB (1 bloc) | **0** |
+> | `du -h` (**espai real al disc**) | 4.0K | **0** |
+> | `du -h --apparent-size` (**mida lògica**) | 26 | 100M |
+> | `file` (**tipus, per *magic bytes***) | ASCII text | data |
+>
+> - **Mida lògica**: el que veu el procés en llegir — el camp *size* de l'**i-node**: 26 B i 100 MiB
+> - **Espai assignat**: blocs de debò al disc. `mensaje.jpg`: 26 B → s'arrodoneix **amunt** a 1 bloc sencer de 4 KB (els bytes sobrants **no** els pot fer servir cap altre fitxer — §9). `reserva.bin`: **0 blocs** → *sparse file*: `truncate` només mou el punter de mida de l'i-node, **cap bloc s'assigna fins que s'escriu**
+> - **Espai disponible**: `df -h .` → al disc de prova: 468G total, 353G disponibles (després de crear reserva.bin, gairebé no s'ha mogut: 0 blocs nous!)
+> - **Tipus**: `file` llegeix els primers bytes i els compara amb la **base de dades de *magic numbers*** — `mensaje.jpg` és **text ASCII** tot i l'extensió; `reserva.bin` és "data" (tot bytes NUL) tot i el .bin. **L'extensió és només una convenció del nom; el sistema reconeix el contingut pels bytes**
 
 ---
 
@@ -241,7 +251,7 @@ file mensaje.jpg reserva.bin
 
 | | **FAT** (File Allocation Table) | **FFS** (Unix Fast File System) |
 |---|---|---|
-| Època | Finals dels **70** | Mitjans dels **90** |
+| Època | Finals dels **70** | ⚠️ *PDF P1 diu **mitjans dels 90**; el PDF P2 (més tard) diu **mitjans dels 80** — veure Dubtes |
 | Ús avui | Memòries USB, targetes SD (simplicitat) | Base d'**ext3, ext4, NTFS** |
 | Estructura | **Llista enlazada** dels blocs d'un fitxer | **Vectors** dels blocs d'un fitxer |
 
@@ -278,6 +288,35 @@ file mensaje.jpg reserva.bin
 - Per trobar **espai lliure** per a un fitxer nou, el sistema **recorre la taula FAT** buscant un element **no ocupat** (marcat amb un codi especial)
 - Algoritmes **molt senzills**: es busca a la taula "el **següent** bloc lliure" → els fitxers poden quedar **molt fragmentats**
 - Els sistemes FAT inclouen un **defragmentador**: programa que **mou les dades** al disc per aconseguir que els fitxers estiguin **contigus**
+
+### Defragmentació (D51)
+
+El mateix contingut, **reorganitzat en blocs contigus**. Blocs 1-16, amb tres tipus: **A** (el fitxer que volem), **B** (altres fitxers) i **lliure** (buit).
+
+**ABANS — fitxer A fragmentat**
+
+| Bloc | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | ... | 12 | ... | 15 | 16 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Contingut | A1 | | | A2 | | B | | A3 | | A4 | | A5 | |
+
+> Lectura de l'arxiu A: **1 → 4 → 8 → 12 → 15** (cinc salts)
+
+**DESPRÉS — reorganitzats els blocs**
+
+| Bloc | 1 | 2 | 3 | 4 | 5 | 6-10 | 11-16 |
+|---|---|---|---|---|---|---|---|
+| Contingut | A1 | A2 | A3 | A4 | A5 | B (agrupats) | lliure (agrupada) |
+
+> Lectura de l'arxiu A: **1 → 2 → 3 → 4 → 5** (lineal, sense salts)
+
+Tres punts de la diapositiva:
+
+1. **Es conserva el contingut i l'ordre** A1 → A5 — no es toca el fitxer, només on és
+2. **No augmenta l'espai lliure** — no s'elimina cap bloc, només es reordenen; el total és el mateix
+3. **A l'HDD pot reduir els desplaçaments del capçal**
+
+> [!important] Què és realment el guany
+> El cost mai no ha estat **copiar** les dades, sinó els **salts** del braç. Cada seek té un cost mecànic; amb els blocs contigus es passa de **5 seeks a 1**. Per això la defragmentació **no serveix de res a un SSD** (no hi ha braç ni latència de rotació).
 
 ---
 
@@ -355,6 +394,8 @@ Veure [procés BIOS/MBR (neosmart)](https://neosmart.net/wiki/mbr-boot-process/)
 ---
 
 ## Dubtes / a revisar
+
+- ⚠️ **Contradicció entre els dos PDFs**: la P1 (D45) diu que el FFS es va desenvolupar a **"mediados de los 90s"**; la P2 (D8) diu **"mediados de los 80s"**. **El 80 és el correcte** — el FFS es va introduir amb el **4.3BSD (1986)**. Seguir el 80 (és el que diu el professor a la Parte 2) i preguntar si toca a examen
 
 - **Test P1-P6**: respostes deduïdes del contingut de T2/T2b (no venen marcades al PDF); el professor les va donar al test — confirmar si alguna és altra
 - **"Ràpid" de fitxers/directoris/espai lliure**: les respostes s'anticipen des del contingut de FAT/FFS del mateix PPT; si el professor en volia més (ex. *bitmap* d'espai lliure), afegir-ho

@@ -274,4 +274,5 @@ data: "2026-10-17"
 ## Enllaços relacionats
 
 - [[T2-Maquines-Virtualitzacio-SO|T2 — MV i virtualització (Parte 1)]]
+- [[T2c-Comparativa-SO-MV-Contenidor|T2c — SO, MV i contenidor (síntesi)]] — què fan exactament namespaces i cgroups
 - [[T1-Introduccio-Seguretat-SO|T1 — Introducció Seguretat SO]]

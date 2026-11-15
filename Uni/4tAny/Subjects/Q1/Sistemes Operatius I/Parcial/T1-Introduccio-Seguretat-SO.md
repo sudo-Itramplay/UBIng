@@ -189,6 +189,105 @@ Tres categories: **propietari** · **grup** · **resta**
 Més granulars que rwx. Per a usuaris individuals i grups específics.
 - Comanda: `setfacl -option file_owner:file_permission filename`
 
+#### La idea clau: rwx i ACL no són dos sistemes
+
+- **rwx i ACL són el mateix sistema.** Quan escrius `chmod 640` el sistema **ja està creant una ACL** — simplement és una ACL de **3 entrades**
+- El **rwx és el nom que donem a les 3 primeres entrades**; l'ACL és la **llista completa**, que en pot tenir moltes més
+- Així doncs l'ACL **no substitueix** els permisos de grup: **s'hi afegeix per sobre**
+
+#### El creixement de la llista (pas a pas)
+
+**1. Fitxer nou** — la llista ja existeix:
+
+```
+user::rw-       ← propietari
+group::r--      ← grup del fitxer
+other::r--      ← resta
+```
+
+**2. Vols donar permís a l'Alice** — no hi ha on posar-ho (`chmod` només té tres tecles: `u`, `g`, `o`). Afegeixes una entrada:
+
+```
+user::rw-
+group::r--
+other::r--
+user:alice:rwx      ← nova entrada
+```
+
+**3. Aquí es trenca `ls -l`** — `ls -l` ha de mostrar **3 camps** però ara hi ha **4 entrades**. I pitjor: si demà fas `chmod g-w`, el sistema escriu a `group::` i **l'Alice no queda limitada per res**.
+
+**4. La solució del sistema: la màscara** — afegeix **una entrada més**, una **tapa** sobre el mig de la llista:
+
+```
+user::rw-
+group::r--
+other::r--
+user:alice:rwx
+mask::r--         ← la tapa
+```
+
+> [!important] Què és la màscara
+> **No és un concepte nou**: és l'entrada que va inventar el sistema perquè `chmod` i `ls -l` **no es trenquessin** quan vas afegir l'Alice.
+
+#### Com funciona la màscara
+
+Regla en una frase: **permís efectiu = el que diu l'entrada, però com a molt el que deixa la màscara.**
+
+```
+efectiu = permís de l'entrada  AND  màscara      (bit a bit)
+```
+
+- La màscara és un **sostre**: l'entrada "Alice:rwx" amb "mask::r--" acaba en **r--**. Pot **retallar mai ampliar**
+- Tapa el **mig de la llista**: `user:alice:`, `group::`, `group:x:`
+- **No** toca `user::` (propietari) ni `other::` (resta)
+
+| Entrada | La màscara la limita? |
+|---|---|
+| `user::` (propietari) | **NO** |
+| `user:alice:` (usuari conegut) | **SÍ** |
+| `group::` (grup propietari) | **SÍ** ← la que tothom oblida |
+| `group:equip:` (grup conegut) | **SÍ** |
+| `other::` | **NO** |
+
+**Per què existeix?** Perquè `chmod` només té **3 tecles** (`u`, `g`, `o`) i no pot escriure "ara canvio només l'Alice". Així que **`chmod g` escriu la màscara**, el sostre compartit de tot el mig → el `chmod` de tota la vida segueix funcionant.
+
+**Tres preguntes típiques d'examen:**
+
+- *Què calculo?* → permís de l'entrada **AND** màscara
+- *A qui afecta?* → tot menys `user::` i `other::`
+- *Què mostra `ls -l`?* → la **màscara**, no els permisos del grup (i la línia de mode porta un **`+`**)
+
+```
+-rw-r-----+  itram itram  0  ...  fitxer
+ ^^^^^^^^^
+ això és la MÀSCARA, no els permisos del grup propietari
+```
+
+> [!warning] Perquè l'Alice pugui escriure, primer el sostre
+> ```bash
+> setfacl -m m::rw-          # obres el sostre   (= chmod g+w)
+> setfacl -m u:alice:rw-     # i llavors ella sí
+> ```
+> Si només fas la segona amb `mask::r--`, **no passa res**. Aquest és l'error de tothom.
+
+#### Ordre d'avaluació
+
+1. UID = propietari → `user::` (**sense** passar per la màscara)
+2. UID = `user:alice:` → permís **& màscara**
+3. Grup: es comprova el **gid efectiu i tots els grups suplementaris** contra `group::` i `group:x:` → es pren la que doni **més permís**, **& màscara**
+4. Sinó → `other::` (**sense** màscara)
+
+#### ACL mínima vs ACL estesa
+
+- **ACL mínima** (només `user::` / `group::` / `other::`) → **no té màscara**; `ls -l` mostra `group::` tal qual
+- **ACL estesa** (hi ha alguna entrada `user:x:` o `group:x:`) → la màscara és **obligatòria** i `ls -l` mostra **la màscara**
+- `getfacl` marca `# effective:` quan la màscara retalla alguna entrada
+
+> [!tip] Imatge mental
+> **`ls -l` és una finestra de 3 forats mirant una llista que en pot tenir 20.**
+
+Diferència amb NFSv4: la **POSIX ACL** de Linux (`setfacl`) només té entrades *allow* + màscara; la **NFSv4 ACL** és més potent — entrades `allow`/`deny` explícites i **herència** des del directori.
+
 ### Creació de fitxers nous
 
 | Mecanisme | Què controla | Idea clau |
@@ -293,7 +392,8 @@ gcc overflow.c -o overflow -fstack-protector      # AMB canari (default Linux)
 | **Política** | Sujet + Objecte + Operació |
 | **UID/GID** | root=0, cada usuari/grup té el seu ID |
 | **rwx** | r=4 · w=2 · x=1 → suma = número d_permís |
-| **ACL** | Permisos més granulars que rwx |
+| **ACL** | Llista completa de permisos; el **rwx és el mateix sistema amb 3 entrades** |
+| **Màscara** | **Sostre** sobre `user:x:`, `group::`, `group:x:` — **no** toca `user::` ni `other::`; `chmod g` l'escriu i `ls -l` la mostra (amb `+`) |
 | **RUID/EUID/SUID** | EUID = permisos reals (el que importa) |
 | **Buffer overflow** | Sobreescriptura de memòria → control de flux |
 | **Canari** | Valor aleatori al stack → detecta desbordament |
