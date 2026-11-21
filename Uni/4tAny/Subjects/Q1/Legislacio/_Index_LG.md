@@ -31,7 +31,7 @@ Apunts de classe (sense processar):
 *(buit)*
 
 ## Parcials
-*(buit — quan hi hagi data, crear `01-Parcial-1/`)*
+- [[Guia-PAC1-Casos-Practics|Guia PAC 1 — Casos pràctics i mètode]] (dilluns 30/11/2026)
 
 ## Examen
 *(buit)*
