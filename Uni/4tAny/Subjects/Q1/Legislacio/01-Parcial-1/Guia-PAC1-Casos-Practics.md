@@ -18,10 +18,44 @@ aliases:
 > Els casos pràctics de classe són el **model** de què vol dir "teòric-pràctic" en una resposta: la pregunta serà breu, però cal respondre com als casos (fets → article → conseqüència).
 > **Referència: PDF "00. Introducció al curs"**
 
-Intel·ligència de classe (d'[[examen]]):
-- **"De la Lliçó 1 NO entra res"** → els casos de la Lliçó 1 que hi ha a sota són **entrenament del mètode**, no entraran com a pregunta.
-- **"Un de protecció de dades molt difícil"** → **la Lliçó 3 és la prioritat** de preparació.
-- El professor vol **respostes molt curtes i directes** ("quant més curt millor") i és **estrictíssim amb el temps** (recorda que a la **PAC 2 oral** la penalització és d'**1,5 punts per minut excedit**).
+## Què va dir el profe a classe
+
+- **Format previst**: un **exemple/enunciat breu** i identificar quina norma el fa vàlid o invàlid (p. ex. fals autònom → per què és il·legal; què invalida un contracte).
+- **Lliçó 1: NO entra res** (d'[[examen]]) → els casos de la Lliçó 1 que hi ha a sota són només **entrenament del mètode**.
+- **"Un de protecció de dades molt difícil"** → la **Lliçó 3 (RGPD) és prioritat 1**. Frase del profe a [[classe6]]: **"les de les xarxes socials són sempre o pràcticament tots il·legals"**.
+- **Temps**: **60 min màx**; el profe és molt estricte amb el temps; **"quant més curt millor"** (respostes molt curtes i directes).
+
+> [!warning] Sobre la penalització d'1,5 punts/minut
+> El **1,5 punts/minut** és la penalització documentada de la **PAC 2 oral** — **no l'afirmis per a la PAC 1**.
+
+- **"Preguntes de juristes trampa"** ([[classe2]]): llibertat de pacte **sí, però amb límits**; les **normes que protegeixen la part feble són imperatives** — **signar no convalida una clàusula nul·la**; **frau de llei** (la Júlia: la llei de cobertura **no s'aplica quan encobreix el laboral**).
+
+**Exemple de classe → concepte** (taula petita):
+
+| Exemple de classe | Concepte |
+|---|---|
+| Meta "compartir amb socis" | Consentiment / destinataris |
+| Casella pre-marcada | No és afirmatiu (**art. 4.11 + 7 RGPD**, STJUE Planet49) |
+| Consentiments en paquet | Un consentiment per tractament (**Atès 43 RGPD + art. 6.2 LOPDGDD**) |
+| Movistar → Vodafone | Portabilitat (**art. 20 RGPD**) |
+| ASNEF vs CIRBE | Bases de legitimació / tractaments per llei |
+| Preguntar pels fills | **art. 17 ET** → nul·la |
+| Severabilitat | Només cau la clàusula ([[classe3]]) |
+| "L'ordre públic no està definit" | Trampa: **cita l'art. 1255 CC**, no el defineixis |
+| Dret de limitació | "el 7è molt important" i "difícil... fer-lo especialment important" (la font no concreta a quin dret correspon) |
+
+> [!warning] Afirmacions de classe a NO ensenyar com a llei
+> - **"amb VPN això deixa d'aplicar"** — fals com a dret: l'**extraterritorialitat (art. 3 RGPD)** no depèn de la geolocalització.
+> - La **sanció de la IA "10M i 2%"** — probable lapsus: **art. 99 AI Act** = **35 M€/7%**, **15 M€/3%**, **7,5 M€/1%**.
+
+> [!note] Discrepància de fonts d'obligacions
+> El profe classifica **5 categories** de fonts de les obligacions vs **art. 1089 CC** (4). A l'examen, **cita l'art. 1089 CC**.
+
+**Fora d'abast confirmat** ([[Classe1-Introduccio-Dret]]):
+- **Hobbes / contracte social** — "(NO al examen)".
+- Els **15 drets fonamentals** — probablement no surt a examen.
+
+**Referència: [[examen]] + [[classe2]], [[classe3]], [[classe5]], [[classe6]]**
 
 ---
 
@@ -106,7 +140,7 @@ Enunciat complet i respostes orientatives: veure **[[Classe2-Casos Practiques]]*
 - **① Classifica:** dret privat, branca **laboral**.
 - **② Substància:** **art. 1.1 ET** — els 4 elements de laboralitat hi són tots (voluntarietat, caràcter personal, alienitat, dependència) → relació laboral real, malgrat el *nomen iuris*.
 - **③ Tipus de contracte:** **art. 11.2 ET** — contracte per a l'obtenció de la **pràctica professional** (titulats recents, **durada màxima 1 any**). Si no en compleix els requisits → possible **simulació / frau**.
-- **④ Període de prova:** **art. 14 ET** — **per escrit**; durada segons **conveni col·lectiu** o, si no, **6 mesos** (tècnics titulats) / **2 mesos** (resta) / **3 mesos** (empreses <25 treballadors) / **1 mes** (temporals <6 mesos). La **llibertat de desistiment ≠ desistiment arbitrari**: no pot amagar **discriminació** ni **dol**.
+- **④ Període de prova:** **art. 14 ET** — **per escrit**; durada segons **conveni col·lectiu** o, si no, **6 mesos** (tècnics titulats) / **2 mesos** (resta) / **3 mesos** (no titulats en empreses <25 treballadors) / **1 mes** (temporals <6 mesos). La **llibertat de desistiment ≠ desistiment arbitrari**: no pot amagar **discriminació** ni **dol**.
 - **⑤ + ⑥ Discriminació:** el comentari del cap sobre les revisions mèdiques → **art. 17 ET** (discriminació per malaltia o condició de salut = **nul·la de ple dret**) + **art. 2 Llei 15/2022** + **inversió de la càrrega de la prova** (l'indici basta → l'empresa ha de justificar-se).
 - **⑦ Variacions:** 
   - Prova de 2 mesos vs 6 mesos de la companya → **no automàticament incorrecte**: cal informació addicional (conveni, titulació, funcions), però és un **indici de tracte desigual**.
@@ -147,6 +181,41 @@ L'enunciat és només aquesta frase + les imatges dels dos formularis: **tot el 
 
 ---
 
+## Banc de vertader/fals amb fonament
+
+El format previst: un exemple o enunciat breu i identificar quina norma el fa vàlid o invàlid. Resposta = **Veredicte + article + una línia**.
+
+1. "Les parts poden pactar el que vulguin" — **F** (art. 1255 CC: límit llei/moral/ordre públic; les normes imperatives de la part feble no es pacten en contra).
+2. "Si el contracte diu 'mer intermediari', la plataforma no respon" — **F** (DSA, Reglament (UE) 2022/2065: decideixen les funcions reals).
+3. "Un 'autònom' amb horari fix i ordinador de l'empresa és un contracte mercantil vàlid" — **F** (art. 1.1 ET: laboralitat de facto; frau de llei).
+4. "L'empresa pot preguntar a l'entrevista si pensa tenir fills" — **F** (art. 17 ET: nul·litat de ple dret; dret a la intimitat).
+5. "Cessar durant el període de prova és sempre lliure i irrecusable" — **F** (art. 14 ET: el pacte del període de prova ha de constar per escrit; el desistiment és lliure però no arbitrari — no pot amagar discriminació ni dol).
+6. "La prova pot durar 6/2/3/1 mesos segons el cas" — **V** (art. 14 ET: titulats 6; resta, no titulats 2; no titulats en empresa <25 treballadors 3; temporals <6 mesos 1).
+7. "Una casella pre-marcada és consentiment vàlid" — **F** (arts. 4.11 + 7 RGPD; STJUE Planet49).
+8. "Un sol 'accepto' per a 4 finalitats és vàlid" — **F** (consentiments en paquet: Atès 43 RGPD + art. 6.2 LOPDGDD).
+9. "Barrejar el consentiment amb l'execució del contracte el manté lliure" — **F** (art. 7.4 RGPD + art. 6.3 LOPDGDD: presumpció de manca de llibertat).
+10. "Marcar 'he llegit i accepto' incorpora vàlidament 50 pàgines de condicions" — **F** (art. 7 LCGC: il·legibles/fosques/incomprensibles no s'incorporen).
+11. "Si una clàusula és il·legal, cau tot el contracte" — **F** (severabilitat: només cau la clàusula, excepte si el vici afecta el conjunt).
+12. "El vici del consentiment fa el contracte nul de ple dret" — **F** (vicis → anul·labilitat/impugnació; la nul·litat de ple dret és per norma imperativa o discriminació).
+13. "El RGPD només obliga les empreses europees" — **F** (art. 3 RGPD: extraterritorialitat).
+14. "Les dades de salut es poden tractar amb el consentiment normal" — **F** (art. 9 RGPD: categories especials).
+15. "El dret de portabilitat et permet passar les dades de Movistar a Vodafone" — **V** (art. 20 RGPD).
+
+---
+
+## Nul·litat, anul·labilitat i no incorporació
+
+| Categoria | Quan (activador) | Conseqüència | Exemple |
+|---|---|---|---|
+| **Nul·litat de ple dret** | Norma imperativa o discriminació (art. 17 ET; art. 1255 CC — la regla de nul·litat és l'art. 6.3 CC; art. 82 TRLGDCU) | Sense eficàcia, no es convalida | Preguntar pels fills; clàusula de responsabilitat il·limitada |
+| **Anul·labilitat** | Vicis del consentiment (error, dol, violència, intimidació) | Impugnable, convalidable | Contracte obtingut per engany |
+| **No incorporació** | Art. 7 LCGC (clàusula il·legible, fosca, incomprensible) | La clàusula no forma part del contracte | 50 pàgines "acceptades" amb una casella |
+
+> [!tip] Si dubtes
+> Pregunta *quina norma es viola?* **Imperativa → nul·la; vicis → anul·lable; il·legible/fosca → no incorporada.**
+
+---
+
 ## Llista de memorització (sense materials!)
 
 | Norma | Article | Què recordar |
@@ -163,6 +232,14 @@ L'enunciat és només aquesta frase + les imatges dels dos formularis: **tot el 
 | DSA | **Reglament (UE) 2022/2065** | Responsabilitat de plataformes; "mer intermediari" insuficient |
 
 **Prioritats: L3 (RGPD) > L2 > L1 (mètode).**
+
+---
+
+## Cobertura pendent
+
+- **Lliçó 4 (Propietat intel·lectual):** sense notes de classe → no coberta aquí (només hi ha el consell de mètode de la L4).
+- **Reglament d'IA:** 4t tema del curs, sense notes de classe; per la intel·ligència de classe és prioritat baixa ("super mega ràpid") — si surt, **verifica l'art. 99**.
+- Si surten, caldria un resum específic.
 
 ---
 
