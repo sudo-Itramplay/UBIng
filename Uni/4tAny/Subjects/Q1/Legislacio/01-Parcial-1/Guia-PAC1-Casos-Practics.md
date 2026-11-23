@@ -44,9 +44,9 @@ aliases:
 | "L'ordre públic no està definit" | Trampa: **cita l'art. 1255 CC**, no el defineixis |
 | Dret de limitació | "el 7è molt important" i "difícil... fer-lo especialment important" (la font no concreta a quin dret correspon) |
 
-> [!warning] Afirmacions de classe a NO ensenyar com a llei
-> - **"amb VPN això deixa d'aplicar"** — fals com a dret: l'**extraterritorialitat (art. 3 RGPD)** no depèn de la geolocalització.
-> - La **sanció de la IA "10M i 2%"** — probable lapsus: **art. 99 AI Act** = **35 M€/7%**, **15 M€/3%**, **7,5 M€/1%**.
+> [!warning] Comentaris de classe a matisar
+> - **"amb VPN això deixa d'aplicar"** — no ho facis servir com a regla general: l'**extraterritorialitat (art. 3 RGPD)** no depèn de la geolocalització del client. Si el profe ho va dir, devia ser en un supòsit concret de classe — pregunta-ho abans de l'examen.
+> - La **sanció de la IA "10M i 2%"** — **correcte** i coherent amb la teoria del curs: és el tram de l'**art. 83.4 RGPD** (10 M€ o 2% de la facturació anual mundial) per incomplir les mesures de seguretat (art. 32), no notificar una bretxa (art. 33) o no comunicar-la als afectats (art. 34). Si la pregunta és sobre l'**AI Act**, els trams de l'**art. 99** són 35 M€/7% (pràctiques prohibides), 15 M€/3% (altres obligacions) i 7,5 M€/1% — mira de quin règim parla l'enunciat.
 
 > [!note] Discrepància de fonts d'obligacions
 > El profe classifica **5 categories** de fonts de les obligacions vs **art. 1089 CC** (4). A l'examen, **cita l'art. 1089 CC**.
