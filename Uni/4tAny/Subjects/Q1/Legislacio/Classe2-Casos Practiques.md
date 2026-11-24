@@ -1,12 +1,12 @@
 ---
-data: 2026-09-28
-assignatura: EL
-parcial: 
+id: Classe2-Casos Practiques
+aliases:
+  - Casos Pràctics Lliçó 2
 tags:
   - tipus/teoria
   - assignatura/EL
-aliases:
-  - Casos Pràctics Lliçó 2
+assignatura: EL
+data: "2026-09-28"
 ---
 
 # Casos Pràctics — Lliçó 2
@@ -104,6 +104,46 @@ A més, una companya contractada el mateix dia, amb les mateixes funcions i titu
 **Fals autònom:**
 - Si les condicions de treball són les d'un empleat (horari fix, ordres, ordinador de l'empresa) però el contracte és mercantil → **frau a la llei**.
 - El Tribunal Suprem diu: "no és rellevant el nomen iuris sinó constatar de facto si n'hi ha indicis o elements de laboralitat".
+
+---
+
+## Capacitat de consentir i menors d'edat emancipats
+**Referència: PDF "02. Lliçó 2. Contractació. Especialitats per a la pràctica professional", pàgines 4-5**
+
+### Per què importa
+- La **capacitat** és un requisit perquè el consentiment sigui vàlid (art. 1261.1 CC).
+- El consentiment vàlid exigeix: a) que les parts siguin **capaces** de prestar-lo, b) que s'**exterioritzi**, c) que **no estigui viciat**.
+
+### Majors d'edat
+- Poden consentir **plenament**: art. 211-3.2 CC Cat vincula la plena capacitat d'obrar amb la majoria d'edat.
+
+> [!warning] Nou model de capacitat a Catalunya
+> - Catalunya ha adaptat el CC Cat a la **Convenció de Nova York** dels drets de les persones amb discapacitat: s'elimina el concepte de **capacitat d'obrar** i es substitueix per l'**exercici de la capacitat jurídica**.
+> - Amb el model resultant de la **Llei 13/2026**, qualsevol persona major d'edat pot actuar **per si sola**, tret dels casos en què s'estableixi un **suport representatiu** per a determinats contractes.
+> - Conseqüència: la **incapacitació ha desaparegut** i amb ella un dels límits a la capacitat per a consentir dels majors d'edat.
+
+### Menors d'edat no emancipats
+- Principi general: fomentar la seva **integració en la societat** atorgant-los un marge d'**autonomia ampli**, tot i que amb certs límits.
+- Art. 211-5 CC Cat (similarment l'art. 1263 CC): el menor pot fer **"per si mateix, segons la seva edat i capacitat natural"**:
+  1. Els actes relatius als **drets de la personalitat**, llevat que les lleis que els regulin estableixin una altra cosa.
+  2. Els actes relatius a **bens o serveis propis de la seva edat**, d'acord amb els usos socials.
+  3. Els **altres actes que la llei li permeti**.
+- La resta d'actes necessiten la intervenció dels representants legals.
+
+### Menors d'edat emancipats
+- Regulació: arts. 211-8 a 211-11 CC Cat.
+- Efecte: se suposa que **"actua jurídicament com si fos major d'edat"** (art. 211-7.1 CC Cat).
+- Límit: en els casos de l'**art. 211-12 CC Cat** requereix el **complement de capacitat** dels pares o tutors.
+
+### En el contracte de treball (art. 6 ET)
+- Edat mínima per ser contractat: **16 anys** (única excepció: participació en espectacles públics amb autorització prèvia de l'autoritat laboral).
+- Majors de 16 i menors de 18 **emancipats**: poden celebrar per si mateixos el contracte de treball.
+- Majors de 16 i menors de 18 **no emancipats**: necessiten el **consentiment** de pares, tutors o representants legals.
+- **Protecció especial** dels menors de 18 anys: no poden fer treballs nocturns, hores extraordinàries ni activitats perilloses o insalubres.
+→ Veure [[Contracte Laboral]]
+
+### Qüestió per a reflexió
+> [!question] Menors i contractació digital — Cada vegada és més habitual que menors comprin videojocs, subscripcions o aplicacions. Haurien de poder celebrar aquests contractes per si sols? Hauria de dependre de l'import, del tipus de producte o de l'edat del menor?
 
 ---
 

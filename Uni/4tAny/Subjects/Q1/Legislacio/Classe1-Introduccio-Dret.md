@@ -1,12 +1,13 @@
 ---
-data: 2026-09-21
-assignatura: EL
-tags:
-  - tipus/teoria
-  - assignatura/EL
+id: Classe1-Introduccio-Dret
 aliases:
   - Classe 1 Legislació
   - Introducció al Dret
+tags:
+  - tipus/teoria
+  - assignatura/EL
+assignatura: EL
+data: "2026-09-21"
 ---
 
 # Introducció al Dret
@@ -15,7 +16,7 @@ aliases:
 
 ---
 
-## Què és el "dret"?
+## Què és el "dret"? (NO al exmane)
 
 Thomas Hobbes (*Leviathan*) descriu la naturalesa humana: dos homes que volen el mateix bé escàs esdevenen enemics. Sense un poder comú que els obligui a respectar-se, estan en **guerra de tots contra tots**.
 
@@ -108,6 +109,10 @@ Una norma és **retroactiva** quan exerceix efectes sobre fets **anteriors** a l
 > - Normes **perjudicials** (sancionadores) → **no** apliquen retroactivament.
 > - Normes **favorables** (despenalitzadores) → sí apliquen retroactivament.
 
+>[!info] Recorda 
+> Nomes s'aplica retroactivament les lleis que em beneficiin respecte a un dret fonamental s'aplica retroactivamnet 
+> EN SANCIONS ECONOMIQUES NO
+
 **Exemple real — Assassinat de B:**
 
 | Data | Fet |
@@ -118,7 +123,7 @@ Una norma és **retroactiva** quan exerceix efectes sobre fets **anteriors** a l
 
 Quina és la sanció que li correspondria a A? La llei nova és **més perjudicial**, per tant **no** s'aplica retroactivament → es queda amb l'antiga (15-20 anys).
 
-> [!note] Delicte de sedició
+> [!note] Delicte de sedició (EXEMPLE)
 > Hi va haver una llei que va despenalitzar la sedició — en aquest cas, com que la llei nova és **més favorable**, sí que s'hi va aplicar retroactivament.
 
 ### Principi de seguretat jurídica
